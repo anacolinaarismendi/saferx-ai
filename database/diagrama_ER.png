@@ -1,0 +1,149 @@
+```mermaid
+  erDiagram
+      PACIENTES ||--o{ CONSULTAS : "tiene"
+      MEDICOS ||--o{ CONSULTAS : "atiende"
+      CONSULTAS ||--o{ RECETAS : "genera"
+      MEDICAMENTOS ||--o{ RECETAS : "se incluye en"
+  
+      PACIENTES {
+          int id_paciente PK
+          string nombre
+          int edad
+          string genero
+          string condiciones_previas
+      }
+      MEDICOS {
+          int id_medico PK
+          string nombre
+          string especialidad
+      }
+      MEDICAMENTOS {
+          int id_medicamento PK
+          string principio_activo
+          string nombre_comercial
+      }
+      CONSULTAS {
+          int id_consulta PK
+          int id_paciente FK
+          int id_medico FK
+          date fecha
+          string diagnostico
+      }
+      RECETAS {
+          int id_receta PK
+          int id_consulta FK
+          int id_medicamento FK
+          string dosis
+      }
+  ``````mermaid
+  erDiagram
+      PACIENTES ||--o{ CONSULTAS : "tiene"
+      MEDICOS ||--o{ CONSULTAS : "atiende"
+      CONSULTAS ||--o{ RECETAS : "genera"
+      MEDICAMENTOS ||--o{ RECETAS : "se incluye en"
+  
+      PACIENTES {
+          int id_paciente PK
+          string nombre
+          int edad
+          string genero
+          string condiciones_previas
+      }
+      MEDICOS {
+          int id_medico PK
+          string nombre
+          string especialidad
+      }
+      MEDICAMENTOS {
+          int id_medicamento PK
+          string principio_activo
+          string nombre_comercial
+      }
+      CONSULTAS {
+          int id_consulta PK
+          int id_paciente FK
+          int id_medico FK
+          date fecha
+          string diagnostico
+      }
+      RECETAS {
+          int id_receta PK
+          int id_consulta FK
+          int id_medicamento FK
+          string dosis
+      }
+  ``````mermaid
+  erDiagram
+      PACIENTES ||--o{ CONSULTAS : "tiene"
+      MEDICOS ||--o{ CONSULTAS : "atiende"
+      CONSULTAS ||--o{ RECETAS : "genera"
+      MEDICAMENTOS ||--o{ RECETAS : "se incluye en"
+  
+      PACIENTES {
+          int id_paciente PK
+          string nombre
+          int edad
+          string genero
+          string condiciones_previas
+      }
+      MEDICOS {
+          int id_medico PK
+          string nombre
+          string especialidad
+      }
+      MEDICAMENTOS {
+          int id_medicamento PK
+          string principio_activo
+          string nombre_comercial
+      }
+      CONSULTAS {
+          int id_consulta PK
+          int id_paciente FK
+          int id_medico FK
+          date fecha
+          string diagnostico
+      }
+      RECETAS {
+          int id_receta PK
+          int id_consulta FK
+          int id_medicamento FK
+          string dosis
+      }
+  ``````mermaid
+  erDiagram
+      PACIENTES ||--o{ CONSULTAS : "tiene"
+      MEDICOS ||--o{ CONSULTAS : "atiende"
+      CONSULTAS ||--o{ RECETAS : "genera"
+      MEDICAMENTOS ||--o{ RECETAS : "se incluye en"
+  
+      PACIENTES {
+          int id_paciente PK
+          string nombre
+          int edad
+          string genero
+          string condiciones_previas
+      }
+      MEDICOS {
+          int id_medico PK
+          string nombre
+          string especialidad
+      }
+      MEDICAMENTOS {
+          int id_medicamento PK
+          string principio_activo
+          string nombre_comercial
+      }
+      CONSULTAS {
+          int id_consulta PK
+          int id_paciente FK
+          int id_medico FK
+          date fecha
+          string diagnostico
+      }
+      RECETAS {
+          int id_receta PK
+          int id_consulta FK
+          int id_medicamento FK
+          string dosis
+      }
+  ```
