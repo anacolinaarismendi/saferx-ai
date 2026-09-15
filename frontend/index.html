@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRx AI - Seguridad Farmacológica Instantánea</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medical: {
+                            blue: '#1E3A8A',
+                            lightBlue: '#F0F7FF',
+                            accentBlue: '#0284C7',
+                            green: '#059669',
+                            lightGreen: '#ECFDF5',
+                            alertRed: '#DC2626',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .lang-active {
+            background-color: #1E3A8A !important;
+            color: #ffffff !important;
+            font-weight: 700 !important;
+            box-shadow: 0 2px 6px rgba(30, 58, 138, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-medical-blue selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <a href="#" class="flex-shrink-0 flex items-center gap-2 cursor-pointer group">
+                    <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-medical-blue group-hover:scale-105 transition-transform">
+                        <i class="fa-solid fa-shield-heart text-2xl"></i>
+                    </div>
+                    <span class="font-extrabold text-2xl text-medical-blue tracking-tight">SafeRx <span class="text-sky-500">AI</span></span>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <div class="hidden lg:flex items-center space-x-6 xl:space-x-8">
+                    <a href="#problema" data-i18n="navProblem" class="text-gray-600 hover:text-medical-blue font-medium transition-colors">El Problema</a>
+                    <a href="#solucion" data-i18n="navSolution" class="text-gray-600 hover:text-medical-blue font-medium transition-colors">Solución</a>
+                    <a href="#clientes" data-i18n="navClients" class="text-gray-600 hover:text-medical-blue font-medium transition-colors">Para Quién</a>
+
+                    <!-- Modern Segmented Language Switcher (Desktop) -->
+                    <div class="flex items-center bg-gray-100/90 p-1 rounded-xl border border-gray-200/80 shadow-inner">
+                        <button onclick="setLanguage('es')" data-lang-btn="es" class="px-2.5 py-1 text-xs rounded-lg transition-all text-gray-600 hover:text-gray-900 font-semibold flex items-center gap-1.5">
+                            <span>🇪🇸</span><span>ES</span>
+                        </button>
+                        <button onclick="setLanguage('en')" data-lang-btn="en" class="px-2.5 py-1 text-xs rounded-lg transition-all text-gray-600 hover:text-gray-900 font-semibold flex items-center gap-1.5">
+                            <span>🇬🇧</span><span>EN</span>
+                        </button>
+                        <button onclick="setLanguage('de')" data-lang-btn="de" class="px-2.5 py-1 text-xs rounded-lg transition-all text-gray-600 hover:text-gray-900 font-semibold flex items-center gap-1.5">
+                            <span>🇩🇪</span><span>DE</span>
+                        </button>
+                    </div>
+
+                    <!-- Contact CTA -->
+                    <a href="#contacto" data-i18n="navContact" class="bg-medical-blue text-white px-6 py-2.5 rounded-full font-semibold hover:bg-blue-900 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        Contacto
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button & Quick Lang (Mobile) -->
+                <div class="lg:hidden flex items-center gap-2">
+                    <!-- Compact Language Switcher for Mobile -->
+                    <div class="flex items-center bg-gray-100 p-0.5 rounded-lg border border-gray-200">
+                        <button onclick="setLanguage('es')" data-lang-btn-mobile="es" class="px-2 py-1 text-xs rounded font-medium">ES</button>
+                        <button onclick="setLanguage('en')" data-lang-btn-mobile="en" class="px-2 py-1 text-xs rounded font-medium">EN</button>
+                        <button onclick="setLanguage('de')" data-lang-btn-mobile="de" class="px-2 py-1 text-xs rounded font-medium">DE</button>
+                    </div>
+
+                    <button id="mobileMenuToggle" class="p-2 rounded-lg text-gray-600 hover:text-medical-blue hover:bg-gray-100 focus:outline-none ml-1">
+                        <i id="menuIcon" class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-3 pb-6 space-y-3">
+            <a href="#problema" onclick="closeMobileMenu()" data-i18n="navProblem" class="block py-2 text-base font-medium text-gray-700 hover:text-medical-blue">El Problema</a>
+            <a href="#solucion" onclick="closeMobileMenu()" data-i18n="navSolution" class="block py-2 text-base font-medium text-gray-700 hover:text-medical-blue">Solución</a>
+            <a href="#clientes" onclick="closeMobileMenu()" data-i18n="navClients" class="block py-2 text-base font-medium text-gray-700 hover:text-medical-blue">Para Quién</a>
+            <a href="#contacto" onclick="closeMobileMenu()" data-i18n="navContact" class="block text-center w-full bg-medical-blue text-white py-3 rounded-xl font-semibold shadow-md">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-44 lg:pb-32 overflow-hidden bg-medical-lightBlue fade-in">
+        <div class="absolute inset-0 opacity-15">
+            <svg class="absolute left-1/2 top-0 -translate-x-1/2" width="100%" height="100%" fill="none" viewBox="0 0 1440 800">
+                <path fill="url(#hero-pattern)" d="M0 0h1440v800H0z"/>
+                <defs>
+                    <pattern id="hero-pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <path stroke="#1E3A8A" stroke-width="1.5" d="M30 0v60M0 30h60"/>
+                    </pattern>
+                </defs>
+            </svg>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span data-i18n="heroBadge" class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-blue-100/90 text-medical-blue font-bold text-xs uppercase tracking-wider mb-6 border border-blue-200 shadow-sm">
+                <i class="fa-solid fa-sparkles text-sky-600"></i> Plataforma HealthTech #1
+            </span>
+            <h1 data-i18n-html="heroTitle" class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl max-w-4xl mx-auto leading-tight">
+                Seguridad farmacológica <span class="text-medical-blue">instantánea</span> en tu consulta.
+            </h1>
+            <p data-i18n="heroSubtitle" class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 md:mt-8 leading-relaxed">
+                Reduce errores médicos y ahorra tiempo con alertas de interacción basadas en evidencia oficial, sin interrumpir tu flujo de trabajo.
+            </p>
+            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center gap-4">
+                <a href="#contacto" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-medical-blue hover:bg-blue-900 md:w-auto transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    <span data-i18n="heroCta">Solicitar Demo</span>
+                    <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section id="problema" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 data-i18n="problemTag" class="text-xs font-bold text-medical-blue uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-md inline-block">El Reto Actual</h2>
+                <p data-i18n="problemTitle" class="mt-3 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Prescribir a ciegas es un riesgo inasumible
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
+                <!-- Card 1 -->
+                <div class="bg-gray-50/80 rounded-2xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-100/70 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-stopwatch text-2xl text-blue-700"></i>
+                    </div>
+                    <h3 data-i18n="problem1Title" class="text-xl font-bold text-gray-900 mb-3">Falta de Tiempo</h3>
+                    <p data-i18n="problem1Desc" class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                        Los médicos no pueden cruzar interacciones de 5 medicamentos a mano en los 15 minutos que dura una consulta estándar.
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-gray-50/80 rounded-2xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-100/70 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-pills text-2xl text-amber-600"></i>
+                    </div>
+                    <h3 data-i18n="problem2Title" class="text-xl font-bold text-gray-900 mb-3">Polifarmacia</h3>
+                    <p data-i18n="problem2Desc" class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                        Los pacientes mayores toman múltiples fármacos simultáneamente, multiplicando exponencialmente el riesgo de interacciones.
+                    </p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-gray-50/80 rounded-2xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                    <div class="w-14 h-14 rounded-2xl bg-red-100/70 flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-gavel text-2xl text-red-600"></i>
+                    </div>
+                    <h3 data-i18n="problem3Title" class="text-xl font-bold text-gray-900 mb-3">Riesgo Legal</h3>
+                    <p data-i18n="problem3Desc" class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                        Reacciones adversas prevenibles provocan demandas millonarias y encarecen agresivamente los seguros de responsabilidad civil de las clínicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solucion Section -->
+    <section id="solucion" class="py-24 bg-medical-lightBlue">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="mb-12 lg:mb-0">
+                    <h2 data-i18n="solutionTag" class="text-xs font-bold text-medical-green uppercase tracking-widest bg-emerald-100/70 px-3 py-1 rounded-md inline-block">Nuestra Solución</h2>
+                    <h3 data-i18n="solutionTitle" class="mt-3 text-3xl font-extrabold text-gray-900 sm:text-4xl mb-6">
+                        Inteligencia que protege a tus pacientes
+                    </h3>
+                    <p data-i18n="solutionDesc" class="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed">
+                        Nuestra API se integra de forma transparente a tu historial clínico electrónico (EHR). No necesitas abrir nuevas pestañas ni aprender nuevos sistemas.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-medical-green mt-0.5 mr-3 flex-shrink-0">
+                                <i class="fa-solid fa-check text-xs"></i>
+                            </div>
+                            <span data-i18n="solItem1" class="text-gray-700 font-medium">Evaluación de interacciones en milisegundos.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-medical-green mt-0.5 mr-3 flex-shrink-0">
+                                <i class="fa-solid fa-check text-xs"></i>
+                            </div>
+                            <span data-i18n="solItem2" class="text-gray-700 font-medium">Basado en bases de datos farmacológicas oficiales actualizadas.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-medical-green mt-0.5 mr-3 flex-shrink-0">
+                                <i class="fa-solid fa-check text-xs"></i>
+                            </div>
+                            <span data-i18n="solItem3" class="text-gray-700 font-medium">Alertas jerarquizadas para evitar fatiga de notificaciones.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Mockup EHR con Alerta Visual -->
+                <div class="relative rounded-2xl bg-white shadow-2xl border border-gray-200/80 overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
+                    <!-- Top Bar Mockup -->
+                    <div class="bg-gray-100 px-4 py-3 border-b border-gray-200 flex items-center justify-between">
+                        <div class="flex items-center space-x-2">
+                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-amber-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-emerald-400"></div>
+                        </div>
+                        <div data-i18n="mockupPatient" class="text-xs text-gray-500 font-mono font-medium">CliniSys EHR v4.2 - Paciente: Juan Pérez</div>
+                        <div class="w-8"></div>
+                    </div>
+
+                    <!-- Mockup Body -->
+                    <div class="p-6">
+                        <div class="mb-6 flex justify-between items-center border-b border-gray-100 pb-4">
+                            <div>
+                                <h4 data-i18n="mockupNewRx" class="font-bold text-gray-800 text-lg">Nueva Prescripción</h4>
+                                <p data-i18n="mockupSearching" class="text-xs text-gray-400">Buscando medicamento...</p>
+                            </div>
+                            <div class="w-9 h-9 bg-blue-100 rounded-full flex items-center justify-center text-medical-blue font-bold text-xs">
+                                <i class="fa-solid fa-user-injured"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <label data-i18n="mockupMedLabel" class="block text-xs font-semibold uppercase tracking-wider text-gray-500 mb-1.5">Medicamento</label>
+                                <div class="flex items-center border-2 border-blue-400 rounded-xl p-3 bg-blue-50/30">
+                                    <i class="fa-solid fa-prescription-bottle-pill text-medical-blue mr-3"></i>
+                                    <span class="text-gray-900 font-bold flex-1">Warfarina</span>
+                                    <span class="text-xs bg-blue-100 text-blue-900 font-semibold px-2.5 py-1 rounded-md">5 mg oral</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Alerta crítica de SafeRx AI -->
+                            <div class="mt-4 bg-red-50 border-l-4 border-red-600 p-4 sm:p-5 rounded-r-xl shadow-md transition-all">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <div class="w-9 h-9 rounded-lg bg-red-600 text-white flex items-center justify-center shadow">
+                                            <i class="fa-solid fa-triangle-exclamation text-lg animate-bounce"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ml-3.5">
+                                        <h3 data-i18n="mockupAlertTitle" class="text-sm font-black text-red-800 tracking-wide">
+                                            ¡ALERTA GRAVE DETECTADA!
+                                        </h3>
+                                        <div class="mt-2 text-sm text-red-700 leading-relaxed font-medium">
+                                            <p data-i18n-html="mockupAlertLine1">El paciente ya tiene prescrita <strong>Aspirina</strong> (100mg).</p>
+                                            <p data-i18n-html="mockupAlertLine2" class="mt-1 font-bold text-red-900">Altísimo riesgo de hemorragia severa si se combina con <strong>Warfarina</strong>.</p>
+                                        </div>
+                                        <div class="mt-4 flex flex-wrap gap-2.5">
+                                            <button data-i18n="mockupBtnCancel" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-xs font-bold transition shadow-sm">
+                                                Cancelar Prescripción
+                                            </button>
+                                            <button data-i18n="mockupBtnAlt" class="bg-white border border-red-200 text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg text-xs font-bold transition shadow-sm">
+                                                Ver Alternativas
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Section -->
+    <section id="clientes" class="py-24 bg-medical-blue text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 data-i18n="targetTitle" class="text-3xl sm:text-4xl font-extrabold mb-14 tracking-tight">
+                Diseñado para la primera línea médica
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/15 hover:bg-white/15 transition-all text-left">
+                    <div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center text-2xl mb-6 text-sky-200">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h3 data-i18n="target1Title" class="text-xl font-bold mb-3">Médicos de Atención Primaria</h3>
+                    <p data-i18n="target1Desc" class="text-blue-100 text-sm sm:text-base leading-relaxed">
+                        Agiliza las revisiones de pacientes crónicos poli-medicados con total confianza.
+                    </p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/15 hover:bg-white/15 transition-all text-left">
+                    <div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center text-2xl mb-6 text-sky-200">
+                        <i class="fa-solid fa-truck-medical"></i>
+                    </div>
+                    <h3 data-i18n="target2Title" class="text-xl font-bold mb-3">Médicos de Urgencias</h3>
+                    <p data-i18n="target2Desc" class="text-blue-100 text-sm sm:text-base leading-relaxed">
+                        Decisiones rápidas y seguras en situaciones críticas donde cada segundo cuenta.
+                    </p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/15 hover:bg-white/15 transition-all text-left">
+                    <div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center text-2xl mb-6 text-sky-200">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+                    <h3 data-i18n="target3Title" class="text-xl font-bold mb-3">Directores Médicos</h3>
+                    <p data-i18n="target3Desc" class="text-blue-100 text-sm sm:text-base leading-relaxed">
+                        Mejora las métricas de calidad de tu clínica y reduce drásticamente la exposición legal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contacto -->
+    <footer id="contacto" class="bg-gray-900 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
+            <!-- Brand -->
+            <div class="flex items-center gap-2 mb-4">
+                <i class="fa-solid fa-shield-heart text-3xl text-sky-400"></i>
+                <span class="font-extrabold text-2xl text-white tracking-tight">SafeRx <span class="text-sky-400">AI</span></span>
+            </div>
+            <p data-i18n="footerDesc" class="text-gray-400 mb-10 max-w-lg text-sm sm:text-base leading-relaxed">
+                Transformando la seguridad clínica mediante inteligencia artificial. Protege a tus pacientes, protege tu práctica.
+            </p>
+            
+            <!-- Contact Card -->
+            <div class="bg-gray-800/90 rounded-2xl p-8 w-full max-w-md border border-gray-700 shadow-2xl mb-12">
+                <h4 data-i18n="footerCtaTitle" class="text-white text-xl font-bold mb-2">¿Listo para transformar tu clínica?</h4>
+                <p data-i18n="footerCtaSubtitle" class="text-gray-400 text-sm mb-6">Contáctanos para una demostración personalizada.</p>
+                <a href="mailto:demo@saferx.ai" class="inline-flex items-center justify-center w-full bg-medical-blue hover:bg-blue-800 text-white font-semibold py-3.5 px-6 rounded-xl transition-all shadow-lg hover:shadow-blue-900/50">
+                    <i class="fa-solid fa-envelope mr-2.5"></i>
+                    <span data-i18n="footerEmailBtn">demo@saferx.ai</span>
+                </a>
+            </div>
+
+            <!-- Bottom Subfooter -->
+            <div class="w-full border-t border-gray-800/80 pt-8 flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm text-gray-500 gap-4">
+                <p data-i18n="footerCopyright">&copy; 2026 SafeRx AI, Inc. Todos los derechos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" data-i18n="footerPrivacy" class="hover:text-gray-300 transition-colors">Política de Privacidad</a>
+                    <a href="#" data-i18n="footerTerms" class="hover:text-gray-300 transition-colors">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Instant Translation Script and Mobile Menu -->
+    <script>
+        const i18nData = {
+            es: {
+                navProblem: "El Problema",
+                navSolution: "Solución",
+                navClients: "Para Quién",
+                navContact: "Contacto",
+                
+                heroBadge: "Plataforma HealthTech #1",
+                heroTitle: "Seguridad farmacológica <span class=\"text-medical-blue\">instantánea</span> en tu consulta.",
+                heroSubtitle: "Reduce errores médicos y ahorra tiempo con alertas de interacción basadas en evidencia oficial, sin interrumpir tu flujo de trabajo.",
+                heroCta: "Solicitar Demo",
+                
+                problemTag: "El Reto Actual",
+                problemTitle: "Prescribir a ciegas es un riesgo inasumible",
+                problem1Title: "Falta de Tiempo",
+                problem1Desc: "Los médicos no pueden cruzar interacciones de 5 medicamentos a mano en los 15 minutos que dura una consulta estándar.",
+                problem2Title: "Polifarmacia",
+                problem2Desc: "Los pacientes mayores toman múltiples fármacos simultáneamente, multiplicando exponencialmente el riesgo de interacciones.",
+                problem3Title: "Riesgo Legal",
+                problem3Desc: "Reacciones adversas prevenibles provocan demandas millonarias y encarecen agresivamente los seguros de responsabilidad civil de las clínicas.",
+                
+                solutionTag: "Nuestra Solución",
+                solutionTitle: "Inteligencia que protege a tus pacientes",
+                solutionDesc: "Nuestra API se integra de forma transparente a tu historial clínico electrónico (EHR). No necesitas abrir nuevas pestañas ni aprender nuevos sistemas.",
+                solItem1: "Evaluación de interacciones en milisegundos.",
+                solItem2: "Basado en bases de datos farmacológicas oficiales actualizadas.",
+                solItem3: "Alertas jerarquizadas para evitar fatiga de notificaciones.",
+                
+                mockupPatient: "CliniSys EHR v4.2 - Paciente: Juan Pérez",
+                mockupNewRx: "Nueva Prescripción",
+                mockupSearching: "Buscando medicamento...",
+                mockupMedLabel: "Medicamento",
+                mockupAlertTitle: "¡ALERTA GRAVE DETECTADA!",
+                mockupAlertLine1: "El paciente ya tiene prescrita <strong>Aspirina</strong> (100mg).",
+                mockupAlertLine2: "Altísimo riesgo de hemorragia severa si se combina con <strong>Warfarina</strong>.",
+                mockupBtnCancel: "Cancelar Prescripción",
+                mockupBtnAlt: "Ver Alternativas",
+                
+                targetTitle: "Diseñado para la primera línea médica",
+                target1Title: "Médicos de Atención Primaria",
+                target1Desc: "Agiliza las revisiones de pacientes crónicos poli-medicados con total confianza.",
+                target2Title: "Médicos de Urgencias",
+                target2Desc: "Decisiones rápidas y seguras en situaciones críticas donde cada segundo cuenta.",
+                target3Title: "Directores Médicos",
+                target3Desc: "Mejora las métricas de calidad de tu clínica y reduce drásticamente la exposición legal.",
+                
+                footerDesc: "Transformando la seguridad clínica mediante inteligencia artificial. Protege a tus pacientes, protege tu práctica.",
+                footerCtaTitle: "¿Listo para transformar tu clínica?",
+                footerCtaSubtitle: "Contáctanos para una demostración personalizada.",
+                footerEmailBtn: "demo@saferx.ai",
+                footerCopyright: "© 2026 SafeRx AI, Inc. Todos los derechos reservados.",
+                footerPrivacy: "Política de Privacidad",
+                footerTerms: "Términos de Servicio"
+            },
+            en: {
+                navProblem: "The Problem",
+                navSolution: "Solution",
+                navClients: "Who It's For",
+                navContact: "Contact",
+                
+                heroBadge: "#1 HealthTech Platform",
+                heroTitle: "Instant pharmacological <span class=\"text-medical-blue\">safety</span> in your practice.",
+                heroSubtitle: "Reduce medical errors and save time with interaction alerts based on official evidence, without interrupting your workflow.",
+                heroCta: "Request Demo",
+                
+                problemTag: "The Current Challenge",
+                problemTitle: "Prescribing blindly is an unacceptable risk",
+                problem1Title: "Lack of Time",
+                problem1Desc: "Doctors cannot manually cross-check interactions for 5 drugs in a standard 15-minute consultation.",
+                problem2Title: "Polypharmacy",
+                problem2Desc: "Elderly patients take multiple medications simultaneously, exponentially multiplying the risk of interactions.",
+                problem3Title: "Legal Risk",
+                problem3Desc: "Preventable adverse reactions cause multi-million dollar lawsuits and drive up clinic malpractice insurance.",
+                
+                solutionTag: "Our Solution",
+                solutionTitle: "Intelligence that protects your patients",
+                solutionDesc: "Our API integrates seamlessly into your Electronic Health Record (EHR). No new tabs to open or complex software to learn.",
+                solItem1: "Interaction checks in milliseconds.",
+                solItem2: "Backed by verified and updated official pharmacology databases.",
+                solItem3: "Prioritized alerts engineered to eliminate notification fatigue.",
+                
+                mockupPatient: "CliniSys EHR v4.2 - Patient: John Doe",
+                mockupNewRx: "New Prescription",
+                mockupSearching: "Searching medication...",
+                mockupMedLabel: "Medication",
+                mockupAlertTitle: "CRITICAL ALERT DETECTED!",
+                mockupAlertLine1: "Patient is already prescribed <strong>Aspirin</strong> (100mg).",
+                mockupAlertLine2: "Extremely high risk of severe bleeding if combined with <strong>Warfarin</strong>.",
+                mockupBtnCancel: "Cancel Prescription",
+                mockupBtnAlt: "View Alternatives",
+                
+                targetTitle: "Designed for Frontline Healthcare",
+                target1Title: "Primary Care Physicians",
+                target1Desc: "Accelerate reviews of poly-medicated chronic patients with complete clinical confidence.",
+                target2Title: "Emergency Physicians",
+                target2Desc: "Make rapid, safe decisions in critical emergency scenarios where every second counts.",
+                target3Title: "Medical Directors",
+                target3Desc: "Boost clinical safety metrics across your healthcare network and drastically lower legal exposure.",
+                
+                footerDesc: "Transforming clinical safety through artificial intelligence. Protect your patients, safeguard your practice.",
+                footerCtaTitle: "Ready to elevate your clinical practice?",
+                footerCtaSubtitle: "Get in touch with us for a personalized live demonstration.",
+                footerEmailBtn: "demo@saferx.ai",
+                footerCopyright: "© 2026 SafeRx AI, Inc. All rights reserved.",
+                footerPrivacy: "Privacy Policy",
+                footerTerms: "Terms of Service"
+            },
+            de: {
+                navProblem: "Das Problem",
+                navSolution: "Lösung",
+                navClients: "Zielgruppe",
+                navContact: "Kontakt",
+                
+                heroBadge: "Nr. 1 HealthTech-Plattform",
+                heroTitle: "Sofortige pharmakologische <span class=\"text-medical-blue\">Sicherheit</span> in Ihrer Praxis.",
+                heroSubtitle: "Reduzieren Sie Behandlungsfehler und sparen Sie Zeit mit evidenzbasierten Interaktionswarnungen, ohne Ihren Arbeitsablauf zu stören.",
+                heroCta: "Demo anfordern",
+                
+                problemTag: "Die aktuelle Herausforderung",
+                problemTitle: "Blindes Verschreiben ist ein untragbares Risiko",
+                problem1Title: "Zeitmangel",
+                problem1Desc: "Ärzte können in einer 15-minütigen Konsultation Wechselwirkungen von 5 Medikamenten nicht manuell gegenprüfen.",
+                problem2Title: "Polypharmazie",
+                problem2Desc: "Ältere Patienten nehmen mehrere Medikamente gleichzeitig ein, was das Risiko gefährlicher Wechselwirkungen potenziert.",
+                problem3Title: "Haftungsrisiko",
+                problem3Desc: "Vermeidbare Nebenwirkungen führen zu kostspieligen Schadensersatzklagen und erhöhen die Versicherungskosten von Kliniken drastisch.",
+                
+                solutionTag: "Unsere Lösung",
+                solutionTitle: "Intelligenz, die Ihre Patienten schützt",
+                solutionDesc: "Unsere API bindet sich nahtlos in Ihr elektronisches Patientensystem (EHR) ein. Kein Wechseln von Fenstern, kein Erlernen neuer Software.",
+                solItem1: "Interaktionsprüfung in Millisekunden.",
+                solItem2: "Gestützt auf ständig aktualisierte offizielle pharmakologische Datenbanken.",
+                solItem3: "Priorisierte Warnungen gegen gefährliche Alarmmüdigkeit.",
+                
+                mockupPatient: "CliniSys EHR v4.2 - Patient: Max Mustermann",
+                mockupNewRx: "Neue Verschreibung",
+                mockupSearching: "Medikamentensuche...",
+                mockupMedLabel: "Medikament",
+                mockupAlertTitle: "KRITISCHE WARNUNG ERKANNT!",
+                mockupAlertLine1: "Der Patient nimmt bereits <strong>Aspirin</strong> (100mg) ein.",
+                mockupAlertLine2: "Extrem hohes Risiko schwerer innerer Blutungen in Kombination mit <strong>Warfarin</strong>.",
+                mockupBtnCancel: "Verschreibung abbrechen",
+                mockupBtnAlt: "Alternativen anzeigen",
+                
+                targetTitle: "Entwickelt für die medizinische Frontlinie",
+                target1Title: "Hausärzte & Allgemeinmediziner",
+                target1Desc: "Prüfen Sie polymedizierte chronische Patienten schnell, sicher und mit voller Zuverlässigkeit.",
+                target2Title: "Notfallmediziner",
+                target2Desc: "Treffen Sie schnelle und sichere Entscheidungen in Notfällen, in denen jede Sekunde zählt.",
+                target3Title: "Ärztliche Direktoren",
+                target3Desc: "Steigern Sie die Qualitäts- und Sicherheitsstandards Ihrer Klinik und minimieren Sie Haftungsrisiken.",
+                
+                footerDesc: "Neugestaltung der Patientensicherheit durch künstliche Intelligenz. Schützen Sie Ihre Patienten und Ihre Praxis.",
+                footerCtaTitle: "Bereit, Ihre Klinik zukunftssicher zu machen?",
+                footerCtaSubtitle: "Kontaktieren Sie uns für eine persönliche Präsentation.",
+                footerEmailBtn: "demo@saferx.ai",
+                footerCopyright: "© 2026 SafeRx AI, Inc. Alle Rechte vorbehalten.",
+                footerPrivacy: "Datenschutzerklärung",
+                footerTerms: "Nutzungsbedingungen"
+            }
+        };
+
+        function setLanguage(lang) {
+            const data = i18nData[lang];
+            if (!data) return;
+
+            // Update html lang attribute
+            document.documentElement.lang = lang;
+
+            // 1. Update textContent elements
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (data[key] !== undefined) {
+                    el.textContent = data[key];
+                }
+            });
+
+            // 2. Update innerHTML elements
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                const key = el.getAttribute('data-i18n-html');
+                if (data[key] !== undefined) {
+                    el.innerHTML = data[key];
+                }
+            });
+
+            // 3. Update active button state on desktop
+            document.querySelectorAll('[data-lang-btn]').forEach(btn => {
+                const btnLang = btn.getAttribute('data-lang-btn');
+                if (btnLang === lang) {
+                    btn.className = 'lang-active px-2.5 py-1 text-xs rounded-lg transition-all font-bold flex items-center gap-1.5';
+                } else {
+                    btn.className = 'px-2.5 py-1 text-xs rounded-lg transition-all text-gray-600 hover:text-gray-900 font-semibold flex items-center gap-1.5';
+                }
+            });
+
+            // 4. Update active button state on mobile
+            document.querySelectorAll('[data-lang-btn-mobile]').forEach(btn => {
+                const btnLang = btn.getAttribute('data-lang-btn-mobile');
+                if (btnLang === lang) {
+                    btn.className = 'lang-active px-2 py-1 text-xs rounded font-bold';
+                } else {
+                    btn.className = 'px-2 py-1 text-xs rounded font-medium text-gray-600 hover:text-gray-900';
+                }
+            });
+
+            // Persist preference
+            try {
+                localStorage.setItem('saferx_lang', lang);
+            } catch(e) {}
+        }
+
+        // Mobile drawer controls
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+
+        if (mobileMenuToggle && mobileMenu) {
+            mobileMenuToggle.addEventListener('click', () => {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                if (isHidden) {
+                    mobileMenu.classList.remove('hidden');
+                    menuIcon.classList.remove('fa-bars');
+                    menuIcon.classList.add('fa-xmark');
+                } else {
+                    closeMobileMenu();
+                }
+            });
+        }
+
+        function closeMobileMenu() {
+            if (mobileMenu) {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            }
+        }
+
+        // Initialize language
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('saferx_lang') || 'es';
+            setLanguage(savedLang);
+        });
+    </script>
+</body>
+</html>
