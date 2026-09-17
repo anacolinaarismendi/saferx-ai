@@ -1,0 +1,4 @@
+id_interaccion,id_medicamento_1,id_medicamento_2,gravedad,descripcion
+1,1,2,moderada,Aumento del riesgo de sangrado gastrointestinal.
+2,2,3,grave,Riesgo altísimo de hemorragia severa. Evitar combinación.
+3,1,6,grave,Riesgo de toxicidad renal e hipertensión no controlada.

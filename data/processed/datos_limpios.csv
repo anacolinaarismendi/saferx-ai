@@ -1,0 +1,316 @@
+id_consulta,edad,genero,condiciones_previas,especialidad,fecha,num_medicamentos,hubo_interaccion,mes_consulta,es_fin_de_semana,es_polifarmacia
+1,83,m,hipertensión,urgencias,2026-03-12,1,0,3,0,0
+2,51,f,hipertensión,medicina general,2025-12-31,2,0,12,0,0
+3,51,f,hipertensión,medicina general,2026-05-14,1,0,5,0,0
+4,51,f,hipertensión,urgencias,2026-01-03,2,1,1,1,0
+5,39,f,ninguna,geriatría,2026-03-01,1,0,3,1,0
+6,64,m,hipertensión,medicina general,2026-02-26,1,0,2,0,0
+7,64,m,hipertensión,geriatría,2026-08-02,1,0,8,1,0
+8,64,m,hipertensión,medicina general,2026-05-29,1,0,5,0,0
+9,69,f,hipertensión,urgencias,2026-06-02,2,0,6,0,0
+10,69,f,hipertensión,geriatría,2026-07-18,1,0,7,1,0
+11,69,f,hipertensión,urgencias,2026-02-12,2,0,2,0,0
+12,35,m,ninguna,urgencias,2026-08-17,2,0,8,0,0
+13,35,m,ninguna,urgencias,2026-04-30,2,0,4,0,0
+14,35,m,ninguna,geriatría,2025-11-25,1,0,11,0,0
+15,25,m,ninguna,urgencias,2025-10-21,2,1,10,0,0
+16,55,m,hipertensión,medicina general,2026-05-02,2,0,5,1,0
+17,55,m,hipertensión,urgencias,2026-03-12,1,0,3,0,0
+18,57,f,hipertensión,medicina general,2026-01-02,2,1,1,0,0
+19,69,m,hipertensión,urgencias,2025-10-10,1,0,10,0,0
+20,22,m,ninguna,urgencias,2026-02-16,1,0,2,0,0
+21,38,f,ninguna,geriatría,2026-04-30,1,0,4,0,0
+22,38,f,ninguna,geriatría,2025-10-19,2,0,10,1,0
+23,38,f,ninguna,geriatría,2026-08-09,2,0,8,1,0
+24,83,f,hipertensión,geriatría,2026-05-10,2,0,5,1,0
+25,83,f,hipertensión,geriatría,2026-05-22,2,1,5,0,0
+26,83,f,hipertensión,geriatría,2025-12-10,1,0,12,0,0
+27,39,f,ninguna,medicina general,2025-12-27,1,0,12,1,0
+28,39,f,ninguna,urgencias,2026-05-15,1,0,5,0,0
+29,39,f,ninguna,geriatría,2026-05-16,1,0,5,1,0
+30,52,f,hipertensión,geriatría,2026-04-20,2,0,4,0,0
+31,52,f,hipertensión,medicina general,2025-11-10,1,0,11,0,0
+32,52,f,hipertensión,urgencias,2025-10-23,1,0,10,0,0
+33,24,m,ninguna,urgencias,2026-04-26,1,0,4,1,0
+34,24,m,ninguna,geriatría,2026-06-24,1,0,6,0,0
+35,30,f,ninguna,urgencias,2026-09-07,2,1,9,0,0
+36,30,f,ninguna,urgencias,2025-10-14,1,0,10,0,0
+37,30,f,ninguna,urgencias,2025-10-09,2,0,10,0,0
+38,61,m,hipertensión,geriatría,2025-12-20,1,0,12,1,0
+39,61,m,hipertensión,geriatría,2026-01-12,1,0,1,0,0
+40,61,m,hipertensión,urgencias,2026-02-11,1,0,2,0,0
+41,82,f,hipertensión,urgencias,2026-05-21,2,0,5,0,0
+42,47,m,ninguna,urgencias,2026-06-17,2,0,6,0,0
+43,47,m,ninguna,medicina general,2026-02-27,2,0,2,0,0
+44,36,m,ninguna,urgencias,2026-07-12,2,0,7,1,0
+45,36,m,ninguna,medicina general,2026-05-12,2,0,5,0,0
+46,36,m,ninguna,urgencias,2025-09-26,1,0,9,0,0
+47,67,m,hipertensión,geriatría,2026-03-09,1,0,3,0,0
+48,67,m,hipertensión,medicina general,2026-08-22,2,0,8,1,0
+49,67,m,hipertensión,urgencias,2026-04-27,1,0,4,0,0
+50,51,f,hipertensión,urgencias,2025-12-09,1,0,12,0,0
+51,51,f,hipertensión,geriatría,2026-06-09,2,0,6,0,0
+52,72,f,hipertensión,urgencias,2026-08-01,2,1,8,1,0
+53,32,f,ninguna,medicina general,2026-04-29,2,1,4,0,0
+54,32,f,ninguna,urgencias,2026-06-08,2,1,6,0,0
+55,32,f,ninguna,urgencias,2026-04-25,1,0,4,1,0
+56,57,f,hipertensión,geriatría,2026-05-02,1,0,5,1,0
+57,57,f,hipertensión,geriatría,2025-10-19,2,0,10,1,0
+58,65,m,hipertensión,geriatría,2025-10-21,2,0,10,0,0
+59,65,m,hipertensión,geriatría,2025-09-19,1,0,9,0,0
+60,31,f,ninguna,geriatría,2026-06-07,2,0,6,1,0
+61,77,m,hipertensión,geriatría,2025-10-15,1,0,10,0,0
+62,77,m,hipertensión,medicina general,2026-07-30,1,0,7,0,0
+63,80,m,hipertensión,geriatría,2025-11-01,1,0,11,1,0
+64,80,m,hipertensión,geriatría,2026-07-23,2,0,7,0,0
+65,82,m,hipertensión,urgencias,2025-12-15,1,0,12,0,0
+66,82,m,hipertensión,urgencias,2026-07-31,2,1,7,0,0
+67,45,m,ninguna,geriatría,2026-01-03,1,0,1,1,0
+68,45,m,ninguna,medicina general,2026-05-21,1,0,5,0,0
+69,45,m,ninguna,medicina general,2026-07-17,1,0,7,0,0
+70,78,m,hipertensión,urgencias,2026-05-25,2,0,5,0,0
+71,78,m,hipertensión,medicina general,2026-08-29,2,0,8,1,0
+72,68,f,hipertensión,medicina general,2026-06-26,1,0,6,0,0
+73,65,m,hipertensión,geriatría,2025-11-14,2,1,11,0,0
+74,65,m,hipertensión,urgencias,2025-11-20,2,0,11,0,0
+75,51,f,hipertensión,geriatría,2026-04-15,2,0,4,0,0
+76,51,f,hipertensión,geriatría,2025-10-26,2,0,10,1,0
+77,73,f,hipertensión,geriatría,2026-05-20,2,0,5,0,0
+78,73,f,hipertensión,urgencias,2026-08-21,2,0,8,0,0
+79,70,m,hipertensión,medicina general,2025-10-17,2,0,10,0,0
+80,70,m,hipertensión,urgencias,2026-03-29,2,0,3,1,0
+81,35,m,ninguna,urgencias,2025-09-27,1,0,9,1,0
+82,45,m,ninguna,urgencias,2026-08-04,2,0,8,0,0
+83,45,m,ninguna,urgencias,2026-01-07,1,0,1,0,0
+84,49,m,ninguna,urgencias,2026-09-09,2,0,9,0,0
+85,49,m,ninguna,medicina general,2026-01-26,2,1,1,0,0
+86,61,m,hipertensión,urgencias,2026-04-30,2,0,4,0,0
+87,61,m,hipertensión,urgencias,2026-02-27,2,0,2,0,0
+88,61,m,hipertensión,medicina general,2025-10-27,2,0,10,0,0
+89,85,m,hipertensión,urgencias,2026-04-18,2,0,4,1,0
+90,85,m,hipertensión,geriatría,2026-08-29,2,1,8,1,0
+91,85,m,hipertensión,urgencias,2026-07-19,2,0,7,1,0
+92,25,m,ninguna,geriatría,2026-06-12,2,0,6,0,0
+93,25,m,ninguna,medicina general,2026-03-18,2,0,3,0,0
+94,25,m,ninguna,medicina general,2026-04-19,1,0,4,1,0
+95,24,m,ninguna,geriatría,2026-09-08,1,0,9,0,0
+96,24,m,ninguna,geriatría,2026-05-03,2,0,5,1,0
+97,24,m,ninguna,geriatría,2025-12-11,1,0,12,0,0
+98,80,m,hipertensión,urgencias,2026-03-29,2,0,3,1,0
+99,80,m,hipertensión,medicina general,2026-02-27,1,0,2,0,0
+100,80,m,hipertensión,medicina general,2026-08-25,2,0,8,0,0
+101,61,f,hipertensión,urgencias,2026-05-14,1,0,5,0,0
+102,61,f,hipertensión,geriatría,2026-08-19,1,0,8,0,0
+103,48,m,ninguna,geriatría,2026-05-11,2,1,5,0,0
+104,48,m,ninguna,geriatría,2026-02-22,1,0,2,1,0
+105,45,f,ninguna,urgencias,2026-01-30,2,0,1,0,0
+106,45,f,ninguna,geriatría,2025-10-28,2,1,10,0,0
+107,45,f,ninguna,urgencias,2025-12-16,2,0,12,0,0
+108,65,f,hipertensión,urgencias,2026-09-04,2,0,9,0,0
+109,65,f,hipertensión,urgencias,2026-07-01,1,0,7,0,0
+110,65,f,hipertensión,urgencias,2025-10-17,2,1,10,0,0
+111,72,m,hipertensión,urgencias,2026-08-06,1,0,8,0,0
+112,72,m,hipertensión,medicina general,2026-02-02,1,0,2,0,0
+113,72,m,hipertensión,medicina general,2025-12-21,2,0,12,1,0
+114,41,m,ninguna,urgencias,2026-04-09,2,0,4,0,0
+115,41,m,ninguna,geriatría,2026-03-26,2,0,3,0,0
+116,60,m,hipertensión,geriatría,2026-03-09,1,0,3,0,0
+117,60,m,hipertensión,medicina general,2026-08-27,2,0,8,0,0
+118,60,m,hipertensión,medicina general,2026-04-08,1,0,4,0,0
+119,34,f,ninguna,urgencias,2026-08-02,1,0,8,1,0
+120,34,f,ninguna,geriatría,2026-01-15,1,0,1,0,0
+121,76,f,hipertensión,medicina general,2026-02-08,1,0,2,1,0
+122,76,f,hipertensión,urgencias,2026-03-01,2,0,3,1,0
+123,76,f,hipertensión,geriatría,2026-03-19,1,0,3,0,0
+124,59,f,hipertensión,urgencias,2025-10-20,2,0,10,0,0
+125,26,m,ninguna,geriatría,2026-04-01,1,0,4,0,0
+126,81,f,hipertensión,geriatría,2026-03-31,2,0,3,0,0
+127,75,f,hipertensión,geriatría,2026-07-28,2,0,7,0,0
+128,75,f,hipertensión,urgencias,2026-02-15,2,1,2,1,0
+129,53,f,hipertensión,geriatría,2026-05-26,2,0,5,0,0
+130,53,f,hipertensión,urgencias,2025-11-30,1,0,11,1,0
+131,53,f,hipertensión,urgencias,2026-09-13,1,0,9,1,0
+132,52,m,hipertensión,geriatría,2026-01-11,1,0,1,1,0
+133,52,m,hipertensión,geriatría,2025-12-01,2,1,12,0,0
+134,52,m,hipertensión,urgencias,2025-10-29,2,0,10,0,0
+135,66,m,hipertensión,geriatría,2025-11-16,1,0,11,1,0
+136,66,m,hipertensión,urgencias,2026-05-15,1,0,5,0,0
+137,66,m,hipertensión,urgencias,2026-07-16,2,1,7,0,0
+138,22,m,ninguna,geriatría,2025-12-23,1,0,12,0,0
+139,22,f,ninguna,urgencias,2026-06-09,1,0,6,0,0
+140,72,f,hipertensión,geriatría,2026-04-07,1,0,4,0,0
+141,72,f,hipertensión,urgencias,2025-11-02,1,0,11,1,0
+142,73,f,hipertensión,medicina general,2026-09-11,2,0,9,0,0
+143,73,f,hipertensión,geriatría,2026-06-20,1,0,6,1,0
+144,72,f,hipertensión,urgencias,2025-10-04,1,0,10,1,0
+145,72,f,hipertensión,geriatría,2026-03-17,2,0,3,0,0
+146,72,f,hipertensión,medicina general,2025-10-02,1,0,10,0,0
+147,38,m,ninguna,medicina general,2026-06-30,2,0,6,0,0
+148,68,m,hipertensión,geriatría,2026-08-15,1,0,8,1,0
+149,68,m,hipertensión,medicina general,2025-10-19,1,0,10,1,0
+150,23,m,ninguna,urgencias,2026-06-09,1,0,6,0,0
+151,21,f,ninguna,medicina general,2026-02-17,1,0,2,0,0
+152,21,f,ninguna,urgencias,2026-05-22,1,0,5,0,0
+153,21,f,ninguna,urgencias,2026-01-26,1,0,1,0,0
+154,41,f,ninguna,urgencias,2025-11-05,1,0,11,0,0
+155,41,f,ninguna,urgencias,2026-06-19,2,1,6,0,0
+156,85,m,hipertensión,geriatría,2025-11-19,1,0,11,0,0
+157,85,m,hipertensión,urgencias,2026-09-13,1,0,9,1,0
+158,51,f,hipertensión,geriatría,2026-02-22,1,0,2,1,0
+159,51,f,hipertensión,medicina general,2026-07-11,2,0,7,1,0
+160,41,m,ninguna,urgencias,2025-10-20,2,0,10,0,0
+161,71,m,hipertensión,urgencias,2026-04-28,1,0,4,0,0
+162,71,m,hipertensión,geriatría,2026-02-16,1,0,2,0,0
+163,71,m,hipertensión,geriatría,2025-12-13,2,0,12,1,0
+164,55,f,hipertensión,geriatría,2026-07-15,2,0,7,0,0
+165,55,f,hipertensión,geriatría,2026-01-06,2,0,1,0,0
+166,55,f,hipertensión,urgencias,2026-06-06,2,0,6,1,0
+167,46,m,ninguna,urgencias,2025-10-04,2,0,10,1,0
+168,46,m,ninguna,medicina general,2026-09-07,2,1,9,0,0
+169,20,f,ninguna,urgencias,2026-06-05,2,1,6,0,0
+170,20,f,ninguna,geriatría,2026-04-05,2,0,4,1,0
+171,68,f,hipertensión,urgencias,2026-03-26,1,0,3,0,0
+172,77,m,hipertensión,medicina general,2026-04-18,2,1,4,1,0
+173,77,m,hipertensión,urgencias,2026-05-16,2,0,5,1,0
+174,77,m,hipertensión,geriatría,2026-05-25,2,0,5,0,0
+175,21,m,ninguna,urgencias,2026-08-13,1,0,8,0,0
+176,21,m,ninguna,medicina general,2026-02-12,1,0,2,0,0
+177,21,m,ninguna,medicina general,2026-06-02,2,0,6,0,0
+178,41,m,ninguna,medicina general,2026-05-23,2,1,5,1,0
+179,41,m,ninguna,geriatría,2026-06-28,2,0,6,1,0
+180,31,m,ninguna,medicina general,2025-12-14,1,0,12,1,0
+181,31,m,ninguna,urgencias,2026-02-01,2,1,2,1,0
+182,31,m,ninguna,geriatría,2026-04-06,2,0,4,0,0
+183,23,f,ninguna,geriatría,2026-08-05,1,0,8,0,0
+184,23,f,ninguna,geriatría,2026-04-16,1,0,4,0,0
+185,43,f,ninguna,urgencias,2026-03-16,2,0,3,0,0
+186,43,f,ninguna,medicina general,2026-08-20,1,0,8,0,0
+187,43,f,ninguna,geriatría,2026-08-11,1,0,8,0,0
+188,62,m,hipertensión,medicina general,2026-08-26,2,1,8,0,0
+189,62,m,hipertensión,medicina general,2026-02-01,1,0,2,1,0
+190,62,m,hipertensión,urgencias,2026-08-30,1,0,8,1,0
+191,39,m,ninguna,geriatría,2025-12-12,2,0,12,0,0
+192,62,f,hipertensión,geriatría,2026-07-02,1,0,7,0,0
+193,57,f,hipertensión,urgencias,2026-02-11,1,0,2,0,0
+194,41,m,ninguna,urgencias,2026-01-26,1,0,1,0,0
+195,41,m,ninguna,medicina general,2026-02-20,1,0,2,0,0
+196,47,f,ninguna,medicina general,2026-04-24,1,0,4,0,0
+197,47,f,ninguna,urgencias,2026-06-30,1,0,6,0,0
+198,48,f,ninguna,geriatría,2026-03-14,1,0,3,1,0
+199,48,f,ninguna,urgencias,2026-08-23,1,0,8,1,0
+200,48,f,ninguna,medicina general,2026-01-18,1,0,1,1,0
+201,82,f,hipertensión,urgencias,2026-04-20,1,0,4,0,0
+202,52,f,hipertensión,urgencias,2025-12-17,1,0,12,0,0
+203,52,f,hipertensión,geriatría,2026-07-30,1,0,7,0,0
+204,52,f,hipertensión,geriatría,2026-03-29,1,0,3,1,0
+205,80,f,hipertensión,geriatría,2025-11-26,1,0,11,0,0
+206,80,f,hipertensión,geriatría,2026-05-04,2,0,5,0,0
+207,80,f,hipertensión,geriatría,2026-02-12,2,1,2,0,0
+208,78,f,hipertensión,urgencias,2026-03-09,1,0,3,0,0
+209,78,f,hipertensión,medicina general,2025-10-10,2,0,10,0,0
+210,78,f,hipertensión,geriatría,2025-11-16,2,0,11,1,0
+211,62,f,hipertensión,medicina general,2025-10-18,2,0,10,1,0
+212,62,f,hipertensión,geriatría,2026-06-11,2,1,6,0,0
+213,19,f,ninguna,urgencias,2026-06-30,2,1,6,0,0
+214,19,f,ninguna,medicina general,2026-04-16,1,0,4,0,0
+215,19,f,ninguna,geriatría,2025-11-21,2,1,11,0,0
+216,82,m,hipertensión,geriatría,2026-08-12,1,0,8,0,0
+217,82,m,hipertensión,urgencias,2026-01-13,2,1,1,0,0
+218,82,m,hipertensión,urgencias,2026-05-10,1,0,5,1,0
+219,23,m,ninguna,urgencias,2026-01-19,1,0,1,0,0
+220,23,m,ninguna,medicina general,2026-02-23,1,0,2,0,0
+221,23,m,ninguna,geriatría,2026-07-05,1,0,7,1,0
+222,85,m,hipertensión,geriatría,2025-11-28,1,0,11,0,0
+223,85,m,hipertensión,urgencias,2025-10-29,1,0,10,0,0
+224,85,m,hipertensión,urgencias,2026-01-10,1,0,1,1,0
+225,73,f,hipertensión,geriatría,2026-02-25,1,0,2,0,0
+226,73,f,hipertensión,medicina general,2026-06-18,2,0,6,0,0
+227,26,m,ninguna,medicina general,2025-09-17,2,0,9,0,0
+228,26,m,ninguna,geriatría,2026-09-09,1,0,9,0,0
+229,26,m,ninguna,geriatría,2025-10-09,2,0,10,0,0
+230,84,f,hipertensión,geriatría,2025-11-06,1,0,11,0,0
+231,84,f,hipertensión,urgencias,2025-12-07,2,0,12,1,0
+232,85,m,hipertensión,medicina general,2026-08-22,1,0,8,1,0
+233,85,m,hipertensión,geriatría,2026-05-01,2,0,5,0,0
+234,85,m,hipertensión,geriatría,2025-12-03,2,0,12,0,0
+235,36,f,ninguna,medicina general,2026-04-17,1,0,4,0,0
+236,75,m,hipertensión,geriatría,2026-04-06,2,0,4,0,0
+237,75,m,hipertensión,geriatría,2026-07-09,1,0,7,0,0
+238,75,m,hipertensión,urgencias,2026-02-05,2,0,2,0,0
+239,50,f,hipertensión,medicina general,2026-02-05,2,0,2,0,0
+240,57,m,hipertensión,medicina general,2026-09-07,1,0,9,0,0
+241,57,m,hipertensión,urgencias,2025-12-10,1,0,12,0,0
+242,25,m,ninguna,urgencias,2025-09-16,1,0,9,0,0
+243,75,f,hipertensión,urgencias,2025-09-18,2,0,9,0,0
+244,39,f,ninguna,urgencias,2026-05-27,1,0,5,0,0
+245,19,f,ninguna,geriatría,2026-03-03,1,0,3,0,0
+246,19,f,ninguna,medicina general,2025-12-14,2,1,12,1,0
+247,18,f,ninguna,urgencias,2025-11-12,2,0,11,0,0
+248,29,f,ninguna,medicina general,2026-05-07,2,0,5,0,0
+249,34,f,ninguna,urgencias,2026-05-04,1,0,5,0,0
+250,34,f,ninguna,geriatría,2026-01-13,1,0,1,0,0
+251,34,f,ninguna,medicina general,2025-10-19,1,0,10,1,0
+252,36,f,ninguna,geriatría,2026-06-02,2,0,6,0,0
+253,36,f,ninguna,geriatría,2026-04-03,2,0,4,0,0
+254,47,m,ninguna,medicina general,2025-10-15,1,0,10,0,0
+255,35,f,ninguna,urgencias,2026-03-13,1,0,3,0,0
+256,35,f,ninguna,geriatría,2026-01-26,2,0,1,0,0
+257,72,m,hipertensión,urgencias,2026-09-12,1,0,9,1,0
+258,72,m,hipertensión,urgencias,2026-01-22,2,0,1,0,0
+259,18,f,ninguna,urgencias,2026-02-13,1,0,2,0,0
+260,18,f,ninguna,medicina general,2026-02-23,2,0,2,0,0
+261,18,f,ninguna,geriatría,2025-11-20,1,0,11,0,0
+262,29,f,ninguna,urgencias,2025-10-15,1,0,10,0,0
+263,29,f,ninguna,geriatría,2026-05-10,1,0,5,1,0
+264,76,f,hipertensión,urgencias,2026-03-06,2,1,3,0,0
+265,30,f,ninguna,urgencias,2025-09-16,2,0,9,0,0
+266,23,m,ninguna,geriatría,2025-11-03,2,0,11,0,0
+267,34,f,ninguna,geriatría,2026-03-09,1,0,3,0,0
+268,34,f,ninguna,geriatría,2025-11-07,1,0,11,0,0
+269,58,m,hipertensión,medicina general,2025-11-12,1,0,11,0,0
+270,58,m,hipertensión,medicina general,2026-07-23,2,1,7,0,0
+271,81,f,hipertensión,urgencias,2026-09-12,2,0,9,1,0
+272,33,m,ninguna,urgencias,2026-06-30,2,0,6,0,0
+273,33,m,ninguna,geriatría,2026-07-08,2,0,7,0,0
+274,33,m,ninguna,geriatría,2025-11-10,2,0,11,0,0
+275,66,f,hipertensión,geriatría,2026-04-19,1,0,4,1,0
+276,66,f,hipertensión,geriatría,2026-06-26,1,0,6,0,0
+277,66,f,hipertensión,medicina general,2025-11-07,2,1,11,0,0
+278,18,f,ninguna,geriatría,2026-04-06,2,0,4,0,0
+279,18,f,ninguna,urgencias,2025-10-04,2,0,10,1,0
+280,18,f,ninguna,urgencias,2026-03-04,2,0,3,0,0
+281,58,f,hipertensión,geriatría,2025-12-26,1,0,12,0,0
+282,44,f,ninguna,urgencias,2026-08-29,1,0,8,1,0
+283,44,f,ninguna,medicina general,2026-08-21,1,0,8,0,0
+284,83,f,hipertensión,urgencias,2026-03-07,2,0,3,1,0
+285,83,f,hipertensión,urgencias,2026-06-27,1,0,6,1,0
+286,39,m,ninguna,geriatría,2026-06-13,2,1,6,1,0
+287,39,m,ninguna,urgencias,2025-12-13,2,0,12,1,0
+288,39,m,ninguna,urgencias,2026-04-13,1,0,4,0,0
+289,79,f,hipertensión,geriatría,2026-08-13,1,0,8,0,0
+290,79,f,hipertensión,geriatría,2026-08-02,1,0,8,1,0
+291,79,f,hipertensión,urgencias,2026-07-07,2,0,7,0,0
+292,53,f,hipertensión,medicina general,2026-09-04,2,0,9,0,0
+293,53,f,hipertensión,geriatría,2026-03-23,2,0,3,0,0
+294,58,m,hipertensión,geriatría,2026-08-01,2,0,8,1,0
+295,58,m,hipertensión,urgencias,2026-03-13,1,0,3,0,0
+296,58,m,hipertensión,medicina general,2026-01-19,1,0,1,0,0
+297,56,f,hipertensión,geriatría,2026-08-23,1,0,8,1,0
+298,56,f,hipertensión,geriatría,2026-01-30,1,0,1,0,0
+299,20,f,ninguna,urgencias,2025-12-29,1,0,12,0,0
+300,31,m,ninguna,geriatría,2025-12-09,1,0,12,0,0
+301,28,f,ninguna,medicina general,2026-05-26,1,0,5,0,0
+302,69,m,hipertensión,geriatría,2026-02-19,2,0,2,0,0
+303,69,m,hipertensión,medicina general,2026-01-22,2,1,1,0,0
+304,69,m,hipertensión,medicina general,2026-08-26,2,0,8,0,0
+305,21,m,ninguna,medicina general,2026-06-27,2,0,6,1,0
+306,79,f,hipertensión,geriatría,2026-08-04,1,0,8,0,0
+307,79,f,hipertensión,urgencias,2026-04-07,1,0,4,0,0
+308,69,f,hipertensión,geriatría,2026-06-27,2,0,6,1,0
+309,69,f,hipertensión,geriatría,2026-06-08,2,1,6,0,0
+310,69,f,hipertensión,geriatría,2026-07-07,2,1,7,0,0
+311,75,f,hipertensión,urgencias,2026-06-02,2,0,6,0,0
+312,75,f,hipertensión,geriatría,2026-02-21,2,0,2,1,0
+313,67,f,hipertensión,medicina general,2026-06-30,1,0,6,0,0
+314,67,f,hipertensión,geriatría,2025-10-24,2,0,10,0,0
+315,67,f,hipertensión,medicina general,2026-05-05,2,0,5,0,0
