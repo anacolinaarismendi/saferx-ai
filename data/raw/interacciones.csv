@@ -1,4 +1,58 @@
 id_interaccion,id_medicamento_1,id_medicamento_2,gravedad,descripcion
-1,1,2,moderada,Aumento del riesgo de sangrado gastrointestinal.
-2,2,3,grave,Riesgo altísimo de hemorragia severa. Evitar combinación.
-3,1,6,grave,Riesgo de toxicidad renal e hipertensión no controlada.
+1,1,3,grave,Sinergia antiagregante y anticoagulante: riesgo crítico de hemorragia gastrointestinal y cerebral severa.
+2,1,9,grave,Aumento severo del riesgo de sangrado digestivo y desplazamiento de unión a proteínas de warfarina.
+3,1,10,grave,Riesgo extremo de úlcera péptica sangrante y prolongación patológica del INR.
+4,1,11,grave,Hemorragia severa por sinergia farmacodinámica y lesión de mucosa gástrica.
+5,2,3,grave,Riesgo muy alto de hemorragia letal; contraindicación salvo protocolo estricto de doble terapia coronaria monitorizada.
+6,2,9,grave,Incompatibilidad absoluta en atención primaria: riesgo hemorrágico digestivo grave.
+7,2,10,grave,Potenciación extrema del efecto anticoagulante con alto riesgo de sangrado digestivo alto.
+8,5,9,grave,Riesgo elevado de sangrado mayor gastrointestinal sin reversor inmediato accesible.
+9,5,12,grave,Contraindicación absoluta: sangrado digestivo fulminante y lesión renal aguda.
+10,3,6,grave,Riesgo elevado de hemorragia mayor intra/extracraneal.
+11,4,80,grave,Omeprazol inhibe CYP2C19 reduciendo la bioactivación de clopidogrel y aumentando el riesgo de infarto recurrente.
+12,4,82,grave,Inhibición enzimática de la eficacia antiagregante plaquetaria de clopidogrel.
+13,19,33,grave,Riesgo crítico de hiperpotasemia severa (> 6.0 mEq/L) causante de arritmias ventriculares y parada cardíaca.
+14,20,33,grave,Hiperpotasemia letal por bloqueo dual del eje renina-angiotensina-aldosterona.
+15,21,33,grave,Aumento marcado del potasio sérico con toxicidad neuromuscular y cardíaca.
+16,22,33,grave,Retención sinérgica de potasio en túbulo renal distal: riesgo severo de bloqueo AV y fibrilación ventricular.
+17,23,33,grave,"Hiperpotasemia grave, especialmente en pacientes ancianos con insuficiencia renal basal."
+18,9,19,grave,Antagonismo del efecto antihipertensivo y vasoconstricción de arteriola aferente: alto riesgo de fracaso renal agudo.
+19,9,20,grave,Deterioro agudo del filtrado glomerular e hipertensión descontrolada.
+20,10,21,grave,Nefrotoxicidad hemodinámica severa; retención hidrosalina aguda.
+21,9,35,moderada,"Los AINEs inhiben las prostaglandinas renales, atenuando intensamente el efecto diurético y antihipertensivo."
+22,9,33,grave,Disminución de la excreción renal de potasio + nefrotoxicidad por AINE: riesgo de hiperpotasemia grave.
+23,42,60,grave,"Claritromicina inhibe potentemente el CYP3A4, aumentando 10 veces las concentraciones de simvastatina: rabdomiólisis severa e insuficiencia renal."
+24,41,60,grave,Riesgo elevado de miopatía necrotizante y fallo renal agudo secundario a mioglobinuria.
+25,38,42,grave,Inhibición del metabolismo hepático de simvastatina: miopatía y rabdomiólisis. Dosis de simvastatina no debe superar 20 mg/día.
+26,41,63,grave,Aumento de niveles séricos de estatina por inhibición de CYP3A4/CYP2C9: mialgias graves y elevación marcada de CPK.
+27,42,45,moderada,Aumento del riesgo de miopatía muscular y elevación de transaminasas.
+28,38,39,grave,Amiodarona duplica la concentración plasmática de digoxina por inhibición de glicoproteína P: bloqueo cardíaco letal.
+29,28,39,grave,Depresión severa de la conducción auriculoventricular y riesgo de parada sinusal o bradiarritmia extrema.
+30,35,39,moderada,La hipopotasemia inducida por furosemida sensibiliza el miocardio a la toxicidad arritmogénica por digoxina.
+31,20,79,grave,"Los IECA reducen la excreción renal de litio, provocando intoxicación lítica aguda (ataxia, temblor severo, convulsiones)."
+32,9,79,grave,Disminución del aclaramiento renal de litio en más de un 30%: riesgo grave de neurotoxicidad y coma.
+33,37,79,grave,Las tiazidas inducen retención proximal compensatoria de litio con aumento peligroso de litemia.
+34,9,87,grave,"Los AINEs disminuyen la secreción tubular renal de metotrexato: pancitopenia grave, fallo medular y mucositis tóxica."
+35,3,87,grave,Toxicidad hematológica y hepática severa por acumulación de metotrexato no aclarado.
+36,16,64,grave,"Riesgo de síndrome serotoninérgico severo (hipertermia, mioclonías, agitación psicomotriz y convulsiones)."
+37,16,65,grave,Fluoxetina inhibe CYP2D6 y potencia la serotonina: toxicidad serotoninérgica potencialmente mortal.
+38,16,66,grave,Riesgo crítico de síndrome serotoninérgico y disminución del umbral convulsivo.
+39,16,67,grave,Interacción serotoninérgica grave con crisis hipertensiva y coma autonómico.
+40,16,68,grave,Doble acción serotoninérgica: crisis hipertensiva aguda y síndrome serotoninérgico.
+41,9,64,moderada,La combinación de ISRS con AINEs incrementa de 3 a 5 veces el riesgo de hemorragia gastrointestinal alta.
+42,3,66,moderada,Aumento sinérgico del riesgo de sangrado mucocutáneo y digestivo por inhibición de recaptación plaquetaria.
+43,16,70,grave,Riesgo elevado de crisis convulsivas tónico-clónicas y toxicidad anticolinérgica/serotoninérgica.
+44,38,57,grave,Prolongación severa y sinérgica del intervalo QTc: riesgo de Torsades de Pointes y fibrilación ventricular.
+45,38,58,grave,Efecto arritmogénico fatal por adición en la prolongación del QTc.
+46,38,59,grave,Cardiotoxicidad sinérgica con riesgo elevado de parada cardíaca por arritmia ventricular compleja.
+47,38,66,grave,Prolongación aditiva de intervalo QT: síncopes y muerte súbita arritmogénica.
+48,57,66,moderada,Aumento de dispersión de repolarización ventricular y riesgo de arritmias.
+49,17,71,grave,"Depresión respiratoria severa, hipoxia cerebral y coma profundo por sinergia depresora central."
+50,18,72,grave,Riesgo crítico de parada respiratoria y colapso hemodinámico.
+51,16,73,moderada,"Somnolencia marcada, depresión respiratoria moderada y riesgo incrementado de caídas en ancianos."
+52,71,75,moderada,"Aumento de sedación diurna, amnesia retrógrada y alteración del equilibrio con fractura de cadera."
+53,55,90,moderada,Incidencia significativamente mayor de exantema cutáneo alérgico severo (rash ampicilínico).
+54,56,90,moderada,Reacciones cutáneas eritematosas generalizadas.
+55,80,92,leve,El omeprazol reduce la acidez gástrica disminuyendo la absorción intestinal de levotiroxina: monitorizar TSH.
+56,92,94,leve,Quelación en tubo digestivo: separar las tomas al menos 4 horas para evitar hipotiroidismo.
+57,57,93,grave,Inhibición potente de CYP1A2 elevando niveles de teofilina: convulsiones y taquiarritmias.

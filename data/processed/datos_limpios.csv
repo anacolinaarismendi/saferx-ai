@@ -1,316 +1,904 @@
 id_consulta,edad,genero,condiciones_previas,especialidad,fecha,num_medicamentos,hubo_interaccion,mes_consulta,es_fin_de_semana,es_polifarmacia
-1,83,m,hipertensión,urgencias,2026-03-12,1,0,3,0,0
-2,51,f,hipertensión,medicina general,2025-12-31,2,0,12,0,0
-3,51,f,hipertensión,medicina general,2026-05-14,1,0,5,0,0
-4,51,f,hipertensión,urgencias,2026-01-03,2,1,1,1,0
-5,39,f,ninguna,geriatría,2026-03-01,1,0,3,1,0
-6,64,m,hipertensión,medicina general,2026-02-26,1,0,2,0,0
-7,64,m,hipertensión,geriatría,2026-08-02,1,0,8,1,0
-8,64,m,hipertensión,medicina general,2026-05-29,1,0,5,0,0
-9,69,f,hipertensión,urgencias,2026-06-02,2,0,6,0,0
-10,69,f,hipertensión,geriatría,2026-07-18,1,0,7,1,0
-11,69,f,hipertensión,urgencias,2026-02-12,2,0,2,0,0
-12,35,m,ninguna,urgencias,2026-08-17,2,0,8,0,0
-13,35,m,ninguna,urgencias,2026-04-30,2,0,4,0,0
-14,35,m,ninguna,geriatría,2025-11-25,1,0,11,0,0
-15,25,m,ninguna,urgencias,2025-10-21,2,1,10,0,0
-16,55,m,hipertensión,medicina general,2026-05-02,2,0,5,1,0
-17,55,m,hipertensión,urgencias,2026-03-12,1,0,3,0,0
-18,57,f,hipertensión,medicina general,2026-01-02,2,1,1,0,0
-19,69,m,hipertensión,urgencias,2025-10-10,1,0,10,0,0
-20,22,m,ninguna,urgencias,2026-02-16,1,0,2,0,0
-21,38,f,ninguna,geriatría,2026-04-30,1,0,4,0,0
-22,38,f,ninguna,geriatría,2025-10-19,2,0,10,1,0
-23,38,f,ninguna,geriatría,2026-08-09,2,0,8,1,0
-24,83,f,hipertensión,geriatría,2026-05-10,2,0,5,1,0
-25,83,f,hipertensión,geriatría,2026-05-22,2,1,5,0,0
-26,83,f,hipertensión,geriatría,2025-12-10,1,0,12,0,0
-27,39,f,ninguna,medicina general,2025-12-27,1,0,12,1,0
-28,39,f,ninguna,urgencias,2026-05-15,1,0,5,0,0
-29,39,f,ninguna,geriatría,2026-05-16,1,0,5,1,0
-30,52,f,hipertensión,geriatría,2026-04-20,2,0,4,0,0
-31,52,f,hipertensión,medicina general,2025-11-10,1,0,11,0,0
-32,52,f,hipertensión,urgencias,2025-10-23,1,0,10,0,0
-33,24,m,ninguna,urgencias,2026-04-26,1,0,4,1,0
-34,24,m,ninguna,geriatría,2026-06-24,1,0,6,0,0
-35,30,f,ninguna,urgencias,2026-09-07,2,1,9,0,0
-36,30,f,ninguna,urgencias,2025-10-14,1,0,10,0,0
-37,30,f,ninguna,urgencias,2025-10-09,2,0,10,0,0
-38,61,m,hipertensión,geriatría,2025-12-20,1,0,12,1,0
-39,61,m,hipertensión,geriatría,2026-01-12,1,0,1,0,0
-40,61,m,hipertensión,urgencias,2026-02-11,1,0,2,0,0
-41,82,f,hipertensión,urgencias,2026-05-21,2,0,5,0,0
-42,47,m,ninguna,urgencias,2026-06-17,2,0,6,0,0
-43,47,m,ninguna,medicina general,2026-02-27,2,0,2,0,0
-44,36,m,ninguna,urgencias,2026-07-12,2,0,7,1,0
-45,36,m,ninguna,medicina general,2026-05-12,2,0,5,0,0
-46,36,m,ninguna,urgencias,2025-09-26,1,0,9,0,0
-47,67,m,hipertensión,geriatría,2026-03-09,1,0,3,0,0
-48,67,m,hipertensión,medicina general,2026-08-22,2,0,8,1,0
-49,67,m,hipertensión,urgencias,2026-04-27,1,0,4,0,0
-50,51,f,hipertensión,urgencias,2025-12-09,1,0,12,0,0
-51,51,f,hipertensión,geriatría,2026-06-09,2,0,6,0,0
-52,72,f,hipertensión,urgencias,2026-08-01,2,1,8,1,0
-53,32,f,ninguna,medicina general,2026-04-29,2,1,4,0,0
-54,32,f,ninguna,urgencias,2026-06-08,2,1,6,0,0
-55,32,f,ninguna,urgencias,2026-04-25,1,0,4,1,0
-56,57,f,hipertensión,geriatría,2026-05-02,1,0,5,1,0
-57,57,f,hipertensión,geriatría,2025-10-19,2,0,10,1,0
-58,65,m,hipertensión,geriatría,2025-10-21,2,0,10,0,0
-59,65,m,hipertensión,geriatría,2025-09-19,1,0,9,0,0
-60,31,f,ninguna,geriatría,2026-06-07,2,0,6,1,0
-61,77,m,hipertensión,geriatría,2025-10-15,1,0,10,0,0
-62,77,m,hipertensión,medicina general,2026-07-30,1,0,7,0,0
-63,80,m,hipertensión,geriatría,2025-11-01,1,0,11,1,0
-64,80,m,hipertensión,geriatría,2026-07-23,2,0,7,0,0
-65,82,m,hipertensión,urgencias,2025-12-15,1,0,12,0,0
-66,82,m,hipertensión,urgencias,2026-07-31,2,1,7,0,0
-67,45,m,ninguna,geriatría,2026-01-03,1,0,1,1,0
-68,45,m,ninguna,medicina general,2026-05-21,1,0,5,0,0
-69,45,m,ninguna,medicina general,2026-07-17,1,0,7,0,0
-70,78,m,hipertensión,urgencias,2026-05-25,2,0,5,0,0
-71,78,m,hipertensión,medicina general,2026-08-29,2,0,8,1,0
-72,68,f,hipertensión,medicina general,2026-06-26,1,0,6,0,0
-73,65,m,hipertensión,geriatría,2025-11-14,2,1,11,0,0
-74,65,m,hipertensión,urgencias,2025-11-20,2,0,11,0,0
-75,51,f,hipertensión,geriatría,2026-04-15,2,0,4,0,0
-76,51,f,hipertensión,geriatría,2025-10-26,2,0,10,1,0
-77,73,f,hipertensión,geriatría,2026-05-20,2,0,5,0,0
-78,73,f,hipertensión,urgencias,2026-08-21,2,0,8,0,0
-79,70,m,hipertensión,medicina general,2025-10-17,2,0,10,0,0
-80,70,m,hipertensión,urgencias,2026-03-29,2,0,3,1,0
-81,35,m,ninguna,urgencias,2025-09-27,1,0,9,1,0
-82,45,m,ninguna,urgencias,2026-08-04,2,0,8,0,0
-83,45,m,ninguna,urgencias,2026-01-07,1,0,1,0,0
-84,49,m,ninguna,urgencias,2026-09-09,2,0,9,0,0
-85,49,m,ninguna,medicina general,2026-01-26,2,1,1,0,0
-86,61,m,hipertensión,urgencias,2026-04-30,2,0,4,0,0
-87,61,m,hipertensión,urgencias,2026-02-27,2,0,2,0,0
-88,61,m,hipertensión,medicina general,2025-10-27,2,0,10,0,0
-89,85,m,hipertensión,urgencias,2026-04-18,2,0,4,1,0
-90,85,m,hipertensión,geriatría,2026-08-29,2,1,8,1,0
-91,85,m,hipertensión,urgencias,2026-07-19,2,0,7,1,0
-92,25,m,ninguna,geriatría,2026-06-12,2,0,6,0,0
-93,25,m,ninguna,medicina general,2026-03-18,2,0,3,0,0
-94,25,m,ninguna,medicina general,2026-04-19,1,0,4,1,0
-95,24,m,ninguna,geriatría,2026-09-08,1,0,9,0,0
-96,24,m,ninguna,geriatría,2026-05-03,2,0,5,1,0
-97,24,m,ninguna,geriatría,2025-12-11,1,0,12,0,0
-98,80,m,hipertensión,urgencias,2026-03-29,2,0,3,1,0
-99,80,m,hipertensión,medicina general,2026-02-27,1,0,2,0,0
-100,80,m,hipertensión,medicina general,2026-08-25,2,0,8,0,0
-101,61,f,hipertensión,urgencias,2026-05-14,1,0,5,0,0
-102,61,f,hipertensión,geriatría,2026-08-19,1,0,8,0,0
-103,48,m,ninguna,geriatría,2026-05-11,2,1,5,0,0
-104,48,m,ninguna,geriatría,2026-02-22,1,0,2,1,0
-105,45,f,ninguna,urgencias,2026-01-30,2,0,1,0,0
-106,45,f,ninguna,geriatría,2025-10-28,2,1,10,0,0
-107,45,f,ninguna,urgencias,2025-12-16,2,0,12,0,0
-108,65,f,hipertensión,urgencias,2026-09-04,2,0,9,0,0
-109,65,f,hipertensión,urgencias,2026-07-01,1,0,7,0,0
-110,65,f,hipertensión,urgencias,2025-10-17,2,1,10,0,0
-111,72,m,hipertensión,urgencias,2026-08-06,1,0,8,0,0
-112,72,m,hipertensión,medicina general,2026-02-02,1,0,2,0,0
-113,72,m,hipertensión,medicina general,2025-12-21,2,0,12,1,0
-114,41,m,ninguna,urgencias,2026-04-09,2,0,4,0,0
-115,41,m,ninguna,geriatría,2026-03-26,2,0,3,0,0
-116,60,m,hipertensión,geriatría,2026-03-09,1,0,3,0,0
-117,60,m,hipertensión,medicina general,2026-08-27,2,0,8,0,0
-118,60,m,hipertensión,medicina general,2026-04-08,1,0,4,0,0
-119,34,f,ninguna,urgencias,2026-08-02,1,0,8,1,0
-120,34,f,ninguna,geriatría,2026-01-15,1,0,1,0,0
-121,76,f,hipertensión,medicina general,2026-02-08,1,0,2,1,0
-122,76,f,hipertensión,urgencias,2026-03-01,2,0,3,1,0
-123,76,f,hipertensión,geriatría,2026-03-19,1,0,3,0,0
-124,59,f,hipertensión,urgencias,2025-10-20,2,0,10,0,0
-125,26,m,ninguna,geriatría,2026-04-01,1,0,4,0,0
-126,81,f,hipertensión,geriatría,2026-03-31,2,0,3,0,0
-127,75,f,hipertensión,geriatría,2026-07-28,2,0,7,0,0
-128,75,f,hipertensión,urgencias,2026-02-15,2,1,2,1,0
-129,53,f,hipertensión,geriatría,2026-05-26,2,0,5,0,0
-130,53,f,hipertensión,urgencias,2025-11-30,1,0,11,1,0
-131,53,f,hipertensión,urgencias,2026-09-13,1,0,9,1,0
-132,52,m,hipertensión,geriatría,2026-01-11,1,0,1,1,0
-133,52,m,hipertensión,geriatría,2025-12-01,2,1,12,0,0
-134,52,m,hipertensión,urgencias,2025-10-29,2,0,10,0,0
-135,66,m,hipertensión,geriatría,2025-11-16,1,0,11,1,0
-136,66,m,hipertensión,urgencias,2026-05-15,1,0,5,0,0
-137,66,m,hipertensión,urgencias,2026-07-16,2,1,7,0,0
-138,22,m,ninguna,geriatría,2025-12-23,1,0,12,0,0
-139,22,f,ninguna,urgencias,2026-06-09,1,0,6,0,0
-140,72,f,hipertensión,geriatría,2026-04-07,1,0,4,0,0
-141,72,f,hipertensión,urgencias,2025-11-02,1,0,11,1,0
-142,73,f,hipertensión,medicina general,2026-09-11,2,0,9,0,0
-143,73,f,hipertensión,geriatría,2026-06-20,1,0,6,1,0
-144,72,f,hipertensión,urgencias,2025-10-04,1,0,10,1,0
-145,72,f,hipertensión,geriatría,2026-03-17,2,0,3,0,0
-146,72,f,hipertensión,medicina general,2025-10-02,1,0,10,0,0
-147,38,m,ninguna,medicina general,2026-06-30,2,0,6,0,0
-148,68,m,hipertensión,geriatría,2026-08-15,1,0,8,1,0
-149,68,m,hipertensión,medicina general,2025-10-19,1,0,10,1,0
-150,23,m,ninguna,urgencias,2026-06-09,1,0,6,0,0
-151,21,f,ninguna,medicina general,2026-02-17,1,0,2,0,0
-152,21,f,ninguna,urgencias,2026-05-22,1,0,5,0,0
-153,21,f,ninguna,urgencias,2026-01-26,1,0,1,0,0
-154,41,f,ninguna,urgencias,2025-11-05,1,0,11,0,0
-155,41,f,ninguna,urgencias,2026-06-19,2,1,6,0,0
-156,85,m,hipertensión,geriatría,2025-11-19,1,0,11,0,0
-157,85,m,hipertensión,urgencias,2026-09-13,1,0,9,1,0
-158,51,f,hipertensión,geriatría,2026-02-22,1,0,2,1,0
-159,51,f,hipertensión,medicina general,2026-07-11,2,0,7,1,0
-160,41,m,ninguna,urgencias,2025-10-20,2,0,10,0,0
-161,71,m,hipertensión,urgencias,2026-04-28,1,0,4,0,0
-162,71,m,hipertensión,geriatría,2026-02-16,1,0,2,0,0
-163,71,m,hipertensión,geriatría,2025-12-13,2,0,12,1,0
-164,55,f,hipertensión,geriatría,2026-07-15,2,0,7,0,0
-165,55,f,hipertensión,geriatría,2026-01-06,2,0,1,0,0
-166,55,f,hipertensión,urgencias,2026-06-06,2,0,6,1,0
-167,46,m,ninguna,urgencias,2025-10-04,2,0,10,1,0
-168,46,m,ninguna,medicina general,2026-09-07,2,1,9,0,0
-169,20,f,ninguna,urgencias,2026-06-05,2,1,6,0,0
-170,20,f,ninguna,geriatría,2026-04-05,2,0,4,1,0
-171,68,f,hipertensión,urgencias,2026-03-26,1,0,3,0,0
-172,77,m,hipertensión,medicina general,2026-04-18,2,1,4,1,0
-173,77,m,hipertensión,urgencias,2026-05-16,2,0,5,1,0
-174,77,m,hipertensión,geriatría,2026-05-25,2,0,5,0,0
-175,21,m,ninguna,urgencias,2026-08-13,1,0,8,0,0
-176,21,m,ninguna,medicina general,2026-02-12,1,0,2,0,0
-177,21,m,ninguna,medicina general,2026-06-02,2,0,6,0,0
-178,41,m,ninguna,medicina general,2026-05-23,2,1,5,1,0
-179,41,m,ninguna,geriatría,2026-06-28,2,0,6,1,0
-180,31,m,ninguna,medicina general,2025-12-14,1,0,12,1,0
-181,31,m,ninguna,urgencias,2026-02-01,2,1,2,1,0
-182,31,m,ninguna,geriatría,2026-04-06,2,0,4,0,0
-183,23,f,ninguna,geriatría,2026-08-05,1,0,8,0,0
-184,23,f,ninguna,geriatría,2026-04-16,1,0,4,0,0
-185,43,f,ninguna,urgencias,2026-03-16,2,0,3,0,0
-186,43,f,ninguna,medicina general,2026-08-20,1,0,8,0,0
-187,43,f,ninguna,geriatría,2026-08-11,1,0,8,0,0
-188,62,m,hipertensión,medicina general,2026-08-26,2,1,8,0,0
-189,62,m,hipertensión,medicina general,2026-02-01,1,0,2,1,0
-190,62,m,hipertensión,urgencias,2026-08-30,1,0,8,1,0
-191,39,m,ninguna,geriatría,2025-12-12,2,0,12,0,0
-192,62,f,hipertensión,geriatría,2026-07-02,1,0,7,0,0
-193,57,f,hipertensión,urgencias,2026-02-11,1,0,2,0,0
-194,41,m,ninguna,urgencias,2026-01-26,1,0,1,0,0
-195,41,m,ninguna,medicina general,2026-02-20,1,0,2,0,0
-196,47,f,ninguna,medicina general,2026-04-24,1,0,4,0,0
-197,47,f,ninguna,urgencias,2026-06-30,1,0,6,0,0
-198,48,f,ninguna,geriatría,2026-03-14,1,0,3,1,0
-199,48,f,ninguna,urgencias,2026-08-23,1,0,8,1,0
-200,48,f,ninguna,medicina general,2026-01-18,1,0,1,1,0
-201,82,f,hipertensión,urgencias,2026-04-20,1,0,4,0,0
-202,52,f,hipertensión,urgencias,2025-12-17,1,0,12,0,0
-203,52,f,hipertensión,geriatría,2026-07-30,1,0,7,0,0
-204,52,f,hipertensión,geriatría,2026-03-29,1,0,3,1,0
-205,80,f,hipertensión,geriatría,2025-11-26,1,0,11,0,0
-206,80,f,hipertensión,geriatría,2026-05-04,2,0,5,0,0
-207,80,f,hipertensión,geriatría,2026-02-12,2,1,2,0,0
-208,78,f,hipertensión,urgencias,2026-03-09,1,0,3,0,0
-209,78,f,hipertensión,medicina general,2025-10-10,2,0,10,0,0
-210,78,f,hipertensión,geriatría,2025-11-16,2,0,11,1,0
-211,62,f,hipertensión,medicina general,2025-10-18,2,0,10,1,0
-212,62,f,hipertensión,geriatría,2026-06-11,2,1,6,0,0
-213,19,f,ninguna,urgencias,2026-06-30,2,1,6,0,0
-214,19,f,ninguna,medicina general,2026-04-16,1,0,4,0,0
-215,19,f,ninguna,geriatría,2025-11-21,2,1,11,0,0
-216,82,m,hipertensión,geriatría,2026-08-12,1,0,8,0,0
-217,82,m,hipertensión,urgencias,2026-01-13,2,1,1,0,0
-218,82,m,hipertensión,urgencias,2026-05-10,1,0,5,1,0
-219,23,m,ninguna,urgencias,2026-01-19,1,0,1,0,0
-220,23,m,ninguna,medicina general,2026-02-23,1,0,2,0,0
-221,23,m,ninguna,geriatría,2026-07-05,1,0,7,1,0
-222,85,m,hipertensión,geriatría,2025-11-28,1,0,11,0,0
-223,85,m,hipertensión,urgencias,2025-10-29,1,0,10,0,0
-224,85,m,hipertensión,urgencias,2026-01-10,1,0,1,1,0
-225,73,f,hipertensión,geriatría,2026-02-25,1,0,2,0,0
-226,73,f,hipertensión,medicina general,2026-06-18,2,0,6,0,0
-227,26,m,ninguna,medicina general,2025-09-17,2,0,9,0,0
-228,26,m,ninguna,geriatría,2026-09-09,1,0,9,0,0
-229,26,m,ninguna,geriatría,2025-10-09,2,0,10,0,0
-230,84,f,hipertensión,geriatría,2025-11-06,1,0,11,0,0
-231,84,f,hipertensión,urgencias,2025-12-07,2,0,12,1,0
-232,85,m,hipertensión,medicina general,2026-08-22,1,0,8,1,0
-233,85,m,hipertensión,geriatría,2026-05-01,2,0,5,0,0
-234,85,m,hipertensión,geriatría,2025-12-03,2,0,12,0,0
-235,36,f,ninguna,medicina general,2026-04-17,1,0,4,0,0
-236,75,m,hipertensión,geriatría,2026-04-06,2,0,4,0,0
-237,75,m,hipertensión,geriatría,2026-07-09,1,0,7,0,0
-238,75,m,hipertensión,urgencias,2026-02-05,2,0,2,0,0
-239,50,f,hipertensión,medicina general,2026-02-05,2,0,2,0,0
-240,57,m,hipertensión,medicina general,2026-09-07,1,0,9,0,0
-241,57,m,hipertensión,urgencias,2025-12-10,1,0,12,0,0
-242,25,m,ninguna,urgencias,2025-09-16,1,0,9,0,0
-243,75,f,hipertensión,urgencias,2025-09-18,2,0,9,0,0
-244,39,f,ninguna,urgencias,2026-05-27,1,0,5,0,0
-245,19,f,ninguna,geriatría,2026-03-03,1,0,3,0,0
-246,19,f,ninguna,medicina general,2025-12-14,2,1,12,1,0
-247,18,f,ninguna,urgencias,2025-11-12,2,0,11,0,0
-248,29,f,ninguna,medicina general,2026-05-07,2,0,5,0,0
-249,34,f,ninguna,urgencias,2026-05-04,1,0,5,0,0
-250,34,f,ninguna,geriatría,2026-01-13,1,0,1,0,0
-251,34,f,ninguna,medicina general,2025-10-19,1,0,10,1,0
-252,36,f,ninguna,geriatría,2026-06-02,2,0,6,0,0
-253,36,f,ninguna,geriatría,2026-04-03,2,0,4,0,0
-254,47,m,ninguna,medicina general,2025-10-15,1,0,10,0,0
-255,35,f,ninguna,urgencias,2026-03-13,1,0,3,0,0
-256,35,f,ninguna,geriatría,2026-01-26,2,0,1,0,0
-257,72,m,hipertensión,urgencias,2026-09-12,1,0,9,1,0
-258,72,m,hipertensión,urgencias,2026-01-22,2,0,1,0,0
-259,18,f,ninguna,urgencias,2026-02-13,1,0,2,0,0
-260,18,f,ninguna,medicina general,2026-02-23,2,0,2,0,0
-261,18,f,ninguna,geriatría,2025-11-20,1,0,11,0,0
-262,29,f,ninguna,urgencias,2025-10-15,1,0,10,0,0
-263,29,f,ninguna,geriatría,2026-05-10,1,0,5,1,0
-264,76,f,hipertensión,urgencias,2026-03-06,2,1,3,0,0
-265,30,f,ninguna,urgencias,2025-09-16,2,0,9,0,0
-266,23,m,ninguna,geriatría,2025-11-03,2,0,11,0,0
-267,34,f,ninguna,geriatría,2026-03-09,1,0,3,0,0
-268,34,f,ninguna,geriatría,2025-11-07,1,0,11,0,0
-269,58,m,hipertensión,medicina general,2025-11-12,1,0,11,0,0
-270,58,m,hipertensión,medicina general,2026-07-23,2,1,7,0,0
-271,81,f,hipertensión,urgencias,2026-09-12,2,0,9,1,0
-272,33,m,ninguna,urgencias,2026-06-30,2,0,6,0,0
-273,33,m,ninguna,geriatría,2026-07-08,2,0,7,0,0
-274,33,m,ninguna,geriatría,2025-11-10,2,0,11,0,0
-275,66,f,hipertensión,geriatría,2026-04-19,1,0,4,1,0
-276,66,f,hipertensión,geriatría,2026-06-26,1,0,6,0,0
-277,66,f,hipertensión,medicina general,2025-11-07,2,1,11,0,0
-278,18,f,ninguna,geriatría,2026-04-06,2,0,4,0,0
-279,18,f,ninguna,urgencias,2025-10-04,2,0,10,1,0
-280,18,f,ninguna,urgencias,2026-03-04,2,0,3,0,0
-281,58,f,hipertensión,geriatría,2025-12-26,1,0,12,0,0
-282,44,f,ninguna,urgencias,2026-08-29,1,0,8,1,0
-283,44,f,ninguna,medicina general,2026-08-21,1,0,8,0,0
-284,83,f,hipertensión,urgencias,2026-03-07,2,0,3,1,0
-285,83,f,hipertensión,urgencias,2026-06-27,1,0,6,1,0
-286,39,m,ninguna,geriatría,2026-06-13,2,1,6,1,0
-287,39,m,ninguna,urgencias,2025-12-13,2,0,12,1,0
-288,39,m,ninguna,urgencias,2026-04-13,1,0,4,0,0
-289,79,f,hipertensión,geriatría,2026-08-13,1,0,8,0,0
-290,79,f,hipertensión,geriatría,2026-08-02,1,0,8,1,0
-291,79,f,hipertensión,urgencias,2026-07-07,2,0,7,0,0
-292,53,f,hipertensión,medicina general,2026-09-04,2,0,9,0,0
-293,53,f,hipertensión,geriatría,2026-03-23,2,0,3,0,0
-294,58,m,hipertensión,geriatría,2026-08-01,2,0,8,1,0
-295,58,m,hipertensión,urgencias,2026-03-13,1,0,3,0,0
-296,58,m,hipertensión,medicina general,2026-01-19,1,0,1,0,0
-297,56,f,hipertensión,geriatría,2026-08-23,1,0,8,1,0
-298,56,f,hipertensión,geriatría,2026-01-30,1,0,1,0,0
-299,20,f,ninguna,urgencias,2025-12-29,1,0,12,0,0
-300,31,m,ninguna,geriatría,2025-12-09,1,0,12,0,0
-301,28,f,ninguna,medicina general,2026-05-26,1,0,5,0,0
-302,69,m,hipertensión,geriatría,2026-02-19,2,0,2,0,0
-303,69,m,hipertensión,medicina general,2026-01-22,2,1,1,0,0
-304,69,m,hipertensión,medicina general,2026-08-26,2,0,8,0,0
-305,21,m,ninguna,medicina general,2026-06-27,2,0,6,1,0
-306,79,f,hipertensión,geriatría,2026-08-04,1,0,8,0,0
-307,79,f,hipertensión,urgencias,2026-04-07,1,0,4,0,0
-308,69,f,hipertensión,geriatría,2026-06-27,2,0,6,1,0
-309,69,f,hipertensión,geriatría,2026-06-08,2,1,6,0,0
-310,69,f,hipertensión,geriatría,2026-07-07,2,1,7,0,0
-311,75,f,hipertensión,urgencias,2026-06-02,2,0,6,0,0
-312,75,f,hipertensión,geriatría,2026-02-21,2,0,2,1,0
-313,67,f,hipertensión,medicina general,2026-06-30,1,0,6,0,0
-314,67,f,hipertensión,geriatría,2025-10-24,2,0,10,0,0
-315,67,f,hipertensión,medicina general,2026-05-05,2,0,5,0,0
+1,69,m,artrosis crónica de rodilla e hipertensión,cardiología,2026-04-02,5,1,4,0,1
+2,69,m,artrosis crónica de rodilla e hipertensión,medicina interna,2025-11-09,3,0,11,1,1
+3,69,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-01-28,3,0,1,0,1
+4,51,m,epoc y asma bronquial,urgencias hospitalarias,2026-02-03,4,0,2,0,1
+5,51,m,epoc y asma bronquial,atención primaria / familia,2026-08-06,4,0,8,0,1
+6,51,m,epoc y asma bronquial,neumología,2025-10-01,4,0,10,0,1
+7,51,m,epoc y asma bronquial,urgencias hospitalarias,2025-10-01,4,0,10,0,1
+8,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-03-10,6,1,3,0,1
+9,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-10-01,4,0,10,0,1
+10,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-08-05,6,1,8,0,1
+11,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-05-09,5,0,5,1,1
+12,79,m,artrosis crónica de rodilla e hipertensión,cardiología,2025-11-30,4,0,11,1,1
+13,79,m,artrosis crónica de rodilla e hipertensión,neurología,2026-05-27,5,0,5,0,1
+14,79,m,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-08-07,3,0,8,0,1
+15,60,f,epoc y asma bronquial,urgencias hospitalarias,2025-09-29,5,0,9,0,1
+16,60,f,epoc y asma bronquial,urgencias hospitalarias,2026-04-18,3,0,4,1,1
+17,72,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-10-22,3,1,10,0,1
+18,72,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-13,4,1,7,0,1
+19,72,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-08-31,4,1,8,0,1
+20,72,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-12-05,5,1,12,0,1
+21,30,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-11,2,0,1,1,0
+22,30,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-07,2,0,8,0,0
+23,30,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-26,4,1,1,0,1
+24,30,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-10-21,3,1,10,0,1
+25,87,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-12,5,1,7,1,1
+26,87,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-03-20,4,1,3,0,1
+27,67,f,artrosis crónica de rodilla e hipertensión,medicina general,2026-07-11,5,0,7,1,1
+28,67,f,artrosis crónica de rodilla e hipertensión,neurología,2025-11-14,4,0,11,0,1
+29,67,f,artrosis crónica de rodilla e hipertensión,endocrinología,2025-11-08,3,0,11,1,1
+30,77,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-08-03,3,1,8,0,1
+31,77,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-05-01,4,1,5,0,1
+32,74,m,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-10-27,5,1,10,0,1
+33,74,m,insuficiencia cardíaca congestiva (nyha iii),reumatología,2025-09-28,5,1,9,1,1
+34,74,m,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-06-25,6,1,6,0,1
+35,89,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-04-06,3,1,4,0,1
+36,89,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-02-21,3,1,2,1,1
+37,31,m,ninguna (control preventivo),atención primaria / familia,2026-04-03,1,0,4,0,0
+38,31,m,ninguna (control preventivo),cardiología,2026-07-03,1,0,7,0,0
+39,70,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-05-09,4,1,5,1,1
+40,70,f,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-04-06,4,1,4,0,1
+41,70,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2025-12-24,5,1,12,0,1
+42,58,m,epoc y asma bronquial,atención primaria / familia,2026-02-24,4,0,2,0,1
+43,58,m,epoc y asma bronquial,neumología,2026-03-17,4,0,3,0,1
+44,80,m,artrosis crónica de rodilla e hipertensión,psiquiatría,2025-10-04,4,1,10,1,1
+45,80,m,artrosis crónica de rodilla e hipertensión,geriatría,2026-02-05,3,0,2,0,1
+46,80,m,artrosis crónica de rodilla e hipertensión,endocrinología,2026-02-19,4,1,2,0,1
+47,80,m,artrosis crónica de rodilla e hipertensión,endocrinología,2026-06-06,4,0,6,1,1
+48,36,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-06,2,0,12,1,0
+49,36,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-05,3,0,11,0,1
+50,36,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-24,3,1,3,0,1
+51,55,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-31,3,0,12,0,1
+52,55,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-14,4,1,1,0,1
+53,55,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-03,3,0,4,0,1
+54,21,f,ninguna (control preventivo),endocrinología,2025-11-14,1,0,11,0,0
+55,21,f,ninguna (control preventivo),urgencias hospitalarias,2025-11-29,1,0,11,1,0
+56,21,f,ninguna (control preventivo),cardiología,2025-10-04,1,0,10,1,0
+57,73,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-09-26,5,1,9,0,1
+58,73,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-13,6,1,10,0,1
+59,73,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-18,5,0,6,0,1
+60,73,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-03-03,5,0,3,0,1
+61,69,f,epoc y asma bronquial,neumología,2026-07-19,4,0,7,1,1
+62,69,f,epoc y asma bronquial,atención primaria / familia,2026-02-14,3,0,2,1,1
+63,69,f,epoc y asma bronquial,atención primaria / familia,2026-01-15,3,0,1,0,1
+64,69,f,epoc y asma bronquial,neumología,2025-12-22,4,0,12,0,1
+65,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-04-06,6,1,4,0,1
+66,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-10-02,5,0,10,0,1
+67,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-04-24,5,0,4,0,1
+68,55,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-05-30,3,0,5,1,1
+69,55,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-26,3,0,4,1,1
+70,55,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-02-23,2,0,2,0,0
+71,55,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-18,4,0,4,1,1
+72,68,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-05-05,5,0,5,0,1
+73,68,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-04-28,6,0,4,0,1
+74,68,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-14,6,0,5,0,1
+75,68,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-18,5,0,8,0,1
+76,69,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-07-05,3,0,7,1,1
+77,69,m,artrosis crónica de rodilla e hipertensión,reumatología,2026-06-25,4,0,6,0,1
+78,69,m,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-06-03,5,1,6,0,1
+79,69,m,artrosis crónica de rodilla e hipertensión,neurología,2025-10-15,3,0,10,0,1
+80,78,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-16,5,0,6,0,1
+81,78,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-02-22,5,0,2,1,1
+82,43,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-25,4,0,8,0,1
+83,43,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-21,2,0,4,0,0
+84,43,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-01-04,2,0,1,1,0
+85,85,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-07-18,4,1,7,1,1
+86,85,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-06-10,3,1,6,0,1
+87,73,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-10-03,5,0,10,0,1
+88,73,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-02-18,5,0,2,0,1
+89,73,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-07-27,4,0,7,0,1
+90,73,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-09,5,0,5,1,1
+91,56,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-29,5,0,3,1,1
+92,56,f,epoc y asma bronquial,neumología,2025-09-24,4,0,9,0,1
+93,56,f,epoc y asma bronquial,urgencias hospitalarias,2026-06-24,4,0,6,0,1
+94,83,m,insuficiencia cardíaca congestiva (nyha iii),medicina general,2026-07-15,5,1,7,0,1
+95,83,m,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-05-23,4,1,5,1,1
+96,83,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-01-24,5,1,1,1,1
+97,83,m,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-01-15,4,1,1,0,1
+98,80,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-09-30,4,1,9,0,1
+99,80,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-08-05,4,1,8,0,1
+100,65,m,artrosis crónica de rodilla e hipertensión,neumología,2025-11-24,4,0,11,0,1
+101,65,m,artrosis crónica de rodilla e hipertensión,cardiología,2026-01-30,3,0,1,0,1
+102,71,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-12-26,3,1,12,0,1
+103,71,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-12-25,4,1,12,0,1
+104,59,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-09,4,0,4,0,1
+105,59,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-21,3,0,11,0,1
+106,59,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-10,3,0,12,0,1
+107,59,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-28,4,0,8,0,1
+108,26,m,ninguna (control preventivo),psiquiatría,2026-03-02,1,0,3,0,0
+109,26,m,ninguna (control preventivo),medicina general,2025-09-29,1,0,9,0,0
+110,26,m,ninguna (control preventivo),cardiología,2026-03-19,1,0,3,0,0
+111,73,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-05-22,3,1,5,0,1
+112,73,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-01-19,5,1,1,0,1
+113,42,f,ninguna (control preventivo),urgencias hospitalarias,2026-06-26,1,0,6,0,0
+114,42,f,ninguna (control preventivo),medicina general,2026-08-28,1,0,8,0,0
+115,42,f,ninguna (control preventivo),atención primaria / familia,2026-09-05,1,0,9,1,0
+116,73,m,epoc y asma bronquial,atención primaria / familia,2025-11-11,4,0,11,0,1
+117,73,m,epoc y asma bronquial,urgencias hospitalarias,2026-02-20,4,0,2,0,1
+118,73,m,epoc y asma bronquial,neumología,2026-08-16,4,0,8,1,1
+119,71,f,artrosis crónica de rodilla e hipertensión,endocrinología,2025-11-23,4,0,11,1,1
+120,71,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-04-02,4,0,4,0,1
+121,71,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2025-12-21,5,0,12,1,1
+122,71,f,artrosis crónica de rodilla e hipertensión,medicina general,2026-06-16,4,0,6,0,1
+123,57,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-19,2,0,10,1,0
+124,57,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-02-12,4,1,2,0,1
+125,57,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-01-14,2,0,1,0,0
+126,71,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-07-02,3,1,7,0,1
+127,71,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-02-12,5,1,2,0,1
+128,71,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-01-26,4,1,1,0,1
+129,71,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-08-18,4,1,8,0,1
+130,65,m,epoc y asma bronquial,atención primaria / familia,2026-06-09,3,0,6,0,1
+131,65,m,epoc y asma bronquial,neumología,2026-01-11,3,0,1,1,1
+132,64,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-28,5,1,5,0,1
+133,64,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-05-12,5,0,5,0,1
+134,55,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-05,2,0,12,0,0
+135,55,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-14,3,0,12,1,1
+136,66,f,artrosis crónica de rodilla e hipertensión,cardiología,2026-01-18,3,0,1,1,1
+137,66,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-04-03,5,0,4,0,1
+138,66,f,artrosis crónica de rodilla e hipertensión,medicina interna,2026-07-01,4,0,7,0,1
+139,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-04-15,5,0,4,0,1
+140,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-05-11,6,1,5,0,1
+141,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-10-20,5,0,10,0,1
+142,84,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-07-04,5,0,7,1,1
+143,84,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-08-14,5,0,8,0,1
+144,77,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-02-14,4,1,2,1,1
+145,77,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-09-09,5,1,9,0,1
+146,70,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-10-11,5,0,10,1,1
+147,70,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-09-07,5,0,9,0,1
+148,70,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-04-20,5,0,4,0,1
+149,77,f,insuficiencia cardíaca congestiva (nyha iii),cardiología,2026-07-21,5,1,7,0,1
+150,77,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-05-07,5,1,5,0,1
+151,53,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-28,2,0,11,0,0
+152,53,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-09-28,3,0,9,1,1
+153,53,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-28,3,0,8,0,1
+154,71,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-10-22,4,1,10,0,1
+155,71,m,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2025-10-18,5,1,10,1,1
+156,72,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-08-23,4,1,8,1,1
+157,72,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-11-27,4,1,11,0,1
+158,72,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-04-23,5,1,4,0,1
+159,72,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-11-17,3,1,11,0,1
+160,71,m,insuficiencia cardíaca congestiva (nyha iii),urgencias hospitalarias,2026-08-05,5,1,8,0,1
+161,71,m,insuficiencia cardíaca congestiva (nyha iii),medicina general,2026-02-26,5,1,2,0,1
+162,71,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-09-26,5,1,9,0,1
+163,36,m,ninguna (control preventivo),reumatología,2026-07-25,1,0,7,1,0
+164,36,m,ninguna (control preventivo),neurología,2025-11-03,1,0,11,0,0
+165,34,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-27,3,0,4,0,1
+166,34,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-05,3,0,3,0,1
+167,34,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-01,2,0,8,1,0
+168,34,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-02,3,0,8,1,1
+169,60,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-02-26,6,1,2,0,1
+170,60,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-01-29,5,1,1,0,1
+171,73,f,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-02-05,4,0,2,0,1
+172,73,f,artrosis crónica de rodilla e hipertensión,cardiología,2026-08-31,4,0,8,0,1
+173,76,f,epoc y asma bronquial,neumología,2026-02-28,4,0,2,1,1
+174,76,f,epoc y asma bronquial,neumología,2025-12-01,4,0,12,0,1
+175,76,f,epoc y asma bronquial,neumología,2026-06-19,4,0,6,0,1
+176,72,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-06-20,5,0,6,1,1
+177,72,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-08-05,5,0,8,0,1
+178,67,f,epoc y asma bronquial,atención primaria / familia,2025-11-13,5,0,11,0,1
+179,67,f,epoc y asma bronquial,urgencias hospitalarias,2026-02-23,3,0,2,0,1
+180,67,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-29,4,0,3,1,1
+181,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-11-13,5,0,11,0,1
+182,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-03,5,0,6,0,1
+183,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-04-17,4,0,4,0,1
+184,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-03-31,5,0,3,0,1
+185,51,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-29,4,1,11,1,1
+186,51,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-31,2,0,8,0,0
+187,68,m,artrosis crónica de rodilla e hipertensión,cardiología,2025-09-24,3,0,9,0,1
+188,68,m,artrosis crónica de rodilla e hipertensión,medicina general,2026-02-16,4,0,2,0,1
+189,68,m,artrosis crónica de rodilla e hipertensión,medicina general,2026-05-07,4,0,5,0,1
+190,59,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-01-27,5,0,1,0,1
+191,59,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-09-24,5,0,9,0,1
+192,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-12-13,5,0,12,1,1
+193,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-03-16,5,0,3,0,1
+194,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-10-18,5,1,10,1,1
+195,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-07-21,5,0,7,0,1
+196,38,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-02,3,0,12,0,1
+197,38,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-10-01,3,1,10,0,1
+198,38,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-15,3,0,4,0,1
+199,38,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-19,3,0,3,0,1
+200,71,m,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-03-19,3,0,3,0,1
+201,71,m,artrosis crónica de rodilla e hipertensión,cardiología,2026-04-03,4,0,4,0,1
+202,71,m,artrosis crónica de rodilla e hipertensión,endocrinología,2026-09-02,4,0,9,0,1
+203,65,f,artrosis crónica de rodilla e hipertensión,neumología,2026-05-12,4,0,5,0,1
+204,65,f,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-02-07,4,0,2,1,1
+205,65,f,artrosis crónica de rodilla e hipertensión,medicina general,2026-06-10,5,0,6,0,1
+206,65,f,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-06-04,5,0,6,0,1
+207,78,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-04-24,4,1,4,0,1
+208,78,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-06-10,5,1,6,0,1
+209,69,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2025-10-21,6,1,10,0,1
+210,69,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-03-19,4,1,3,0,1
+211,69,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-10-04,4,1,10,1,1
+212,69,f,insuficiencia cardíaca congestiva (nyha iii),cardiología,2025-11-15,6,1,11,1,1
+213,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-06-12,3,0,6,0,1
+214,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-12,4,1,11,0,1
+215,82,m,insuficiencia cardíaca congestiva (nyha iii),geriatría,2025-10-18,6,1,10,1,1
+216,82,m,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-04-05,6,1,4,1,1
+217,82,m,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-01-08,5,1,1,0,1
+218,82,m,insuficiencia cardíaca congestiva (nyha iii),medicina general,2025-12-29,5,1,12,0,1
+219,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-29,4,0,1,0,1
+220,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-17,3,0,4,0,1
+221,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-22,3,0,1,0,1
+222,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-29,4,0,4,0,1
+223,76,f,artrosis crónica de rodilla e hipertensión,reumatología,2026-05-25,4,0,5,0,1
+224,76,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-05-10,4,0,5,1,1
+225,76,f,artrosis crónica de rodilla e hipertensión,cardiología,2026-03-19,4,0,3,0,1
+226,76,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-05-15,3,0,5,0,1
+227,72,f,insuficiencia cardíaca congestiva (nyha iii),medicina general,2025-11-05,6,1,11,0,1
+228,72,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-05-31,6,1,5,1,1
+229,72,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-06-19,5,1,6,0,1
+230,81,f,insuficiencia cardíaca congestiva (nyha iii),medicina general,2025-12-24,4,1,12,0,1
+231,81,f,insuficiencia cardíaca congestiva (nyha iii),urgencias hospitalarias,2026-08-14,5,1,8,0,1
+232,81,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-05-09,4,1,5,1,1
+233,71,f,epoc y asma bronquial,urgencias hospitalarias,2026-02-24,4,0,2,0,1
+234,71,f,epoc y asma bronquial,urgencias hospitalarias,2026-02-13,4,0,2,0,1
+235,71,f,epoc y asma bronquial,urgencias hospitalarias,2026-07-28,4,0,7,0,1
+236,71,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-09,3,0,3,0,1
+237,53,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-28,3,0,7,0,1
+238,53,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-12,3,0,8,0,1
+239,75,m,epoc y asma bronquial,urgencias hospitalarias,2026-04-29,3,0,4,0,1
+240,75,m,epoc y asma bronquial,neumología,2025-11-22,4,0,11,1,1
+241,75,m,epoc y asma bronquial,neumología,2025-09-29,4,0,9,0,1
+242,81,f,artrosis crónica de rodilla e hipertensión,cardiología,2026-09-05,4,1,9,1,1
+243,81,f,artrosis crónica de rodilla e hipertensión,reumatología,2026-09-13,3,0,9,1,1
+244,81,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2025-10-16,5,0,10,0,1
+245,60,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-02,4,0,8,1,1
+246,60,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-28,2,0,10,0,0
+247,60,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-02-06,3,0,2,0,1
+248,71,f,artrosis crónica de rodilla e hipertensión,neurología,2026-07-08,4,0,7,0,1
+249,71,f,artrosis crónica de rodilla e hipertensión,medicina interna,2026-09-09,4,0,9,0,1
+250,38,m,ninguna (control preventivo),geriatría,2025-09-23,1,0,9,0,0
+251,38,m,ninguna (control preventivo),cardiología,2026-07-23,1,0,7,0,0
+252,38,m,ninguna (control preventivo),medicina general,2026-07-07,1,0,7,0,0
+253,77,m,artrosis crónica de rodilla e hipertensión,neurología,2026-09-09,4,0,9,0,1
+254,77,m,artrosis crónica de rodilla e hipertensión,medicina general,2026-05-27,3,0,5,0,1
+255,77,m,artrosis crónica de rodilla e hipertensión,medicina general,2025-11-02,5,1,11,1,1
+256,77,m,artrosis crónica de rodilla e hipertensión,cardiología,2026-07-04,4,0,7,1,1
+257,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-04-05,6,0,4,1,1
+258,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-11-10,4,0,11,0,1
+259,71,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-10-11,5,0,10,1,1
+260,20,f,ninguna (control preventivo),urgencias hospitalarias,2026-02-25,1,0,2,0,0
+261,20,f,ninguna (control preventivo),psiquiatría,2026-05-14,1,0,5,0,0
+262,20,f,ninguna (control preventivo),cardiología,2025-11-13,1,0,11,0,0
+263,20,f,ninguna (control preventivo),geriatría,2026-04-04,1,0,4,1,0
+264,66,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-12-08,5,1,12,0,1
+265,66,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-07,5,1,8,0,1
+266,66,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-24,4,0,8,0,1
+267,76,f,epoc y asma bronquial,atención primaria / familia,2025-10-27,4,0,10,0,1
+268,76,f,epoc y asma bronquial,neumología,2026-02-20,3,0,2,0,1
+269,76,f,epoc y asma bronquial,neumología,2026-04-24,3,0,4,0,1
+270,27,f,ninguna (control preventivo),endocrinología,2025-12-13,1,0,12,1,0
+271,27,f,ninguna (control preventivo),medicina general,2025-10-16,1,0,10,0,0
+272,39,m,ninguna (control preventivo),medicina interna,2026-05-14,1,0,5,0,0
+273,39,m,ninguna (control preventivo),neurología,2025-11-04,1,0,11,0,0
+274,39,m,ninguna (control preventivo),cardiología,2026-06-16,1,0,6,0,0
+275,39,m,ninguna (control preventivo),psiquiatría,2026-06-22,1,0,6,0,0
+276,43,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-04,3,0,5,0,1
+277,43,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-29,3,0,4,0,1
+278,43,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-27,3,0,4,0,1
+279,43,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-02,3,1,1,0,1
+280,74,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-06-20,5,1,6,1,1
+281,74,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-10-03,5,1,10,0,1
+282,74,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-05-11,4,1,5,0,1
+283,74,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-06-14,4,1,6,1,1
+284,67,m,artrosis crónica de rodilla e hipertensión,endocrinología,2026-05-22,3,0,5,0,1
+285,67,m,artrosis crónica de rodilla e hipertensión,neurología,2026-08-05,4,0,8,0,1
+286,67,m,artrosis crónica de rodilla e hipertensión,geriatría,2026-08-18,4,0,8,0,1
+287,32,f,ninguna (control preventivo),psiquiatría,2026-08-09,1,0,8,1,0
+288,32,f,ninguna (control preventivo),cardiología,2026-03-30,1,0,3,0,0
+289,32,f,ninguna (control preventivo),neurología,2026-04-17,1,0,4,0,0
+290,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-03-09,4,0,3,0,1
+291,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-12-08,6,0,12,0,1
+292,86,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-03-20,5,1,3,0,1
+293,52,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-09,3,1,4,0,1
+294,52,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-14,3,0,8,0,1
+295,52,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-21,2,0,12,1,0
+296,52,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-01,3,0,8,1,1
+297,80,f,artrosis crónica de rodilla e hipertensión,neurología,2025-11-14,4,0,11,0,1
+298,80,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-05-15,4,0,5,0,1
+299,80,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-09-20,6,1,9,1,1
+300,80,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-07-06,5,0,7,0,1
+301,80,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-04-06,5,0,4,0,1
+302,23,f,ninguna (control preventivo),urgencias hospitalarias,2026-01-25,1,0,1,1,0
+303,23,f,ninguna (control preventivo),medicina general,2026-06-25,1,0,6,0,0
+304,70,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-05-26,6,1,5,0,1
+305,70,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-02-23,5,0,2,0,1
+306,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-08-29,4,0,8,1,1
+307,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-12-06,5,1,12,1,1
+308,79,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-07-13,5,1,7,0,1
+309,79,f,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-07-09,5,1,7,0,1
+310,85,f,fibrilación auricular y fallo cardíaco leve,geriatría,2025-11-17,4,1,11,0,1
+311,85,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-06-04,4,1,6,0,1
+312,85,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-07-13,4,1,7,0,1
+313,85,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-02-04,4,1,2,0,1
+314,76,m,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-03-16,4,1,3,0,1
+315,76,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-06-29,6,1,6,0,1
+316,71,m,artrosis crónica de rodilla e hipertensión,neumología,2026-02-15,4,0,2,1,1
+317,71,m,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-02-11,4,0,2,0,1
+318,71,m,artrosis crónica de rodilla e hipertensión,neumología,2025-10-26,3,0,10,1,1
+319,67,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-14,5,1,3,1,1
+320,67,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-11-28,6,1,11,0,1
+321,67,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-11-12,5,0,11,0,1
+322,67,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-08-15,5,0,8,1,1
+323,51,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-06-24,3,1,6,0,1
+324,51,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-16,3,0,8,1,1
+325,61,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-06-15,5,0,6,0,1
+326,61,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-03-14,5,0,3,1,1
+327,62,m,epoc y asma bronquial,neumología,2025-11-29,4,0,11,1,1
+328,62,m,epoc y asma bronquial,atención primaria / familia,2026-01-04,5,0,1,1,1
+329,62,m,epoc y asma bronquial,atención primaria / familia,2026-05-17,3,0,5,1,1
+330,62,m,epoc y asma bronquial,atención primaria / familia,2026-03-28,4,0,3,1,1
+331,79,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-04-01,4,1,4,0,1
+332,79,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-07-03,3,1,7,0,1
+333,86,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-03-06,5,1,3,0,1
+334,86,m,insuficiencia cardíaca congestiva (nyha iii),urgencias hospitalarias,2026-03-25,5,1,3,0,1
+335,69,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2025-10-21,5,1,10,0,1
+336,69,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-11-30,4,1,11,1,1
+337,69,f,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-03-15,6,1,3,1,1
+338,61,f,epoc y asma bronquial,urgencias hospitalarias,2025-09-26,5,0,9,0,1
+339,61,f,epoc y asma bronquial,atención primaria / familia,2026-02-25,4,0,2,0,1
+340,61,f,epoc y asma bronquial,neumología,2025-11-04,4,0,11,0,1
+341,61,f,epoc y asma bronquial,urgencias hospitalarias,2026-07-03,3,0,7,0,1
+342,75,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-20,5,1,6,1,1
+343,75,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-01-28,5,0,1,0,1
+344,75,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-18,4,0,3,0,1
+345,32,f,ninguna (control preventivo),psiquiatría,2026-02-28,1,0,2,1,0
+346,32,f,ninguna (control preventivo),reumatología,2026-01-04,1,0,1,1,0
+347,56,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-22,3,0,11,1,1
+348,56,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-27,3,0,8,0,1
+349,56,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-07,4,1,8,0,1
+350,60,m,epoc y asma bronquial,urgencias hospitalarias,2026-07-28,4,0,7,0,1
+351,60,m,epoc y asma bronquial,neumología,2025-09-18,4,0,9,0,1
+352,60,m,epoc y asma bronquial,neumología,2026-02-03,4,0,2,0,1
+353,60,m,epoc y asma bronquial,urgencias hospitalarias,2026-06-08,4,0,6,0,1
+354,25,m,ninguna (control preventivo),medicina general,2026-05-01,1,0,5,0,0
+355,25,m,ninguna (control preventivo),neurología,2026-02-24,1,0,2,0,0
+356,25,m,ninguna (control preventivo),medicina interna,2026-03-13,1,0,3,0,0
+357,25,m,ninguna (control preventivo),neurología,2025-10-28,1,0,10,0,0
+358,45,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-17,3,0,4,0,1
+359,45,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-02-22,3,0,2,1,1
+360,45,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-20,3,0,10,0,1
+361,45,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-01-28,3,0,1,0,1
+362,78,m,artrosis crónica de rodilla e hipertensión,medicina interna,2025-11-29,3,0,11,1,1
+363,78,m,artrosis crónica de rodilla e hipertensión,medicina general,2026-08-01,4,0,8,1,1
+364,78,m,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2025-11-16,4,0,11,1,1
+365,33,f,ninguna (control preventivo),neumología,2026-02-11,1,0,2,0,0
+366,33,f,ninguna (control preventivo),psiquiatría,2026-05-16,1,0,5,1,0
+367,33,f,ninguna (control preventivo),neumología,2026-08-27,1,0,8,0,0
+368,33,f,ninguna (control preventivo),neurología,2025-10-02,1,0,10,0,0
+369,72,m,epoc y asma bronquial,neumología,2026-05-28,5,0,5,0,1
+370,72,m,epoc y asma bronquial,atención primaria / familia,2026-06-02,4,0,6,0,1
+371,36,m,ninguna (control preventivo),cardiología,2026-08-10,1,0,8,0,0
+372,36,m,ninguna (control preventivo),neumología,2026-04-25,2,0,4,1,0
+373,36,m,ninguna (control preventivo),neumología,2025-11-17,1,0,11,0,0
+374,36,m,ninguna (control preventivo),neurología,2026-06-30,1,0,6,0,0
+375,83,f,insuficiencia cardíaca congestiva (nyha iii),neurología,2026-07-21,4,1,7,0,1
+376,83,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2025-12-13,4,1,12,1,1
+377,76,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-11-06,5,1,11,0,1
+378,76,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-11-06,4,1,11,0,1
+379,76,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-08-19,3,1,8,0,1
+380,76,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-09-03,4,1,9,0,1
+381,71,f,artrosis crónica de rodilla e hipertensión,medicina general,2025-09-22,5,0,9,0,1
+382,71,f,artrosis crónica de rodilla e hipertensión,endocrinología,2026-01-30,4,0,1,0,1
+383,71,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-07-30,4,0,7,0,1
+384,34,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-23,2,0,12,0,0
+385,34,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-06-24,3,0,6,0,1
+386,34,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-19,3,0,12,0,1
+387,61,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-09,5,0,5,1,1
+388,61,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-04-26,4,0,4,1,1
+389,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-07-12,3,0,7,1,1
+390,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-06-15,3,0,6,0,1
+391,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-04,4,1,5,0,1
+392,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-27,3,0,5,0,1
+393,22,m,ninguna (control preventivo),neumología,2026-02-16,1,0,2,0,0
+394,22,m,ninguna (control preventivo),medicina interna,2025-09-29,1,0,9,0,0
+395,22,m,ninguna (control preventivo),medicina interna,2025-11-10,1,0,11,0,0
+396,22,m,ninguna (control preventivo),medicina interna,2026-04-10,1,0,4,0,0
+397,33,m,ninguna (control preventivo),psiquiatría,2026-03-19,1,0,3,0,0
+398,33,m,ninguna (control preventivo),neurología,2025-12-21,2,0,12,1,0
+399,33,m,ninguna (control preventivo),medicina general,2025-11-30,1,0,11,1,0
+400,22,f,ninguna (control preventivo),cardiología,2026-01-10,1,0,1,1,0
+401,22,f,ninguna (control preventivo),urgencias hospitalarias,2026-04-25,1,0,4,1,0
+402,72,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-12-23,4,0,12,0,1
+403,72,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-11-10,6,0,11,0,1
+404,77,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-01-02,5,1,1,0,1
+405,77,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-11-19,5,1,11,0,1
+406,77,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-10-22,3,1,10,0,1
+407,77,m,fibrilación auricular y fallo cardíaco leve,geriatría,2025-12-28,3,1,12,1,1
+408,81,m,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-06-13,4,0,6,1,1
+409,81,m,artrosis crónica de rodilla e hipertensión,geriatría,2025-12-01,3,0,12,0,1
+410,81,m,artrosis crónica de rodilla e hipertensión,cardiología,2025-10-13,4,0,10,0,1
+411,81,m,artrosis crónica de rodilla e hipertensión,reumatología,2026-04-09,3,0,4,0,1
+412,59,f,epoc y asma bronquial,urgencias hospitalarias,2025-11-18,4,0,11,0,1
+413,59,f,epoc y asma bronquial,atención primaria / familia,2025-10-24,5,0,10,0,1
+414,59,f,epoc y asma bronquial,neumología,2025-12-31,3,0,12,0,1
+415,73,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-02-14,4,0,2,1,1
+416,73,m,artrosis crónica de rodilla e hipertensión,reumatología,2026-03-22,3,0,3,1,1
+417,73,m,artrosis crónica de rodilla e hipertensión,geriatría,2026-01-22,4,1,1,0,1
+418,75,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-03-27,5,1,3,0,1
+419,75,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-05-29,4,1,5,0,1
+420,75,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-30,5,1,7,0,1
+421,28,m,ninguna (control preventivo),medicina interna,2026-03-01,1,0,3,1,0
+422,28,m,ninguna (control preventivo),endocrinología,2026-09-06,1,0,9,1,0
+423,28,m,ninguna (control preventivo),medicina interna,2025-10-02,1,0,10,0,0
+424,21,m,ninguna (control preventivo),geriatría,2026-04-07,1,0,4,0,0
+425,21,m,ninguna (control preventivo),cardiología,2026-06-20,1,0,6,1,0
+426,21,m,ninguna (control preventivo),medicina interna,2026-01-23,1,0,1,0,0
+427,78,m,artrosis crónica de rodilla e hipertensión,endocrinología,2026-07-07,3,0,7,0,1
+428,78,m,artrosis crónica de rodilla e hipertensión,geriatría,2026-06-09,3,0,6,0,1
+429,78,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-02-19,3,0,2,0,1
+430,78,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-05-28,5,0,5,0,1
+431,37,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-10-15,3,0,10,0,1
+432,37,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-14,3,1,12,1,1
+433,37,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-10-14,3,0,10,0,1
+434,37,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-03-03,3,0,3,0,1
+435,56,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-09-23,4,1,9,0,1
+436,56,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-28,3,0,4,0,1
+437,60,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-15,3,0,7,0,1
+438,60,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-06,2,0,11,0,0
+439,60,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-06-02,2,0,6,0,0
+440,60,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-24,2,0,8,0,0
+441,81,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-03-28,6,0,3,1,1
+442,81,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-11-24,5,1,11,0,1
+443,81,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-08-06,4,0,8,0,1
+444,77,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-04-15,4,1,4,0,1
+445,77,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-08-24,5,1,8,0,1
+446,77,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-07-27,4,1,7,0,1
+447,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-03-29,4,0,3,1,1
+448,73,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-04-29,6,1,4,0,1
+449,70,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-01-23,4,0,1,0,1
+450,70,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-01-12,6,0,1,0,1
+451,70,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-09-22,6,1,9,0,1
+452,30,f,ninguna (control preventivo),neurología,2026-01-09,1,0,1,0,0
+453,30,f,ninguna (control preventivo),neurología,2026-03-14,1,0,3,1,0
+454,30,f,ninguna (control preventivo),psiquiatría,2026-07-09,1,0,7,0,0
+455,30,f,ninguna (control preventivo),medicina interna,2026-01-31,1,0,1,1,0
+456,62,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-01,4,0,10,0,1
+457,62,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-11-28,4,0,11,0,1
+458,62,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-03-24,5,0,3,0,1
+459,62,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-02-04,4,0,2,0,1
+460,76,f,epoc y asma bronquial,atención primaria / familia,2025-10-02,4,0,10,0,1
+461,76,f,epoc y asma bronquial,neumología,2025-11-04,4,0,11,0,1
+462,76,f,epoc y asma bronquial,urgencias hospitalarias,2026-01-16,4,0,1,0,1
+463,76,f,epoc y asma bronquial,neumología,2026-04-02,5,0,4,0,1
+464,48,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-19,4,1,10,1,1
+465,48,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-11-24,3,0,11,0,1
+466,48,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-15,3,0,7,0,1
+467,48,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-02-14,3,1,2,1,1
+468,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-11-01,4,0,11,1,1
+469,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-10-13,4,0,10,0,1
+470,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-08-17,5,0,8,0,1
+471,85,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-11-10,4,0,11,0,1
+472,84,f,insuficiencia cardíaca congestiva (nyha iii),cardiología,2026-07-17,5,1,7,0,1
+473,84,f,insuficiencia cardíaca congestiva (nyha iii),medicina general,2026-03-16,5,1,3,0,1
+474,84,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-03-06,5,1,3,0,1
+475,36,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-02-16,4,1,2,0,1
+476,36,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-05-26,3,0,5,0,1
+477,36,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-20,3,0,7,0,1
+478,36,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-16,2,0,11,1,0
+479,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-11-16,5,0,11,1,1
+480,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-12-04,4,0,12,0,1
+481,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-12-27,5,0,12,1,1
+482,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-07-10,5,0,7,0,1
+483,52,m,epoc y asma bronquial,urgencias hospitalarias,2025-12-29,4,0,12,0,1
+484,52,m,epoc y asma bronquial,urgencias hospitalarias,2026-05-09,4,0,5,1,1
+485,52,m,epoc y asma bronquial,neumología,2026-01-25,4,0,1,1,1
+486,74,m,fibrilación auricular y fallo cardíaco leve,geriatría,2025-12-25,3,1,12,0,1
+487,74,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-04-06,4,1,4,0,1
+488,74,m,fibrilación auricular y fallo cardíaco leve,geriatría,2025-09-27,4,1,9,1,1
+489,74,m,fibrilación auricular y fallo cardíaco leve,geriatría,2025-12-30,3,1,12,0,1
+490,54,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-11,3,0,1,1,1
+491,54,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-02-09,3,1,2,0,1
+492,54,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-17,3,0,8,0,1
+493,54,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-20,3,1,4,0,1
+494,64,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-01,5,0,6,0,1
+495,64,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-11-02,4,0,11,1,1
+496,64,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-17,5,0,10,0,1
+497,54,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-04-19,5,0,4,1,1
+498,54,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-09-28,5,1,9,1,1
+499,54,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-02,4,0,6,0,1
+500,54,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-01-30,4,0,1,0,1
+501,28,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-03-09,2,0,3,0,0
+502,28,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-04-16,4,0,4,0,1
+503,28,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-24,3,0,12,0,1
+504,28,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-01,3,0,5,0,1
+505,23,f,ninguna (control preventivo),medicina interna,2026-01-18,1,0,1,1,0
+506,23,f,ninguna (control preventivo),neurología,2026-04-01,1,0,4,0,0
+507,23,f,ninguna (control preventivo),urgencias hospitalarias,2025-10-10,1,0,10,0,0
+508,86,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-04-04,5,1,4,1,1
+509,86,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2025-12-29,5,1,12,0,1
+510,83,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-05-23,4,0,5,1,1
+511,83,f,artrosis crónica de rodilla e hipertensión,neurología,2026-05-25,4,0,5,0,1
+512,83,f,artrosis crónica de rodilla e hipertensión,medicina interna,2025-10-16,4,0,10,0,1
+513,84,f,insuficiencia cardíaca congestiva (nyha iii),neurología,2025-11-03,5,1,11,0,1
+514,84,f,insuficiencia cardíaca congestiva (nyha iii),reumatología,2026-04-02,4,1,4,0,1
+515,84,f,insuficiencia cardíaca congestiva (nyha iii),urgencias hospitalarias,2026-02-28,6,1,2,1,1
+516,84,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-03-06,4,1,3,0,1
+517,72,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-04-15,5,1,4,0,1
+518,72,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-06-20,5,0,6,1,1
+519,86,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-09-28,4,1,9,1,1
+520,86,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-10-17,4,1,10,0,1
+521,54,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-03-28,6,1,3,1,1
+522,54,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-12-02,5,0,12,0,1
+523,54,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-02-17,5,0,2,0,1
+524,54,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-09-05,6,0,9,1,1
+525,70,f,epoc y asma bronquial,neumología,2025-11-18,4,0,11,0,1
+526,70,f,epoc y asma bronquial,urgencias hospitalarias,2026-07-21,3,0,7,0,1
+527,60,m,epoc y asma bronquial,urgencias hospitalarias,2026-04-22,4,0,4,0,1
+528,60,m,epoc y asma bronquial,neumología,2026-01-14,4,0,1,0,1
+529,77,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-04-15,4,1,4,0,1
+530,77,f,fibrilación auricular y fallo cardíaco leve,geriatría,2025-10-17,4,1,10,0,1
+531,77,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-07-03,4,1,7,0,1
+532,77,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-12-12,4,1,12,0,1
+533,73,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-03-21,4,1,3,1,1
+534,73,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-03,4,1,7,0,1
+535,73,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-06-06,4,1,6,1,1
+536,73,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-08-17,5,1,8,0,1
+537,78,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-07-25,4,0,7,1,1
+538,78,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-03-28,6,1,3,1,1
+539,78,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-10-31,5,1,10,0,1
+540,54,m,epoc y asma bronquial,atención primaria / familia,2025-11-02,4,0,11,1,1
+541,54,m,epoc y asma bronquial,urgencias hospitalarias,2025-11-27,3,0,11,0,1
+542,54,m,epoc y asma bronquial,neumología,2026-06-19,4,0,6,0,1
+543,57,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-10-20,6,1,10,0,1
+544,57,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-01-11,5,0,1,1,1
+545,57,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-12-05,6,1,12,0,1
+546,57,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-07-04,5,0,7,1,1
+547,80,m,artrosis crónica de rodilla e hipertensión,medicina interna,2026-08-06,3,0,8,0,1
+548,80,m,artrosis crónica de rodilla e hipertensión,neurología,2025-11-20,5,1,11,0,1
+549,27,m,ninguna (control preventivo),neumología,2026-05-03,1,0,5,1,0
+550,27,m,ninguna (control preventivo),endocrinología,2026-06-29,1,0,6,0,0
+551,27,m,ninguna (control preventivo),geriatría,2026-04-18,1,0,4,1,0
+552,27,m,ninguna (control preventivo),neumología,2026-03-11,1,0,3,0,0
+553,54,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-09-28,5,0,9,1,1
+554,54,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-14,4,0,6,1,1
+555,54,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-07-01,4,0,7,0,1
+556,54,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-24,5,1,8,0,1
+557,72,f,epoc y asma bronquial,neumología,2026-05-17,3,0,5,1,1
+558,72,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-13,4,0,3,0,1
+559,72,f,epoc y asma bronquial,atención primaria / familia,2026-08-24,4,0,8,0,1
+560,77,f,epoc y asma bronquial,atención primaria / familia,2026-04-26,3,0,4,1,1
+561,77,f,epoc y asma bronquial,atención primaria / familia,2026-03-05,4,0,3,0,1
+562,77,f,epoc y asma bronquial,atención primaria / familia,2026-08-05,4,0,8,0,1
+563,77,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-17,4,0,3,0,1
+564,87,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2025-12-31,6,1,12,0,1
+565,87,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-05-28,5,1,5,0,1
+566,58,f,epoc y asma bronquial,neumología,2025-10-10,4,0,10,0,1
+567,58,f,epoc y asma bronquial,atención primaria / familia,2026-01-10,4,0,1,1,1
+568,28,m,ninguna (control preventivo),medicina interna,2026-02-15,1,0,2,1,0
+569,28,m,ninguna (control preventivo),geriatría,2026-06-23,1,0,6,0,0
+570,28,m,ninguna (control preventivo),medicina interna,2026-06-30,1,0,6,0,0
+571,28,m,ninguna (control preventivo),neurología,2026-02-18,2,0,2,0,0
+572,84,m,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-05-26,4,0,5,0,1
+573,84,m,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2026-06-18,3,0,6,0,1
+574,77,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-06-12,6,1,6,0,1
+575,77,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-11-12,6,0,11,0,1
+576,77,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-02,4,0,6,0,1
+577,77,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-15,4,0,6,0,1
+578,54,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-12-30,6,0,12,0,1
+579,54,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-12-11,4,0,12,0,1
+580,54,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-10-16,5,0,10,0,1
+581,54,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-09-21,5,0,9,1,1
+582,69,f,artrosis crónica de rodilla e hipertensión,neurología,2026-03-18,3,0,3,0,1
+583,69,f,artrosis crónica de rodilla e hipertensión,neurología,2025-09-22,5,0,9,0,1
+584,69,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-08-02,4,0,8,1,1
+585,60,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-09-11,5,0,9,0,1
+586,60,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-07-15,6,1,7,0,1
+587,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-03-12,4,1,3,0,1
+588,84,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-05-03,5,1,5,1,1
+589,84,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-06-01,4,1,6,0,1
+590,71,m,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-12-01,5,1,12,0,1
+591,71,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-02-22,5,1,2,1,1
+592,71,m,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-05-19,4,1,5,0,1
+593,84,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-05-27,3,1,5,0,1
+594,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-11-03,5,1,11,0,1
+595,76,f,epoc y asma bronquial,atención primaria / familia,2026-01-15,4,0,1,0,1
+596,76,f,epoc y asma bronquial,neumología,2026-03-08,4,0,3,1,1
+597,85,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-11-03,4,0,11,0,1
+598,85,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-16,5,0,6,0,1
+599,85,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-12-22,5,0,12,0,1
+600,84,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-09-21,5,1,9,1,1
+601,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-10-13,4,1,10,0,1
+602,84,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-02-21,4,1,2,1,1
+603,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-12-22,4,1,12,0,1
+604,53,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-04-21,4,0,4,0,1
+605,53,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-19,4,0,3,0,1
+606,53,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-11-07,5,0,11,0,1
+607,53,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-03,5,0,5,1,1
+608,77,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-04-16,3,1,4,0,1
+609,77,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-05-05,4,1,5,0,1
+610,77,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-05-12,3,1,5,0,1
+611,77,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-01-21,5,1,1,0,1
+612,68,m,epoc y asma bronquial,neumología,2025-09-19,3,0,9,0,1
+613,68,m,epoc y asma bronquial,atención primaria / familia,2026-03-17,4,0,3,0,1
+614,68,m,epoc y asma bronquial,urgencias hospitalarias,2026-05-09,4,0,5,1,1
+615,68,m,epoc y asma bronquial,neumología,2026-03-22,4,0,3,1,1
+616,38,m,ninguna (control preventivo),neurología,2026-05-25,1,0,5,0,0
+617,38,m,ninguna (control preventivo),psiquiatría,2026-06-08,1,0,6,0,0
+618,38,m,ninguna (control preventivo),atención primaria / familia,2026-05-01,1,0,5,0,0
+619,79,f,artrosis crónica de rodilla e hipertensión,geriatría,2026-03-15,4,1,3,1,1
+620,79,f,artrosis crónica de rodilla e hipertensión,medicina general,2025-10-02,4,1,10,0,1
+621,79,f,artrosis crónica de rodilla e hipertensión,medicina interna,2025-12-10,3,0,12,0,1
+622,79,f,artrosis crónica de rodilla e hipertensión,psiquiatría,2026-04-05,3,0,4,1,1
+623,86,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-04-26,5,1,4,1,1
+624,86,f,insuficiencia cardíaca congestiva (nyha iii),reumatología,2026-04-23,6,1,4,0,1
+625,86,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-02-09,5,1,2,0,1
+626,86,f,insuficiencia cardíaca congestiva (nyha iii),medicina general,2026-02-24,4,1,2,0,1
+627,68,f,artrosis crónica de rodilla e hipertensión,neumología,2025-09-21,4,0,9,1,1
+628,68,f,artrosis crónica de rodilla e hipertensión,neurología,2026-03-03,4,0,3,0,1
+629,69,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-06-10,5,1,6,0,1
+630,69,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-03-22,6,1,3,1,1
+631,69,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-03-11,5,0,3,0,1
+632,67,f,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2025-09-27,3,0,9,1,1
+633,67,f,artrosis crónica de rodilla e hipertensión,neumología,2026-05-16,5,0,5,1,1
+634,67,f,artrosis crónica de rodilla e hipertensión,medicina interna,2026-01-14,5,0,1,0,1
+635,67,f,artrosis crónica de rodilla e hipertensión,medicina interna,2025-12-14,4,0,12,1,1
+636,73,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-11-27,6,1,11,0,1
+637,73,m,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-05-06,5,1,5,0,1
+638,73,m,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-05-03,5,1,5,1,1
+639,73,m,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-05-05,6,1,5,0,1
+640,39,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-22,2,0,11,1,0
+641,39,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-31,2,0,3,0,0
+642,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-03-02,5,0,3,0,1
+643,79,m,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-10-21,5,0,10,0,1
+644,60,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-04,5,0,8,0,1
+645,60,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-04-17,5,0,4,0,1
+646,72,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-03-12,4,1,3,0,1
+647,72,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-11,4,1,7,1,1
+648,72,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-08-04,5,1,8,0,1
+649,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-08-17,3,1,8,0,1
+650,84,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-08-02,5,1,8,1,1
+651,84,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-04-08,5,1,4,0,1
+652,84,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-08,5,1,7,0,1
+653,57,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-01-17,3,0,1,1,1
+654,57,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-09-21,3,0,9,1,1
+655,57,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-23,3,0,10,0,1
+656,71,m,epoc y asma bronquial,atención primaria / familia,2026-01-10,4,0,1,1,1
+657,71,m,epoc y asma bronquial,urgencias hospitalarias,2026-03-10,5,0,3,0,1
+658,71,m,epoc y asma bronquial,urgencias hospitalarias,2026-07-06,4,0,7,0,1
+659,80,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-04-13,3,1,4,0,1
+660,80,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-11-12,3,1,11,0,1
+661,80,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-06-09,4,1,6,0,1
+662,81,m,insuficiencia cardíaca congestiva (nyha iii),reumatología,2025-10-18,5,1,10,1,1
+663,81,m,insuficiencia cardíaca congestiva (nyha iii),medicina general,2026-02-09,5,1,2,0,1
+664,53,f,epoc y asma bronquial,atención primaria / familia,2025-09-23,4,0,9,0,1
+665,53,f,epoc y asma bronquial,urgencias hospitalarias,2026-04-29,4,0,4,0,1
+666,53,f,epoc y asma bronquial,neumología,2026-04-18,4,0,4,1,1
+667,53,f,epoc y asma bronquial,atención primaria / familia,2025-09-20,5,0,9,1,1
+668,64,m,epoc y asma bronquial,neumología,2026-09-02,3,0,9,0,1
+669,64,m,epoc y asma bronquial,atención primaria / familia,2026-07-11,4,0,7,1,1
+670,64,m,epoc y asma bronquial,neumología,2026-06-28,4,0,6,1,1
+671,64,m,epoc y asma bronquial,urgencias hospitalarias,2026-01-01,5,0,1,0,1
+672,63,m,epoc y asma bronquial,urgencias hospitalarias,2026-08-16,4,0,8,1,1
+673,63,m,epoc y asma bronquial,neumología,2026-06-13,3,0,6,1,1
+674,51,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-09-07,2,0,9,0,0
+675,51,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-02-28,3,1,2,1,1
+676,51,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-21,3,0,12,1,1
+677,72,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-06-24,3,1,6,0,1
+678,72,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-07-13,5,1,7,0,1
+679,72,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-10-07,4,1,10,0,1
+680,69,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-09-06,4,0,9,1,1
+681,69,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-02-23,5,1,2,0,1
+682,69,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-09-25,5,0,9,0,1
+683,72,m,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-05-09,5,1,5,1,1
+684,72,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-10-28,6,1,10,0,1
+685,47,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-11,3,0,7,1,1
+686,47,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-20,3,0,3,0,1
+687,69,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-07-07,3,0,7,0,1
+688,69,f,artrosis crónica de rodilla e hipertensión,neumología,2026-02-01,3,0,2,1,1
+689,69,f,artrosis crónica de rodilla e hipertensión,geriatría,2025-11-27,4,0,11,0,1
+690,72,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-11-11,6,1,11,0,1
+691,72,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-05-02,5,1,5,1,1
+692,72,f,insuficiencia cardíaca congestiva (nyha iii),reumatología,2025-12-28,4,1,12,1,1
+693,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-03-11,5,1,3,0,1
+694,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-12-12,5,0,12,0,1
+695,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2025-12-05,5,0,12,0,1
+696,76,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-04-02,6,1,4,0,1
+697,80,m,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-08-28,5,1,8,0,1
+698,80,m,insuficiencia cardíaca congestiva (nyha iii),reumatología,2025-10-20,5,1,10,0,1
+699,52,m,epoc y asma bronquial,neumología,2026-05-05,4,0,5,0,1
+700,52,m,epoc y asma bronquial,neumología,2026-09-07,5,0,9,0,1
+701,52,m,epoc y asma bronquial,atención primaria / familia,2026-03-13,3,0,3,0,1
+702,52,m,epoc y asma bronquial,atención primaria / familia,2026-03-09,4,0,3,0,1
+703,77,m,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-08-08,4,0,8,1,1
+704,77,m,artrosis crónica de rodilla e hipertensión,cardiología,2026-07-26,3,0,7,1,1
+705,78,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-06-07,5,1,6,1,1
+706,78,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-06-14,4,1,6,1,1
+707,71,f,fibrilación auricular y fallo cardíaco leve,geriatría,2025-10-22,4,1,10,0,1
+708,71,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-07-22,3,1,7,0,1
+709,78,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-03-25,5,1,3,0,1
+710,78,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-04-05,4,1,4,1,1
+711,78,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-04-01,4,1,4,0,1
+712,78,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-05-06,4,1,5,0,1
+713,32,f,ninguna (control preventivo),urgencias hospitalarias,2026-08-27,1,0,8,0,0
+714,32,f,ninguna (control preventivo),medicina interna,2026-04-12,1,0,4,1,0
+715,82,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-09-02,4,1,9,0,1
+716,82,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-12-26,6,1,12,0,1
+717,82,f,insuficiencia cardíaca congestiva (nyha iii),endocrinología,2026-01-21,6,1,1,0,1
+718,30,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-05-17,3,0,5,1,1
+719,30,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-11-26,2,0,11,0,0
+720,74,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-17,4,0,6,0,1
+721,74,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-11-22,6,0,11,1,1
+722,74,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-03-02,4,0,3,0,1
+723,48,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-03-19,4,0,3,0,1
+724,48,f,trastorno depresivo mayor e insomnio,psiquiatría,2025-10-14,3,0,10,0,1
+725,48,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-04-10,4,1,4,0,1
+726,56,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-05-23,5,0,5,1,1
+727,56,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-01-28,6,1,1,0,1
+728,56,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-02-24,5,0,2,0,1
+729,56,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-08-19,5,0,8,0,1
+730,71,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2025-09-21,4,1,9,1,1
+731,71,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-06-04,6,1,6,0,1
+732,71,f,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2025-12-19,5,1,12,0,1
+733,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-09-28,5,0,9,1,1
+734,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-03-19,5,0,3,0,1
+735,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-04-10,4,0,4,0,1
+736,68,m,epoc y asma bronquial,neumología,2025-10-29,4,0,10,0,1
+737,68,m,epoc y asma bronquial,urgencias hospitalarias,2025-09-28,4,0,9,1,1
+738,68,m,epoc y asma bronquial,atención primaria / familia,2026-07-18,4,0,7,1,1
+739,82,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-09-06,5,1,9,1,1
+740,82,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-09-02,5,1,9,0,1
+741,82,f,fibrilación auricular y fallo cardíaco leve,geriatría,2025-12-20,4,1,12,1,1
+742,41,m,ninguna (control preventivo),medicina interna,2025-09-23,1,0,9,0,0
+743,41,m,ninguna (control preventivo),neumología,2025-10-09,1,0,10,0,0
+744,78,f,artrosis crónica de rodilla e hipertensión,neurología,2025-09-22,4,0,9,0,1
+745,78,f,artrosis crónica de rodilla e hipertensión,cardiología,2026-09-09,4,0,9,0,1
+746,49,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-03-13,3,0,3,0,1
+747,49,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-02-28,2,0,2,1,0
+748,49,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-25,3,0,7,1,1
+749,49,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-06-10,3,0,6,0,1
+750,86,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-09-02,5,1,9,0,1
+751,86,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-02-24,5,1,2,0,1
+752,86,m,fibrilación auricular y fallo cardíaco leve,geriatría,2026-05-16,3,1,5,1,1
+753,86,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-02-27,3,1,2,0,1
+754,59,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-06-28,4,0,6,1,1
+755,59,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-07-31,5,0,7,0,1
+756,71,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-09-27,6,1,9,1,1
+757,71,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-11-08,6,0,11,1,1
+758,71,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-11-20,5,0,11,0,1
+759,71,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-04-08,4,0,4,0,1
+760,33,m,ninguna (control preventivo),geriatría,2026-02-05,1,0,2,0,0
+761,33,m,ninguna (control preventivo),cardiología,2026-04-04,1,0,4,1,0
+762,79,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2026-07-01,5,1,7,0,1
+763,79,f,insuficiencia cardíaca congestiva (nyha iii),reumatología,2026-02-14,5,1,2,1,1
+764,79,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-10-22,6,1,10,0,1
+765,39,m,ninguna (control preventivo),neurología,2026-08-31,1,0,8,0,0
+766,39,m,ninguna (control preventivo),neurología,2026-05-18,2,0,5,0,0
+767,79,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-01-12,5,0,1,0,1
+768,79,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2025-10-16,5,0,10,0,1
+769,79,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-07-05,5,0,7,1,1
+770,79,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-09-06,5,1,9,1,1
+771,69,m,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-08-11,4,0,8,0,1
+772,69,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-11-02,5,0,11,1,1
+773,89,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-02-07,3,1,2,1,1
+774,89,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-03-03,4,1,3,0,1
+775,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-12-19,5,1,12,0,1
+776,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-08-23,5,0,8,1,1
+777,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-08-24,5,0,8,0,1
+778,82,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-06-08,5,0,6,0,1
+779,53,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-01-20,5,0,1,0,1
+780,53,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-09-25,4,0,9,0,1
+781,53,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-10-18,6,0,10,1,1
+782,53,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-12-08,5,0,12,0,1
+783,53,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-06-14,5,0,6,1,1
+784,53,f,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-01-24,5,0,1,1,1
+785,53,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-06-22,5,1,6,0,1
+786,63,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-03-12,5,0,3,0,1
+787,63,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-12-26,4,0,12,0,1
+788,63,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-03-03,4,0,3,0,1
+789,63,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-11-28,5,0,11,0,1
+790,74,f,epoc y asma bronquial,urgencias hospitalarias,2026-08-18,4,0,8,0,1
+791,74,f,epoc y asma bronquial,urgencias hospitalarias,2026-01-28,4,0,1,0,1
+792,71,f,insuficiencia cardíaca congestiva (nyha iii),neurología,2026-09-12,4,1,9,1,1
+793,71,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-01-01,4,1,1,0,1
+794,44,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-15,3,0,5,0,1
+795,44,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-01-30,3,1,1,0,1
+796,44,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-12-07,3,0,12,1,1
+797,63,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-08-19,5,0,8,0,1
+798,63,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2026-07-01,5,0,7,0,1
+799,79,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-07-31,5,1,7,0,1
+800,79,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-11-05,3,1,11,0,1
+801,79,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-03-13,5,1,3,0,1
+802,83,f,fibrilación auricular y fallo cardíaco leve,cardiología,2026-02-07,5,1,2,1,1
+803,83,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-03-29,5,1,3,1,1
+804,58,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-11-25,4,0,11,0,1
+805,58,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-07-31,4,0,7,0,1
+806,69,f,artrosis crónica de rodilla e hipertensión,reumatología,2026-04-19,5,0,4,1,1
+807,69,f,artrosis crónica de rodilla e hipertensión,endocrinología,2025-10-29,3,0,10,0,1
+808,69,f,artrosis crónica de rodilla e hipertensión,neumología,2026-01-02,3,0,1,0,1
+809,69,f,artrosis crónica de rodilla e hipertensión,neurología,2026-06-13,4,0,6,1,1
+810,78,m,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2026-07-15,6,1,7,0,1
+811,78,m,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-11-02,6,1,11,1,1
+812,57,m,"diabetes tipo 2, hta y dislipidemia",endocrinología,2025-10-21,5,0,10,0,1
+813,57,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-04-09,5,0,4,0,1
+814,61,m,epoc y asma bronquial,urgencias hospitalarias,2025-09-27,4,0,9,1,1
+815,61,m,epoc y asma bronquial,neumología,2026-08-30,4,0,8,1,1
+816,26,m,ninguna (control preventivo),psiquiatría,2026-01-11,1,0,1,1,0
+817,26,m,ninguna (control preventivo),medicina general,2026-06-26,1,0,6,0,0
+818,26,m,ninguna (control preventivo),psiquiatría,2026-03-26,1,0,3,0,0
+819,26,m,ninguna (control preventivo),neumología,2026-08-16,1,0,8,1,0
+820,87,m,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-12-13,6,1,12,1,1
+821,87,m,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-08-11,5,1,8,0,1
+822,87,m,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-10-28,4,1,10,0,1
+823,87,m,insuficiencia cardíaca congestiva (nyha iii),geriatría,2026-02-26,5,1,2,0,1
+824,55,f,epoc y asma bronquial,atención primaria / familia,2026-04-05,5,0,4,1,1
+825,55,f,epoc y asma bronquial,urgencias hospitalarias,2026-03-07,3,0,3,1,1
+826,55,f,epoc y asma bronquial,urgencias hospitalarias,2025-12-19,4,0,12,0,1
+827,31,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-07-28,3,0,7,0,1
+828,31,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-31,3,0,12,0,1
+829,86,f,fibrilación auricular y fallo cardíaco leve,geriatría,2026-04-08,5,1,4,0,1
+830,86,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2025-10-02,4,1,10,0,1
+831,86,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-12-20,4,1,12,1,1
+832,86,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-11-13,5,1,11,0,1
+833,56,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-11-22,3,1,11,1,1
+834,56,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-06-07,3,0,6,1,1
+835,79,m,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-07-15,5,0,7,0,1
+836,79,m,artrosis crónica de rodilla e hipertensión,neumología,2025-12-01,4,0,12,0,1
+837,79,m,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2026-04-03,3,0,4,0,1
+838,79,m,artrosis crónica de rodilla e hipertensión,atención primaria / familia,2025-11-24,4,0,11,0,1
+839,80,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-12-11,5,0,12,0,1
+840,80,f,"cardiopatía isquémica, hta e hipercolesterolemia",cardiología,2025-10-03,6,1,10,0,1
+841,80,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-06-14,6,1,6,1,1
+842,76,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-10-05,5,1,10,1,1
+843,76,f,insuficiencia cardíaca congestiva (nyha iii),geriatría,2025-11-27,5,1,11,0,1
+844,76,f,insuficiencia cardíaca congestiva (nyha iii),cardiología,2026-01-17,5,1,1,1,1
+845,76,f,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2026-01-18,5,1,1,1,1
+846,56,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-11,5,0,3,0,1
+847,56,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-31,5,0,3,0,1
+848,56,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-18,5,0,3,0,1
+849,33,m,ninguna (control preventivo),neurología,2025-11-08,1,0,11,1,0
+850,33,m,ninguna (control preventivo),endocrinología,2026-07-21,1,0,7,0,0
+851,33,m,ninguna (control preventivo),psiquiatría,2025-12-15,1,0,12,0,0
+852,41,m,trastorno depresivo mayor e insomnio,psiquiatría,2025-12-07,2,0,12,1,0
+853,41,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-03-23,2,0,3,0,0
+854,53,m,epoc y asma bronquial,urgencias hospitalarias,2025-11-27,4,0,11,0,1
+855,53,m,epoc y asma bronquial,neumología,2025-10-06,3,0,10,0,1
+856,53,m,epoc y asma bronquial,neumología,2026-01-07,4,0,1,0,1
+857,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",medicina interna,2026-01-29,6,0,1,0,1
+858,75,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2025-09-28,5,0,9,1,1
+859,73,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-05-25,3,1,5,0,1
+860,73,f,fibrilación auricular y fallo cardíaco leve,cardiología,2025-10-23,3,1,10,0,1
+861,69,f,artrosis crónica de rodilla e hipertensión,urgencias hospitalarias,2025-12-15,4,0,12,0,1
+862,69,f,artrosis crónica de rodilla e hipertensión,medicina general,2026-05-31,4,0,5,1,1
+863,69,f,artrosis crónica de rodilla e hipertensión,medicina interna,2026-02-03,3,0,2,0,1
+864,76,f,insuficiencia cardíaca congestiva (nyha iii),medicina interna,2025-11-19,5,1,11,0,1
+865,76,f,insuficiencia cardíaca congestiva (nyha iii),urgencias hospitalarias,2026-07-10,5,1,7,0,1
+866,71,f,insuficiencia cardíaca congestiva (nyha iii),neumología,2025-09-18,5,1,9,0,1
+867,71,f,insuficiencia cardíaca congestiva (nyha iii),atención primaria / familia,2026-08-29,6,1,8,1,1
+868,61,m,epoc y asma bronquial,urgencias hospitalarias,2026-03-02,3,0,3,0,1
+869,61,m,epoc y asma bronquial,urgencias hospitalarias,2026-06-17,3,0,6,0,1
+870,61,m,epoc y asma bronquial,urgencias hospitalarias,2026-03-13,4,0,3,0,1
+871,61,m,epoc y asma bronquial,neumología,2026-07-07,5,1,7,0,1
+872,81,f,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-02-02,4,1,2,0,1
+873,81,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-01-23,4,1,1,0,1
+874,81,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2025-12-05,4,1,12,0,1
+875,81,f,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-09-10,4,1,9,0,1
+876,73,m,insuficiencia cardíaca congestiva (nyha iii),neumología,2026-02-15,5,1,2,1,1
+877,73,m,insuficiencia cardíaca congestiva (nyha iii),psiquiatría,2025-11-27,4,1,11,0,1
+878,73,m,insuficiencia cardíaca congestiva (nyha iii),cardiología,2025-09-25,5,1,9,0,1
+879,73,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-01-18,6,1,1,1,1
+880,73,m,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-26,6,0,10,1,1
+881,73,m,"diabetes tipo 2, hta y dislipidemia",medicina interna,2025-11-21,5,0,11,0,1
+882,54,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-01-16,5,1,1,0,1
+883,54,f,"diabetes tipo 2, hta y dislipidemia",medicina interna,2026-03-28,5,0,3,1,1
+884,74,f,"cardiopatía isquémica, hta e hipercolesterolemia",geriatría,2026-08-26,4,0,8,0,1
+885,74,f,"cardiopatía isquémica, hta e hipercolesterolemia",urgencias hospitalarias,2026-08-13,6,1,8,0,1
+886,76,m,epoc y asma bronquial,neumología,2025-10-29,5,0,10,0,1
+887,76,m,epoc y asma bronquial,urgencias hospitalarias,2026-04-24,4,0,4,0,1
+888,76,m,epoc y asma bronquial,neumología,2026-05-05,3,0,5,0,1
+889,76,m,epoc y asma bronquial,atención primaria / familia,2025-11-15,4,0,11,1,1
+890,50,f,trastorno depresivo mayor e insomnio,psiquiatría,2026-05-03,3,0,5,1,1
+891,50,f,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-08-28,2,0,8,0,0
+892,81,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-06-27,4,1,6,1,1
+893,81,m,fibrilación auricular y fallo cardíaco leve,urgencias hospitalarias,2026-05-15,4,1,5,0,1
+894,81,m,fibrilación auricular y fallo cardíaco leve,cardiología,2026-03-21,4,1,3,1,1
+895,81,m,fibrilación auricular y fallo cardíaco leve,medicina interna,2026-08-18,5,1,8,0,1
+896,60,f,epoc y asma bronquial,atención primaria / familia,2026-03-03,3,0,3,0,1
+897,60,f,epoc y asma bronquial,atención primaria / familia,2026-07-01,4,0,7,0,1
+898,33,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2025-10-01,2,0,10,0,0
+899,33,m,trastorno depresivo mayor e insomnio,psiquiatría,2026-08-23,2,0,8,1,0
+900,33,m,trastorno depresivo mayor e insomnio,atención primaria / familia,2026-02-04,3,0,2,0,1
+901,69,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-13,5,0,10,0,1
+902,69,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2026-05-13,6,1,5,0,1
+903,69,f,"diabetes tipo 2, hta y dislipidemia",atención primaria / familia,2025-10-02,4,0,10,0,1

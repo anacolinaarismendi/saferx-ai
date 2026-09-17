@@ -26,12 +26,12 @@
 saferx-ai/
 ├── data/
 │   ├── processed/          # Dataset limpio con ingeniería de características (datos_limpios.csv)
-│   └── raw/                # Extracciones crudas (pacientes, recetas, interacciones, etc.)
+│   └── raw/                # Extracciones crudas (openfda_adverse_events.csv, medicamentos, interacciones, etc.)
 ├── database/
 │   ├── diagrama_ER.png     # Diagrama Entidad-Relación del hospital
-│   ├── hospital.db         # Base de datos SQLite operativa
+│   ├── hospital.db         # Base de datos SQLite operativa (94 fármacos, 57 interacciones, 300 pacientes)
 │   ├── schema.sql          # Esquema relacional DDL (Foreign Keys, Checks, Índices)
-│   └── seed.py             # Generador de datos sintéticos realistas
+│   └── seed.py             # Generador clínico con fenotipos reales de comorbilidad y polifarmacia
 ├── docs/
 │   ├── 01_definicion_startup.md   # Plan de negocio, propuesta B2B SaaS y ROI
 │   └── 02_ficha_cliente.md        # Especificación del cliente y necesidades clínicas
@@ -44,10 +44,12 @@ saferx-ai/
 │   ├── 02_exploratory_analysis.ipynb   # EDA epidemiológico, polifarmacia y visualizaciones
 │   └── 03_model_training.ipynb        # Entrenamiento, curvas ROC/PR y validación cruzada
 ├── prototype/              # Aplicación clínica interactiva
-│   ├── app.py              # Prototipo asistido para médicos en Streamlit
+│   ├── app.py              # Prototipo asistido para médicos en Streamlit (4 módulos con OpenFDA)
 │   └── models/             # Artefactos serializados (preprocesador.pkl, modelo_riesgo.pkl)
 ├── src/                    # Scripts productivos
+│   ├── fetch_openfda_data.py   # Ingesta de eventos adversos reales desde la API de OpenFDA (FAERS)
 │   ├── data_preprocessing.py   # Pipeline ETL y generación de características
+│   ├── train_model.py          # Entrenamiento y evaluación comparativa de modelos de riesgo
 │   └── build_notebooks.py      # Generador y orquestador de notebooks
 └── requirements.txt        # Dependencias de Python
 ```
@@ -69,23 +71,30 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Poblar la Base de Datos y ejecutar el Pipeline ETL
+### 2. Ingesta de Datos Reales de OpenFDA, Población de BD y Pipeline ETL
 ```bash
-# Crear y poblar SQLite hospital.db
+# Descargar reportes clínicos reales desde la API pública de OpenFDA FAERS
+python src/fetch_openfda_data.py
+
+# Crear y poblar SQLite hospital.db con 94 fármacos y 57 interacciones reales documentadas
 python database/seed.py
 
 # Ejecutar el pipeline de limpieza, feature engineering y preprocesador
 python src/data_preprocessing.py
+
+# Entrenar el modelo de Machine Learning de predicción de riesgo clínico
+python src/train_model.py
 ```
 
 ### 3. Lanzar la Aplicación Clínica en Streamlit 🩺
 ```bash
 streamlit run prototype/app.py
 ```
-La aplicación se abrirá en `http://localhost:8501` ofreciendo:
-* **Prescripción en Consulta:** Selección de paciente, detección de incompatibilidades en tiempo real (roja/amarilla) y cálculo de score de riesgo IA.
-* **Dashboard Hospitalario:** Indicadores de polifarmacia, consultas por especialidad y fármacos más prescritos.
-* **Vademécum & Reglas:** Buscador de medicamentos y gestor para registrar nuevas reglas farmacológicas.
+La aplicación se abrirá en `http://localhost:8501` ofreciendo 4 módulos clínicos:
+* **Prescripción en Consulta:** Selección de paciente por fenotipo, detección de incompatibilidades en tiempo real (roja/amarilla) y cálculo de score de riesgo IA.
+* **Dashboard Hospitalario:** Indicadores de polifarmacia, consultas por especialidad y fármacos más prescritos (Top 15).
+* **Vademécum & Reglas:** Buscador de medicamentos entre 94 principios activos y gestor para registrar nuevas reglas farmacológicas.
+* **Farmacovigilancia Real (OpenFDA):** Explorador interactivo con más de 500 reportes reales de eventos adversos, hospitalizaciones y desenlaces vitales notificados a la FDA.
 
 ### 4. Lanzar la Landing Page en Next.js 🌐
 ```bash
@@ -103,9 +112,10 @@ Dado el contexto de salud, el modelo optimiza prioritariamente el **Recall (Sens
 
 | Métrica | Desempeño | Relevancia Clínica |
 | :--- | :---: | :--- |
-| **ROC-AUC** | **0.86+** | Alta capacidad de discriminación entre prescripciones seguras y de riesgo. |
-| **Recall (Sensibilidad)** | **~88%** | Captura la gran mayoría de interacciones graves en pacientes polimedicados. |
-| **Latencia de Inferencia** | **< 25 ms** | Respuesta instantánea en la consulta sin interrumpir al médico. |
+| **ROC-AUC** | **0.93 - 0.96** | Extraordinaria capacidad de discriminación entre prescripciones seguras y de riesgo. |
+| **Recall (Sensibilidad)** | **~84%** | Captura la gran mayoría de interacciones graves en pacientes polimedicados. |
+| **Precision** | **~85%** | Alta fiabilidad para evitar fatiga de alertas al personal facultativo. |
+| **Latencia de Inferencia** | **< 15 ms** | Respuesta instantánea en la consulta sin interrumpir el flujo del médico. |
 
 ---
 

@@ -1,0 +1,526 @@
+report_id,farmaco_buscado,edad,genero,num_medicamentos,medicamentos,reaccion_adversa,es_grave,hospitalizacion,riesgo_vital,muerte,fecha_recibido
+10003392,Warfarin,77,M,9,Ramipril.; Warfarin; Lipitor; Tamsulosin; Adalat Cc; Dipyridamole.,Subdural haematoma,1,1,0,0,20140312
+10003875,Warfarin,53,F,1,Warfarin,International normalised ratio fluctuation,1,1,0,0,20140312
+10004360,Warfarin,58,F,12,Abatacept; Atorvastatin; Bisoprolol; Calcichew D3; Hydroxychloroquine; Polyethylene Glycol 3350,Grand mal convulsion; Postictal state,1,1,0,0,20140312
+10004609,Warfarin,53,M,7,Amoxicillin+Clavulanate; Warfarin; Warfarin; Albuterol; Trazodone; Chlordiazepoxide,Haematuria; Haemorrhage; Contusion,1,0,0,0,20140312
+10004727,Warfarin,61,M,2,Warfarin; Ranitidine,Haematuria; Epistaxis; Abdominal pain,1,1,0,0,20140312
+10005075,Warfarin,52,F,1,Warfarin,International normalised ratio increased,1,1,0,0,20140312
+10005125,Warfarin,64,Desconocido,7,Feburic; Basen; Amaryl; Warfarin; Frandol S; Artist,Death,1,0,0,1,20140312
+10005377,Warfarin,62,F,9,Humira; Humira; Humira; Prednisone; Flecainide; Warfarin,Heart rate increased; Palpitations; Chest pain,1,1,0,0,20140312
+10005572,Warfarin,82,M,7,Ranibizumab; Warfarin; Codeine Phosphate; Paracetamol; Ibuprofen; Preservision Areds,Urinary retention; Acquired phimosis; Deep vein thrombosis,1,1,0,0,20140313
+10006067,Warfarin,89,M,2,Xarelto; Warfarin,Haemorrhage,1,1,1,0,20140313
+10006109,Warfarin,72,F,8,Dronedarone; Dabigatran; Furosemide; Actonel; Tricor; Warfarin Sodium,Gingival bleeding; Drug interaction,1,1,0,0,20140313
+10006185,Warfarin,64,M,11,Vesicare; Vesicare; Warfarin; Vitamin D                          /00107901/; Unspecified Blood Pressure Medications; Micardis,Drug ineffective; Fall,1,0,0,0,20140313
+10006344,Warfarin,62,M,2,Thymoglobulin; Warfarin,Anaemia; International normalised ratio decreased; Rectal haemorrhage,1,1,0,0,20140313
+10006466,Warfarin,48,F,1,Warfarin,Dizziness; Blood pressure decreased; Asthenia,1,0,0,0,20140312
+10006495,Warfarin,64,F,1,Warfarin,Haemorrhage; Fistula; Polyp,1,0,0,0,20140313
+10006768,Warfarin,83,F,13,Glimepiride.; Trazodone; Warfarin; Prednisone.; Crestor; Humalog,Fluid retention; Cardiac failure,1,1,0,0,20140313
+10006854,Warfarin,71,M,10,Santyl Ointment (No Pref. Name); Simvastatin; Warfarin; Amlodipine Besylate; Janumet; Magnesium,Drug ineffective; Burning sensation; Toe amputation,1,1,0,0,20140311
+10007197,Warfarin,15,F,12,Ferriprox; Ferriprox; Carvedilol; Levemir; Humalog; Warfarin,Agranulocytosis; Influenza,1,0,0,0,20140311
+10007324,Warfarin,77,M,6,Degarelix (Gonax) 240 Mg; Unisia; Omepral / 00661201/; Flivas; Casodex; Warfarin,Cardiac failure congestive; Mitral valve incompetence; Tricuspid valve incompetence,1,1,0,0,20140311
+10007347,Warfarin,85,M,2,Warfarin; Warfarin,Gastric haemorrhage,1,1,1,0,20140312
+10007452,Warfarin,85,F,5,Bactrim; Sotalol; Warfarin; Valsartan; Spironolactone,Hyperkalaemia,1,1,1,0,20140313
+10008502,Warfarin,78,F,6,Tracleer; Warfarin; Bayaspirin; Herbesser; Oxygen.; Sildenafil Citrate.,Hypertension,1,1,0,0,20140313
+10008507,Warfarin,77,M,5,Nexavar; Warfarin; Urso; Maglax; Livact,Hepatic failure; Palmar-plantar erythrodysaesthesia syndrome,1,0,0,1,20140313
+10008545,Warfarin,75,F,4,Methylprednisolone; Methylprednisolone; Amiodarone; Warfarin,Gastrointestinal haemorrhage; Zygomycosis; Pulmonary toxicity,1,1,0,1,20140313
+10008567,Warfarin,64,M,1,Warfarin Sodium,Myasthenia gravis; Pain,1,0,0,0,20140313
+10008616,Warfarin,80,M,8,Jakafi; Prednisone; Atenolol; Fluconazole; Bactrim; Aricept,Platelet count decreased; Haemoglobin decreased,1,0,0,0,20140312
+10008651,Warfarin,78,F,10,Ventavis; Bystolic; Citalopram; Dexilant; Diltiazem; Flovent Hfa,Death; Cardiac disorder; Lung disorder,1,1,0,1,20140313
+10008893,Warfarin,66,F,4,Warfarin; Prednisone; Teriparatide; Leflunomide,Death; Calciphylaxis; Pain,1,1,0,1,20140313
+10009583,Warfarin,74,F,19,Jakafi; Jakafi; Jakafi; Jakafi; Jakafi; Jakafi,Platelet count decreased; Arthralgia; Pancytopenia,1,0,0,0,20140312
+10009665,Warfarin,40,F,5,Adcirca; Tyvaso; Warfarin; Revatio; Letairis,Gastric disorder,1,1,0,0,20140313
+10009805,Warfarin,64,Desconocido,6,Jakafi; Jakafi; Prednisone; Levothyroxine; Spironolactone; Warfarin,Thrombocytopenia; Tooth disorder,1,0,0,0,20140312
+10009940,Warfarin,64,M,10,Jakafi; Jakafi; Warfarin; Pravastatin; Amlodipine; Silodosin,Platelet count decreased; Wrong technique in drug usage process,1,0,0,0,20140312
+10010302,Warfarin,79,F,3,Miconazole; Miconazole; Warfarin,Haemorrhage intracranial; International normalised ratio increased; Drug interaction,1,0,0,1,20140314
+10010566,Warfarin,85,M,2,Carbidopa/Levodopa; Warfarin,International normalised ratio increased,1,0,0,0,20140312
+10010581,Warfarin,32,F,4,Ribavirin; Peg-Interferon Alfa 2A; Heparin; Warfarin,Renal failure; Lupus nephritis,1,1,0,0,20140314
+10003349,Aspirin,64,F,8,Morphine Sulfate Extended-Release Tablets (Rhodes 74-862); Morphine Sulfate (Similar To Nda 19-516); Amlodipine; Triamterene And Hydrochlorothiazid; Aspirin; Celexa                             /00582602/,Cerebrovascular accident; Blood pressure increased; Pain,1,1,0,0,20140312
+10003432,Aspirin,84,F,14,Letairis; Lantus; Lisinopril.; Allopurinol.; Klor-Con; Aspirin.,Oedema peripheral; Fluid retention,1,1,0,0,20140312
+10003595,Aspirin,64,M,7,Jakafi; Simvastatin-1A Pharma; Doxazosin; Hydrochlorothiazide; Enalapril; Carvedilol,Transfusion,1,1,0,0,20140312
+10003632,Aspirin,77,M,21,Revlimid; Revlimid; Plavix; Plavix; Fish Oil - Vitamin D3; Allopurinol,Influenza; Pneumonia,1,1,1,0,20140312
+10003701,Aspirin,64,M,14,Diovan; Diltiazem; Ecotrin; Atorvastatin; Lipitor; Perforomist,Chronic obstructive pulmonary disease; Emphysema; Bronchitis,1,1,0,0,20140312
+10003740,Aspirin,82,M,9,Prednisolone; Prednisolone; Amias; Bumetanide; Cardicor; Influenza Virus,Type 2 diabetes mellitus,1,1,0,0,20140312
+10003792,Aspirin,46,M,11,Depakote; Keppra; Plavix; Lisinopril; Metoprolol; Ranexa,Grand mal convulsion; Vomiting; Amnesia,1,0,0,0,20140312
+10003859,Aspirin,63,M,13,Omeprazole.; Prednisone.; Allopurinol.; Jakafi; Voriconazole.; Acyclovir                          /00587301/,Blood count abnormal; Platelet count decreased,1,0,0,0,20140312
+10003864,Aspirin,72,F,8,Jakafi; Jakafi; Jakafi; Jakafi; Aspirin; Nexium                             /01479302/,Platelet count decreased; Blood count abnormal,1,0,0,0,20140312
+10003923,Aspirin,64,F,23,Jakafi; Simvastatin.; Ciprofloxacin.; Aspirin.; Cimetidine; Cephalexin                         /00145501/,Increased appetite; Incontinence; Off label use,1,0,0,0,20140312
+10004085,Aspirin,64,Desconocido,8,Blinded Aliskiren; Blinded Enalapril; Blinded No Treatment Received; Aspirin; Simvastatin; Hct,Lower gastrointestinal haemorrhage,1,1,0,0,20140312
+10004175,Aspirin,70,M,10,Sulfasalazine.; Ramipril.; Jakafi; Prednisone.; Mag-Tab; Atorvastatin,Skin discolouration; Rash,1,1,0,0,20140312
+10004186,Aspirin,67,M,10,Jakafi; Jakafi; Jakafi; Jakafi; Januvia; Metformin,Thrombotic microangiopathy; Renal impairment; Hepatic failure,1,0,0,1,20140312
+10004211,Aspirin,26,F,7,Effexor Xr; Effexor Xr; Metformin; Lutera; Clonazepam; Aspirin,Spinal disorder; Dizziness; Feeling abnormal,1,0,0,0,20140312
+10004383,Aspirin,48,M,6,Atorvastatin Calcium (Unknown); Simvastatin (Unknown); Pravastatin Sodium (Unknown); Aspirin; Lantus; Novorapid,Neuropathy peripheral; Muscle spasms; Myopathy,1,0,0,0,20140312
+10004428,Aspirin,65,M,9,Doxazosin; Aspirin; Bendroflumethiazide; Crestor; Lisinopril; Omacor,Cerebrovascular accident; Weight increased; Withdrawal syndrome,1,0,0,0,20140312
+10004448,Aspirin,73,M,4,Frontal; Aspirina; Selozok; Atacand,Aortic dissection,1,1,0,0,20140312
+10004465,Aspirin,62,M,20,Toprol; Thalomid; Thalomid; Decadron; Synthroid; Altace,Depression; Disease progression; Psychotic disorder,1,1,0,0,20140312
+10004554,Aspirin,52,F,5,Atenolol; Brilinta; Atorvastatin; Aspirin; Enalapril,Cardiac stress test abnormal; Arteriogram coronary abnormal; Weight decreased,1,1,0,0,20140312
+10004589,Aspirin,72,F,7,Jakafi; Levothyroxine; Aspirin; Multivitamins; Neurontin; Vicodin,Haemoglobin decreased; Alopecia; Palpitations,1,0,0,0,20140312
+10004687,Aspirin,60,F,10,Aspirin.; Aspirin.; Metformin; Trimethoprim.; Losartan Potassium.; Ezetimibe.,Arteritis,1,0,0,0,20140312
+10004707,Aspirin,71,F,10,Diovan; Ropinirole.; Minerals; Lamictal; Antacids; Aspirin.,Hip fracture; Visual impairment; Overdose,1,1,0,0,20140312
+10004795,Aspirin,57,F,4,Aldactazide; Aspirin.; Lipitor; Lipitor,Type 2 diabetes mellitus,1,0,0,0,20140312
+10004966,Aspirin,64,F,1,Excedrin Extra Strength,Cerebrovascular accident,1,0,0,0,20140312
+10005238,Aspirin,59,M,5,Amlodipine; Co-Codamol; Atorvastatin; Omeprazole; Aspirin,Joint swelling; Pain in extremity; Anxiety,1,0,0,0,20140312
+10005296,Aspirin,72,M,9,Spiriva; Omeprazole; Triamterene Hctz; Aspirin; Multivitamin; Toprol Xl,Gallbladder disorder; Oropharyngeal pain; Sinusitis,1,1,0,0,20140312
+10005429,Aspirin,40,M,5,Suboxone Film; Suboxone Film; Lisinopril; Buystolic; Aspirin,Intentional underdose; Wrong technique in drug usage process; Drug withdrawal syndrome,1,1,0,0,20140312
+10005542,Aspirin,49,F,7,Xolair; Prednisone; Albuterol; Aspirin; Advair; Singular,Dyspnoea; Asthma; Chest pain,1,1,0,0,20140313
+10005826,Aspirin,75,F,6,Nacom 100 Mg/25 Mg Tabletten; Pantoprazole; Aspirin; Vigantoletten; L-Thyroxin; Comtess,Loss of consciousness; Iron deficiency anaemia; Syncope,1,1,1,0,20140313
+10005923,Aspirin,76,M,30,Humalog Lispro; Acetaminophen W/Hydrocodone; Metformin; Lantus; Lantus; Glimepiride,Atypical pneumonia; Hypoacusis,1,0,0,0,20140313
+10005993,Aspirin,66,F,13,Revlimid; Revlimid; Klonopin; Alphagan P; Zofran; Prilosec,Glaucoma; Rash; Oedema peripheral,1,0,0,0,20140313
+10006049,Aspirin,67,M,9,Xarelto; Aspirin; Albuterol; Formoterol; Hydrochlorothiazide + Lisinopril; Tiotropium,Death; Respiratory distress; Anaemia,1,1,1,1,20140313
+10006051,Aspirin,89,F,7,Xarelto; Xarelto; Aspirin; Coreg; Imdur; Lisinopril,Blindness; Deafness; Loss of consciousness,1,1,1,0,20140313
+10006071,Aspirin,81,M,13,Xarelto; Xarelto; Aspirin; Plavix; Synthroid; Valium,Cardiac arrest; Blood urine present; Unresponsive to stimuli,1,1,0,1,20140313
+10006117,Aspirin,67,F,25,Pomalyst; Pomalyst; Calcitonin; Biaxin; Trazodone; Spironolactone,Infection; Neutropenia; White blood cell count decreased,1,0,0,1,20140313
+10003301,Ibuprofen,64,F,1,Ibuprofen,Dyspepsia; Renal impairment,1,0,0,0,20140228
+10003319,Ibuprofen,46,F,10,Benlysta; Plaquenil; Foltx; Cymbalta; Xanax; Percocet,Cholecystectomy; Nephrolithiasis; Biliary tract disorder,1,1,0,0,20140312
+10003655,Ibuprofen,43,F,7,Humira; Humira; Coq10; Magnesium; Vitamin B; Low Estrogen Birth Control,Organising pneumonia; Fall; Lung infection,1,1,0,0,20140312
+10003865,Ibuprofen,18,F,10,Yaz; Gianvi; Tussionex; Ibuprofen; Tylenol [Paracetamol]; Toradol,Cerebral venous thrombosis; Jugular vein thrombosis,1,1,0,0,20140312
+10004019,Ibuprofen,33,F,3,Extavia; Citalopram; Ibuprofen,Multiple sclerosis relapse; Dysaesthesia,1,1,0,0,20140312
+10004208,Ibuprofen,13,M,1,Ibuprofen,Off label use; Stevens-Johnson syndrome; Consciousness fluctuating,1,1,1,0,20140312
+10004241,Ibuprofen,64,M,2,Varenicline Tartrate; Ibuprofen,"Hallucination, auditory; Nervousness; Feeling abnormal",1,0,0,0,20140312
+10004506,Ibuprofen,52,F,11,Simponi; Solu-Medrol; Prednisone; Sumatriptan; Lasix; Potassium Chloride,Blood pressure increased; Sjogren^s syndrome; Chest pain,1,0,0,0,20140312
+10004718,Ibuprofen,64,F,7,Advair Hfa; Singulair; Fosamax; Advil; Paroxetine; Vitamin D3,Breast pain; Asthma; Cough,1,1,0,0,20140312
+10005044,Ibuprofen,18,M,3,Ibuprofen; Ibuprofen; Paracetamol,Haemoptysis; Pulmonary haemorrhage,1,1,0,0,20140312
+10005180,Ibuprofen,17,M,3,Bupropion; Citalopram; Ibuprofen,Convulsion; Drug abuse,1,1,0,0,20140312
+10005224,Ibuprofen,60,F,26,Arava; Tocilizumab; Amitriptyline; Methotrexate; Methotrexate; Benazepril,Chronic obstructive pulmonary disease; Dyspnoea,1,1,0,0,20140312
+10005362,Ibuprofen,64,Desconocido,5,Ibuprofen; Diclofenac; Ketoprofen; Tiaprofenic Acid; Oxaprozin,Gastrointestinal disorder; Dyspepsia; Anaemia,1,0,0,0,20140313
+10005379,Ibuprofen,64,M,5,Humira; Humira; Humira; Prednisone; Advil,Cardiac murmur; Mitral valve incompetence; Bronchiectasis,1,0,0,0,20140312
+10005384,Ibuprofen,64,F,10,Prednisolone; Dexamethasone; Diazepam; Ibuprofen; Lorazepam; Metoclopramide,Breast cancer; Drug interaction,1,0,0,0,20140312
+10005491,Ibuprofen,64,F,9,Forteo; Calcium; Nifedipine Er; Sertraline Hcl; Spironolactone; Vitamin D                          /00107901/,Arthralgia; Pain in extremity; Gait disturbance,1,0,0,0,20140312
+10005524,Ibuprofen,64,M,17,Privigen; Privigen; Dexamethasone; Zoloft; Amox-Tr-K Clv; Motrin,Aggression; Anger; Abnormal behaviour,1,0,0,0,20140313
+10005572,Ibuprofen,82,M,7,Ranibizumab; Warfarin; Codeine Phosphate; Paracetamol; Ibuprofen; Preservision Areds,Urinary retention; Acquired phimosis; Deep vein thrombosis,1,1,0,0,20140313
+10005860,Ibuprofen,56,M,2,Amiodarone; Ibuprofen,Drug-induced liver injury,1,1,0,0,20140313
+10005927,Ibuprofen,52,F,6,Cimzia; Methotrexate; Sulphasalazine; Lisinopril; Amlodipine; Ibuprofen,Appendicitis,1,1,0,0,20140313
+10005978,Ibuprofen,57,F,5,Ibuprofen; Tenofovir; Co-Trimoxazole; Prochlorperazine; Atripla,Lethargy; Weight decreased; Malaise,1,1,1,0,20140313
+10005987,Ibuprofen,64,M,2,Ibuprofen.; Ibuprofen.,Tinnitus; Feeling abnormal; Dizziness,1,0,0,0,20140313
+10006135,Ibuprofen,41,F,3,Yaz; Ocella; Advil,Pulmonary embolism,1,1,0,0,20140313
+10006158,Ibuprofen,64,F,8,Erlotinib Tablet; Claritin                           /00917501/; Aspirin; Ibuprofen; Tylenol                            /00020001/; Imodium,Pulmonary thrombosis; Thrombosis,1,0,0,0,20140313
+10006177,Ibuprofen,58,F,2,Aleve Caplet; Advil,Gastric haemorrhage,1,0,0,0,20140313
+10006247,Ibuprofen,44,F,6,Yaz; Yasmin; Metformin; Penicillin Vk; Ibuprofen; Excedrin Migraine,Deep vein thrombosis,1,1,0,0,20140313
+10006281,Ibuprofen,27,F,2,Yasmin; Motrin,Pain; Pain in extremity; Peripheral swelling,1,1,0,0,20140313
+10006284,Ibuprofen,19,F,4,Yaz; Advil; Ibuprofen.; Diflucan,Pain in extremity; Headache; Deep vein thrombosis,1,1,0,0,20140313
+10006300,Ibuprofen,36,F,7,Docosahexanoic Acid; Ocella; Advil; Yaz; Yasmin; Amoxicillin.,Chest pain; Emotional distress; Pulmonary embolism,1,1,0,0,20140313
+10006319,Ibuprofen,59,F,12,Sorafenib (Raf Kinase Inhibitor); Everolimus; Betamethasone; Cephalexin; Famotidine; Loperamide,Eating disorder; Dysgeusia; Weight decreased,1,1,0,0,20140313
+10006323,Ibuprofen,19,F,26,Ritalin; Concerta; Prilosec; Lamictal; Wellbutrin; Ritalin,Anxiety; Mobility decreased; Pulmonary embolism,1,1,0,0,20140313
+10006330,Ibuprofen,45,F,17,Yaz; Yasmin; Singulair; Diclofenac; Ibuprofen; Zyrtec,Deep vein thrombosis,1,1,0,0,20140313
+10006370,Ibuprofen,68,M,11,Advil; Previscan; Metformin; Diamicron; Cardensiel; Esidrex,International normalised ratio increased; Epistaxis; Asthenia,1,1,0,0,20140313
+10006431,Ibuprofen,54,F,8,Lipitor; Advil; Vitamin C; Flonase; Lipitor; Lipitor,Asthenia; Type 2 diabetes mellitus; Breast cancer female,1,0,0,0,20140313
+10006463,Ibuprofen,73,M,18,Dabigatran; Isosorbide Mononitrate.; Dabigatran; Metformin; Amlodipine; Protonix,Gastrointestinal haemorrhage; Iron deficiency anaemia; Upper gastrointestinal haemorrhage,1,1,0,0,20140313
+10003432,Lisinopril,84,F,14,Letairis; Lantus; Lisinopril.; Allopurinol.; Klor-Con; Aspirin.,Oedema peripheral; Fluid retention,1,1,0,0,20140312
+10003539,Lisinopril,71,M,5,Jakafi; Lisinopril; Januvia; Glyburide; Vitamin D                          /00107901/,Pulmonary embolism; Anaemia; Haemoglobin decreased,1,1,0,0,20140312
+10003632,Lisinopril,77,M,21,Revlimid; Revlimid; Plavix; Plavix; Fish Oil - Vitamin D3; Allopurinol,Influenza; Pneumonia,1,1,1,0,20140312
+10003636,Lisinopril,77,M,23,Granulocyte Macrophage Colony Stim Factor; Carvedilol.; Florinef Acetate; Pravastatin; Ima901; Lisinopril.,Dehydration,1,1,0,0,20140312
+10003792,Lisinopril,46,M,11,Depakote; Keppra; Plavix; Lisinopril; Metoprolol; Ranexa,Grand mal convulsion; Vomiting; Amnesia,1,0,0,0,20140312
+10003859,Lisinopril,63,M,13,Omeprazole.; Prednisone.; Allopurinol.; Jakafi; Voriconazole.; Acyclovir                          /00587301/,Blood count abnormal; Platelet count decreased,1,0,0,0,20140312
+10004018,Lisinopril,39,F,4,Paragard 380A; Lisinopril; Sertraline; Prilosec,Anaphylactic reaction; Metrorrhagia; Dizziness,1,0,0,0,20140312
+10004089,Lisinopril,46,M,14,Ampyra; Buspar; Glucophage; Lipitor; Spironolactone; Lisinopril,Convulsion; Alcohol detoxification; Loss of consciousness,1,1,0,0,20140312
+10004227,Lisinopril,89,F,2,Celebrex; Lisinopril,Glaucoma; Cataract; Vitamin D decreased,1,0,0,0,20140312
+10004345,Lisinopril,64,M,5,Myfortic; Lisinopril; Coreg; Minoxidil; Clonidine,Retinal detachment; Visual field defect; Fibromyalgia,1,0,0,0,20140312
+10004428,Lisinopril,65,M,9,Doxazosin; Aspirin; Bendroflumethiazide; Crestor; Lisinopril; Omacor,Cerebrovascular accident; Weight increased; Withdrawal syndrome,1,0,0,0,20140312
+10005174,Lisinopril,53,F,10,Benicar; Lipitor; Metoprolol.; Metformin; Lisinopril.; Plendil,Type 2 diabetes mellitus,1,0,0,0,20140312
+10005282,Lisinopril,85,F,7,L-Thyroxine                        /00068001/; Pantozol; Hct; Novalgin; Lisinopril.; Bendamustine Hydrochloride,Circulatory collapse,1,1,0,0,20140312
+10005429,Lisinopril,40,M,5,Suboxone Film; Suboxone Film; Lisinopril; Buystolic; Aspirin,Intentional underdose; Wrong technique in drug usage process; Drug withdrawal syndrome,1,1,0,0,20140312
+10005927,Lisinopril,52,F,6,Cimzia; Methotrexate; Sulphasalazine; Lisinopril; Amlodipine; Ibuprofen,Appendicitis,1,1,0,0,20140313
+10005933,Lisinopril,78,F,2,Lisinopril; Amlodipine,Dermatitis bullous; Type IV hypersensitivity reaction,1,0,0,0,20140313
+10006051,Lisinopril,89,F,7,Xarelto; Xarelto; Aspirin; Coreg; Imdur; Lisinopril,Blindness; Deafness; Loss of consciousness,1,1,1,0,20140313
+10006071,Lisinopril,81,M,13,Xarelto; Xarelto; Aspirin; Plavix; Synthroid; Valium,Cardiac arrest; Blood urine present; Unresponsive to stimuli,1,1,0,1,20140313
+10006126,Lisinopril,84,F,7,Dronedarone; Dabigatran; Multivitamins; Crestor; Metoprolol Tartrate; Lisinopril,Haemorrhage; Drug interaction,1,1,0,0,20140313
+10006143,Lisinopril,64,F,9,Revlimid; Atorvastatin Calcium; Carvedilol; Hyoscyamine Sulfate; Levothyroxine Sodium; Lisinopril,Death,1,0,0,1,20140313
+10006159,Lisinopril,64,M,3,Erlotinib Tablet; Metformin                          /00082702/; Lisinopril,Blood disorder; Neoplasm malignant,1,0,0,1,20140313
+10006166,Lisinopril,60,M,5,Erlotinib Tablet; Megestrol Acetate; Lisinopril; Oxycodone/Apap                     /00867901/; Enoxaparin,Incorrect dose administered; Death,1,0,0,1,20140313
+10006224,Lisinopril,64,M,4,Lyrica; Lyrica; Amlodipine Besylate; Lisinopril,Back disorder; Diabetic neuropathy; Neuralgia,1,0,0,0,20140313
+10006240,Lisinopril,78,F,6,Dronedarone; Dabigatran; Furosemide; Simvastatin; Lisinopril; Carvedilol,Gastrointestinal haemorrhage; Drug interaction,1,1,0,0,20140313
+10006269,Lisinopril,26,F,8,Yaz; Topamax; Terbinafine; Treximet; Lisinopril; Dilaudid,Pulmonary embolism,1,1,0,0,20140313
+10006302,Lisinopril,96,F,8,Zestoretic; Lumirelax; Transipeg; Folic Acid; Inexium; Lasilix,Fall; Head injury; Vertigo,1,1,0,0,20140313
+10006313,Lisinopril,64,F,6,Dronedarone; Dabigatran; Plavix; Lisinopril; Zantac; Aspirin,Haemorrhage; Drug interaction,1,1,0,0,20140313
+10006341,Lisinopril,37,F,12,Remeron; Remeron Soltab; Diazepam; Lisinopril; Clorazepate Dipotassium; Clorazepate Dipotassium,Coma; Suicide attempt; Suicide attempt,1,1,0,0,20140313
+10006434,Lisinopril,85,F,9,Dabigatran; Dabigatran; Celebrex; Tramadol; Lisinopril; Sertraline Hcl,Gastrointestinal haemorrhage,1,1,0,0,20140313
+10006463,Lisinopril,73,M,18,Dabigatran; Isosorbide Mononitrate.; Dabigatran; Metformin; Amlodipine; Protonix,Gastrointestinal haemorrhage; Iron deficiency anaemia; Upper gastrointestinal haemorrhage,1,1,0,0,20140313
+10006465,Lisinopril,87,F,7,Dabigatran; Asa; Zocor; Metoprolol; Lisinopril; Amiodarone,Anaemia,1,1,0,0,20140313
+10006492,Lisinopril,65,M,9,Crestor; Atorvastatin; Aspirin; Bendroflumethiazide; Doxazosin; Lisinopril,Small fibre neuropathy,1,0,0,0,20140313
+10006505,Lisinopril,71,M,7,Dronedarone; Dabigatran; Lipitor; Toprol Xl; Aspirin; Metformin Hydrochloride,Haemorrhage; Drug interaction,1,1,1,0,20140313
+10006537,Lisinopril,67,F,9,Lisinopril; Lisinopril; Brilinta; Plavix; Plavix; Asprin,Coronary artery occlusion; Eye haemorrhage; Blood pressure increased,1,1,0,0,20140313
+10006993,Lisinopril,76,F,15,Baclofen; Lovastatin; Metformin; Clopidogrel; Atenolol; Glipizide,Vomiting; Loss of consciousness; Dizziness,1,1,0,0,20140311
+10006729,Amiodarone,68,M,6,Prazaxa; Prazaxa; Olmetec / Olmesartan Medoxomil; Amiodarone Hydrochloride; Avolve / Dutasteride; Urief / Silodosin,Benign prostatic hyperplasia,1,1,0,0,20140313
+10010974,Amiodarone,75,F,5,Dronedarone; Dabigatran; Sotalol Hydrochloride; Coumadin; Amiodarone Hydrochloride,Large intestinal haemorrhage; Drug interaction,1,1,0,0,20140314
+10027917,Amiodarone,54,M,19,Furosemide.; Potassium Chloride.; Plavix; Oxycodone; Elavil; Lisinopril.,Multiple injuries; Gastrointestinal haemorrhage,1,1,0,0,20140321
+10028101,Amiodarone,79,M,2,Dexmedetomidine Hydrochloride; Amiodarone Hydrochloride,Somnolence; Obstructive airways disorder; Device ineffective,1,1,0,0,20140318
+10041008,Amiodarone,76,F,11,Amiodarone Hydrochloride; Amiodarone Hydrochloride; Omeprazole; Clopidogrel Bisulfate; Aspirin; Hydrochlorothiazide/Irbesartan,Gastric ulcer; Abdominal discomfort; Sinus bradycardia,1,0,0,0,20140327
+10060290,Amiodarone,71,F,4,Xarelto; Xarelto; Amiodarone Hydrochloride; Amiodarone,Jaundice cholestatic,1,1,0,0,20140404
+10066268,Amiodarone,64,M,11,Xtandi; Megace; Aspirin; Coreg; Pacerone; Amiodarone,Death,1,0,0,1,20140408
+10066732,Amiodarone,87,M,12,Metoprolol Tartrate.; Neurotin                           /01003001/; Coumadin; Calcium; Novolin; Xtandi,Decreased appetite; Death; Fatigue,1,0,0,1,20140408
+10068410,Amiodarone,60,M,4,Xarelto; Xarelto; Aspirin; Amiodarone Hydrochloride,Haemoglobin decreased; Drug interaction; Large intestine polyp,1,1,0,0,20140409
+10070589,Amiodarone,64,M,8,Lipitor; Xalacom; Metoprolol Tartrate; Seroquel; Amiodarone Hydrochloride; Furosemide,Cardiac failure,1,0,0,1,20140410
+10075899,Amiodarone,76,F,16,Allopurinol; Irbesartan; Atorvastatin; Venlafaxine Hydrochloride; Amiodarone Hydrochloride; Colchicine,Hepatocellular injury,1,0,0,0,20140414
+10084168,Amiodarone,53,M,1,Amiodarone Hydrochloride,Thyroiditis; Hyperthyroidism; Diabetes mellitus inadequate control,1,0,0,0,20140417
+10094464,Amiodarone,74,M,5,Potassium Canrenoate; Losartan Actavis; Amiodarone Hydrochloride.; Cardioaspirin; Lansoprazole.,Visual acuity reduced; Vision blurred; Optic ischaemic neuropathy,1,0,0,0,20140422
+10098650,Amiodarone,67,M,8,Pradaxa; Pradaxa; Pacerone; Metoprolol; Lantis; Metformin,Atrial fibrillation; Weight increased,1,1,0,0,20140423
+10101787,Amiodarone,64,M,15,Plavix; Eliquis; Potassium Chloride; Clonidine; Terazosin; Amlodipine,Heart valve replacement,1,0,0,0,20140424
+10103105,Amiodarone,56,M,6,Ventolin; Advair Hfa; Lisinopril; Coumadin; Pacerone; Furosemide,Lower limb fracture; Ankle operation; Road traffic accident,1,1,0,0,20140424
+10103461,Amiodarone,72,M,21,Zetia; Altace; Coumadin; Lasix; Pacerone; Simvastatin.,Cerebral haemorrhage; Cerebrovascular accident,1,1,0,1,20140424
+10109939,Amiodarone,51,F,1,Amiodarone Hydrochloride,Endovenous ablation,1,1,0,0,20140425
+10110532,Amiodarone,56,M,6,Metoprolol Tartrate.; Aspirin.; Avandia; Ramipril.; Amiodarone Hydrochloride.; Simvastatin.,Vascular graft; Myocardial infarction,1,1,0,0,20140425
+10111197,Amiodarone,87,M,14,Xarelto; Xarelto; Asa; Pacerone; Zocor; Fish Oil,Epistaxis; Melaena; Drug interaction,1,1,0,0,20140425
+10112155,Amiodarone,59,F,8,Metformin; Viagra; K-Dur; Avandia; Lasix; Cardizem,Coronary artery disease,1,1,0,0,20140425
+10115563,Amiodarone,62,M,6,Aspirin.; Avandia; Lasix; Lopressor; Plavix; Pacerone,Coronary artery disease; Myocardial infarction,1,1,0,0,20140426
+10115975,Amiodarone,79,F,6,Mavik; Aspirin.; Lasix; Avandia; Pacerone; Apresoline Hydrochloride,Acute coronary syndrome; Myocardial infarction,1,1,0,0,20140426
+10118333,Amiodarone,64,F,6,Lisinopril.; Lasix; Metoprolol; Coumadin; Avandia; Pacerone,Transient ischaemic attack; Cardiac failure congestive; Atrial fibrillation,1,1,0,0,20140426
+10120820,Amiodarone,64,M,5,Amiodarone Hydrochloride.; Aspirin.; Carvedilol.; Enalapril; Avandia,Acute myocardial infarction,1,1,0,0,20140425
+10122694,Amiodarone,56,F,2,Avandia; Pacerone,Sinus node dysfunction; Cardio-respiratory arrest; Myocardial infarction,1,1,0,1,20140427
+10125506,Amiodarone,87,F,3,Antihypertensives; Avandia; Pacerone,Cerebrovascular accident; Hypertension; Cardiac failure congestive,1,1,0,1,20140427
+10126038,Amiodarone,63,M,4,Avandia; Plavix; Pacerone; Aspirin.,Myocardial infarction; Angina unstable; Coronary artery disease,1,1,0,0,20140427
+10130946,Amiodarone,74,M,12,Amiodarone Hydrochloride; Amiodarone Hydrochloride; Lortab; Gabapentin; Furosemide; Acetaminophen W/Hydrocodone,Respiratory failure,1,0,0,1,20140428
+10132514,Amiodarone,67,F,7,Avandia; Coreg; Altace; Spironolactone.; Pacerone; Plavix,Myocardial infarction; Cardiac failure congestive,1,1,0,0,20140428
+10135039,Amiodarone,65,M,7,Aspirin.; Lasix; Coreg; Pacerone; Lisinopril.; Avandia,Angina unstable,1,1,0,0,20140428
+10139556,Amiodarone,49,F,5,Pacerone; Avandia; Toprol Xl; Avandamet; Aspirin.,Myocardial infarction; Atrial fibrillation,1,1,0,0,20140429
+10140422,Amiodarone,51,M,7,Plavix; Pacerone; Aspirin.; Amitriptyline; Mavik; Avandia,Myocardial infarction,1,1,0,0,20140429
+10148876,Amiodarone,60,F,4,Amiodarone Hydrochloride; Marcoumar; Lamotrigine; Primid,Cerebrovascular accident; Rash,1,0,0,0,20140502
+10155704,Amiodarone,73,M,16,Diovan; Amiodarone Hydrochloride.; Myocor:Spray; Lasix; Prazaxa; Halfdigoxin,Abdominal pain upper; Drug effect incomplete; Cerebral infarction,1,1,0,0,20140506
+10003632,Clopidogrel,77,M,21,Revlimid; Revlimid; Plavix; Plavix; Fish Oil - Vitamin D3; Allopurinol,Influenza; Pneumonia,1,1,1,0,20140312
+10003636,Clopidogrel,77,M,23,Granulocyte Macrophage Colony Stim Factor; Carvedilol.; Florinef Acetate; Pravastatin; Ima901; Lisinopril.,Dehydration,1,1,0,0,20140312
+10003717,Clopidogrel,67,F,14,Jakafi; Jakafi; Jakafi; Celebrex; Lasix; Zantac,Haemoglobin decreased; Weight increased,1,0,0,0,20140312
+10003792,Clopidogrel,46,M,11,Depakote; Keppra; Plavix; Lisinopril; Metoprolol; Ranexa,Grand mal convulsion; Vomiting; Amnesia,1,0,0,0,20140312
+10003813,Clopidogrel,64,M,21,Depakote; Methotrexate; Prednisone; Folic Acid; Labetalol; Labetalol,Pancreatitis; Off label use,1,1,0,0,20140312
+10003923,Clopidogrel,64,F,23,Jakafi; Simvastatin.; Ciprofloxacin.; Aspirin.; Cimetidine; Cephalexin                         /00145501/,Increased appetite; Incontinence; Off label use,1,0,0,0,20140312
+10004232,Clopidogrel,64,Desconocido,2,Human Clottable Protein/Human Thrombin; Plavix,Haemorrhage; Haemarthrosis,1,0,0,0,20140312
+10004302,Clopidogrel,80,F,11,Plavix; Lasix; Atelec; Trazenta; Atorvastatin; Limarmone,Renal impairment; Hyperkalaemia; Iron deficiency anaemia,1,1,0,0,20140312
+10004465,Clopidogrel,62,M,20,Toprol; Thalomid; Thalomid; Decadron; Synthroid; Altace,Depression; Disease progression; Psychotic disorder,1,1,0,0,20140312
+10004497,Clopidogrel,48,M,8,Champix; Clopidogrel; Fluoxetine; Acetylsalicylic Acid; Atorvastatin; Bisoprolol,Haematuria; Pyrexia; Myalgia,1,0,0,0,20140312
+10004642,Clopidogrel,39,F,14,Fesoterodine; Amlodipine; Amorolfine; Atorvastatin; Baclofen; Citalopram,Vomiting; Diplopia; Gait disturbance,1,0,0,0,20140312
+10004748,Clopidogrel,64,F,5,Salbutamol Sulphate; Plavix; Coumadin; Spiriva; Unknown Medication,Heart rate increased; Abdominal distension; Sinus operation,1,1,0,0,20140312
+10005474,Clopidogrel,77,F,11,Forteo; Plavix; Nivadil; Depas; Minzain; Remodellin,Acute myeloid leukaemia; Hypothyroidism; Inflammation,1,0,0,1,20140312
+10005888,Clopidogrel,54,M,24,Crestor; Aspirin Usa; Iron; Nitrostat; Atenolol.; Lasix,Cardiac arrest; Acute myocardial infarction; Left atrial dilatation,1,1,1,0,20140313
+10005953,Clopidogrel,62,M,8,Humalog Lispro; Lantus; Karvea; Plavix; Somac; Ezetrol,Incorrect dose administered; Memory impairment; Blood glucose abnormal,1,1,0,0,20140313
+10006071,Clopidogrel,81,M,13,Xarelto; Xarelto; Aspirin; Plavix; Synthroid; Valium,Cardiac arrest; Blood urine present; Unresponsive to stimuli,1,1,0,1,20140313
+10006104,Clopidogrel,62,M,4,Plavix; Previscan; Plavix; Previscan,Drug interaction; Epistaxis; Anaemia,1,1,0,0,20140313
+10006139,Clopidogrel,74,F,2,Clopidogrel; Ginkgo Biloba,Vaginal haemorrhage; Haematuria; Contusion,1,0,0,0,20140313
+10006266,Clopidogrel,84,M,13,Vimpat; Vimpat; Keppra; Amlor; Atacand; Iperten,Ataxia; Gait disturbance; Balance disorder,1,1,0,0,20140313
+10006313,Clopidogrel,64,F,6,Dronedarone; Dabigatran; Plavix; Lisinopril; Zantac; Aspirin,Haemorrhage; Drug interaction,1,1,0,0,20140313
+10006317,Clopidogrel,84,F,8,Dronedarone; Dabigatran; Protonix; Potassium; Plavix; Bumetanide,Diarrhoea haemorrhagic; Drug interaction; Melaena,1,1,0,0,20140313
+10006324,Clopidogrel,29,F,14,Propoxyphene Hydrochloride And Acetaminophen; Topamax; Tylenol With Codeine; Dexpak; Azithromycin; Neurontin,Cerebrovascular accident; Abdominal pain; Gait disturbance,1,1,0,0,20140313
+10006383,Clopidogrel,86,F,6,Plavix; Xalatan; Enalapril; Metformin; Atorvastatin; Ranitidine,Cardiac disorder; Visual acuity reduced; Eye swelling,1,0,0,0,20140313
+10006401,Clopidogrel,68,F,12,Losartan Potassium 50 Mg; Losartan Potassium 50 Mg; Amlodipine; Aspirin; Atorvastatin; Beclomethasone Dipropionate,Chillblains; Pain in extremity; Oedema peripheral,1,0,0,0,20140313
+10006435,Clopidogrel,56,M,5,Dabigatran; Plavix; Carvedilol; Pravastatin; Sotalol,Upper gastrointestinal haemorrhage,1,1,0,0,20140313
+10006537,Clopidogrel,67,F,9,Lisinopril; Lisinopril; Brilinta; Plavix; Plavix; Asprin,Coronary artery occlusion; Eye haemorrhage; Blood pressure increased,1,1,0,0,20140313
+10006583,Clopidogrel,59,F,4,Diltiazem; Aspirin.; Tracleer; Plavix,Laceration; Dyspnoea; Productive cough,1,1,1,0,20140313
+10006993,Clopidogrel,76,F,15,Baclofen; Lovastatin; Metformin; Clopidogrel; Atenolol; Glipizide,Vomiting; Loss of consciousness; Dizziness,1,1,0,0,20140311
+10007002,Clopidogrel,83,M,5,Dronedarone; Dabigatran; Aspirin; Plavix; Furosemide,Gastrointestinal haemorrhage; Drug interaction; Haematochezia,1,1,0,0,20140313
+10007454,Clopidogrel,48,M,8,Clopidogrel; Champix; Aspirin; Fluoxetine; Atorvastatin; Bisoprolol,Haematuria; Pyrexia; Myalgia,1,0,0,0,20140313
+10008400,Clopidogrel,74,F,25,Orencia; Clopidogrel Bisulfate; Irbesartan Tabs 300 Mg; Thyroxine; Somac; Magnesium Aspartate,Cerebrovascular accident; Drug ineffective,1,0,0,0,20140313
+10008524,Clopidogrel,58,F,6,Tracleer; Plavix; Diltiazem; Synthroid; Sildenafil; Lasix,Coronary arterial stent insertion; Urinary tract infection; Klebsiella test positive,1,0,0,0,20140313
+10008917,Clopidogrel,73,M,19,Jakafi; Jakafi; Jakafi; Hydroxyzine Hydrochloride; Lomotil; Advair,Thrombocytopenia,1,0,0,0,20140313
+10009117,Clopidogrel,64,F,7,Letrozole (Unknown); Altace; Eltroxin; Gliclazide; Mirtazapine; Plavix,Hot flush; Product substitution issue,1,0,0,0,20140313
+10009400,Clopidogrel,87,M,14,Jakafi; Cymbalta; Tramadol; Tramadol; Allopurinol; Vesicare,Haemoglobin decreased; Haematocrit decreased,1,0,0,0,20140313
+10003792,Simvastatin,46,M,11,Depakote; Keppra; Plavix; Lisinopril; Metoprolol; Ranexa,Grand mal convulsion; Vomiting; Amnesia,1,0,0,0,20140312
+10003917,Simvastatin,56,F,14,Jakafi; Tacrolimus.; Jakafi; Rapamune; Pentasa; Vagifem,Blood lactate dehydrogenase increased; White blood cell count increased; Epistaxis,1,0,0,0,20140312
+10003923,Simvastatin,64,F,23,Jakafi; Simvastatin.; Ciprofloxacin.; Aspirin.; Cimetidine; Cephalexin                         /00145501/,Increased appetite; Incontinence; Off label use,1,0,0,0,20140312
+10003941,Simvastatin,65,M,10,Certican; Myfortic; Emconcor; Marevan; Simvastatin; D-Cure,Interstitial lung disease; Dyspnoea; General physical health deterioration,1,1,1,0,20140312
+10004072,Simvastatin,71,M,2,Omniscan; Simvastatin,Nephrogenic systemic fibrosis,1,0,0,0,20140312
+10004085,Simvastatin,64,Desconocido,8,Blinded Aliskiren; Blinded Enalapril; Blinded No Treatment Received; Aspirin; Simvastatin; Hct,Lower gastrointestinal haemorrhage,1,1,0,0,20140312
+10004221,Simvastatin,64,F,5,Effexor Xr; Effexor Xr; Baby Aspirin; Oxybutynin; Simvastatin,Chest pain; Palpitations; Drug ineffective,1,1,0,0,20140312
+10004323,Simvastatin,51,F,6,Vytorin; Cerazette; Cerazette; Benicar; Concor; Glifage,Thyroid nodule removal; Thyroid neoplasm; Metrorrhagia,1,1,0,0,20140312
+10004545,Simvastatin,78,F,3,Revlimid; Metoprolol; Simvastatin,Respiratory disorder,1,1,0,0,20140312
+10004549,Simvastatin,66,F,7,Lyrica; Aradois; Simvastatin; Metformin Hydrochloride; Glimepiride; Omeprazole,Spinal disorder; Off label use,1,0,0,0,20140312
+10004611,Simvastatin,78,M,9,Revlimid; Prednisone; Levothyroxine; Tramadol; Omeprazole; Simvastatin,Laboratory test abnormal,1,0,0,0,20140312
+10004661,Simvastatin,68,F,9,Lipitor; Lipitor; Lipitor; Lipitor; Lipitor; Atorvastatin Calcium.,Glucose tolerance impaired; Type 2 diabetes mellitus,1,0,0,0,20140312
+10004668,Simvastatin,64,M,5,Avandia; Avandamet; Glyceroltrinitrate; Zocor; Zoloft,Coronary artery occlusion; Transient ischaemic attack; Cardiac failure congestive,1,1,0,0,20140312
+10004694,Simvastatin,48,F,5,Simvastatin.; Lipitor; Atorvastatin Calcium.; Lipitor; Atorvastatin Calcium.,Cataract; Type 2 diabetes mellitus,1,0,0,0,20140312
+10004698,Simvastatin,49,F,4,Lipitor; Simvastatin.; Atorvastatin; Lipitor,Type 2 diabetes mellitus,1,0,0,0,20140312
+10004818,Simvastatin,63,F,5,Lipitor; Simvastatin.; Lovastatin.; Lipitor; Atorvastatin,Type 2 diabetes mellitus,1,0,0,0,20140312
+10004879,Simvastatin,51,F,8,Lipitor; Simvastatin.; Toprol Xl; Atorvastatin; Simvastatin.; Zocor,Type 2 diabetes mellitus; Diabetic dermopathy,1,0,0,0,20140312
+10004934,Simvastatin,65,F,5,Lipitor; Lipitor; Simvastatin.; Lipitor; Atorvastatin,Type 2 diabetes mellitus,1,0,0,0,20140312
+10004951,Simvastatin,54,F,5,Lipitor; Crestor; Lipitor; Lipitor; Simvastatin.,Type 2 diabetes mellitus,1,0,0,0,20140312
+10005138,Simvastatin,50,F,6,Lipitor; Amlodipine Besylate.; Lipitor; Lipitor; Simvastatin.; Lipitor,Renal failure; Parathyroid tumour; Brain neoplasm,1,0,0,0,20140312
+10005163,Simvastatin,47,F,4,Zocor; Zocor; Lovastatin.; Lipitor,Type 2 diabetes mellitus,1,0,0,0,20140312
+10005217,Simvastatin,72,F,3,Lipitor; Simvastatin.; Atorvastatin,Type 2 diabetes mellitus; Impaired gastric emptying,1,0,0,0,20140312
+10005221,Simvastatin,64,F,2,Simvastatin.; Lipitor,Type 2 diabetes mellitus,1,0,0,0,20140312
+10005520,Simvastatin,76,M,5,Naproxen; Doxazocin; Ramipril; Lercanidipine; Simvastatin,Upper gastrointestinal haemorrhage,1,1,0,0,20140313
+10005797,Simvastatin,63,M,1,Simvastatin,Lichen planus,1,0,0,0,20140313
+10005810,Simvastatin,59,M,6,Simvastatin; Amlodipine; Indapamide; Metformin; Perindopril; Tamsulosin Hydrochloride,Cough; Sleep disorder; Muscular weakness,1,0,0,0,20140313
+10005825,Simvastatin,66,F,9,Olanzapine; Olanzapine; Amitriptyline; Atenolol; Folic Acid; Levothyroxine,Sepsis; Body temperature increased; Hypotension,1,1,1,0,20140313
+10005835,Simvastatin,70,M,1,Simvastatin,Gastrointestinal motility disorder; Volvulus; Abdominal discomfort,1,1,0,0,20140313
+10005839,Simvastatin,69,F,19,Neulasta; Neulasta; Amitriptyline; Bendroflumethiazide; Bisacodyl; Calcichew D3,Leukoencephalopathy; Peroneal nerve palsy; Mobility decreased,1,0,0,1,20140313
+10005916,Simvastatin,73,F,6,Avastin; Ramipril; Simvastatin; Kalitrans; Euphylong; Berotec,Atrial flutter,1,0,0,0,20140313
+10006057,Simvastatin,77,F,9,Xarelto; Xarelto; Tramadol; Clonazepam; Omeprazole; Bisoprolol,Transient ischaemic attack,1,1,0,0,20140313
+10006061,Simvastatin,75,M,6,Xarelto; Asa; Omeprazole; Levothyroxine; Simvastatin; Fish Oil,Cerebral haemorrhage; Haemoglobin decreased,1,1,0,1,20140313
+10006066,Simvastatin,58,M,12,Xarelto; Xarelto; Xarelto; Xarelto; Xarelto; Xarelto,Pulmonary embolism,1,1,1,0,20140313
+10006110,Simvastatin,55,F,9,Arava; Naprix; Vytorin; Actemra; Vytorin; Asa,Erysipelas; Limb injury; Weight decreased,1,1,0,0,20140313
+10006157,Simvastatin,70,M,12,Erlotinib Tablet; Xalatan; Alphagan; Coumadin                           /00014802/; Proventil                          /00139502/; Simvastatin,Death,1,0,0,1,20140313
+10003336,Metformin,64,M,2,Janumet; Januvia,Metastases to spine; Anxiety; Renal cyst,1,1,0,1,20140312
+10003642,Metformin,66,F,11,Tofacitinib Citrate; Tofacitinib Citrate; Methotrexate; Sea Kelp; Armour Thyroid; Losartan,Osteomyelitis,1,0,0,0,20140312
+10003647,Metformin,74,M,6,Metformin; Cozaar; Acz885; Waran; Trombyl; Amlodipin//Amlodipine,Erysipelas; Sepsis,1,1,0,1,20140312
+10003678,Metformin,64,M,1,Janumet,Neoplasm malignant; Metastasis,1,0,0,1,20140312
+10003993,Metformin,64,F,9,Xgeva; Afinitor; Exemestane; Metformin; Mirtazapin; Tramadol,Metastases to bone; Osteonecrosis of jaw,1,1,0,0,20140312
+10004081,Metformin,62,F,9,Femara; Femara; Lorazepam; Metformin; Sertraline; Levothyroxine,Ocular hyperaemia; Eye pain; Dry eye,1,1,0,0,20140312
+10004089,Metformin,46,M,14,Ampyra; Buspar; Glucophage; Lipitor; Spironolactone; Lisinopril,Convulsion; Alcohol detoxification; Loss of consciousness,1,1,0,0,20140312
+10004186,Metformin,67,M,10,Jakafi; Jakafi; Jakafi; Jakafi; Januvia; Metformin,Thrombotic microangiopathy; Renal impairment; Hepatic failure,1,0,0,1,20140312
+10004211,Metformin,26,F,7,Effexor Xr; Effexor Xr; Metformin; Lutera; Clonazepam; Aspirin,Spinal disorder; Dizziness; Feeling abnormal,1,0,0,0,20140312
+10004340,Metformin,61,F,33,Revlimid; Norepinephrine; Vancomycin; Vancomycin; Cefepime; Ampicillin,Mental status changes,1,1,0,0,20140312
+10004549,Metformin,66,F,7,Lyrica; Aradois; Simvastatin; Metformin Hydrochloride; Glimepiride; Omeprazole,Spinal disorder; Off label use,1,0,0,0,20140312
+10004669,Metformin,47,F,5,Lamictal; Seroquel; Wellbutrin Sr; Ventolin Hfa; Metformin,Transfusion; Liver disorder; Rash,1,1,0,0,20140312
+10004687,Metformin,60,F,10,Aspirin.; Aspirin.; Metformin; Trimethoprim.; Losartan Potassium.; Ezetimibe.,Arteritis,1,0,0,0,20140312
+10004825,Metformin,82,M,7,Atorvastatin; Calcichew-D3; Gliclazide; Lansoprazole; Metformin; Ramipril,Myalgia; Muscular weakness; Fall,1,1,0,0,20140312
+10004826,Metformin,64,F,1,Metformin Hcl,Cardiac disorder; Blood glucose increased,1,0,0,0,20140312
+10005013,Metformin,64,F,3,Follitropin Alfa; Human Chorionic Gonadotrophin; Metformin Hydrochloride.,Maternal exposure during pregnancy; Off label use; Abortion,1,0,0,0,20140312
+10005016,Metformin,64,F,3,Metformin Hydrochloride.; Chorionic Gonadotropin; Clomiphene Citrate.,Off label use; Abortion; Maternal exposure during pregnancy,1,0,0,0,20140312
+10005020,Metformin,64,F,3,Follitropin Alfa; Human Chorionic Gonadotrophin; Metformin Hydrochloride.,Maternal exposure during pregnancy; Off label use; Abortion,1,0,0,0,20140312
+10005024,Metformin,64,F,3,Metformin Hydrochloride.; Human Chorionic Gonadotrophin; Follitropin Alfa,Maternal exposure during pregnancy; Off label use; Abortion,1,0,0,0,20140312
+10005026,Metformin,64,F,3,Follitropin Alfa; Human Chorionic Gonadotrophin; Metformin Hydrochloride.,Ectopic pregnancy; Maternal exposure during pregnancy; Off label use,1,0,0,0,20140312
+10005174,Metformin,53,F,10,Benicar; Lipitor; Metoprolol.; Metformin; Lisinopril.; Plendil,Type 2 diabetes mellitus,1,0,0,0,20140312
+10005214,Metformin,60,M,3,Mcp; Metformin; Moxonidin,Dyskinesia; Parkinsonism; Speech disorder,1,0,0,0,20140312
+10005223,Metformin,60,F,14,Bystolic; Cymbalta; Diclofenac; Xanax; Xanax; Tizanidine (Tizanidine),Faecal incontinence; Neck surgery; Drug effect decreased,1,1,0,0,20140312
+10005482,Metformin,52,F,2,"Humalog 50% Lispro, 50% Npl; Metformin",Renal disorder; Oedema,1,0,0,0,20140312
+10005810,Metformin,59,M,6,Simvastatin; Amlodipine; Indapamide; Metformin; Perindopril; Tamsulosin Hydrochloride,Cough; Sleep disorder; Muscular weakness,1,0,0,0,20140313
+10005816,Metformin,64,F,3,Ranibizumab; Losartan; Metformin,Lung neoplasm malignant; Metastases to heart; Metastasis,1,1,0,1,20140313
+10005908,Metformin,52,F,9,Victoza; Victoza; Metformin; Metformin; Levemir; Valsartan,Drug interaction; Headache,1,1,0,0,20140313
+10005923,Metformin,76,M,30,Humalog Lispro; Acetaminophen W/Hydrocodone; Metformin; Lantus; Lantus; Glimepiride,Atypical pneumonia; Hypoacusis,1,0,0,0,20140313
+10005995,Metformin,44,F,20,Hizentra; Hizentra; Hizentra; Hizentra; Astelin; Metformin,Gastroenteritis Escherichia coli; Nausea; Vomiting,1,1,0,0,20140313
+10006098,Metformin,64,F,1,Janumet,Dyspnoea,1,0,0,0,20140313
+10006150,Metformin,70,F,13,Erlotinib Tablet; Xalatan; Caduet; Amlodipine Besilate; Azithromycin; Metformin,Haemoptysis; Dyspnoea; Fatigue,1,1,0,0,20140313
+10006157,Metformin,70,M,12,Erlotinib Tablet; Xalatan; Alphagan; Coumadin                           /00014802/; Proventil                          /00139502/; Simvastatin,Death,1,0,0,1,20140313
+10006160,Metformin,64,M,9,Erlotinib Tablet; Pantoprazole; Creon; Lasix                              /00032601/; Amaryl; Oxycodone And Acetaminophen,Dyspepsia,1,0,0,0,20140313
+10006165,Metformin,64,M,6,Erlotinib Tablet; Decadron                           /00016001/; Coumadin                           /00014802/; Pravastatin; Metformin; Glyburide,Death,1,0,0,1,20140313
+10006247,Metformin,44,F,6,Yaz; Yasmin; Metformin; Penicillin Vk; Ibuprofen; Excedrin Migraine,Deep vein thrombosis,1,1,0,0,20140313
+10003923,Ciprofloxacin,64,F,23,Jakafi; Simvastatin.; Ciprofloxacin.; Aspirin.; Cimetidine; Cephalexin                         /00145501/,Increased appetite; Incontinence; Off label use,1,0,0,0,20140312
+10004703,Ciprofloxacin,41,M,17,Tenofovir Disoproxil Fumarate; Emtricitabine; Efavirenz; Cotrimoxazole; Isoniazid; Pyridoxine,Death,1,0,0,1,20140312
+10004713,Ciprofloxacin,45,F,4,Flovent; Ciprofloxacin; Oxygen; Nebulizer,Pneumonia; Cough; Speech disorder,1,0,0,0,20140312
+10005502,Ciprofloxacin,64,F,14,Xolair; Albuterol; Allegra; Cipro; Flonase; Hydroxyzine,Asthma; Sinusitis,1,1,0,0,20140313
+10005858,Ciprofloxacin,54,M,3,Ciprofloxacin; Betamethasone Valerate; Ramipril,Cardiac arrest; Paraesthesia oral; Muscle spasms,1,0,1,0,20140313
+10005995,Ciprofloxacin,44,F,20,Hizentra; Hizentra; Hizentra; Hizentra; Astelin; Metformin,Gastroenteritis Escherichia coli; Nausea; Vomiting,1,1,0,0,20140313
+10006265,Ciprofloxacin,42,F,4,Yaz; Yasmin; Acetaminophen W/Hydrocodone; Ciprofloxacin,Pulmonary embolism,1,0,0,0,20140313
+10006290,Ciprofloxacin,23,F,2,Yasmin; Ciprofloxacin.,Pain; General physical health deterioration; Emotional distress,1,0,0,0,20140313
+10006323,Ciprofloxacin,19,F,26,Ritalin; Concerta; Prilosec; Lamictal; Wellbutrin; Ritalin,Anxiety; Mobility decreased; Pulmonary embolism,1,1,0,0,20140313
+10006589,Ciprofloxacin,68,M,66,Omniscan; Omniscan; Omniscan; Omniscan; Omniscan; Gadolinium (Unspecified),Nephrogenic systemic fibrosis,1,0,0,0,20140313
+10006823,Ciprofloxacin,79,M,2,Ciprofloxacin; Diltiazem,Acute generalised exanthematous pustulosis,1,1,0,0,20140311
+10006986,Ciprofloxacin,45,Desconocido,1,Ciprofloxacin,Hallucination; Insomnia; Anxiety,1,0,1,0,20140312
+10007132,Ciprofloxacin,76,M,12,Hyzaar; Protonix; Ciprofloxacin.; Verapamil; Multivitamins; Hyzaar,Depression; Drug hypersensitivity; Suicidal ideation,1,1,0,0,20140313
+10007269,Ciprofloxacin,29,F,9,Mirena; Ciprofloxacin; Maxalt; Zantac; Estradiol; Vicodin,Uterine perforation; Abdominal pain; General physical health deterioration,1,1,1,0,20140313
+10007340,Ciprofloxacin,64,M,3,Advair; Cipro; Remicade,Pneumonia; Hypersensitivity; Influenza,1,1,0,0,20140313
+10007341,Ciprofloxacin,61,M,6,Ondansetron; Fluorouracil; Phenergan; Leucovorin; Cipro; Oxaliplatin,Non-alcoholic steatohepatitis,1,1,0,0,20140313
+10007348,Ciprofloxacin,55,F,19,Promethazine; Sumatriptan; Sulfamethoxazole; Atorvastatin; Oxycodone + Acetaminophen; Ibuprofen,Breast cancer metastatic; Nasopharyngitis; Drug hypersensitivity,1,0,0,0,20140313
+10008016,Ciprofloxacin,68,M,7,Remicade; Remicade; Asacol; Solu-Medrol; Cipro; Levaquin,Thrombosis; Pulmonary thrombosis; Mental status changes,1,1,0,0,20140313
+10008466,Ciprofloxacin,64,F,1,Cipro,Drug hypersensitivity; Angioedema,1,0,0,0,20140313
+10008490,Ciprofloxacin,64,M,15,Treanda; Rituximab; Gs-1101; Acyclovir; Amoxicillin; Atorvastatin,Neutropenia; Anaemia; Pancytopenia,1,1,0,0,20140313
+10008576,Ciprofloxacin,74,M,2,Ciprofloxacin; Flagyl,Weight decreased; Adverse event; Pollakiuria,1,0,0,0,20140313
+10008845,Ciprofloxacin,64,F,6,Cytarabine; Ciprofloxacin; Aciclovir; Idarubicin; Etoposide; Tretinoin,Enterocolitis haemorrhagic; Mucosal inflammation,1,1,0,0,20140313
+10009483,Ciprofloxacin,64,F,10,Jakafi; Allopurinol; Propanolol; Losartan; Levothyroxine; Lexapro,Haemoglobin decreased; Urinary tract infection,1,0,0,0,20140312
+10011133,Ciprofloxacin,37,F,5,Yaz; Hydrocodone W/Acetaminophen; Ciprofloxacin; Actonel; Levaquin,Pulmonary embolism; Deep vein thrombosis,1,1,0,0,20140314
+10011487,Ciprofloxacin,64,F,47,"Xyrem; Xyrem; Ferrous Fumarate; One A Day Women^S (Ascorbic Acid, Betacarotene, Biotin Calcium Carbonate, Calcium Pantothenate, Chromic Chloride, Colecalciferol, Cyanocobalamin, Dl-Alpha Tocopheryl Acetate, Ferrous Fumarate, Folic Acid, Magnesium Oxide, Manganese Sulfate, Nicotinamide,; Calcium Ds (Calcium Carbonate, Colecalciferol); Magnesium (Magnesium Hydroxide)",Death; Phaeochromocytoma,1,0,0,1,20140311
+10011568,Ciprofloxacin,64,Desconocido,4,Ciprofloxacin; Metronidazol; Levofloxacin; Flagyl,Arthralgia; Arthralgia; Bone pain,1,0,0,0,20140313
+10011791,Ciprofloxacin,64,Desconocido,14,Aripiprazole; Acetaminophen; Magnesium Oxide; Ipratropium + Albuterol; Carvedilol; Clonidine,Chronic obstructive pulmonary disease; Pneumonia streptococcal,1,0,0,1,20140314
+10012029,Ciprofloxacin,84,F,15,Ofatumumab; Chlorambucil; Paracetamol; Chlorpheniramine; Prednisolone; Allopurinol,Febrile neutropenia,1,1,0,0,20140314
+10012248,Ciprofloxacin,79,F,1,Ciprofloxacin,Faecal incontinence; Diarrhoea; Gastric perforation,1,1,0,0,20140313
+10012613,Ciprofloxacin,53,M,15,Remicade; Remicade; Salofalk; Proctosteroid; Entecavir; Ciclosporin,Drug ineffective; Pyrexia; Bacteraemia,1,1,0,0,20140314
+10013718,Ciprofloxacin,24,F,5,Mirena; Nuvaring; Flagyl; Cipro; Diflucan,Uterine perforation; Device issue; Abdominal pain lower,1,1,0,0,20140316
+10014702,Ciprofloxacin,46,F,13,Yaz; Ocella; Calcium +Vit D; Multivitamin; Diovan; Tramadol,Pulmonary embolism,1,1,0,0,20140317
+10015379,Ciprofloxacin,62,M,25,Metoprolol; Digoxin.; Amiodarone; Vitamin E; Coumadin; Coreg,Gastrointestinal haemorrhage; Physical disability; Psychological trauma,1,1,0,0,20140317
+10015470,Ciprofloxacin,75,F,43,Lispinopril; Pulmicort Turbuhaler; Prednisolone.; Vitamin D; Magnesium; Levastatin,Colitis ischaemic; Confusional state; Diarrhoea,1,1,0,0,20140317
+10015597,Ciprofloxacin,25,F,14,Mirena; Mirena; Levothyroxine; Synthroid; Spironolactone; Glumetza,Uterine perforation; Injury; Pain,1,1,0,0,20140317
+10003859,Sertraline,63,M,13,Omeprazole.; Prednisone.; Allopurinol.; Jakafi; Voriconazole.; Acyclovir                          /00587301/,Blood count abnormal; Platelet count decreased,1,0,0,0,20140312
+10004018,Sertraline,39,F,4,Paragard 380A; Lisinopril; Sertraline; Prilosec,Anaphylactic reaction; Metrorrhagia; Dizziness,1,0,0,0,20140312
+10004050,Sertraline,55,F,7,Xeloda; Prednisone; Metoclopramide; Sertraline; Irinotecan; Vicodin,Death,1,0,0,1,20140312
+10004081,Sertraline,62,F,9,Femara; Femara; Lorazepam; Metformin; Sertraline; Levothyroxine,Ocular hyperaemia; Eye pain; Dry eye,1,1,0,0,20140312
+10004506,Sertraline,52,F,11,Simponi; Solu-Medrol; Prednisone; Sumatriptan; Lasix; Potassium Chloride,Blood pressure increased; Sjogren^s syndrome; Chest pain,1,0,0,0,20140312
+10004668,Sertraline,64,M,5,Avandia; Avandamet; Glyceroltrinitrate; Zocor; Zoloft,Coronary artery occlusion; Transient ischaemic attack; Cardiac failure congestive,1,1,0,0,20140312
+10004893,Sertraline,57,F,5,Humira; Sertraline; Levothyroxine; Omeprazol; Prednisone,Brain neoplasm; Brain neoplasm benign,1,1,0,0,20140312
+10005046,Sertraline,64,Desconocido,11,Trazodone; Fluoxetin; Tavor (Lorazepam); Folio Forte; Halcion; Sertraline,Penile torsion,1,0,0,0,20140312
+10005259,Sertraline,35,F,5,Haldol; Gilenya; Sertraline; Tryptanol                               /Bra/; Clonazepam.,Uterine cyst; Menorrhagia; Depression,1,1,0,0,20140312
+10005304,Sertraline,64,F,10,Spiriva; Lumigan; Tacrolimus; Predinisone; Bactrim; Nystatin,Blindness; Glaucoma; Cataract,1,0,0,0,20140312
+10005371,Sertraline,64,M,2,Absorica; Zoloft,Depression; Suicidal ideation,1,0,0,0,20140313
+10005454,Sertraline,31,F,4,Sertraline; Sertraline; Mirtazapine; Zinc,Shared psychotic disorder; Apraxia; Psychomotor retardation,1,0,1,0,20140313
+10005491,Sertraline,64,F,9,Forteo; Calcium; Nifedipine Er; Sertraline Hcl; Spironolactone; Vitamin D                          /00107901/,Arthralgia; Pain in extremity; Gait disturbance,1,0,0,0,20140312
+10005523,Sertraline,31,F,3,Mirtazapine; Sertraline; Zinc,Shared psychotic disorder; Dyspraxia; Psychomotor retardation,1,0,1,0,20140313
+10005524,Sertraline,64,M,17,Privigen; Privigen; Dexamethasone; Zoloft; Amox-Tr-K Clv; Motrin,Aggression; Anger; Abnormal behaviour,1,0,0,0,20140313
+10005536,Sertraline,61,F,4,Verapamil; Diphenhydramine; Sertraline; Temazepam,Overdose; Myoclonus; Nodal arrhythmia,1,1,0,0,20140313
+10005897,Sertraline,21,F,6,Quetiapine; Risperidone; Circadin; Sertraline; Citalopram; Strattera,Depression; Merycism; Major depression,1,1,0,0,20140313
+10006318,Sertraline,41,F,6,Hydrochlorothiazide.; Potassium Chloride.; Potassium Citrate.; Yasmin; Urocit-K; Zoloft,Anxiety; Emotional distress; Drooling,1,1,0,0,20140313
+10006330,Sertraline,45,F,17,Yaz; Yasmin; Singulair; Diclofenac; Ibuprofen; Zyrtec,Deep vein thrombosis,1,1,0,0,20140313
+10006429,Sertraline,19,F,20,Vitamin D3; Nexium; Tobi; Zoloft; Flonase; Advair Hfa,Forced expiratory volume decreased,1,1,0,0,20140313
+10006434,Sertraline,85,F,9,Dabigatran; Dabigatran; Celebrex; Tramadol; Lisinopril; Sertraline Hcl,Gastrointestinal haemorrhage,1,1,0,0,20140313
+10006601,Sertraline,74,F,21,Remicade; Remicade; Remicade; Methotrexate; Prednisone; Imitrex,Syncope; Fall; Joint swelling,1,0,0,0,20140313
+10006922,Sertraline,30,Desconocido,1,Sertraline,Weight increased; Constipation; Abdominal pain upper,1,1,0,0,20140312
+10007303,Sertraline,89,F,8,Escitalopram; Zoloft; Alprazolam; Procoralan; Tahor; Doliprane,Partial seizures with secondary generalisation; Off label use,1,1,0,0,20140313
+10007456,Sertraline,54,F,11,Emtricitabine/Tenofovir; Lamivudine; Docusate/Senna; Mom Conc; Alprazolam; Albuterol/Ipratropium Inhaler,Aphasia; Fanconi syndrome; Renal tubular acidosis,1,0,0,0,20140312
+10007595,Sertraline,48,F,9,Sertraline Hcl; Almogran; Domperidone; Esomeprazole; Levothyroxine; Metformin,Abdominal pain upper; Sneezing; Rhinorrhoea,1,0,0,0,20140313
+10007950,Sertraline,64,Desconocido,5,Sertraline; Zopiclone; Opipramol; Centrum Materna; Nasen Tropfen K,Kidney duplex; Neonatal respiratory distress syndrome,1,0,0,0,20140313
+10008513,Sertraline,60,F,2,Sertraline Hcl; Adcal-D3,Multiple chemical sensitivity; Dry mouth; Nasal dryness,1,0,0,0,20140313
+10008690,Sertraline,64,Desconocido,24,Hydroxyzine; Amitriptyline; Levemir; Cetaphil; Jakafi; Jakafi,Vomiting; Anxiety; Diarrhoea,1,1,0,0,20140312
+10008917,Sertraline,73,M,19,Jakafi; Jakafi; Jakafi; Hydroxyzine Hydrochloride; Lomotil; Advair,Thrombocytopenia,1,0,0,0,20140313
+10009511,Sertraline,66,F,6,Jakafi; Aspirin; Sertraline; Xanax; Levothyroxine; Advil Pm,Anaemia,1,0,0,0,20140312
+10009813,Sertraline,74,M,13,Jakafi; Jakafi; Jakafi; Tamsulosin; Finasteride; Ropinirole,Dyspnoea; Malaise; Nausea,1,1,0,0,20140312
+10009901,Sertraline,64,F,11,Jakafi; Jakafi; Crestor; Metoprolol; Aspirin; Losartan,Platelet count decreased,1,0,0,0,20140312
+10010112,Sertraline,89,M,5,Jakafi; Synthroid; Flomax; Detrol; Zoloft,Haemoglobin decreased,1,0,0,0,20140312
+10010240,Sertraline,64,F,10,Evista; Doxycycline; Calcium Carbonate; Meloxicam; Nifedipine Er; Sertraline Hcl,Pulmonary embolism; Chronic obstructive pulmonary disease; Respiratory failure,1,0,0,0,20140313
+10006552,Tramadol,71,M,10,Dronedarone; Dabigatran; Bystolic; Synthroid; Tricor; Metformin Hydrochloride,Lower gastrointestinal haemorrhage; Drug interaction; Melaena,1,1,1,0,20140313
+10009393,Tramadol,63,M,14,Paracetamol; Salbutamol; Lisinopril; Nystatin; Tramadol Hydrochloride; Fosamax,Lobar pneumonia,1,0,0,1,20140313
+10010950,Tramadol,71,M,10,Dronedarone; Dabigatran; Bystolic; Synthroid; Tricor; Metformin Hydrochloride,Lower gastrointestinal haemorrhage; Drug interaction; Melaena,1,1,0,0,20140314
+10013476,Tramadol,63,M,15,Spiriva; Acetaminophen; Albuterol; Bumetanide; Fosamax; Humalog,Lobar pneumonia,1,0,0,1,20140314
+10013985,Tramadol,30,F,7,Tramadol Hydrochloride; Fluoxetine; Paracetamol; Salbutamol; Seretide; Buscopan,Hypoaesthesia; Pain in extremity; Muscular weakness,1,1,0,0,20140316
+10014988,Tramadol,47,M,5,Tramadol Hydrochloride; Paracetamol; Omeprazole; Codeine Linctus; Ferrous Fumarate,Blindness unilateral; Hypotension; Vision blurred,1,1,1,0,20140317
+10015646,Tramadol,64,Desconocido,2,Tramadol Hydrochloride; Alcohol,Intentional drug misuse,1,0,0,1,20140317
+10016058,Tramadol,76,M,27,Latanoprost.; Cyanocobalamin.; Guaifenesin.; Carbidopa/Levodopa; Tramadol Hydrochloride.; Ferrous Sulfate,Multiple injuries; Gastrointestinal haemorrhage,1,1,0,0,20140317
+10019052,Tramadol,31,F,5,Acetaminophen.; Bromazepam; Cetirizine Hydrochloride.; Tramadol Hydrochloride.; Zolpidem,Hepatic necrosis; Suicide attempt; Drug abuse,1,1,0,0,20140318
+10021138,Tramadol,67,M,5,Sutent; Tramadol Hydrochloride; Vitamin D; Oxycodone Hydrochloride; Percocet,Rectal haemorrhage; Diarrhoea; Constipation,1,1,0,0,20140319
+10022703,Tramadol,53,M,5,Tramadol Hydrochloride.; Tramadol Hydrochloride.; Lyrica; Lyrica; Urbanyl,Epilepsy; Epilepsy,1,1,0,0,20140319
+10022892,Tramadol,64,F,28,Creon; Mag Oxide; Prenatal                           /00231801/; Tacrolimus.; Venlafaxine Hydrochloride.; Voriconazole.,Lung transplant rejection,1,0,0,1,20140319
+10023136,Tramadol,27,M,6,Acetaminophen.; Tramadol Hydrochloride.; Acetaminophen.; Acetaminophen.; Tramadol Hydrochloride.; Acetaminophen.,Hepatic necrosis; Drug-induced liver injury; Cholestasis,1,1,0,0,20140320
+10023682,Tramadol,56,F,1,Tramadol Hydrochloride,Adverse event; Hypersensitivity,1,0,0,0,20140320
+10024543,Tramadol,63,M,4,Tramadol Hydrochloride; Tramadol Hydrochloride; Aluminium + Magnesium Hydroxide/Dimeticone; Oramorph,Dysphonia; Aphonia; Dysphagia,1,1,1,0,20140320
+10027211,Tramadol,63,M,14,Acetaminophen.; Singulair; Albuterol.; Humulin Nos; Lisinopril.; Seretide,Pneumonia,1,0,0,1,20140321
+10028098,Tramadol,64,F,18,Paroxetine Hydrochloride; Paroxetine Hydrochloride; Quetiapine Fumarate; Lorazepam; Clonazepam; Procyclidine Hcl,Serotonin syndrome; Suicidal ideation; Paraesthesia,1,1,1,0,20140304
+10028401,Tramadol,79,M,24,Tramadol Hydrochloride.; Latanoprost.; Calcitriol.; Epoetin Alfa; Nitroglycerine; Metoprolol Tartrate.,Gastrointestinal haemorrhage; Multiple injuries; Haemorrhage,1,1,0,1,20140321
+10029628,Tramadol,42,F,20,Vorinostat; Vorinostat; Fludarabine; Cyclophosphamide; Rituximab; Hydroxychloroquine Sulfate,Back pain; Pyrexia,1,1,0,0,20140322
+10032685,Tramadol,63,M,14,Seretide; Humalog; Humulin; Biphasic Isophane Insulin; Fosamax; Singulair,Lobar pneumonia,1,0,0,1,20140324
+10033274,Tramadol,21,F,2,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate; Tramadol Hydrochloride,Immune reconstitution inflammatory syndrome; Kaposi^s sarcoma,1,1,0,0,20140324
+10035386,Tramadol,21,M,4,Morphine Sulfate; Tramadol Hydrochloride; Fentanyl; Heroin,Overdose; Substance abuse,1,0,0,1,20140325
+10036440,Tramadol,64,Desconocido,12,Albuterol.; Spiriva; Nystatin.; Fosamax; Lisinopril.; Tramadol Hydrochloride.,Pneumonia,1,0,0,1,20140325
+10039226,Tramadol,44,F,7,Tramadol Hydrochloride.; Cerazette; Naproxen.; Dispatim; Amitriptyline Hydrochloride.; Acetaminophen And Codeine,Vertigo; Vomiting; Burning sensation,1,0,0,0,20140326
+10040659,Tramadol,66,M,43,Bisoprolol; Allopurinol.; Heparin Sodium.; Paracetamol; Paracetamol; Obinutuzumab,Febrile neutropenia,1,1,0,0,20140327
+10040678,Tramadol,63,M,15,"Humalog Lispro; Humulin Regular; Humulin 30% Regular, 70% Nph; Acetaminophen; Albuterol; Bumetanide",Lobar pneumonia,1,0,0,1,20140327
+10042536,Tramadol,73,F,18,Amlodipine; Aubagio; Methylprednisolone.; Ventolin; Temazepam.; Tramadol Hydrochloride.,Dyspnoea; Thyroid disorder; Paraesthesia,1,0,0,0,20140327
+10049429,Tramadol,44,F,6,Tramadol Hydrochloride; Timolol; Naproxen; Co-Codamol; Cerazette; Amitriptyline Hydrochloride,Vomiting; Dizziness; Blood pressure systolic increased,1,0,0,0,20140401
+10049432,Tramadol,35,F,3,Tramadol Hydrochloride; Naproxen; Microgynon,Headache; Palpitations,1,0,0,0,20140401
+10049872,Tramadol,16,F,19,Lumizyme; Lumizyme; Ibuprofen; Amitriptyline; Amitriptyline; Sertraline,Pain; Muscular weakness; Muscle spasms,1,1,0,0,20140401
+10049997,Tramadol,53,F,8,Rifater; Pantoprazole; Tramadol Hydrochloride; Thiocolchicoside; Ethambutol; Lyrica,Full blood count abnormal; Neutropenia; Hepatocellular injury,1,1,0,0,20140401
+10053006,Tramadol,53,F,1,Tramadol Hydrochloride,Death; Overdose,1,0,0,1,20140402
+10055835,Tramadol,44,F,6,Tramadol Hydrochloride.; Amitriptyline Hydrochloride.; Acetaminophen And Codeine; Timolol Maleate.; Naproxen.; Cerazette,Blood pressure systolic increased; Dizziness; Vertigo,1,0,0,0,20140403
+10058425,Tramadol,38,F,9,Gilenya; Pregabalin; Omeprazole; Hydroxocobalam; Furosemide; Fluoxetine,Menometrorrhagia; Rash generalised; Pruritus,1,0,0,0,20140404
+10060848,Tramadol,64,F,6,Elavil; Tecta; Methotrexate; Humira; Humira; Tramadol Hydrochloride.,Crohn^s disease; Systemic lupus erythematosus; Sinusitis,1,0,0,0,20140404
+10003318,Omeprazole,59,F,8,Belimumab; Azathioprine; Prednisone; Fluoxetine; Clonazepam; Calcium Carbonate,Tuberculosis of central nervous system,1,1,1,1,20140312
+10003609,Omeprazole,23,M,4,Voveran; Voveran; Omeprazole; Pencillin,Acute respiratory distress syndrome; Multi-organ failure; General physical health deterioration,1,0,0,1,20140312
+10003740,Omeprazole,82,M,9,Prednisolone; Prednisolone; Amias; Bumetanide; Cardicor; Influenza Virus,Type 2 diabetes mellitus,1,1,0,0,20140312
+10003771,Omeprazole,53,F,17,Humira; Methotrexate; Methotrexate; Apriso; Pentassa; Abilify,Hyponatraemia; Dyspnoea; Pyrexia,1,1,0,0,20140312
+10003859,Omeprazole,63,M,13,Omeprazole.; Prednisone.; Allopurinol.; Jakafi; Voriconazole.; Acyclovir                          /00587301/,Blood count abnormal; Platelet count decreased,1,0,0,0,20140312
+10003917,Omeprazole,56,F,14,Jakafi; Tacrolimus.; Jakafi; Rapamune; Pentasa; Vagifem,Blood lactate dehydrogenase increased; White blood cell count increased; Epistaxis,1,0,0,0,20140312
+10003960,Omeprazole,45,F,8,Paclitaxel; Blinded: Pertuzumab; Blinded: Placebo; Fentanyl Citrate; Omeprazole; Metoclopramide,Gastrointestinal obstruction; Anaemia; General physical health deterioration,1,1,1,1,20140312
+10003976,Omeprazole,63,F,5,Omeprazole; Methotrexate; Amlodipine; Calcichew D3; Folic Acid,Hypomagnesaemia; Drug interaction,1,1,0,0,20140312
+10004018,Omeprazole,39,F,4,Paragard 380A; Lisinopril; Sertraline; Prilosec,Anaphylactic reaction; Metrorrhagia; Dizziness,1,0,0,0,20140312
+10004052,Omeprazole,68,F,8,Humira; Angios (Calcium); Alendronic Acid; Prednisolone; Ideos; Folic Acid,Hypoaesthesia; Tremor; Feeling hot,1,0,0,0,20140312
+10004091,Omeprazole,22,M,13,Clindamycin; Paracetamol; Amoxicillin; Metronidazole; Meropenem; Amikacin,Bone marrow failure; Pyrexia; Neutropenia,1,1,0,0,20140312
+10004118,Omeprazole,63,F,7,Folic Acid; Levothyroxine; Omeprazole; Sumatriptan Succinate; Cetirizine; Jakafi,Haemoglobin decreased,1,1,0,0,20140312
+10004180,Omeprazole,62,M,12,Revlimid; Aspirine; Mln9708; Revlimid; Revlimid; Omeprazole.,Overdose; Dyspnoea; Lung infection,1,1,0,0,20140312
+10004213,Omeprazole,64,F,21,Omeprazole; Seroquel; Stesolid; Zyprexa; Oxascand; Cisordinol,Ovarian germ cell cancer stage II; Amenorrhoea; Weight increased,1,0,0,0,20140312
+10004228,Omeprazole,46,M,3,Darunavir; Ritonavir; Omeprazole,Syncope; Electrocardiogram QT prolonged,1,0,0,0,20140312
+10004234,Omeprazole,81,Desconocido,8,Human Clottable Protein/Human Thrombin; Temesta [Lorazepam]; Omeprazole.; Lactulose.; Smecta; Doliprane,Skin necrosis,1,0,0,0,20140312
+10004549,Omeprazole,66,F,7,Lyrica; Aradois; Simvastatin; Metformin Hydrochloride; Glimepiride; Omeprazole,Spinal disorder; Off label use,1,0,0,0,20140312
+10004611,Omeprazole,78,M,9,Revlimid; Prednisone; Levothyroxine; Tramadol; Omeprazole; Simvastatin,Laboratory test abnormal,1,0,0,0,20140312
+10004734,Omeprazole,73,F,9,Advair; Spiriva; Actonel; Folic Acid; Methotrexate; Micardis,Ageusia; Anosmia,1,0,0,0,20140312
+10005029,Omeprazole,64,F,17,Gilenya; Mvi; Amlodipine Besylate; Ursodiol; Baclofen; Iron,Wound; Urinary tract infection,1,1,0,0,20140312
+10005097,Omeprazole,79,F,3,Istodax; Prilosec; Ativan,Atrial fibrillation; Vomiting; Dehydration,1,1,0,0,20140312
+10005146,Omeprazole,22,M,13,Metronidazole; Clindamycin; Meropenem; Amikacin; Fluconazole; Nystatin,Phlebitis; Pyrexia,1,0,0,0,20140312
+10005238,Omeprazole,59,M,5,Amlodipine; Co-Codamol; Atorvastatin; Omeprazole; Aspirin,Joint swelling; Pain in extremity; Anxiety,1,0,0,0,20140312
+10005285,Omeprazole,54,F,3,Amlodipine; Omeprazole; Losartan,Bromhidrosis,1,0,0,0,20140312
+10005296,Omeprazole,72,M,9,Spiriva; Omeprazole; Triamterene Hctz; Aspirin; Multivitamin; Toprol Xl,Gallbladder disorder; Oropharyngeal pain; Sinusitis,1,1,0,0,20140312
+10005384,Omeprazole,64,F,10,Prednisolone; Dexamethasone; Diazepam; Ibuprofen; Lorazepam; Metoclopramide,Breast cancer; Drug interaction,1,0,0,0,20140312
+10005422,Omeprazole,68,F,17,Omeprazole.; Paracetamol; Sulfasalazine.; Omeprazole.; Calcichew-D3 Forte; Alendronic Acid,Lower respiratory tract infection; Pneumonia,1,1,0,0,20140313
+10005993,Omeprazole,66,F,13,Revlimid; Revlimid; Klonopin; Alphagan P; Zofran; Prilosec,Glaucoma; Rash; Oedema peripheral,1,0,0,0,20140313
+10006026,Omeprazole,64,F,4,Nexium; Prilosec; Protonix; Prevacid,Gastrooesophageal reflux disease; Drug ineffective,1,1,0,0,20140313
+10006053,Omeprazole,70,M,14,Xarelto; Xarelto; Amitriptyline/Chlordiazepoxide; Amlodipine; Buspirone; Diovan,Hypoglycaemic coma; Insulinoma,1,1,1,0,20140313
+10006057,Omeprazole,77,F,9,Xarelto; Xarelto; Tramadol; Clonazepam; Omeprazole; Bisoprolol,Transient ischaemic attack,1,1,0,0,20140313
+10006061,Omeprazole,75,M,6,Xarelto; Asa; Omeprazole; Levothyroxine; Simvastatin; Fish Oil,Cerebral haemorrhage; Haemoglobin decreased,1,1,0,1,20140313
+10006117,Omeprazole,67,F,25,Pomalyst; Pomalyst; Calcitonin; Biaxin; Trazodone; Spironolactone,Infection; Neutropenia; White blood cell count decreased,1,0,0,1,20140313
+10006119,Omeprazole,69,F,9,Dronedarone; Dabigatran; Norvasc; Omeprazole; Trazodone Hydrochloride; Carvedilol,Haemorrhage; Drug interaction,1,1,0,0,20140313
+10006153,Omeprazole,54,F,9,Erlotinib Tablet; Xanax; Ms Contin; Levaquin; Prednisone; Omeprazole,Nephrolithiasis; Nausea,1,1,0,0,20140313
+10003960,Spironolactone,45,F,8,Paclitaxel; Blinded: Pertuzumab; Blinded: Placebo; Fentanyl Citrate; Omeprazole; Metoclopramide,Gastrointestinal obstruction; Anaemia; General physical health deterioration,1,1,1,1,20140312
+10004089,Spironolactone,46,M,14,Ampyra; Buspar; Glucophage; Lipitor; Spironolactone; Lisinopril,Convulsion; Alcohol detoxification; Loss of consciousness,1,1,0,0,20140312
+10004137,Spironolactone,70,F,6,Pradaxa; Levothyrox 125 Mcg; Lasilix Faible; Coversyl; Selozok; Aldactone,Melaena,1,0,0,0,20140312
+10005268,Spironolactone,85,F,10,Omnipaque; Omnipaque; Lasilix                            /00032601/; Levothyrox; Aldactone; Diffu K,Acute generalised exanthematous pustulosis; Pyrexia; Tremor,1,1,0,0,20140312
+10005457,Spironolactone,55,F,9,Denosumab; Bupropion Hydrochloride; Levothyroxine; Vitamin D2; Estradiol; Montelukast,Wound infection,1,1,0,0,20140313
+10005491,Spironolactone,64,F,9,Forteo; Calcium; Nifedipine Er; Sertraline Hcl; Spironolactone; Vitamin D                          /00107901/,Arthralgia; Pain in extremity; Gait disturbance,1,0,0,0,20140312
+10006117,Spironolactone,67,F,25,Pomalyst; Pomalyst; Calcitonin; Biaxin; Trazodone; Spironolactone,Infection; Neutropenia; White blood cell count decreased,1,0,0,1,20140313
+10006145,Spironolactone,66,M,9,Irbesartan; Spironolactone; Lasix - 25 Mg Compresse; Cardioaspirin - 100 Mg Compresse Gastroresistenti; Dilatrend - 6.25 Mg Compresse; Atorvastatin,Abdominal pain upper; Angina unstable; Cold sweat,1,1,0,0,20140313
+10006407,Spironolactone,92,F,21,Lasix; Spironolactone.; Cimetidine; Lasix; Rocephin; Sigmart,Renal failure acute; Urine output decreased; Oedema peripheral,1,0,0,0,20140313
+10007452,Spironolactone,85,F,5,Bactrim; Sotalol; Warfarin; Valsartan; Spironolactone,Hyperkalaemia,1,1,1,0,20140313
+10007502,Spironolactone,81,M,4,Dronedarone; Dabigatran; Aldactone; Lasix,Haemorrhage; Drug interaction,1,1,0,0,20140313
+10007523,Spironolactone,77,M,44,Thalidomide; Thalidomide; Melphalan; Melphalan; Prednisone; Prednisone,Myelodysplastic syndrome,1,0,0,1,20140313
+10007997,Spironolactone,62,F,20,Jakafi; Jakafi; Nexium                             /01479302/; Estradiol; Zanaflex; Bumetanide,Hospitalisation; Fatigue; Flatulence,1,1,0,0,20140313
+10008006,Spironolactone,66,F,14,Sintrom; Sintrom; Metoprolol; Digoxin; Digoxin; Digoxin,Syncope; Asthenia; Electrocardiogram ST segment abnormal,1,1,0,0,20140313
+10008575,Spironolactone,63,F,6,Jakafi; Reglan; Lasix; Spironolactone; Midodrine; Potassium,Platelet count decreased,1,1,0,0,20140312
+10008651,Spironolactone,78,F,10,Ventavis; Bystolic; Citalopram; Dexilant; Diltiazem; Flovent Hfa,Death; Cardiac disorder; Lung disorder,1,1,0,1,20140313
+10008939,Spironolactone,82,M,7,Jakafi; Spironolactone; Digoxin; Lisinopril; Furosemide; Thyroxine,Haemoglobin decreased,1,0,0,0,20140313
+10009384,Spironolactone,64,F,16,Jakafi; Bupropion; Diazepam; Propranolol; Metolazone; Bumetanide,Haemoglobin decreased; Fatigue; Drug ineffective,1,0,0,0,20140313
+10009419,Spironolactone,68,F,7,Sovaldi; Copegus; Delix                              /00885601/; Kreon                              /00014701/; Pantozol                           /01263204/; Xipamid,Pancreatitis; Diabetes mellitus; Peritonitis bacterial,1,1,0,0,20140313
+10009589,Spironolactone,64,M,6,Jakafi; Jakafi; Mesalamine; Nadolol; Spironolactone; Furosemide,Haemoglobin decreased; Platelet count decreased; Haematocrit decreased,1,0,0,0,20140312
+10009688,Spironolactone,74,M,8,Jakafi; Jakafi; Procrit; Januvia; Omeprazole; Lasix,Haemoglobin decreased; Fatigue,1,0,0,0,20140312
+10009805,Spironolactone,64,Desconocido,6,Jakafi; Jakafi; Prednisone; Levothyroxine; Spironolactone; Warfarin,Thrombocytopenia; Tooth disorder,1,0,0,0,20140312
+10010158,Spironolactone,75,M,6,Jakafi; Synthroid; Aldactone; Fenofibrate; Januvia; Lasix,Haemoglobin decreased; Platelet count decreased,1,0,0,0,20140312
+10010240,Spironolactone,64,F,10,Evista; Doxycycline; Calcium Carbonate; Meloxicam; Nifedipine Er; Sertraline Hcl,Pulmonary embolism; Chronic obstructive pulmonary disease; Respiratory failure,1,0,0,0,20140313
+10010289,Spironolactone,62,F,8,Mabthera; Novatrex; Cortancyl; Levothyrox; Spironolactone; Altizide,Transient ischaemic attack,1,0,0,0,20140314
+10010577,Spironolactone,75,F,17,Mk-3475; Aspirin; Diazepam; Nexium; Zetia; Aricept,Fatigue,1,1,0,0,20140314
+10010879,Spironolactone,70,M,17,Losartan Potassium.; Nitroglycerin.; Minoxidil Aerosol 5% 294; Nifedipine.; Vitamins Nos; Novolog,Myocardial infarction; Nausea; Weight increased,1,0,0,0,20140314
+10011472,Spironolactone,67,M,8,Irbesartan; Spironolactone; Lasix; Dilatrend; Atorvastatin; Ranitidine,Abdominal pain upper; Angina unstable; Cold sweat,1,1,0,0,20140314
+10011839,Spironolactone,55,F,6,Coreg; Nexium; Lipitor; Lipitor; Plavix; Spironolactone.,Type 2 diabetes mellitus,1,0,0,0,20140314
+10012044,Spironolactone,27,F,5,Incremin; Revatio; Halfdigoxin; Lasix; Aldactone,Atrial flutter; Hypoxia,1,1,0,0,20140314
+10012448,Spironolactone,78,F,17,Tracleer; Ferrous Citrate; Alendronate Sodium.; Oxygen.; Tracleer; Aspirin.,Depressed level of consciousness; Haematoma; Subdural haemorrhage,1,1,0,1,20140314
+10012639,Spironolactone,64,F,9,Diovan; Diovan; Spironolactone And Hydrochlorothiazide; Cardizem; Rosuvastatin; Glifage,Infarction; Venous occlusion; Cataract,1,0,0,0,20140314
+10012736,Spironolactone,83,F,3,Diovan; Effexor; Aldactone,Pulmonary embolism,1,1,0,1,20140314
+10013446,Spironolactone,90,M,4,Aldactone; Lasix; Pariet; Prazaxa,Drug effect incomplete; Embolic stroke,1,0,0,0,20140314
+10013511,Spironolactone,0,F,7,Synagis; Synagis; Spironolactone; Chlorothiazide; Abidec; Galfer,Restlessness; Abnormal behaviour; Viral infection,1,1,0,0,20140314
+10003319,Methotrexate,46,F,10,Benlysta; Plaquenil; Foltx; Cymbalta; Xanax; Percocet,Cholecystectomy; Nephrolithiasis; Biliary tract disorder,1,1,0,0,20140312
+10003327,Methotrexate,53,M,3,Prednisone; Dexamethasone; Methotrexate,Respiratory failure; Listeriosis; Pyrexia,1,1,0,0,20140312
+10003620,Methotrexate,64,F,5,Solumedrol; Gilenya; Methotrexate; Betaseron; Copaxone,Malnutrition; Multiple sclerosis; Loss of consciousness,1,0,0,1,20140312
+10003642,Methotrexate,66,F,11,Tofacitinib Citrate; Tofacitinib Citrate; Methotrexate; Sea Kelp; Armour Thyroid; Losartan,Osteomyelitis,1,0,0,0,20140312
+10003771,Methotrexate,53,F,17,Humira; Methotrexate; Methotrexate; Apriso; Pentassa; Abilify,Hyponatraemia; Dyspnoea; Pyrexia,1,1,0,0,20140312
+10003812,Methotrexate,64,M,3,Humira; Methotrexate; Acetaminophen,Muscular weakness; Paraesthesia,1,1,0,0,20140312
+10003813,Methotrexate,64,M,21,Depakote; Methotrexate; Prednisone; Folic Acid; Labetalol; Labetalol,Pancreatitis; Off label use,1,1,0,0,20140312
+10003976,Methotrexate,63,F,5,Omeprazole; Methotrexate; Amlodipine; Calcichew D3; Folic Acid,Hypomagnesaemia; Drug interaction,1,1,0,0,20140312
+10004031,Methotrexate,50,M,8,Cytarabine; Ciclosporin; Prednisolone; Methotrexate; Busulfan; Cyclophosphamide,Pneumonia; Cytomegalovirus infection; Cystitis haemorrhagic,1,0,0,1,20140312
+10004052,Methotrexate,68,F,8,Humira; Angios (Calcium); Alendronic Acid; Prednisolone; Ideos; Folic Acid,Hypoaesthesia; Tremor; Feeling hot,1,0,0,0,20140312
+10004116,Methotrexate,65,M,23,Colchicine.; Fluimucil; Tramadol; Pyostacine; Humira; Monotildiem Lp,Thrombocytopenia; Petechiae,1,1,0,0,20140312
+10004598,Methotrexate,69,F,5,Meropenem; Doxorubicin; Methotrexate; Vinblastine Sulfate; Cisplatin,Septic shock; Drug ineffective,1,0,0,1,20140312
+10004734,Methotrexate,73,F,9,Advair; Spiriva; Actonel; Folic Acid; Methotrexate; Micardis,Ageusia; Anosmia,1,0,0,0,20140312
+10004741,Methotrexate,14,M,7,Remicade; Remicade; Naloxone; Morphine; Zofran; Lomotil,Pouchitis,1,1,0,0,20140312
+10004751,Methotrexate,64,M,11,"Remicade; Remicade; Folic Acid; Vitamin; Antithyroid Drug, Unspecified; Pain Medication Nos",Finger deformity; Oral surgery; Foot deformity,1,0,0,0,20140312
+10004771,Methotrexate,65,M,17,Pyostacine; Humira; Prednisone.; Rasilez; Methotrexate; Pivalone,Petechiae; Thrombocytopenia; Intra-abdominal haematoma,1,1,0,0,20140312
+10004784,Methotrexate,12,M,4,Atriance; Methotrexate; Etoposide; Cyclophosphamide,Hemiplegia; Leukoencephalopathy; Aphasia,1,1,0,0,20140312
+10005119,Methotrexate,63,M,9,Humira; Methotrexate; Humira; Humira; Alcohol.; Methotrexate,Fall; Injection site haemorrhage; Abdominal pain,1,1,0,0,20140312
+10005164,Methotrexate,67,M,6,Cisplatin; Cisplatin; Doxorubicin; Gemcitabine; Methotrexate; Vinblastine,Hyperkalaemia; Neutropenia,1,0,0,0,20140312
+10005224,Methotrexate,60,F,26,Arava; Tocilizumab; Amitriptyline; Methotrexate; Methotrexate; Benazepril,Chronic obstructive pulmonary disease; Dyspnoea,1,1,0,0,20140312
+10005323,Methotrexate,54,M,10,Cimzia; Cortancyl; Enbrel; Tocilizumab; Methotrexate; Rituximab,Lung disorder; Cholelithiasis; Cholecystitis,1,1,0,0,20140313
+10005369,Methotrexate,64,F,2,Humira; Methotrexate,Varicose vein; Rheumatoid arthritis,1,1,0,0,20140312
+10005422,Methotrexate,68,F,17,Omeprazole.; Paracetamol; Sulfasalazine.; Omeprazole.; Calcichew-D3 Forte; Alendronic Acid,Lower respiratory tract infection; Pneumonia,1,1,0,0,20140313
+10005447,Methotrexate,19,M,27,Amoxicillin + Clavulanic Acid; Glycerol\Paraffin; Ketoprofen.; Spasfon; Aciclovir; Phocytan,Bone marrow failure; Ischaemic stroke; Thrombocytopenia,1,1,0,0,20140312
+10005513,Methotrexate,55,F,11,Leflunomide.; Atenolol.; Enbrel; Enbrel; Arava; Enbrel,Weight increased; Pyrexia; Rash macular,1,0,0,0,20140313
+10005539,Methotrexate,63,F,18,Rituximab; Methotrexate; Rituximab; Cortancyl; Rituximab; Methotrexate,Femoral neck fracture; Localised infection; Bronchopneumonia,1,1,0,1,20140313
+10005544,Methotrexate,64,F,4,Actemra; Cymbalta; Actemra; Methotrexate,Pain in extremity; Oedema peripheral; Arthralgia,1,0,0,0,20140313
+10005841,Methotrexate,82,Desconocido,4,Methotrexate; Prednisolone; Etanercept; Leflunomide,Death; Myelodysplastic syndrome,1,1,0,1,20140313
+10005859,Methotrexate,51,M,2,Enbrel; Methotrexate,Rheumatoid arthritis,1,0,0,0,20140313
+10005891,Methotrexate,81,F,5,Forteo; Forteo; Forteo; Humira; Methotrexate,Pneumonia; Fall; Face injury,1,1,0,0,20140313
+10005927,Methotrexate,52,F,6,Cimzia; Methotrexate; Sulphasalazine; Lisinopril; Amlodipine; Ibuprofen,Appendicitis,1,1,0,0,20140313
+10005928,Methotrexate,66,F,2,Methotrexate; Prednisolone,Rectal abscess,1,0,0,0,20140313
+10005965,Methotrexate,36,F,7,Itraconazole; Itraconazole; Itraconazole; Itraconazole; Amphotericin B; Methotrexate,Anaphylactic shock; Type IV hypersensitivity reaction; Hypotension,1,1,1,0,20140313
+10006141,Methotrexate,62,F,3,Mycophenolate Mofetil; Cyclosporine; Methotrexate,Pneumonia aspiration; BK virus infection; Encephalitis viral,1,0,0,1,20140313
+10006183,Methotrexate,30,M,2,Prograf; Methotrexate,Drug ineffective; Chronic graft versus host disease; Acute graft versus host disease,1,0,0,0,20140313
+10003941,Digoxin,65,M,10,Certican; Myfortic; Emconcor; Marevan; Simvastatin; D-Cure,Interstitial lung disease; Dyspnoea; General physical health deterioration,1,1,1,0,20140312
+10004366,Digoxin,60,M,4,Coumadin; Cordarone; Beloc; Digoxin,Cardiac failure; Arrhythmia; Hypertension,1,1,0,0,20140312
+10005525,Digoxin,64,F,4,Herceptin; Taxotere; Digoxin; Bisoprolol,Paraesthesia; Muscular weakness; Asthenia,1,1,0,0,20140313
+10005997,Digoxin,64,F,4,Diovan; Aradois; Xarelto; Digoxin,Cerebrovascular accident,1,0,0,1,20140313
+10006185,Digoxin,64,M,11,Vesicare; Vesicare; Warfarin; Vitamin D                          /00107901/; Unspecified Blood Pressure Medications; Micardis,Drug ineffective; Fall,1,0,0,0,20140313
+10006515,Digoxin,70,M,8,Dabigatran; Digoxin; Bendroflumethiazide; Bisoprolol; Rosuvastatin; Levothyroxine,Loss of consciousness; Arrhythmia,1,1,0,0,20140313
+10006585,Digoxin,73,M,3,Dronedarone; Dabigatran; Digoxin,Haemorrhage; Drug interaction; Shock haemorrhagic,1,1,1,0,20140313
+10006778,Digoxin,68,M,21,Lidocaine Hcl; Dexmedetomidine; Acetaminophen; Furosemide; Regular Insulin; Epinephrine,Pyrexia; Unresponsive to stimuli; Hypotonia,1,1,0,0,20140311
+10007186,Digoxin,69,F,11,Xarelto; Digoxin; Ferrous Sulfate; Furosemide; Nifedipine; Solifenacin,Asthenia; Melaena; Anaemia,1,1,0,0,20140312
+10007223,Digoxin,72,F,3,Viagra; Lertus /Chl/; Lanoxin,Respiratory failure; Off label use,1,0,0,1,20140313
+10007431,Digoxin,80,F,11,Zovirax; Bisoprolol Fumarate; Coumadin; Seretide 50Mcg/100Mcg; Spiriva; Lanoxin,Oedema peripheral; Rash maculo-papular; Erysipelas,1,0,0,0,20140313
+10007565,Digoxin,90,M,4,Cardioaspirin; Cardioaspirin; Diltiazem; Lanoxin,Haematemesis; Hyperpyrexia; Melaena,1,1,0,0,20140313
+10008006,Digoxin,66,F,14,Sintrom; Sintrom; Metoprolol; Digoxin; Digoxin; Digoxin,Syncope; Asthenia; Electrocardiogram ST segment abnormal,1,1,0,0,20140313
+10008939,Digoxin,82,M,7,Jakafi; Spironolactone; Digoxin; Lisinopril; Furosemide; Thyroxine,Haemoglobin decreased,1,0,0,0,20140313
+10009493,Digoxin,81,F,19,Jakafi; Jakafi; Jakafi; Jakafi; Jakafi; Tracleer,Anaemia; Blood creatinine increased; Hyperkalaemia,1,0,0,0,20140312
+10009504,Digoxin,84,M,5,Pradaxa; Cardizem; Digoxin; Asacol; Flovent Hfa,Haemorrhage intracranial; Acute respiratory failure; Coagulopathy,1,1,0,1,20140313
+10010217,Digoxin,73,M,22,Pradaxa; Tylenol; Nitrostat; Milk Of Magnesia; Muro; Drisol,Rectal haemorrhage; Colitis ischaemic; Anaemia,1,1,0,0,20140313
+10010275,Digoxin,80,F,20,Dexamethasone; Voltaren                           /00372301/; Eltroxin; Prednisone; Digoxin; Diflucan,Hypotension; Platelet count decreased; Malaise,1,1,0,0,20140314
+10010361,Digoxin,57,F,31,Tysabri; Avonex; Omeprazole; Amitriptyline; Mirtazapine; Zyprexa,Death; Cervical vertebral fracture; Fall,1,0,0,1,20140314
+10010529,Digoxin,72,M,11,Coumadin; Axitinib; Vitamin B6; Megace; Aleve; Norvasc,Gastrointestinal haemorrhage; Gastric ulcer,1,1,0,0,20140314
+10010937,Digoxin,90,M,16,Dronedarone; Dabigatran; Lyrica; Naproxen; Actos; Coreg,Gastrointestinal haemorrhage; Drug interaction,1,1,0,0,20140314
+10010968,Digoxin,73,M,3,Dronedarone; Dabigatran; Digoxin,Haemorrhage; Drug interaction; Shock haemorrhagic,1,1,1,0,20140314
+10011531,Digoxin,64,M,10,Erlotinib Tablet; Erlotinib Tablet; Cymbalta; Flecainide                         /00627102/; Gas-X; Maalox                             /07357001/,Atrial fibrillation; Eructation; Flatulence,1,0,0,0,20140314
+10011692,Digoxin,78,F,13,"Remodulin (2.5 Milligram/Milliliters, Injection For Infusion) (Treprostinil Sodium); Potassium Chloride; Uloric (Febuxostat); Revatio (Sildenafil Citrate); Letairis (Ambrisentan) (Tablets); Iron",Pulmonary arterial hypertension; Disease progression; Fluid overload,1,1,0,1,20140312
+10011853,Digoxin,84,F,14,Remeron; Remeron; Venlafaxine Hydrochloride; Venlafaxine Hydrochloride; Venlafaxine Hydrochloride; Solian,Bundle branch block left; Atrioventricular block first degree; Electrocardiogram QT prolonged,1,0,0,0,20140314
+10012406,Digoxin,84,F,11,Revlimid; Revlimid; Citalopram; Temazepam; Levofloxacin; Digoxin,Heart rate irregular; Influenza,1,1,0,0,20140314
+10012635,Digoxin,87,F,13,Prolia; Prednisone; Losartan; Sotalol; Xopenex; Nexium                             /01479302/,Blood pressure abnormal; Urinary tract infection; Malaise,1,1,0,0,20140314
+10013376,Digoxin,67,F,8,Isosorbide Mononitrate.; Sitagliptin Phosphate; Aspirin.; Digoxin.; Sitagliptin Phosphate; Nitrendipine,Hepatic function abnormal,1,1,0,0,20140314
+10013474,Digoxin,93,F,8,Pradaxa; Alendronic Acid; Bisoprolol; Codeine; Digoxin; Isosorbide Mononitrate,Gastrointestinal haemorrhage,1,0,0,1,20140314
+10013706,Digoxin,81,F,2,Bayer Genuine Aspirin Original Strength; Digoxin,Aphagia; Constipation; Abdominal discomfort,1,0,0,0,20140316
+10013971,Digoxin,83,F,5,Xarelto; Xarelto; Besitran; Digoxin; Omeprazole,Anaemia,1,1,0,0,20140316
+10014040,Digoxin,64,M,1,Digoxin,Cardiopulmonary failure; Foetal exposure during pregnancy,1,1,0,0,20140317
+10014722,Digoxin,68,M,34,Ramipril; Ramipril; Marevan; Marevan; Marevan; Spiron (Spironolactone),Cardiac failure; Haematemesis; Abdominal pain upper,1,1,1,1,20140317
+10014839,Digoxin,53,M,12,Lidocaine; Propofol; Palonosetron; Sevoflurane; Sevoflurane; Rocuronium,Torsade de pointes,1,0,0,1,20140317
+10015023,Digoxin,64,F,5,"Humalog 25% Lispro, 75% Npl; Alprazolam; Levothyroxine; Glimepiride; Digoxin",Ear neoplasm; Hypoacusis,1,0,0,0,20140317

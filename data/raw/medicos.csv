@@ -1,6 +1,13 @@
 id_medico,nombre,especialidad
-1,Dra. Martinez,Urgencias
-2,Dr. Gomez,Geriatría
-3,Dra. Silva,Geriatría
-4,Dr. Lopez,Urgencias
-5,Dra. Fernandez,Medicina General
+1,Dra. Carmen Morales,Medicina Interna
+2,Dr. Alejandro Soto,Cardiología
+3,Dra. Laura Fernandez,Geriatría
+4,Dr. Manuel Rivas,Atención Primaria / Familia
+5,Dra. Beatriz Gomez,Urgencias Hospitalarias
+6,Dr. Javier Ortega,Endocrinología
+7,Dra. Elena Navarro,Reumatología
+8,Dr. Francisco Gil,Psiquiatría
+9,Dra. Marta Beltran,Neumología
+10,Dr. Sergio Montero,Neurología
+11,Dra. Nuria Vidal,Medicina General
+12,Dr. Pablo Alarcon,Medicina Interna

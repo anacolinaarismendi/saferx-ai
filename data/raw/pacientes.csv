@@ -1,151 +1,301 @@
 id_paciente,nombre,edad,genero,condiciones_previas
-1,Luis Ramirez,83,M,Hipertensión
-2,Ana Perez,51,F,Hipertensión
-3,Jose Ramirez,39,F,Ninguna
-4,Sara Ruiz,64,M,Hipertensión
-5,Carlos Flores,69,F,Hipertensión
-6,Sara Diaz,35,M,Ninguna
-7,Maria Perez,25,M,Ninguna
-8,Sara Sanz,55,M,Hipertensión
-9,Elena Ruiz,57,F,Hipertensión
-10,Lucia Garcia,69,M,Hipertensión
-11,Luis Perez,22,M,Ninguna
-12,Maria Flores,38,F,Ninguna
-13,Ana Diaz,83,F,Hipertensión
-14,Jorge Flores,39,F,Ninguna
-15,Lucia Sanz,52,F,Hipertensión
-16,Sara Garcia,24,M,Ninguna
-17,Elena Diaz,30,F,Ninguna
-18,Miguel Sanz,61,M,Hipertensión
-19,Maria Perez,82,F,Hipertensión
-20,Elena Garcia,47,M,Ninguna
-21,Maria Diaz,36,M,Ninguna
-22,Lucia Torres,67,M,Hipertensión
-23,Sara Sanz,51,F,Hipertensión
-24,Sara Garcia,72,F,Hipertensión
-25,Ana Perez,32,F,Ninguna
-26,Maria Garcia,57,F,Hipertensión
-27,Maria Diaz,65,M,Hipertensión
-28,Miguel Perez,31,F,Ninguna
-29,Ana Ramirez,77,M,Hipertensión
-30,Jose Sanz,80,M,Hipertensión
-31,Maria Sanz,82,M,Hipertensión
-32,Miguel Diaz,45,M,Ninguna
-33,Sara Flores,78,M,Hipertensión
-34,Ana Sanz,68,F,Hipertensión
-35,Elena Perez,65,M,Hipertensión
-36,Lucia Ramirez,51,F,Hipertensión
-37,Luis Garcia,73,F,Hipertensión
-38,Miguel Garcia,70,M,Hipertensión
-39,Maria Flores,35,M,Ninguna
-40,Maria Ruiz,45,M,Ninguna
-41,Elena Perez,49,M,Ninguna
-42,Jose Diaz,61,M,Hipertensión
-43,Miguel Ruiz,85,M,Hipertensión
-44,Jorge Flores,25,M,Ninguna
-45,Luis Flores,24,M,Ninguna
-46,Elena Torres,80,M,Hipertensión
-47,Lucia Perez,61,F,Hipertensión
-48,Lucia Diaz,48,M,Ninguna
-49,Jose Garcia,45,F,Ninguna
-50,Jorge Garcia,65,F,Hipertensión
-51,Luis Flores,72,M,Hipertensión
-52,Sara Flores,41,M,Ninguna
-53,Elena Ramirez,60,M,Hipertensión
-54,Lucia Perez,34,F,Ninguna
-55,Miguel Flores,76,F,Hipertensión
-56,Luis Diaz,59,F,Hipertensión
-57,Sara Flores,26,M,Ninguna
-58,Maria Garcia,81,F,Hipertensión
-59,Elena Perez,75,F,Hipertensión
-60,Carlos Ruiz,53,F,Hipertensión
-61,Sara Ruiz,52,M,Hipertensión
-62,Miguel Flores,66,M,Hipertensión
-63,Maria Garcia,22,M,Ninguna
-64,Luis Diaz,22,F,Ninguna
-65,Carlos Sanz,72,F,Hipertensión
-66,Sara Perez,73,F,Hipertensión
-67,Lucia Ruiz,72,F,Hipertensión
-68,Sara Diaz,38,M,Ninguna
-69,Miguel Ruiz,68,M,Hipertensión
-70,Jose Perez,23,M,Ninguna
-71,Maria Ruiz,21,F,Ninguna
-72,Luis Sanz,41,F,Ninguna
-73,Luis Diaz,85,M,Hipertensión
-74,Luis Torres,51,F,Hipertensión
-75,Sara Diaz,41,M,Ninguna
-76,Carlos Sanz,71,M,Hipertensión
-77,Maria Ruiz,55,F,Hipertensión
-78,Lucia Flores,46,M,Ninguna
-79,Carlos Torres,20,F,Ninguna
-80,Carlos Perez,68,F,Hipertensión
-81,Luis Flores,77,M,Hipertensión
-82,Luis Perez,21,M,Ninguna
-83,Elena Flores,41,M,Ninguna
-84,Sara Sanz,31,M,Ninguna
-85,Jose Garcia,23,F,Ninguna
-86,Ana Garcia,43,F,Ninguna
-87,Elena Flores,62,M,Hipertensión
-88,Maria Torres,39,M,Ninguna
-89,Sara Sanz,62,F,Hipertensión
-90,Jorge Diaz,57,F,Hipertensión
-91,Jorge Sanz,41,M,Ninguna
-92,Ana Diaz,47,F,Ninguna
-93,Jorge Diaz,48,F,Ninguna
-94,Ana Sanz,82,F,Hipertensión
-95,Sara Ruiz,52,F,Hipertensión
-96,Carlos Garcia,80,F,Hipertensión
-97,Elena Flores,78,F,Hipertensión
-98,Miguel Perez,62,F,Hipertensión
-99,Miguel Garcia,19,F,Ninguna
-100,Luis Ruiz,82,M,Hipertensión
-101,Luis Garcia,23,M,Ninguna
-102,Maria Diaz,85,M,Hipertensión
-103,Elena Ramirez,73,F,Hipertensión
-104,Maria Garcia,26,M,Ninguna
-105,Elena Torres,84,F,Hipertensión
-106,Elena Garcia,85,M,Hipertensión
-107,Sara Diaz,36,F,Ninguna
-108,Carlos Torres,75,M,Hipertensión
-109,Jose Flores,50,F,Hipertensión
-110,Sara Diaz,57,M,Hipertensión
-111,Carlos Sanz,25,M,Ninguna
-112,Miguel Garcia,75,F,Hipertensión
-113,Ana Ruiz,39,F,Ninguna
-114,Ana Ruiz,19,F,Ninguna
-115,Lucia Torres,18,F,Ninguna
-116,Jose Ramirez,29,F,Ninguna
-117,Lucia Ramirez,34,F,Ninguna
-118,Maria Torres,36,F,Ninguna
-119,Jose Torres,47,M,Ninguna
-120,Ana Torres,35,F,Ninguna
-121,Jorge Ramirez,72,M,Hipertensión
-122,Sara Flores,18,F,Ninguna
-123,Ana Diaz,29,F,Ninguna
-124,Maria Ruiz,76,F,Hipertensión
-125,Jose Ruiz,30,F,Ninguna
-126,Carlos Ramirez,23,M,Ninguna
-127,Sara Perez,34,F,Ninguna
-128,Jose Flores,58,M,Hipertensión
-129,Jose Ramirez,81,F,Hipertensión
-130,Maria Torres,33,M,Ninguna
-131,Sara Perez,66,F,Hipertensión
-132,Carlos Ramirez,18,F,Ninguna
-133,Ana Torres,58,F,Hipertensión
-134,Jose Sanz,44,F,Ninguna
-135,Elena Sanz,83,F,Hipertensión
-136,Lucia Torres,39,M,Ninguna
-137,Jorge Flores,79,F,Hipertensión
-138,Lucia Torres,53,F,Hipertensión
-139,Miguel Sanz,58,M,Hipertensión
-140,Jose Diaz,56,F,Hipertensión
-141,Carlos Ramirez,56,F,Hipertensión
-142,Maria Torres,20,F,Ninguna
-143,Jorge Ruiz,31,M,Ninguna
-144,Maria Sanz,28,F,Ninguna
-145,Jose Garcia,69,M,Hipertensión
-146,Elena Flores,21,M,Ninguna
-147,Miguel Ramirez,79,F,Hipertensión
-148,Maria Perez,69,F,Hipertensión
-149,Luis Sanz,75,F,Hipertensión
-150,Maria Ruiz,67,F,Hipertensión
+1,Antonio Gomez Perez,69,M,Artrosis Crónica de Rodilla e Hipertensión
+2,Rafael Romero Gonzalez,51,M,EPOC y Asma Bronquial
+3,Manuel Sanchez Perez,85,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+4,Pedro Romero Diaz,79,M,Artrosis Crónica de Rodilla e Hipertensión
+5,Laura Garcia Martinez,60,F,EPOC y Asma Bronquial
+6,Ana Sanchez Jimenez,72,F,Fibrilación Auricular y Fallo Cardíaco Leve
+7,Carmen Ruiz Ruiz,30,F,Trastorno Depresivo Mayor e Insomnio
+8,Lucia Fernandez Hernandez,87,F,Fibrilación Auricular y Fallo Cardíaco Leve
+9,Beatriz Gutierrez Ruiz,67,F,Artrosis Crónica de Rodilla e Hipertensión
+10,Rafael Perez Martin,77,M,Fibrilación Auricular y Fallo Cardíaco Leve
+11,Javier Gomez Moreno,74,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+12,Pilar Sanchez Gomez,89,F,Fibrilación Auricular y Fallo Cardíaco Leve
+13,Jesus Perez Martinez,31,M,Ninguna (Control preventivo)
+14,Concepcion Romero Perez,70,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+15,Fernando Rodriguez Jimenez,58,M,EPOC y Asma Bronquial
+16,Francisco Alonso Jimenez,80,M,Artrosis Crónica de Rodilla e Hipertensión
+17,Concepcion Moreno Lopez,36,F,Trastorno Depresivo Mayor e Insomnio
+18,Pedro Romero Romero,55,M,Trastorno Depresivo Mayor e Insomnio
+19,Pilar Perez Lopez,21,F,Ninguna (Control preventivo)
+20,Fernando Fernandez Lopez,73,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+21,Mercedes Gonzalez Hernandez,69,F,EPOC y Asma Bronquial
+22,Lucia Gomez Romero,71,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+23,Laura Jimenez Fernandez,55,F,Trastorno Depresivo Mayor e Insomnio
+24,Carlos Garcia Gomez,68,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+25,Fernando Martin Alvarez,69,M,Artrosis Crónica de Rodilla e Hipertensión
+26,Laura Martinez Romero,78,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+27,Maria Fernandez Ruiz,43,F,Trastorno Depresivo Mayor e Insomnio
+28,Francisco Alonso Gonzalez,85,M,Fibrilación Auricular y Fallo Cardíaco Leve
+29,Angel Romero Lopez,73,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+30,Lucia Martinez Gomez,56,F,EPOC y Asma Bronquial
+31,Pedro Martin Hernandez,83,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+32,Carmen Perez Perez,80,F,Fibrilación Auricular y Fallo Cardíaco Leve
+33,Miguel Romero Perez,65,M,Artrosis Crónica de Rodilla e Hipertensión
+34,Pedro Rodriguez Perez,71,M,Fibrilación Auricular y Fallo Cardíaco Leve
+35,Carmen Alvarez Perez,59,F,Trastorno Depresivo Mayor e Insomnio
+36,Jesus Lopez Alonso,26,M,Ninguna (Control preventivo)
+37,Laura Diaz Sanchez,73,F,Fibrilación Auricular y Fallo Cardíaco Leve
+38,Pilar Diaz Diaz,42,F,Ninguna (Control preventivo)
+39,Rafael Fernandez Rodriguez,73,M,EPOC y Asma Bronquial
+40,Laura Fernandez Perez,71,F,Artrosis Crónica de Rodilla e Hipertensión
+41,Ana Diaz Martinez,57,F,Trastorno Depresivo Mayor e Insomnio
+42,Fernando Gonzalez Moreno,71,M,Fibrilación Auricular y Fallo Cardíaco Leve
+43,Manuel Perez Martinez,65,M,EPOC y Asma Bronquial
+44,Isabel Hernandez Rodriguez,64,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+45,Javier Gomez Moreno,55,M,Trastorno Depresivo Mayor e Insomnio
+46,Ana Sanchez Martin,66,F,Artrosis Crónica de Rodilla e Hipertensión
+47,Pedro Jimenez Rodriguez,86,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+48,Lucia Alvarez Martinez,84,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+49,Fernando Martinez Gonzalez,77,M,Fibrilación Auricular y Fallo Cardíaco Leve
+50,Carmen Alonso Perez,70,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+51,Cristina Alonso Alonso,77,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+52,Rafael Jimenez Perez,53,M,Trastorno Depresivo Mayor e Insomnio
+53,Rafael Martin Moreno,71,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+54,Carlos Gutierrez Alonso,72,M,Fibrilación Auricular y Fallo Cardíaco Leve
+55,Jesus Gomez Lopez,71,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+56,Juan Martin Martinez,36,M,Ninguna (Control preventivo)
+57,Mercedes Alvarez Garcia,34,F,Trastorno Depresivo Mayor e Insomnio
+58,David Fernandez Fernandez,60,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+59,Mercedes Sanchez Jimenez,73,F,Artrosis Crónica de Rodilla e Hipertensión
+60,Dolores Rodriguez Gonzalez,76,F,EPOC y Asma Bronquial
+61,Maria Garcia Jimenez,72,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+62,Ana Moreno Romero,67,F,EPOC y Asma Bronquial
+63,Manuel Gonzalez Lopez,79,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+64,Javier Lopez Rodriguez,51,M,Trastorno Depresivo Mayor e Insomnio
+65,Luis Ruiz Sanchez,68,M,Artrosis Crónica de Rodilla e Hipertensión
+66,Laura Romero Diaz,59,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+67,Angel Martinez Diaz,73,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+68,Laura Diaz Perez,38,F,Trastorno Depresivo Mayor e Insomnio
+69,Javier Rodriguez Muñoz,71,M,Artrosis Crónica de Rodilla e Hipertensión
+70,Pilar Martin Perez,65,F,Artrosis Crónica de Rodilla e Hipertensión
+71,Javier Jimenez Gomez,78,M,Fibrilación Auricular y Fallo Cardíaco Leve
+72,Cristina Alvarez Hernandez,69,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+73,Luis Gomez Martinez,30,M,Trastorno Depresivo Mayor e Insomnio
+74,Miguel Diaz Ruiz,82,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+75,Javier Alonso Sanchez,30,M,Trastorno Depresivo Mayor e Insomnio
+76,Maria Alvarez Romero,76,F,Artrosis Crónica de Rodilla e Hipertensión
+77,Carmen Jimenez Gutierrez,72,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+78,Lucia Martin Diaz,81,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+79,Lucia Lopez Sanchez,71,F,EPOC y Asma Bronquial
+80,Cristina Martinez Gutierrez,53,F,Trastorno Depresivo Mayor e Insomnio
+81,David Martin Sanchez,75,M,EPOC y Asma Bronquial
+82,Rosa Moreno Moreno,81,F,Artrosis Crónica de Rodilla e Hipertensión
+83,Laura Martinez Gonzalez,60,F,Trastorno Depresivo Mayor e Insomnio
+84,Carmen Perez Martin,71,F,Artrosis Crónica de Rodilla e Hipertensión
+85,Antonio Rodriguez Perez,38,M,Ninguna (Control preventivo)
+86,Carlos Diaz Alonso,77,M,Artrosis Crónica de Rodilla e Hipertensión
+87,Teresa Perez Lopez,71,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+88,Isabel Martinez Alvarez,20,F,Ninguna (Control preventivo)
+89,Luis Fernandez Moreno,66,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+90,Laura Moreno Gutierrez,76,F,EPOC y Asma Bronquial
+91,Concepcion Martinez Muñoz,27,F,Ninguna (Control preventivo)
+92,Fernando Gomez Alvarez,39,M,Ninguna (Control preventivo)
+93,David Moreno Gonzalez,43,M,Trastorno Depresivo Mayor e Insomnio
+94,Pilar Jimenez Romero,74,F,Fibrilación Auricular y Fallo Cardíaco Leve
+95,Francisco Hernandez Lopez,67,M,Artrosis Crónica de Rodilla e Hipertensión
+96,Teresa Jimenez Romero,32,F,Ninguna (Control preventivo)
+97,Francisco Diaz Hernandez,86,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+98,Rosa Garcia Ruiz,52,F,Trastorno Depresivo Mayor e Insomnio
+99,Lucia Romero Gutierrez,80,F,Artrosis Crónica de Rodilla e Hipertensión
+100,David Diaz Muñoz,80,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+101,Cristina Hernandez Martinez,23,F,Ninguna (Control preventivo)
+102,Luis Hernandez Alonso,70,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+103,Ana Moreno Martinez,76,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+104,Pilar Sanchez Moreno,79,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+105,Dolores Diaz Gomez,85,F,Fibrilación Auricular y Fallo Cardíaco Leve
+106,Pedro Romero Rodriguez,76,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+107,Angel Rodriguez Garcia,71,M,Artrosis Crónica de Rodilla e Hipertensión
+108,Miguel Lopez Perez,67,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+109,Miguel Sanchez Moreno,51,M,Trastorno Depresivo Mayor e Insomnio
+110,Miguel Gutierrez Fernandez,61,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+111,Miguel Garcia Martin,62,M,EPOC y Asma Bronquial
+112,Manuel Alonso Perez,79,M,Fibrilación Auricular y Fallo Cardíaco Leve
+113,Angel Alonso Rodriguez,86,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+114,Cristina Ruiz Gonzalez,69,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+115,Beatriz Muñoz Fernandez,61,F,EPOC y Asma Bronquial
+116,Elena Lopez Diaz,75,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+117,Mercedes Romero Muñoz,32,F,Ninguna (Control preventivo)
+118,Pilar Perez Gonzalez,56,F,Trastorno Depresivo Mayor e Insomnio
+119,Angel Moreno Alonso,60,M,EPOC y Asma Bronquial
+120,Carlos Jimenez Martinez,25,M,Ninguna (Control preventivo)
+121,Laura Gomez Jimenez,45,F,Trastorno Depresivo Mayor e Insomnio
+122,Jesus Sanchez Gonzalez,78,M,Artrosis Crónica de Rodilla e Hipertensión
+123,Lucia Perez Muñoz,33,F,Ninguna (Control preventivo)
+124,Manuel Martin Perez,72,M,EPOC y Asma Bronquial
+125,David Alonso Ruiz,36,M,Ninguna (Control preventivo)
+126,Teresa Romero Jimenez,83,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+127,Dolores Gomez Perez,76,F,Fibrilación Auricular y Fallo Cardíaco Leve
+128,Carmen Romero Martinez,71,F,Artrosis Crónica de Rodilla e Hipertensión
+129,Dolores Alonso Alvarez,34,F,Trastorno Depresivo Mayor e Insomnio
+130,David Perez Ruiz,61,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+131,Pedro Romero Lopez,30,M,Trastorno Depresivo Mayor e Insomnio
+132,Jesus Martin Lopez,22,M,Ninguna (Control preventivo)
+133,Miguel Martin Muñoz,33,M,Ninguna (Control preventivo)
+134,Ana Rodriguez Gomez,22,F,Ninguna (Control preventivo)
+135,Javier Muñoz Gonzalez,72,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+136,Angel Alonso Martin,77,M,Fibrilación Auricular y Fallo Cardíaco Leve
+137,Jesus Diaz Gutierrez,81,M,Artrosis Crónica de Rodilla e Hipertensión
+138,Rosa Moreno Martin,59,F,EPOC y Asma Bronquial
+139,Miguel Fernandez Sanchez,73,M,Artrosis Crónica de Rodilla e Hipertensión
+140,Jose Perez Martinez,75,M,Fibrilación Auricular y Fallo Cardíaco Leve
+141,Javier Moreno Gutierrez,28,M,Ninguna (Control preventivo)
+142,Francisco Martin Martin,21,M,Ninguna (Control preventivo)
+143,Luis Gomez Alonso,78,M,Artrosis Crónica de Rodilla e Hipertensión
+144,Jesus Perez Lopez,37,M,Trastorno Depresivo Mayor e Insomnio
+145,Antonio Martinez Martin,56,M,Trastorno Depresivo Mayor e Insomnio
+146,Carlos Martin Hernandez,60,M,Trastorno Depresivo Mayor e Insomnio
+147,Rosa Gonzalez Gutierrez,81,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+148,Mercedes Gomez Garcia,77,F,Fibrilación Auricular y Fallo Cardíaco Leve
+149,Angel Gomez Alonso,73,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+150,Lucia Moreno Gomez,70,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+151,Cristina Muñoz Gonzalez,30,F,Ninguna (Control preventivo)
+152,Pilar Jimenez Fernandez,62,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+153,Elena Muñoz Martin,76,F,EPOC y Asma Bronquial
+154,Carlos Gonzalez Jimenez,48,M,Trastorno Depresivo Mayor e Insomnio
+155,Angel Hernandez Alvarez,85,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+156,Teresa Rodriguez Sanchez,84,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+157,Laura Rodriguez Sanchez,36,F,Trastorno Depresivo Mayor e Insomnio
+158,Rosa Muñoz Fernandez,75,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+159,David Romero Garcia,52,M,EPOC y Asma Bronquial
+160,Fernando Fernandez Moreno,74,M,Fibrilación Auricular y Fallo Cardíaco Leve
+161,Concepcion Martin Alvarez,54,F,Trastorno Depresivo Mayor e Insomnio
+162,Rosa Perez Moreno,64,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+163,Luis Gutierrez Alvarez,54,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+164,Laura Diaz Jimenez,28,F,Trastorno Depresivo Mayor e Insomnio
+165,Elena Martin Alonso,23,F,Ninguna (Control preventivo)
+166,Lucia Muñoz Ruiz,86,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+167,Rosa Jimenez Sanchez,83,F,Artrosis Crónica de Rodilla e Hipertensión
+168,Isabel Diaz Rodriguez,84,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+169,Teresa Lopez Muñoz,72,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+170,Beatriz Fernandez Moreno,86,F,Fibrilación Auricular y Fallo Cardíaco Leve
+171,Maria Lopez Diaz,54,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+172,Laura Gomez Jimenez,70,F,EPOC y Asma Bronquial
+173,Fernando Jimenez Romero,60,M,EPOC y Asma Bronquial
+174,Beatriz Romero Rodriguez,77,F,Fibrilación Auricular y Fallo Cardíaco Leve
+175,Isabel Gonzalez Diaz,73,F,Fibrilación Auricular y Fallo Cardíaco Leve
+176,Ana Martin Garcia,78,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+177,David Ruiz Ruiz,54,M,EPOC y Asma Bronquial
+178,Jesus Diaz Alonso,57,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+179,Manuel Gutierrez Hernandez,80,M,Artrosis Crónica de Rodilla e Hipertensión
+180,Francisco Moreno Gomez,27,M,Ninguna (Control preventivo)
+181,Luis Moreno Martin,54,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+182,Pilar Alonso Martin,72,F,EPOC y Asma Bronquial
+183,Rosa Martin Sanchez,77,F,EPOC y Asma Bronquial
+184,Carmen Perez Hernandez,87,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+185,Elena Martin Garcia,58,F,EPOC y Asma Bronquial
+186,Miguel Rodriguez Gutierrez,28,M,Ninguna (Control preventivo)
+187,Miguel Ruiz Perez,84,M,Artrosis Crónica de Rodilla e Hipertensión
+188,Cristina Lopez Fernandez,77,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+189,Maria Alonso Ruiz,54,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+190,Pilar Diaz Martinez,69,F,Artrosis Crónica de Rodilla e Hipertensión
+191,Lucia Alvarez Gomez,60,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+192,Laura Martin Jimenez,84,F,Fibrilación Auricular y Fallo Cardíaco Leve
+193,Jose Perez Hernandez,71,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+194,Maria Gomez Romero,84,F,Fibrilación Auricular y Fallo Cardíaco Leve
+195,Cristina Gomez Alonso,76,F,EPOC y Asma Bronquial
+196,Carmen Perez Muñoz,85,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+197,Concepcion Gutierrez Perez,84,F,Fibrilación Auricular y Fallo Cardíaco Leve
+198,Cristina Diaz Fernandez,53,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+199,David Muñoz Fernandez,77,M,Fibrilación Auricular y Fallo Cardíaco Leve
+200,Javier Moreno Ruiz,68,M,EPOC y Asma Bronquial
+201,Luis Diaz Fernandez,38,M,Ninguna (Control preventivo)
+202,Dolores Rodriguez Ruiz,79,F,Artrosis Crónica de Rodilla e Hipertensión
+203,Isabel Ruiz Fernandez,86,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+204,Maria Hernandez Gomez,68,F,Artrosis Crónica de Rodilla e Hipertensión
+205,Carmen Sanchez Gutierrez,69,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+206,Isabel Lopez Alonso,67,F,Artrosis Crónica de Rodilla e Hipertensión
+207,Miguel Sanchez Perez,73,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+208,David Lopez Lopez,39,M,Trastorno Depresivo Mayor e Insomnio
+209,Rafael Garcia Lopez,79,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+210,Miguel Jimenez Garcia,60,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+211,Jose Diaz Alvarez,72,M,Fibrilación Auricular y Fallo Cardíaco Leve
+212,Rosa Ruiz Alvarez,84,F,Fibrilación Auricular y Fallo Cardíaco Leve
+213,Miguel Rodriguez Alvarez,57,M,Trastorno Depresivo Mayor e Insomnio
+214,Antonio Muñoz Hernandez,71,M,EPOC y Asma Bronquial
+215,Carlos Moreno Gonzalez,80,M,Fibrilación Auricular y Fallo Cardíaco Leve
+216,Manuel Lopez Gomez,81,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+217,Rosa Alvarez Gutierrez,53,F,EPOC y Asma Bronquial
+218,Fernando Romero Sanchez,64,M,EPOC y Asma Bronquial
+219,Javier Jimenez Moreno,63,M,EPOC y Asma Bronquial
+220,Juan Diaz Jimenez,51,M,Trastorno Depresivo Mayor e Insomnio
+221,Rafael Muñoz Gonzalez,72,M,Fibrilación Auricular y Fallo Cardíaco Leve
+222,Javier Fernandez Ruiz,69,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+223,Miguel Romero Romero,72,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+224,Pilar Diaz Rodriguez,47,F,Trastorno Depresivo Mayor e Insomnio
+225,Carmen Alonso Alvarez,69,F,Artrosis Crónica de Rodilla e Hipertensión
+226,Isabel Fernandez Ruiz,72,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+227,Mercedes Perez Diaz,76,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+228,Jose Gomez Martin,80,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+229,Jose Lopez Alonso,52,M,EPOC y Asma Bronquial
+230,Pedro Garcia Gonzalez,77,M,Artrosis Crónica de Rodilla e Hipertensión
+231,Rosa Jimenez Martinez,78,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+232,Laura Alonso Gutierrez,71,F,Fibrilación Auricular y Fallo Cardíaco Leve
+233,Jose Gutierrez Rodriguez,78,M,Fibrilación Auricular y Fallo Cardíaco Leve
+234,Cristina Diaz Muñoz,32,F,Ninguna (Control preventivo)
+235,Isabel Alvarez Fernandez,82,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+236,David Alonso Muñoz,30,M,Trastorno Depresivo Mayor e Insomnio
+237,Javier Gutierrez Rodriguez,74,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+238,Isabel Lopez Gomez,48,F,Trastorno Depresivo Mayor e Insomnio
+239,Antonio Muñoz Diaz,56,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+240,Lucia Perez Alvarez,71,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+241,Beatriz Rodriguez Diaz,82,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+242,Fernando Jimenez Alonso,68,M,EPOC y Asma Bronquial
+243,Elena Diaz Martin,82,F,Fibrilación Auricular y Fallo Cardíaco Leve
+244,Juan Martinez Gutierrez,41,M,Ninguna (Control preventivo)
+245,Carmen Diaz Fernandez,78,F,Artrosis Crónica de Rodilla e Hipertensión
+246,Lucia Gonzalez Hernandez,49,F,Trastorno Depresivo Mayor e Insomnio
+247,Juan Martinez Gonzalez,86,M,Fibrilación Auricular y Fallo Cardíaco Leve
+248,Luis Ruiz Ruiz,59,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+249,Jose Gomez Sanchez,71,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+250,Angel Gonzalez Martinez,33,M,Ninguna (Control preventivo)
+251,Cristina Alonso Gutierrez,79,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+252,Carlos Gonzalez Muñoz,39,M,Ninguna (Control preventivo)
+253,Laura Gomez Alonso,79,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+254,David Moreno Moreno,69,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+255,Beatriz Martin Gonzalez,89,F,Fibrilación Auricular y Fallo Cardíaco Leve
+256,Rosa Alonso Romero,82,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+257,Juan Gutierrez Muñoz,53,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+258,Carmen Jimenez Gonzalez,53,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+259,Pedro Moreno Moreno,63,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+260,Concepcion Martin Hernandez,74,F,EPOC y Asma Bronquial
+261,Cristina Gutierrez Rodriguez,71,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+262,Carmen Romero Hernandez,44,F,Trastorno Depresivo Mayor e Insomnio
+263,Juan Gonzalez Alonso,63,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+264,Cristina Hernandez Lopez,79,F,Fibrilación Auricular y Fallo Cardíaco Leve
+265,Cristina Jimenez Lopez,83,F,Fibrilación Auricular y Fallo Cardíaco Leve
+266,Maria Ruiz Martin,58,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+267,Laura Muñoz Sanchez,69,F,Artrosis Crónica de Rodilla e Hipertensión
+268,Manuel Martin Fernandez,78,M,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+269,Miguel Hernandez Lopez,57,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+270,Pedro Moreno Rodriguez,61,M,EPOC y Asma Bronquial
+271,Carlos Gutierrez Martin,26,M,Ninguna (Control preventivo)
+272,David Muñoz Sanchez,87,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+273,Rosa Martin Hernandez,55,F,EPOC y Asma Bronquial
+274,Angel Gutierrez Lopez,31,M,Trastorno Depresivo Mayor e Insomnio
+275,Beatriz Ruiz Romero,86,F,Fibrilación Auricular y Fallo Cardíaco Leve
+276,David Gonzalez Martinez,56,M,Trastorno Depresivo Mayor e Insomnio
+277,Fernando Diaz Gonzalez,79,M,Artrosis Crónica de Rodilla e Hipertensión
+278,Concepcion Garcia Diaz,80,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+279,Isabel Hernandez Gonzalez,76,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+280,Juan Fernandez Jimenez,56,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+281,David Muñoz Lopez,33,M,Ninguna (Control preventivo)
+282,Luis Gonzalez Garcia,41,M,Trastorno Depresivo Mayor e Insomnio
+283,Jesus Gutierrez Alvarez,53,M,EPOC y Asma Bronquial
+284,Isabel Martin Fernandez,75,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+285,Cristina Gutierrez Moreno,73,F,Fibrilación Auricular y Fallo Cardíaco Leve
+286,Mercedes Romero Garcia,69,F,Artrosis Crónica de Rodilla e Hipertensión
+287,Teresa Garcia Gutierrez,76,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+288,Ana Gonzalez Alvarez,71,F,Insuficiencia Cardíaca Congestiva (NYHA III)
+289,Javier Muñoz Rodriguez,61,M,EPOC y Asma Bronquial
+290,Elena Garcia Ruiz,81,F,Fibrilación Auricular y Fallo Cardíaco Leve
+291,Pedro Fernandez Alonso,73,M,Insuficiencia Cardíaca Congestiva (NYHA III)
+292,Juan Romero Jimenez,73,M,"Diabetes Tipo 2, HTA y Dislipidemia"
+293,Elena Muñoz Martinez,54,F,"Diabetes Tipo 2, HTA y Dislipidemia"
+294,Maria Martin Sanchez,74,F,"Cardiopatía Isquémica, HTA e Hipercolesterolemia"
+295,Juan Martin Alvarez,76,M,EPOC y Asma Bronquial
+296,Dolores Rodriguez Sanchez,50,F,Trastorno Depresivo Mayor e Insomnio
+297,Fernando Jimenez Gomez,81,M,Fibrilación Auricular y Fallo Cardíaco Leve
+298,Concepcion Hernandez Moreno,60,F,EPOC y Asma Bronquial
+299,Carlos Muñoz Ruiz,33,M,Trastorno Depresivo Mayor e Insomnio
+300,Carmen Diaz Gutierrez,69,F,"Diabetes Tipo 2, HTA y Dislipidemia"

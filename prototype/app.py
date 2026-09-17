@@ -33,6 +33,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASE_DIR / "database" / "hospital.db"
 PREPROCESSOR_PATH = BASE_DIR / "prototype" / "models" / "preprocesador.pkl"
 MODEL_PATH = BASE_DIR / "prototype" / "models" / "modelo_riesgo.pkl"
+FDA_DATA_PATH = BASE_DIR / "data" / "raw" / "openfda_adverse_events.csv"
 
 # Estilos CSS personalizados
 st.markdown("""
@@ -168,11 +169,20 @@ with col_header:
 df_pacientes, df_medicos, df_medicamentos, df_interacciones = cargar_catalogos()
 preprocessor, model = cargar_modelos()
 
+@st.cache_data(ttl=300)
+def cargar_eventos_fda():
+    """Carga los eventos adversos reales descargados desde OpenFDA FAERS."""
+    if FDA_DATA_PATH.exists():
+        return pd.read_csv(FDA_DATA_PATH)
+    return pd.DataFrame()
+
+
 # Tabs de navegación
-tab_prescripcion, tab_dashboard, tab_vademecum = st.tabs([
+tab_prescripcion, tab_dashboard, tab_vademecum, tab_openfda = st.tabs([
     "🩺 Consulta & Prescripción Asistida",
     "📊 Métricas & Seguridad Hospitalaria",
-    "📖 Vademécum & Reglas Farmacológicas"
+    "📖 Vademécum & Reglas Farmacológicas",
+    "📡 Farmacovigilancia Real (OpenFDA)"
 ])
 
 # ===========================================================================
@@ -361,12 +371,23 @@ with tab_dashboard:
         total_medicos = conn.execute("SELECT COUNT(*) FROM Medicos").fetchone()[0]
         total_consultas = conn.execute("SELECT COUNT(*) FROM Consultas").fetchone()[0]
         total_recetas = conn.execute("SELECT COUNT(*) FROM Recetas").fetchone()[0]
+        query_alertas = """
+            SELECT COUNT(DISTINCT c.id_consulta)
+            FROM Consultas c
+            JOIN Recetas r1 ON c.id_consulta = r1.id_consulta
+            JOIN Recetas r2 ON c.id_consulta = r2.id_consulta AND r1.id_receta < r2.id_receta
+            JOIN Interacciones i
+              ON (r1.id_medicamento = i.id_medicamento_1 AND r2.id_medicamento = i.id_medicamento_2)
+              OR (r1.id_medicamento = i.id_medicamento_2 AND r2.id_medicamento = i.id_medicamento_1)
+        """
+        consultas_con_alerta = conn.execute(query_alertas).fetchone()[0]
+        tasa_alertas = (consultas_con_alerta / total_consultas * 100) if total_consultas > 0 else 0
 
     kpi1, kpi2, kpi3, kpi4 = st.columns(4)
     kpi1.metric("Pacientes Registrados", f"{total_pacientes}", "Cohorte Activa")
     kpi2.metric("Consultas Totales", f"{total_consultas}", "Último Año")
     kpi3.metric("Recetas Emitidas", f"{total_recetas}", f"{total_recetas/total_consultas:.1f} por consulta")
-    kpi4.metric("Tasa Detección Alertas", "12.1%", "-15% Póliza Mala Praxis")
+    kpi4.metric("Tasa Detección Alertas", f"{tasa_alertas:.1f}%", "-15% Póliza Mala Praxis")
 
     st.divider()
     col_g1, col_g2 = st.columns(2)
@@ -397,6 +418,7 @@ with tab_dashboard:
                 JOIN Medicamentos m ON r.id_medicamento = m.id_medicamento
                 GROUP BY m.principio_activo
                 ORDER BY prescripciones DESC
+                LIMIT 15
             """, conn)
 
         chart_meds = alt.Chart(df_top_meds).mark_bar(color="#00A896", cornerRadiusTopLeft=6, cornerRadiusTopRight=6).encode(
@@ -485,3 +507,70 @@ with tab_vademecum:
                         st.rerun()
                     except Exception as e:
                         st.error(f"Error al guardar la regla: {e}")
+
+# ===========================================================================
+# TAB 4: FARMACOVIGILANCIA REAL — OPENFDA FAERS
+# ===========================================================================
+with tab_openfda:
+    st.subheader("📡 Base de Datos de Farmacovigilancia Real — OpenFDA (FAERS)")
+    st.markdown("""
+    Esta vista integra reportes clínicos **auténticos** notificados a la **Food and Drug Administration (FDA)** 
+    a través del sistema *FAERS (FDA Adverse Event Reporting System)* para fármacos de alto impacto en polifarmacia.
+    """)
+
+    df_fda = cargar_eventos_fda()
+    if df_fda.empty:
+        st.warning("No se encontraron registros de OpenFDA en `data/raw/openfda_adverse_events.csv`. Ejecute `src/fetch_openfda_data.py`.")
+    else:
+        # Métricas agregadas de OpenFDA
+        total_reportes = len(df_fda)
+        pct_hosp = (df_fda["hospitalizacion"].sum() / total_reportes) * 100
+        pct_vital = (df_fda["riesgo_vital"].sum() / total_reportes) * 100
+        pct_muerte = (df_fda["muerte"].sum() / total_reportes) * 100
+
+        col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+        col_f1.metric("Reportes FDA Reales", f"{total_reportes:,}", "Cohorte FAERS")
+        col_f2.metric("Hospitalizaciones", f"{pct_hosp:.1f}%", "Desenlace Grave")
+        col_f3.metric("Riesgo Vital Inmediato", f"{pct_vital:.1f}%", "Urgencia Crítica")
+        col_f4.metric("Desenlace Fatal (Muerte)", f"{pct_muerte:.1f}%", "Casos Notificados")
+
+        st.divider()
+
+        col_filtro1, col_filtro2 = st.columns([1.5, 2])
+        with col_filtro1:
+            farmacos_disponibles = ["Todos"] + sorted(df_fda["farmaco_buscado"].dropna().unique().tolist())
+            farmaco_filtro = st.selectbox("Filtrar por principio activo investigado en FDA:", farmacos_disponibles)
+        with col_filtro2:
+            solo_hosp = st.checkbox("Mostrar solo reportes con hospitalización o desenlace vital", value=False)
+
+        df_filtrado = df_fda.copy()
+        if farmaco_filtro != "Todos":
+            df_filtrado = df_filtrado[df_filtrado["farmaco_buscado"] == farmaco_filtro]
+        if solo_hosp:
+            df_filtrado = df_filtrado[(df_filtrado["hospitalizacion"] == 1) | (df_filtrado["riesgo_vital"] == 1)]
+
+        st.markdown(f"##### 📋 Registros Encontrados: **{len(df_filtrado)}** reportes clínicos reales")
+
+        columnas_mostrar = [
+            "report_id", "farmaco_buscado", "edad", "genero", "num_medicamentos",
+            "medicamentos", "reaccion_adversa", "hospitalizacion", "riesgo_vital"
+        ]
+        df_display = df_filtrado[[c for c in columnas_mostrar if c in df_filtrado.columns]].rename(columns={
+            "report_id": "ID Reporte FDA",
+            "farmaco_buscado": "Fármaco Principal",
+            "edad": "Edad",
+            "genero": "Sexo",
+            "num_medicamentos": "Nº Fármacos",
+            "medicamentos": "Fármacos Concomitantes Notificados",
+            "reaccion_adversa": "Reacción Adversa (MedDRA PT)",
+            "hospitalizacion": "Hosp.",
+            "riesgo_vital": "Riesgo Vital"
+        })
+
+        st.dataframe(df_display, use_container_width=True, hide_index=True)
+
+        st.info("""
+        ℹ️ **Aviso Regulatorio OpenFDA:** Datos extraídos mediante la API pública de OpenFDA (`api.fda.gov`). 
+        Los reportes reflejan sospechas clínicas notificadas voluntariamente por personal médico, instituciones y pacientes.
+        """)
+

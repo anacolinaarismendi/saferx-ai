@@ -1,316 +1,904 @@
 id_consulta,id_paciente,id_medico,fecha,diagnostico
-1,1,1,2026-03-12,Consulta rutinaria
-2,2,5,2025-12-31,Consulta rutinaria
-3,2,5,2026-05-14,Consulta rutinaria
-4,2,1,2026-01-03,Consulta rutinaria
-5,3,2,2026-03-01,Consulta rutinaria
-6,4,5,2026-02-26,Consulta rutinaria
-7,4,3,2026-08-02,Consulta rutinaria
-8,4,5,2026-05-29,Consulta rutinaria
-9,5,4,2026-06-02,Consulta rutinaria
-10,5,2,2026-07-18,Consulta rutinaria
-11,5,4,2026-02-12,Consulta rutinaria
-12,6,1,2026-08-17,Consulta rutinaria
-13,6,1,2026-04-30,Consulta rutinaria
-14,6,2,2025-11-25,Consulta rutinaria
-15,7,4,2025-10-21,Consulta rutinaria
-16,8,5,2026-05-02,Consulta rutinaria
-17,8,4,2026-03-12,Consulta rutinaria
-18,9,5,2026-01-02,Consulta rutinaria
-19,10,1,2025-10-10,Consulta rutinaria
-20,11,1,2026-02-16,Consulta rutinaria
-21,12,3,2026-04-30,Consulta rutinaria
-22,12,3,2025-10-19,Consulta rutinaria
-23,12,2,2026-08-09,Consulta rutinaria
-24,13,2,2026-05-10,Consulta rutinaria
-25,13,3,2026-05-22,Consulta rutinaria
-26,13,2,2025-12-10,Consulta rutinaria
-27,14,5,2025-12-27,Consulta rutinaria
-28,14,4,2026-05-15,Consulta rutinaria
-29,14,3,2026-05-16,Consulta rutinaria
-30,15,2,2026-04-20,Consulta rutinaria
-31,15,5,2025-11-10,Consulta rutinaria
-32,15,4,2025-10-23,Consulta rutinaria
-33,16,1,2026-04-26,Consulta rutinaria
-34,16,2,2026-06-24,Consulta rutinaria
-35,17,4,2026-09-07,Consulta rutinaria
-36,17,4,2025-10-14,Consulta rutinaria
-37,17,4,2025-10-09,Consulta rutinaria
-38,18,3,2025-12-20,Consulta rutinaria
-39,18,3,2026-01-12,Consulta rutinaria
-40,18,1,2026-02-11,Consulta rutinaria
-41,19,1,2026-05-21,Consulta rutinaria
-42,20,1,2026-06-17,Consulta rutinaria
-43,20,5,2026-02-27,Consulta rutinaria
-44,21,1,2026-07-12,Consulta rutinaria
-45,21,5,2026-05-12,Consulta rutinaria
-46,21,1,2025-09-26,Consulta rutinaria
-47,22,3,2026-03-09,Consulta rutinaria
-48,22,5,2026-08-22,Consulta rutinaria
-49,22,4,2026-04-27,Consulta rutinaria
-50,23,4,2025-12-09,Consulta rutinaria
-51,23,2,2026-06-09,Consulta rutinaria
-52,24,4,2026-08-01,Consulta rutinaria
-53,25,5,2026-04-29,Consulta rutinaria
-54,25,4,2026-06-08,Consulta rutinaria
-55,25,1,2026-04-25,Consulta rutinaria
-56,26,3,2026-05-02,Consulta rutinaria
-57,26,3,2025-10-19,Consulta rutinaria
-58,27,2,2025-10-21,Consulta rutinaria
-59,27,3,2025-09-19,Consulta rutinaria
-60,28,3,2026-06-07,Consulta rutinaria
-61,29,2,2025-10-15,Consulta rutinaria
-62,29,5,2026-07-30,Consulta rutinaria
-63,30,3,2025-11-01,Consulta rutinaria
-64,30,2,2026-07-23,Consulta rutinaria
-65,31,1,2025-12-15,Consulta rutinaria
-66,31,4,2026-07-31,Consulta rutinaria
-67,32,3,2026-01-03,Consulta rutinaria
-68,32,5,2026-05-21,Consulta rutinaria
-69,32,5,2026-07-17,Consulta rutinaria
-70,33,4,2026-05-25,Consulta rutinaria
-71,33,5,2026-08-29,Consulta rutinaria
-72,34,5,2026-06-26,Consulta rutinaria
-73,35,3,2025-11-14,Consulta rutinaria
-74,35,4,2025-11-20,Consulta rutinaria
-75,36,2,2026-04-15,Consulta rutinaria
-76,36,3,2025-10-26,Consulta rutinaria
-77,37,2,2026-05-20,Consulta rutinaria
-78,37,4,2026-08-21,Consulta rutinaria
-79,38,5,2025-10-17,Consulta rutinaria
-80,38,1,2026-03-29,Consulta rutinaria
-81,39,4,2025-09-27,Consulta rutinaria
-82,40,1,2026-08-04,Consulta rutinaria
-83,40,1,2026-01-07,Consulta rutinaria
-84,41,4,2026-09-09,Consulta rutinaria
-85,41,5,2026-01-26,Consulta rutinaria
-86,42,4,2026-04-30,Consulta rutinaria
-87,42,1,2026-02-27,Consulta rutinaria
-88,42,5,2025-10-27,Consulta rutinaria
-89,43,4,2026-04-18,Consulta rutinaria
-90,43,3,2026-08-29,Consulta rutinaria
-91,43,1,2026-07-19,Consulta rutinaria
-92,44,2,2026-06-12,Consulta rutinaria
-93,44,5,2026-03-18,Consulta rutinaria
-94,44,5,2026-04-19,Consulta rutinaria
-95,45,3,2026-09-08,Consulta rutinaria
-96,45,3,2026-05-03,Consulta rutinaria
-97,45,2,2025-12-11,Consulta rutinaria
-98,46,1,2026-03-29,Consulta rutinaria
-99,46,5,2026-02-27,Consulta rutinaria
-100,46,5,2026-08-25,Consulta rutinaria
-101,47,1,2026-05-14,Consulta rutinaria
-102,47,3,2026-08-19,Consulta rutinaria
-103,48,3,2026-05-11,Consulta rutinaria
-104,48,3,2026-02-22,Consulta rutinaria
-105,49,1,2026-01-30,Consulta rutinaria
-106,49,3,2025-10-28,Consulta rutinaria
-107,49,1,2025-12-16,Consulta rutinaria
-108,50,4,2026-09-04,Consulta rutinaria
-109,50,4,2026-07-01,Consulta rutinaria
-110,50,1,2025-10-17,Consulta rutinaria
-111,51,4,2026-08-06,Consulta rutinaria
-112,51,5,2026-02-02,Consulta rutinaria
-113,51,5,2025-12-21,Consulta rutinaria
-114,52,1,2026-04-09,Consulta rutinaria
-115,52,3,2026-03-26,Consulta rutinaria
-116,53,2,2026-03-09,Consulta rutinaria
-117,53,5,2026-08-27,Consulta rutinaria
-118,53,5,2026-04-08,Consulta rutinaria
-119,54,1,2026-08-02,Consulta rutinaria
-120,54,2,2026-01-15,Consulta rutinaria
-121,55,5,2026-02-08,Consulta rutinaria
-122,55,1,2026-03-01,Consulta rutinaria
-123,55,3,2026-03-19,Consulta rutinaria
-124,56,4,2025-10-20,Consulta rutinaria
-125,57,2,2026-04-01,Consulta rutinaria
-126,58,2,2026-03-31,Consulta rutinaria
-127,59,3,2026-07-28,Consulta rutinaria
-128,59,4,2026-02-15,Consulta rutinaria
-129,60,2,2026-05-26,Consulta rutinaria
-130,60,1,2025-11-30,Consulta rutinaria
-131,60,1,2026-09-13,Consulta rutinaria
-132,61,2,2026-01-11,Consulta rutinaria
-133,61,2,2025-12-01,Consulta rutinaria
-134,61,1,2025-10-29,Consulta rutinaria
-135,62,2,2025-11-16,Consulta rutinaria
-136,62,4,2026-05-15,Consulta rutinaria
-137,62,4,2026-07-16,Consulta rutinaria
-138,63,2,2025-12-23,Consulta rutinaria
-139,64,4,2026-06-09,Consulta rutinaria
-140,65,2,2026-04-07,Consulta rutinaria
-141,65,1,2025-11-02,Consulta rutinaria
-142,66,5,2026-09-11,Consulta rutinaria
-143,66,3,2026-06-20,Consulta rutinaria
-144,67,1,2025-10-04,Consulta rutinaria
-145,67,2,2026-03-17,Consulta rutinaria
-146,67,5,2025-10-02,Consulta rutinaria
-147,68,5,2026-06-30,Consulta rutinaria
-148,69,3,2026-08-15,Consulta rutinaria
-149,69,5,2025-10-19,Consulta rutinaria
-150,70,1,2026-06-09,Consulta rutinaria
-151,71,5,2026-02-17,Consulta rutinaria
-152,71,1,2026-05-22,Consulta rutinaria
-153,71,1,2026-01-26,Consulta rutinaria
-154,72,4,2025-11-05,Consulta rutinaria
-155,72,1,2026-06-19,Consulta rutinaria
-156,73,2,2025-11-19,Consulta rutinaria
-157,73,4,2026-09-13,Consulta rutinaria
-158,74,3,2026-02-22,Consulta rutinaria
-159,74,5,2026-07-11,Consulta rutinaria
-160,75,4,2025-10-20,Consulta rutinaria
-161,76,1,2026-04-28,Consulta rutinaria
-162,76,2,2026-02-16,Consulta rutinaria
-163,76,2,2025-12-13,Consulta rutinaria
-164,77,2,2026-07-15,Consulta rutinaria
-165,77,2,2026-01-06,Consulta rutinaria
-166,77,1,2026-06-06,Consulta rutinaria
-167,78,1,2025-10-04,Consulta rutinaria
-168,78,5,2026-09-07,Consulta rutinaria
-169,79,1,2026-06-05,Consulta rutinaria
-170,79,3,2026-04-05,Consulta rutinaria
-171,80,4,2026-03-26,Consulta rutinaria
-172,81,5,2026-04-18,Consulta rutinaria
-173,81,1,2026-05-16,Consulta rutinaria
-174,81,2,2026-05-25,Consulta rutinaria
-175,82,4,2026-08-13,Consulta rutinaria
-176,82,5,2026-02-12,Consulta rutinaria
-177,82,5,2026-06-02,Consulta rutinaria
-178,83,5,2026-05-23,Consulta rutinaria
-179,83,3,2026-06-28,Consulta rutinaria
-180,84,5,2025-12-14,Consulta rutinaria
-181,84,1,2026-02-01,Consulta rutinaria
-182,84,2,2026-04-06,Consulta rutinaria
-183,85,2,2026-08-05,Consulta rutinaria
-184,85,2,2026-04-16,Consulta rutinaria
-185,86,1,2026-03-16,Consulta rutinaria
-186,86,5,2026-08-20,Consulta rutinaria
-187,86,3,2026-08-11,Consulta rutinaria
-188,87,5,2026-08-26,Consulta rutinaria
-189,87,5,2026-02-01,Consulta rutinaria
-190,87,4,2026-08-30,Consulta rutinaria
-191,88,3,2025-12-12,Consulta rutinaria
-192,89,2,2026-07-02,Consulta rutinaria
-193,90,1,2026-02-11,Consulta rutinaria
-194,91,4,2026-01-26,Consulta rutinaria
-195,91,5,2026-02-20,Consulta rutinaria
-196,92,5,2026-04-24,Consulta rutinaria
-197,92,4,2026-06-30,Consulta rutinaria
-198,93,2,2026-03-14,Consulta rutinaria
-199,93,4,2026-08-23,Consulta rutinaria
-200,93,5,2026-01-18,Consulta rutinaria
-201,94,1,2026-04-20,Consulta rutinaria
-202,95,4,2025-12-17,Consulta rutinaria
-203,95,2,2026-07-30,Consulta rutinaria
-204,95,3,2026-03-29,Consulta rutinaria
-205,96,3,2025-11-26,Consulta rutinaria
-206,96,3,2026-05-04,Consulta rutinaria
-207,96,3,2026-02-12,Consulta rutinaria
-208,97,4,2026-03-09,Consulta rutinaria
-209,97,5,2025-10-10,Consulta rutinaria
-210,97,3,2025-11-16,Consulta rutinaria
-211,98,5,2025-10-18,Consulta rutinaria
-212,98,2,2026-06-11,Consulta rutinaria
-213,99,1,2026-06-30,Consulta rutinaria
-214,99,5,2026-04-16,Consulta rutinaria
-215,99,3,2025-11-21,Consulta rutinaria
-216,100,2,2026-08-12,Consulta rutinaria
-217,100,4,2026-01-13,Consulta rutinaria
-218,100,4,2026-05-10,Consulta rutinaria
-219,101,1,2026-01-19,Consulta rutinaria
-220,101,5,2026-02-23,Consulta rutinaria
-221,101,2,2026-07-05,Consulta rutinaria
-222,102,2,2025-11-28,Consulta rutinaria
-223,102,4,2025-10-29,Consulta rutinaria
-224,102,4,2026-01-10,Consulta rutinaria
-225,103,3,2026-02-25,Consulta rutinaria
-226,103,5,2026-06-18,Consulta rutinaria
-227,104,5,2025-09-17,Consulta rutinaria
-228,104,3,2026-09-09,Consulta rutinaria
-229,104,2,2025-10-09,Consulta rutinaria
-230,105,2,2025-11-06,Consulta rutinaria
-231,105,1,2025-12-07,Consulta rutinaria
-232,106,5,2026-08-22,Consulta rutinaria
-233,106,3,2026-05-01,Consulta rutinaria
-234,106,2,2025-12-03,Consulta rutinaria
-235,107,5,2026-04-17,Consulta rutinaria
-236,108,3,2026-04-06,Consulta rutinaria
-237,108,2,2026-07-09,Consulta rutinaria
-238,108,1,2026-02-05,Consulta rutinaria
-239,109,5,2026-02-05,Consulta rutinaria
-240,110,5,2026-09-07,Consulta rutinaria
-241,110,4,2025-12-10,Consulta rutinaria
-242,111,1,2025-09-16,Consulta rutinaria
-243,112,4,2025-09-18,Consulta rutinaria
-244,113,1,2026-05-27,Consulta rutinaria
-245,114,3,2026-03-03,Consulta rutinaria
-246,114,5,2025-12-14,Consulta rutinaria
-247,115,4,2025-11-12,Consulta rutinaria
-248,116,5,2026-05-07,Consulta rutinaria
-249,117,1,2026-05-04,Consulta rutinaria
-250,117,3,2026-01-13,Consulta rutinaria
-251,117,5,2025-10-19,Consulta rutinaria
-252,118,2,2026-06-02,Consulta rutinaria
-253,118,3,2026-04-03,Consulta rutinaria
-254,119,5,2025-10-15,Consulta rutinaria
-255,120,1,2026-03-13,Consulta rutinaria
-256,120,3,2026-01-26,Consulta rutinaria
-257,121,1,2026-09-12,Consulta rutinaria
-258,121,4,2026-01-22,Consulta rutinaria
-259,122,1,2026-02-13,Consulta rutinaria
-260,122,5,2026-02-23,Consulta rutinaria
-261,122,3,2025-11-20,Consulta rutinaria
-262,123,1,2025-10-15,Consulta rutinaria
-263,123,3,2026-05-10,Consulta rutinaria
-264,124,4,2026-03-06,Consulta rutinaria
-265,125,1,2025-09-16,Consulta rutinaria
-266,126,2,2025-11-03,Consulta rutinaria
-267,127,3,2026-03-09,Consulta rutinaria
-268,127,3,2025-11-07,Consulta rutinaria
-269,128,5,2025-11-12,Consulta rutinaria
-270,128,5,2026-07-23,Consulta rutinaria
-271,129,1,2026-09-12,Consulta rutinaria
-272,130,1,2026-06-30,Consulta rutinaria
-273,130,3,2026-07-08,Consulta rutinaria
-274,130,2,2025-11-10,Consulta rutinaria
-275,131,3,2026-04-19,Consulta rutinaria
-276,131,3,2026-06-26,Consulta rutinaria
-277,131,5,2025-11-07,Consulta rutinaria
-278,132,2,2026-04-06,Consulta rutinaria
-279,132,4,2025-10-04,Consulta rutinaria
-280,132,4,2026-03-04,Consulta rutinaria
-281,133,2,2025-12-26,Consulta rutinaria
-282,134,4,2026-08-29,Consulta rutinaria
-283,134,5,2026-08-21,Consulta rutinaria
-284,135,1,2026-03-07,Consulta rutinaria
-285,135,1,2026-06-27,Consulta rutinaria
-286,136,3,2026-06-13,Consulta rutinaria
-287,136,1,2025-12-13,Consulta rutinaria
-288,136,1,2026-04-13,Consulta rutinaria
-289,137,3,2026-08-13,Consulta rutinaria
-290,137,3,2026-08-02,Consulta rutinaria
-291,137,4,2026-07-07,Consulta rutinaria
-292,138,5,2026-09-04,Consulta rutinaria
-293,138,2,2026-03-23,Consulta rutinaria
-294,139,3,2026-08-01,Consulta rutinaria
-295,139,1,2026-03-13,Consulta rutinaria
-296,139,5,2026-01-19,Consulta rutinaria
-297,140,2,2026-08-23,Consulta rutinaria
-298,141,3,2026-01-30,Consulta rutinaria
-299,142,4,2025-12-29,Consulta rutinaria
-300,143,3,2025-12-09,Consulta rutinaria
-301,144,5,2026-05-26,Consulta rutinaria
-302,145,2,2026-02-19,Consulta rutinaria
-303,145,5,2026-01-22,Consulta rutinaria
-304,145,5,2026-08-26,Consulta rutinaria
-305,146,5,2026-06-27,Consulta rutinaria
-306,147,3,2026-08-04,Consulta rutinaria
-307,147,1,2026-04-07,Consulta rutinaria
-308,148,3,2026-06-27,Consulta rutinaria
-309,148,2,2026-06-08,Consulta rutinaria
-310,148,3,2026-07-07,Consulta rutinaria
-311,149,4,2026-06-02,Consulta rutinaria
-312,149,3,2026-02-21,Consulta rutinaria
-313,150,5,2026-06-30,Consulta rutinaria
-314,150,3,2025-10-24,Consulta rutinaria
-315,150,5,2026-05-05,Consulta rutinaria
+1,1,2,2026-04-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+2,1,12,2025-11-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+3,1,1,2026-01-28,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+4,2,5,2026-02-03,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+5,2,4,2026-08-06,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+6,2,9,2025-10-01,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+7,2,5,2025-10-01,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+8,3,3,2026-03-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+9,3,5,2025-10-01,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+10,3,1,2026-08-05,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+11,3,2,2026-05-09,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+12,4,2,2025-11-30,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+13,4,10,2026-05-27,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+14,4,8,2026-08-07,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+15,5,5,2025-09-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+16,5,5,2026-04-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+17,6,1,2025-10-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+18,6,1,2026-07-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+19,6,3,2026-08-31,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+20,6,1,2025-12-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+21,7,4,2026-01-11,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+22,7,8,2026-08-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+23,7,4,2026-01-26,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+24,7,8,2025-10-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+25,8,1,2026-07-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+26,8,3,2026-03-20,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+27,9,11,2026-07-11,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+28,9,10,2025-11-14,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+29,9,6,2025-11-08,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+30,10,2,2026-08-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+31,10,1,2026-05-01,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+32,11,9,2025-10-27,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+33,11,7,2025-09-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+34,11,8,2026-06-25,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+35,12,3,2026-04-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+36,12,1,2026-02-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+37,13,4,2026-04-03,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+38,13,2,2026-07-03,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+39,14,3,2026-05-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+40,14,4,2026-04-06,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+41,14,8,2025-12-24,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+42,15,4,2026-02-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+43,15,9,2026-03-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+44,16,8,2025-10-04,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+45,16,3,2026-02-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+46,16,6,2026-02-19,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+47,16,6,2026-06-06,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+48,17,4,2025-12-06,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+49,17,8,2025-11-05,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+50,17,4,2026-03-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+51,18,8,2025-12-31,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+52,18,4,2026-01-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+53,18,8,2026-04-03,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+54,19,6,2025-11-14,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+55,19,5,2025-11-29,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+56,19,2,2025-10-04,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+57,20,4,2025-09-26,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+58,20,4,2025-10-13,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+59,20,4,2026-06-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+60,20,6,2026-03-03,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+61,21,9,2026-07-19,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+62,21,4,2026-02-14,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+63,21,4,2026-01-15,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+64,21,9,2025-12-22,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+65,22,1,2026-04-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+66,22,3,2025-10-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+67,22,3,2026-04-24,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+68,23,4,2026-05-30,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+69,23,4,2026-04-26,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+70,23,4,2026-02-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+71,23,8,2026-04-18,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+72,24,4,2026-05-05,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+73,24,4,2026-04-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+74,24,6,2026-05-14,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+75,24,6,2026-08-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+76,25,1,2026-07-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+77,25,7,2026-06-25,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+78,25,5,2026-06-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+79,25,10,2025-10-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+80,26,5,2026-06-16,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+81,26,5,2026-02-22,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+82,27,8,2026-08-25,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+83,27,4,2026-04-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+84,27,8,2026-01-04,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+85,28,3,2026-07-18,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+86,28,2,2026-06-10,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+87,29,6,2025-10-03,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+88,29,1,2026-02-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+89,29,6,2026-07-27,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+90,29,6,2026-05-09,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+91,30,5,2026-03-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+92,30,9,2025-09-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+93,30,5,2026-06-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+94,31,11,2026-07-15,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+95,31,4,2026-05-23,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+96,31,12,2026-01-24,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+97,31,9,2026-01-15,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+98,32,2,2025-09-30,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+99,32,2,2026-08-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+100,33,9,2025-11-24,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+101,33,2,2026-01-30,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+102,34,5,2025-12-26,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+103,34,5,2025-12-25,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+104,35,8,2026-04-09,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+105,35,8,2025-11-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+106,35,8,2025-12-10,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+107,35,4,2026-08-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+108,36,8,2026-03-02,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+109,36,11,2025-09-29,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+110,36,2,2026-03-19,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+111,37,2,2026-05-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+112,37,5,2026-01-19,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+113,38,5,2026-06-26,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+114,38,11,2026-08-28,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+115,38,4,2026-09-05,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+116,39,4,2025-11-11,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+117,39,5,2026-02-20,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+118,39,9,2026-08-16,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+119,40,6,2025-11-23,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+120,40,4,2026-04-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+121,40,4,2025-12-21,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+122,40,11,2026-06-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+123,41,4,2025-10-19,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+124,41,4,2026-02-12,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+125,41,8,2026-01-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+126,42,5,2026-07-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+127,42,1,2026-02-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+128,42,3,2026-01-26,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+129,42,3,2026-08-18,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+130,43,4,2026-06-09,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+131,43,9,2026-01-11,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+132,44,6,2026-05-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+133,44,4,2026-05-12,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+134,45,4,2025-12-05,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+135,45,4,2025-12-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+136,46,2,2026-01-18,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+137,46,4,2026-04-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+138,46,1,2026-07-01,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+139,47,1,2026-04-15,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+140,47,5,2026-05-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+141,47,5,2025-10-20,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+142,48,5,2026-07-04,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+143,48,2,2026-08-14,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+144,49,1,2026-02-14,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+145,49,1,2026-09-09,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+146,50,5,2025-10-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+147,50,2,2026-09-07,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+148,50,2,2026-04-20,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+149,51,2,2026-07-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+150,51,6,2026-05-07,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+151,52,8,2025-11-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+152,52,8,2025-09-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+153,52,8,2026-08-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+154,53,1,2025-10-22,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+155,53,6,2025-10-18,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+156,54,1,2026-08-23,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+157,54,5,2025-11-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+158,54,2,2026-04-23,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+159,54,1,2025-11-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+160,55,5,2026-08-05,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+161,55,11,2026-02-26,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+162,55,12,2025-09-26,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+163,56,7,2026-07-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+164,56,10,2025-11-03,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+165,57,4,2026-04-27,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+166,57,4,2026-03-05,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+167,57,4,2026-08-01,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+168,57,4,2026-08-02,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+169,58,1,2026-02-26,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+170,58,1,2026-01-29,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+171,59,8,2026-02-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+172,59,2,2026-08-31,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+173,60,9,2026-02-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+174,60,9,2025-12-01,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+175,60,9,2026-06-19,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+176,61,1,2026-06-20,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+177,61,1,2026-08-05,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+178,62,4,2025-11-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+179,62,5,2026-02-23,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+180,62,5,2026-03-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+181,63,1,2025-11-13,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+182,63,5,2026-06-03,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+183,63,5,2026-04-17,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+184,63,5,2026-03-31,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+185,64,8,2025-11-29,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+186,64,4,2026-08-31,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+187,65,2,2025-09-24,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+188,65,11,2026-02-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+189,65,11,2026-05-07,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+190,66,4,2026-01-27,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+191,66,1,2025-09-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+192,67,2,2025-12-13,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+193,67,1,2026-03-16,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+194,67,5,2025-10-18,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+195,67,2,2026-07-21,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+196,68,8,2025-12-02,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+197,68,8,2025-10-01,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+198,68,4,2026-04-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+199,68,4,2026-03-19,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+200,69,8,2026-03-19,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+201,69,2,2026-04-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+202,69,6,2026-09-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+203,70,9,2026-05-12,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+204,70,8,2026-02-07,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+205,70,11,2026-06-10,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+206,70,8,2026-06-04,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+207,71,2,2026-04-24,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+208,71,3,2026-06-10,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+209,72,6,2025-10-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+210,72,6,2026-03-19,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+211,72,12,2025-10-04,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+212,72,2,2025-11-15,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+213,73,4,2026-06-12,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+214,73,8,2025-11-12,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+215,74,3,2025-10-18,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+216,74,8,2026-04-05,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+217,74,3,2026-01-08,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+218,74,11,2025-12-29,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+219,75,4,2026-01-29,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+220,75,8,2026-04-17,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+221,75,4,2026-01-22,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+222,75,4,2026-04-29,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+223,76,7,2026-05-25,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+224,76,5,2026-05-10,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+225,76,2,2026-03-19,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+226,76,4,2026-05-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+227,77,11,2025-11-05,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+228,77,1,2026-05-31,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+229,77,6,2026-06-19,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+230,78,11,2025-12-24,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+231,78,5,2026-08-14,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+232,78,3,2026-05-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+233,79,5,2026-02-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+234,79,5,2026-02-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+235,79,5,2026-07-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+236,79,5,2026-03-09,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+237,80,4,2026-07-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+238,80,4,2026-08-12,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+239,81,5,2026-04-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+240,81,9,2025-11-22,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+241,81,9,2025-09-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+242,82,2,2026-09-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+243,82,7,2026-09-13,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+244,82,5,2025-10-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+245,83,4,2026-08-02,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+246,83,4,2025-10-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+247,83,8,2026-02-06,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+248,84,10,2026-07-08,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+249,84,12,2026-09-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+250,85,3,2025-09-23,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+251,85,2,2026-07-23,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+252,85,11,2026-07-07,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+253,86,10,2026-09-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+254,86,11,2026-05-27,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+255,86,11,2025-11-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+256,86,2,2026-07-04,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+257,87,1,2026-04-05,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+258,87,3,2025-11-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+259,87,3,2025-10-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+260,88,5,2026-02-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+261,88,8,2026-05-14,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+262,88,2,2025-11-13,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+263,88,3,2026-04-04,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+264,89,4,2025-12-08,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+265,89,6,2026-08-07,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+266,89,6,2026-08-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+267,90,4,2025-10-27,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+268,90,9,2026-02-20,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+269,90,9,2026-04-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+270,91,6,2025-12-13,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+271,91,11,2025-10-16,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+272,92,1,2026-05-14,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+273,92,10,2025-11-04,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+274,92,2,2026-06-16,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+275,92,8,2026-06-22,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+276,93,8,2026-05-04,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+277,93,8,2026-04-29,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+278,93,8,2026-04-27,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+279,93,4,2026-01-02,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+280,94,3,2026-06-20,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+281,94,2,2025-10-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+282,94,2,2026-05-11,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+283,94,2,2026-06-14,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+284,95,6,2026-05-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+285,95,10,2026-08-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+286,95,3,2026-08-18,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+287,96,8,2026-08-09,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+288,96,2,2026-03-30,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+289,96,10,2026-04-17,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+290,97,5,2026-03-09,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+291,97,1,2025-12-08,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+292,97,2,2026-03-20,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+293,98,8,2026-04-09,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+294,98,8,2026-08-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+295,98,4,2025-12-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+296,98,8,2026-08-01,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+297,99,10,2025-11-14,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+298,99,5,2026-05-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+299,100,3,2025-09-20,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+300,100,2,2026-07-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+301,100,5,2026-04-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+302,101,5,2026-01-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+303,101,11,2026-06-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+304,102,3,2026-05-26,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+305,102,2,2026-02-23,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+306,103,5,2026-08-29,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+307,103,1,2025-12-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+308,104,1,2026-07-13,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+309,104,4,2026-07-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+310,105,3,2025-11-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+311,105,5,2026-06-04,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+312,105,2,2026-07-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+313,105,5,2026-02-04,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+314,106,4,2026-03-16,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+315,106,1,2026-06-29,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+316,107,9,2026-02-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+317,107,4,2026-02-11,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+318,107,9,2025-10-26,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+319,108,1,2026-03-14,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+320,108,4,2025-11-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+321,108,6,2025-11-12,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+322,108,1,2026-08-15,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+323,109,8,2026-06-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+324,109,8,2026-08-16,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+325,110,6,2026-06-15,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+326,110,4,2026-03-14,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+327,111,9,2025-11-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+328,111,4,2026-01-04,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+329,111,4,2026-05-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+330,111,4,2026-03-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+331,112,2,2026-04-01,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+332,112,2,2026-07-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+333,113,12,2026-03-06,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+334,113,5,2026-03-25,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+335,114,8,2025-10-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+336,114,12,2025-11-30,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+337,114,4,2026-03-15,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+338,115,5,2025-09-26,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+339,115,4,2026-02-25,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+340,115,9,2025-11-04,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+341,115,5,2026-07-03,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+342,116,4,2026-06-20,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+343,116,6,2026-01-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+344,116,1,2026-03-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+345,117,8,2026-02-28,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+346,117,7,2026-01-04,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+347,118,8,2025-11-22,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+348,118,4,2026-08-27,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+349,118,4,2026-08-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+350,119,5,2026-07-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+351,119,9,2025-09-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+352,119,9,2026-02-03,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+353,119,5,2026-06-08,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+354,120,11,2026-05-01,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+355,120,10,2026-02-24,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+356,120,1,2026-03-13,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+357,120,10,2025-10-28,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+358,121,8,2026-04-17,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+359,121,4,2026-02-22,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+360,121,4,2025-10-20,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+361,121,8,2026-01-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+362,122,1,2025-11-29,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+363,122,11,2026-08-01,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+364,122,4,2025-11-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+365,123,9,2026-02-11,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+366,123,8,2026-05-16,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+367,123,9,2026-08-27,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+368,123,10,2025-10-02,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+369,124,9,2026-05-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+370,124,4,2026-06-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+371,125,2,2026-08-10,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+372,125,9,2026-04-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+373,125,9,2025-11-17,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+374,125,10,2026-06-30,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+375,126,10,2026-07-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+376,126,6,2025-12-13,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+377,127,5,2025-11-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+378,127,5,2025-11-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+379,127,5,2026-08-19,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+380,127,3,2026-09-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+381,128,11,2025-09-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+382,128,6,2026-01-30,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+383,128,4,2026-07-30,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+384,129,4,2025-12-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+385,129,8,2026-06-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+386,129,8,2025-12-19,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+387,130,6,2026-05-09,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+388,130,1,2026-04-26,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+389,131,8,2026-07-12,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+390,131,4,2026-06-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+391,131,8,2026-05-04,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+392,131,8,2026-05-27,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+393,132,9,2026-02-16,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+394,132,1,2025-09-29,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+395,132,1,2025-11-10,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+396,132,12,2026-04-10,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+397,133,8,2026-03-19,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+398,133,10,2025-12-21,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+399,133,11,2025-11-30,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+400,134,2,2026-01-10,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+401,134,5,2026-04-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+402,135,1,2025-12-23,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+403,135,5,2025-11-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+404,136,3,2026-01-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+405,136,1,2025-11-19,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+406,136,5,2025-10-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+407,136,3,2025-12-28,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+408,137,5,2026-06-13,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+409,137,3,2025-12-01,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+410,137,2,2025-10-13,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+411,137,7,2026-04-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+412,138,5,2025-11-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+413,138,4,2025-10-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+414,138,9,2025-12-31,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+415,139,1,2026-02-14,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+416,139,7,2026-03-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+417,139,3,2026-01-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+418,140,1,2026-03-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+419,140,1,2026-05-29,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+420,140,1,2026-07-30,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+421,141,1,2026-03-01,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+422,141,6,2026-09-06,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+423,141,1,2025-10-02,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+424,142,3,2026-04-07,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+425,142,2,2026-06-20,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+426,142,12,2026-01-23,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+427,143,6,2026-07-07,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+428,143,3,2026-06-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+429,143,1,2026-02-19,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+430,143,12,2026-05-28,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+431,144,8,2025-10-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+432,144,8,2025-12-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+433,144,8,2025-10-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+434,144,8,2026-03-03,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+435,145,8,2025-09-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+436,145,8,2026-04-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+437,146,4,2026-07-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+438,146,8,2025-11-06,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+439,146,4,2026-06-02,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+440,146,4,2026-08-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+441,147,1,2026-03-28,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+442,147,5,2025-11-24,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+443,147,2,2026-08-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+444,148,3,2026-04-15,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+445,148,3,2026-08-24,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+446,148,2,2026-07-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+447,149,3,2026-03-29,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+448,149,2,2026-04-29,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+449,150,1,2026-01-23,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+450,150,1,2026-01-12,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+451,150,4,2025-09-22,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+452,151,10,2026-01-09,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+453,151,10,2026-03-14,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+454,151,8,2026-07-09,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+455,151,1,2026-01-31,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+456,152,4,2025-10-01,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+457,152,6,2025-11-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+458,152,4,2026-03-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+459,152,4,2026-02-04,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+460,153,4,2025-10-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+461,153,9,2025-11-04,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+462,153,5,2026-01-16,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+463,153,9,2026-04-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+464,154,4,2025-10-19,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+465,154,4,2025-11-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+466,154,4,2026-07-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+467,154,8,2026-02-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+468,155,3,2025-11-01,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+469,155,5,2025-10-13,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+470,155,1,2026-08-17,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+471,155,5,2025-11-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+472,156,2,2026-07-17,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+473,156,11,2026-03-16,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+474,156,12,2026-03-06,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+475,157,8,2026-02-16,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+476,157,4,2026-05-26,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+477,157,4,2026-07-20,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+478,157,8,2025-11-16,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+479,158,1,2025-11-16,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+480,158,5,2025-12-04,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+481,158,1,2025-12-27,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+482,158,2,2026-07-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+483,159,5,2025-12-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+484,159,5,2026-05-09,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+485,159,9,2026-01-25,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+486,160,3,2025-12-25,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+487,160,1,2026-04-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+488,160,3,2025-09-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+489,160,3,2025-12-30,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+490,161,4,2026-01-11,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+491,161,8,2026-02-09,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+492,161,8,2026-08-17,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+493,161,4,2026-04-20,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+494,162,4,2026-06-01,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+495,162,4,2025-11-02,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+496,162,4,2025-10-17,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+497,163,4,2026-04-19,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+498,163,1,2025-09-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+499,163,4,2026-06-02,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+500,163,6,2026-01-30,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+501,164,8,2026-03-09,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+502,164,4,2026-04-16,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+503,164,8,2025-12-24,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+504,164,8,2026-05-01,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+505,165,12,2026-01-18,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+506,165,10,2026-04-01,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+507,165,5,2025-10-10,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+508,166,9,2026-04-04,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+509,166,3,2025-12-29,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+510,167,4,2026-05-23,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+511,167,10,2026-05-25,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+512,167,1,2025-10-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+513,168,10,2025-11-03,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+514,168,7,2026-04-02,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+515,168,5,2026-02-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+516,168,9,2026-03-06,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+517,169,1,2026-04-15,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+518,169,2,2026-06-20,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+519,170,5,2025-09-28,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+520,170,2,2025-10-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+521,171,6,2026-03-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+522,171,6,2025-12-02,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+523,171,1,2026-02-17,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+524,171,1,2026-09-05,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+525,172,9,2025-11-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+526,172,5,2026-07-21,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+527,173,5,2026-04-22,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+528,173,9,2026-01-14,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+529,174,1,2026-04-15,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+530,174,3,2025-10-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+531,174,2,2026-07-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+532,174,2,2025-12-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+533,175,1,2026-03-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+534,175,1,2026-07-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+535,175,2,2026-06-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+536,175,5,2026-08-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+537,176,1,2026-07-25,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+538,176,3,2026-03-28,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+539,176,2,2025-10-31,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+540,177,4,2025-11-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+541,177,5,2025-11-27,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+542,177,9,2026-06-19,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+543,178,1,2025-10-20,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+544,178,1,2026-01-11,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+545,178,6,2025-12-05,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+546,178,4,2026-07-04,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+547,179,1,2026-08-06,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+548,179,10,2025-11-20,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+549,180,9,2026-05-03,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+550,180,6,2026-06-29,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+551,180,3,2026-04-18,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+552,180,9,2026-03-11,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+553,181,6,2025-09-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+554,181,4,2026-06-14,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+555,181,4,2026-07-01,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+556,181,6,2026-08-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+557,182,9,2026-05-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+558,182,5,2026-03-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+559,182,4,2026-08-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+560,183,4,2026-04-26,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+561,183,4,2026-03-05,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+562,183,4,2026-08-05,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+563,183,5,2026-03-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+564,184,3,2025-12-31,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+565,184,3,2026-05-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+566,185,9,2025-10-10,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+567,185,4,2026-01-10,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+568,186,1,2026-02-15,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+569,186,3,2026-06-23,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+570,186,1,2026-06-30,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+571,186,10,2026-02-18,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+572,187,8,2026-05-26,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+573,187,4,2026-06-18,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+574,188,3,2026-06-12,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+575,188,2,2025-11-12,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+576,188,5,2026-06-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+577,188,5,2026-06-15,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+578,189,6,2025-12-30,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+579,189,6,2025-12-11,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+580,189,1,2025-10-16,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+581,189,4,2025-09-21,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+582,190,10,2026-03-18,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+583,190,10,2025-09-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+584,190,5,2026-08-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+585,191,4,2026-09-11,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+586,191,4,2026-07-15,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+587,192,2,2026-03-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+588,192,5,2026-05-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+589,192,5,2026-06-01,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+590,193,9,2025-12-01,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+591,193,12,2026-02-22,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+592,193,8,2026-05-19,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+593,194,5,2026-05-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+594,194,2,2025-11-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+595,195,4,2026-01-15,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+596,195,9,2026-03-08,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+597,196,3,2025-11-03,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+598,196,5,2026-06-16,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+599,196,3,2025-12-22,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+600,197,1,2025-09-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+601,197,2,2025-10-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+602,197,3,2026-02-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+603,197,2,2025-12-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+604,198,4,2026-04-21,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+605,198,1,2026-03-19,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+606,198,6,2025-11-07,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+607,198,6,2026-05-03,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+608,199,3,2026-04-16,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+609,199,3,2026-05-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+610,199,3,2026-05-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+611,199,2,2026-01-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+612,200,9,2025-09-19,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+613,200,4,2026-03-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+614,200,5,2026-05-09,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+615,200,9,2026-03-22,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+616,201,10,2026-05-25,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+617,201,8,2026-06-08,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+618,201,4,2026-05-01,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+619,202,3,2026-03-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+620,202,11,2025-10-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+621,202,1,2025-12-10,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+622,202,8,2026-04-05,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+623,203,8,2026-04-26,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+624,203,7,2026-04-23,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+625,203,8,2026-02-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+626,203,11,2026-02-24,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+627,204,9,2025-09-21,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+628,204,10,2026-03-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+629,205,3,2026-06-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+630,205,3,2026-03-22,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+631,205,5,2026-03-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+632,206,4,2025-09-27,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+633,206,9,2026-05-16,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+634,206,1,2026-01-14,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+635,206,12,2025-12-14,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+636,207,1,2025-11-27,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+637,207,8,2026-05-06,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+638,207,6,2026-05-03,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+639,207,6,2026-05-05,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+640,208,8,2025-11-22,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+641,208,4,2026-03-31,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+642,209,3,2026-03-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+643,209,3,2025-10-21,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+644,210,6,2026-08-04,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+645,210,4,2026-04-17,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+646,211,5,2026-03-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+647,211,1,2026-07-11,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+648,211,1,2026-08-04,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+649,212,2,2026-08-17,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+650,212,2,2026-08-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+651,212,1,2026-04-08,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+652,212,1,2026-07-08,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+653,213,4,2026-01-17,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+654,213,8,2025-09-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+655,213,4,2025-10-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+656,214,4,2026-01-10,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+657,214,5,2026-03-10,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+658,214,5,2026-07-06,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+659,215,2,2026-04-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+660,215,1,2025-11-12,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+661,215,5,2026-06-09,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+662,216,7,2025-10-18,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+663,216,11,2026-02-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+664,217,4,2025-09-23,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+665,217,5,2026-04-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+666,217,9,2026-04-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+667,217,4,2025-09-20,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+668,218,9,2026-09-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+669,218,4,2026-07-11,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+670,218,9,2026-06-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+671,218,5,2026-01-01,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+672,219,5,2026-08-16,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+673,219,9,2026-06-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+674,220,8,2026-09-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+675,220,4,2026-02-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+676,220,8,2025-12-21,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+677,221,2,2026-06-24,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+678,221,3,2026-07-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+679,221,1,2025-10-07,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+680,222,6,2026-09-06,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+681,222,6,2026-02-23,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+682,222,1,2025-09-25,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+683,223,3,2026-05-09,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+684,223,1,2025-10-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+685,224,4,2026-07-11,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+686,224,4,2026-03-20,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+687,225,5,2026-07-07,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+688,225,9,2026-02-01,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+689,225,3,2025-11-27,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+690,226,9,2025-11-11,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+691,226,9,2026-05-02,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+692,226,7,2025-12-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+693,227,1,2026-03-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+694,227,5,2025-12-12,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+695,227,1,2025-12-05,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+696,227,2,2026-04-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+697,228,4,2026-08-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+698,228,7,2025-10-20,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+699,229,9,2026-05-05,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+700,229,9,2026-09-07,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+701,229,4,2026-03-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+702,229,4,2026-03-09,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+703,230,5,2026-08-08,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+704,230,2,2026-07-26,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+705,231,9,2026-06-07,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+706,231,9,2026-06-14,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+707,232,3,2025-10-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+708,232,1,2026-07-22,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+709,233,1,2026-03-25,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+710,233,3,2026-04-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+711,233,1,2026-04-01,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+712,233,3,2026-05-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+713,234,5,2026-08-27,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+714,234,1,2026-04-12,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+715,235,12,2026-09-02,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+716,235,9,2025-12-26,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+717,235,6,2026-01-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+718,236,4,2026-05-17,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+719,236,8,2025-11-26,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+720,237,5,2026-06-17,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+721,237,2,2025-11-22,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+722,237,2,2026-03-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+723,238,4,2026-03-19,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+724,238,8,2025-10-14,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+725,238,8,2026-04-10,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+726,239,6,2026-05-23,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+727,239,4,2026-01-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+728,239,6,2026-02-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+729,239,4,2026-08-19,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+730,240,3,2025-09-21,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+731,240,8,2026-06-04,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+732,240,4,2025-12-19,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+733,241,2,2025-09-28,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+734,241,1,2026-03-19,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+735,241,1,2026-04-10,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+736,242,9,2025-10-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+737,242,5,2025-09-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+738,242,4,2026-07-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+739,243,3,2026-09-06,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+740,243,3,2026-09-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+741,243,3,2025-12-20,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+742,244,12,2025-09-23,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+743,244,9,2025-10-09,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+744,245,10,2025-09-22,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+745,245,2,2026-09-09,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+746,246,8,2026-03-13,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+747,246,8,2026-02-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+748,246,4,2026-07-25,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+749,246,8,2026-06-10,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+750,247,2,2026-09-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+751,247,1,2026-02-24,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+752,247,3,2026-05-16,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+753,247,2,2026-02-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+754,248,1,2026-06-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+755,248,4,2026-07-31,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+756,249,6,2025-09-27,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+757,249,1,2025-11-08,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+758,249,4,2025-11-20,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+759,249,4,2026-04-08,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+760,250,3,2026-02-05,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+761,250,2,2026-04-04,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+762,251,12,2026-07-01,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+763,251,7,2026-02-14,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+764,251,12,2025-10-22,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+765,252,10,2026-08-31,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+766,252,10,2026-05-18,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+767,253,1,2026-01-12,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+768,253,3,2025-10-16,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+769,253,1,2026-07-05,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+770,253,3,2026-09-06,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+771,254,1,2026-08-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+772,254,5,2025-11-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+773,255,5,2026-02-07,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+774,255,3,2026-03-03,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+775,256,2,2025-12-19,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+776,256,1,2026-08-23,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+777,256,5,2026-08-24,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+778,256,3,2026-06-08,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+779,257,6,2026-01-20,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+780,257,4,2025-09-25,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+781,257,1,2025-10-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+782,258,6,2025-12-08,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+783,258,1,2026-06-14,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+784,258,6,2026-01-24,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+785,258,4,2026-06-22,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+786,259,6,2026-03-12,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+787,259,4,2025-12-26,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+788,259,6,2026-03-03,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+789,259,4,2025-11-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+790,260,5,2026-08-18,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+791,260,5,2026-01-28,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+792,261,10,2026-09-12,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+793,261,9,2026-01-01,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+794,262,8,2026-05-15,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+795,262,8,2026-01-30,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+796,262,4,2025-12-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+797,263,6,2026-08-19,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+798,263,6,2026-07-01,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+799,264,2,2026-07-31,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+800,264,1,2025-11-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+801,264,2,2026-03-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+802,265,2,2026-02-07,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+803,265,5,2026-03-29,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+804,266,4,2025-11-25,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+805,266,1,2026-07-31,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+806,267,7,2026-04-19,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+807,267,6,2025-10-29,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+808,267,9,2026-01-02,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+809,267,10,2026-06-13,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+810,268,2,2026-07-15,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+811,268,5,2025-11-02,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+812,269,6,2025-10-21,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+813,269,1,2026-04-09,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+814,270,5,2025-09-27,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+815,270,9,2026-08-30,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+816,271,8,2026-01-11,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+817,271,11,2026-06-26,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+818,271,8,2026-03-26,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+819,271,9,2026-08-16,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+820,272,1,2025-12-13,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+821,272,3,2026-08-11,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+822,272,9,2025-10-28,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+823,272,3,2026-02-26,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+824,273,4,2026-04-05,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+825,273,5,2026-03-07,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+826,273,5,2025-12-19,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+827,274,4,2026-07-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+828,274,8,2025-12-31,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+829,275,3,2026-04-08,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+830,275,1,2025-10-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+831,275,2,2025-12-20,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+832,275,2,2025-11-13,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+833,276,4,2025-11-22,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+834,276,4,2026-06-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+835,277,5,2026-07-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+836,277,9,2025-12-01,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+837,277,5,2026-04-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+838,277,4,2025-11-24,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+839,278,5,2025-12-11,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+840,278,2,2025-10-03,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+841,278,5,2026-06-14,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+842,279,9,2025-10-05,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+843,279,3,2025-11-27,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+844,279,2,2026-01-17,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+845,279,8,2026-01-18,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+846,280,1,2026-03-11,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+847,280,1,2026-03-31,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+848,280,1,2026-03-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+849,281,10,2025-11-08,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+850,281,6,2026-07-21,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+851,281,8,2025-12-15,Seguimiento y ajuste terapéutico: Ninguna (Control preventivo)
+852,282,8,2025-12-07,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+853,282,8,2026-03-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+854,283,5,2025-11-27,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+855,283,9,2025-10-06,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+856,283,9,2026-01-07,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+857,284,1,2026-01-29,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+858,284,5,2025-09-28,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+859,285,1,2026-05-25,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+860,285,2,2025-10-23,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+861,286,5,2025-12-15,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+862,286,11,2026-05-31,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+863,286,12,2026-02-03,Seguimiento y ajuste terapéutico: Artrosis Crónica de Rodilla e Hiper
+864,287,1,2025-11-19,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+865,287,5,2026-07-10,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+866,288,9,2025-09-18,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+867,288,4,2026-08-29,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+868,289,5,2026-03-02,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+869,289,5,2026-06-17,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+870,289,5,2026-03-13,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+871,289,9,2026-07-07,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+872,290,1,2026-02-02,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+873,290,5,2026-01-23,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+874,290,5,2025-12-05,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+875,290,5,2026-09-10,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+876,291,9,2026-02-15,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+877,291,8,2025-11-27,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+878,291,2,2025-09-25,Seguimiento y ajuste terapéutico: Insuficiencia Cardíaca Congestiva (
+879,292,4,2026-01-18,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+880,292,4,2025-10-26,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+881,292,1,2025-11-21,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+882,293,1,2026-01-16,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+883,293,1,2026-03-28,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+884,294,3,2026-08-26,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+885,294,5,2026-08-13,"Seguimiento y ajuste terapéutico: Cardiopatía Isquémica, HTA e Hiperc"
+886,295,9,2025-10-29,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+887,295,5,2026-04-24,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+888,295,9,2026-05-05,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+889,295,4,2025-11-15,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+890,296,8,2026-05-03,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+891,296,4,2026-08-28,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+892,297,5,2026-06-27,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+893,297,5,2026-05-15,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+894,297,2,2026-03-21,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+895,297,1,2026-08-18,Seguimiento y ajuste terapéutico: Fibrilación Auricular y Fallo Cardí
+896,298,4,2026-03-03,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+897,298,4,2026-07-01,Seguimiento y ajuste terapéutico: EPOC y Asma Bronquial
+898,299,4,2025-10-01,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+899,299,8,2026-08-23,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+900,299,4,2026-02-04,Seguimiento y ajuste terapéutico: Trastorno Depresivo Mayor e Insomni
+901,300,4,2025-10-13,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+902,300,4,2026-05-13,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"
+903,300,4,2025-10-02,"Seguimiento y ajuste terapéutico: Diabetes Tipo 2, HTA y Dislipidemia"

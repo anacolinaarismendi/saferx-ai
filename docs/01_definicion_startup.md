@@ -109,7 +109,7 @@ Tomando como referencia el caso de nuestro cliente piloto, el **Grupo Hospitalar
 
 | Fase | Periodo | Hitos Principales | Estado |
 | :---: | :---: | :--- | :---: |
-| **Fase 1** | Q3 2026 | Arquitectura de base de datos, generación sintética y ficha de cliente. |  Completado |
+| **Fase 1** | Q3 2026 | Arquitectura de base de datos clínica, ingesta de datos reales (OpenFDA FAERS) y vademécum. |  Completado |
 | **Fase 2** | Q3 2026 | Landing page institucional, pipeline de preprocesamiento y notebooks de análisis (EDA). |  Completado |
 | **Fase 3** | Q3 2026 | Modelado de riesgo con Scikit-Learn y prototipo clínico funcional en Streamlit. |  Completado |
 | **Fase 4** | Q4 2026 | Piloto en entorno real en 1 hospital regional del Grupo Hospitalario San José. |  Siguiente Paso |

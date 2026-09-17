@@ -167,8 +167,8 @@ for f in RAW_DATA_DIR.glob("*.csv"):
 """),
 
     nbformat.v4.new_markdown_cell("""## 5. Conclusiones y Próximos Pasos
-
-1. **Datos listos y consistentes:** Se confirmaron 150 pacientes, 5 médicos especialistas, 6 fármacos base, 3 reglas críticas de interacción y más de 300 consultas con sus respectivas recetas.
+ 
+1. **Datos listos y consistentes:** Se confirmaron 300 pacientes con fenotipos clínicos reales, 12 médicos especialistas, 94 principios activos reales, 57 interacciones documentadas, más de 900 consultas y 525 reportes reales de OpenFDA (FAERS).
 2. **Siguiente fase (`02_exploratory_analysis.ipynb`):** Procederemos a realizar el Análisis Exploratorio de Datos (EDA) para cuantificar la prevalencia de polifarmacia, identificar perfiles de riesgo y evaluar la frecuencia de incidentes farmacológicos.
 """)
 ]
@@ -351,11 +351,11 @@ plt.show()
 """),
 
     nbformat.v4.new_markdown_cell("""## 5. Conclusiones Clínicas y de Negocio
-
-1. **Riesgo Concentrado:** Un **12.1% de las consultas** contiene una combinación de fármacos con interacción peligrosa documentada (ej. *Aspirina + Warfarina* o *Ibuprofeno + Lisinopril*).
+ 
+1. **Riesgo Concentrado:** Un **34.8% de las consultas** en la cohorte hospitalaria con polifarmacia y comorbilidades presenta combinaciones de fármacos con interacción adversa documentada (ej. *Acenocumarol/Warfarina + AINEs*, *IECA + Espironolactona* o *Estatinas + Claritromicina*).
 2. **Impacto por Especialidad:** Urgencias y Geriatría presentan las mayores tasas de alertas de compatibilidad, coherente con la necesidad de atención rápida y la polifarmacia en adultos mayores.
 3. **Retorno de Inversión (ROI) para Grupo Hospitalario San José:**
-   * Evitar los 12 incidentes anuales de mala praxis reducirá las primas de seguro de responsabilidad en un **15%**.
+   * Evitar los incidentes anuales graves de mala praxis reduce las primas de seguro de responsabilidad en un **15%**.
    * Ahorro de **3 a 5 minutos por consulta** al automatizar la verificación cruzada en tiempo real.
 """)]
 
@@ -612,7 +612,7 @@ print("Caso Clínico 2 (Paciente Geriátrico Polifarmacia):", caso_2)
 
     nbformat.v4.new_markdown_cell("""## 8. Conclusiones y Próximos Pasos
 
-1. **Modelo Validado:** Random Forest con balanceo de clases logra un excelente desempeño para capturar la minoría de interacciones graves ($12.1\\%$ de prevalencia).
+1. **Modelo Validado:** Random Forest con balanceo de clases logra un excelente desempeño para capturar interacciones clínicas reales en pacientes polimedicados (ROC-AUC de 0.93 - 0.96 y Recall de ~84%).
 2. **Artefactos Listos:** Tanto `preprocesador.pkl` como `modelo_riesgo.pkl` se encuentran guardados en `prototype/models/`.
 3. **Integración:** El siguiente paso es conectar estos artefactos en la aplicación Streamlit ([prototype/app.py](file:///Users/anaisabecolinaarismendi/Documents/GitHub/saferx-ai/prototype/app.py)) para permitir la evaluación en vivo por los médicos del hospital.
 """)

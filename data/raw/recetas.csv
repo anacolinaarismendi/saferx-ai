@@ -1,472 +1,3480 @@
 id_receta,id_consulta,id_medicamento,dosis
-1,1,5,1 pastilla cada 8 horas
-2,2,3,1 pastilla cada 8 horas
-3,2,6,1 pastilla cada 8 horas
-4,3,4,1 pastilla cada 8 horas
-5,4,3,1 pastilla cada 8 horas
-6,4,2,1 pastilla cada 8 horas
-7,5,5,1 pastilla cada 8 horas
-8,6,2,1 pastilla cada 8 horas
-9,7,4,1 pastilla cada 8 horas
-10,8,2,1 pastilla cada 8 horas
-11,9,3,1 pastilla cada 8 horas
-12,9,5,1 pastilla cada 8 horas
-13,10,6,1 pastilla cada 8 horas
-14,11,2,1 pastilla cada 8 horas
-15,11,6,1 pastilla cada 8 horas
-16,12,2,1 pastilla cada 8 horas
-17,12,5,1 pastilla cada 8 horas
-18,13,6,1 pastilla cada 8 horas
-19,13,2,1 pastilla cada 8 horas
-20,14,4,1 pastilla cada 8 horas
-21,15,2,1 pastilla cada 8 horas
-22,15,1,1 pastilla cada 8 horas
-23,16,2,1 pastilla cada 8 horas
-24,16,6,1 pastilla cada 8 horas
-25,17,5,1 pastilla cada 8 horas
-26,18,1,1 pastilla cada 8 horas
-27,18,6,1 pastilla cada 8 horas
-28,19,2,1 pastilla cada 8 horas
-29,20,3,1 pastilla cada 8 horas
-30,21,4,1 pastilla cada 8 horas
-31,22,2,1 pastilla cada 8 horas
-32,22,4,1 pastilla cada 8 horas
-33,23,6,1 pastilla cada 8 horas
-34,23,5,1 pastilla cada 8 horas
-35,24,3,1 pastilla cada 8 horas
-36,24,1,1 pastilla cada 8 horas
-37,25,2,1 pastilla cada 8 horas
-38,25,1,1 pastilla cada 8 horas
-39,26,3,1 pastilla cada 8 horas
-40,27,6,1 pastilla cada 8 horas
-41,28,4,1 pastilla cada 8 horas
-42,29,1,1 pastilla cada 8 horas
-43,30,5,1 pastilla cada 8 horas
-44,30,1,1 pastilla cada 8 horas
-45,31,3,1 pastilla cada 8 horas
-46,32,1,1 pastilla cada 8 horas
-47,33,5,1 pastilla cada 8 horas
-48,34,4,1 pastilla cada 8 horas
-49,35,1,1 pastilla cada 8 horas
-50,35,6,1 pastilla cada 8 horas
-51,36,6,1 pastilla cada 8 horas
-52,37,5,1 pastilla cada 8 horas
-53,37,2,1 pastilla cada 8 horas
-54,38,5,1 pastilla cada 8 horas
-55,39,5,1 pastilla cada 8 horas
-56,40,5,1 pastilla cada 8 horas
-57,41,4,1 pastilla cada 8 horas
-58,41,1,1 pastilla cada 8 horas
-59,42,1,1 pastilla cada 8 horas
-60,42,4,1 pastilla cada 8 horas
-61,43,4,1 pastilla cada 8 horas
-62,43,3,1 pastilla cada 8 horas
-63,44,5,1 pastilla cada 8 horas
-64,44,6,1 pastilla cada 8 horas
-65,45,3,1 pastilla cada 8 horas
-66,45,1,1 pastilla cada 8 horas
-67,46,6,1 pastilla cada 8 horas
-68,47,6,1 pastilla cada 8 horas
-69,48,6,1 pastilla cada 8 horas
-70,48,2,1 pastilla cada 8 horas
-71,49,3,1 pastilla cada 8 horas
-72,50,1,1 pastilla cada 8 horas
-73,51,4,1 pastilla cada 8 horas
-74,51,6,1 pastilla cada 8 horas
-75,52,2,1 pastilla cada 8 horas
-76,52,3,1 pastilla cada 8 horas
-77,53,2,1 pastilla cada 8 horas
-78,53,1,1 pastilla cada 8 horas
-79,54,1,1 pastilla cada 8 horas
-80,54,2,1 pastilla cada 8 horas
-81,55,5,1 pastilla cada 8 horas
-82,56,6,1 pastilla cada 8 horas
-83,57,1,1 pastilla cada 8 horas
-84,57,5,1 pastilla cada 8 horas
-85,58,1,1 pastilla cada 8 horas
-86,58,5,1 pastilla cada 8 horas
-87,59,1,1 pastilla cada 8 horas
-88,60,5,1 pastilla cada 8 horas
-89,60,4,1 pastilla cada 8 horas
-90,61,1,1 pastilla cada 8 horas
-91,62,1,1 pastilla cada 8 horas
-92,63,3,1 pastilla cada 8 horas
-93,64,5,1 pastilla cada 8 horas
-94,64,4,1 pastilla cada 8 horas
-95,65,4,1 pastilla cada 8 horas
-96,66,2,1 pastilla cada 8 horas
-97,66,3,1 pastilla cada 8 horas
-98,67,1,1 pastilla cada 8 horas
-99,68,6,1 pastilla cada 8 horas
-100,69,2,1 pastilla cada 8 horas
-101,70,3,1 pastilla cada 8 horas
-102,70,6,1 pastilla cada 8 horas
-103,71,4,1 pastilla cada 8 horas
-104,71,3,1 pastilla cada 8 horas
-105,72,3,1 pastilla cada 8 horas
-106,73,3,1 pastilla cada 8 horas
-107,73,2,1 pastilla cada 8 horas
-108,74,3,1 pastilla cada 8 horas
-109,74,5,1 pastilla cada 8 horas
-110,75,5,1 pastilla cada 8 horas
-111,75,3,1 pastilla cada 8 horas
-112,76,5,1 pastilla cada 8 horas
-113,76,2,1 pastilla cada 8 horas
-114,77,3,1 pastilla cada 8 horas
-115,77,1,1 pastilla cada 8 horas
-116,78,2,1 pastilla cada 8 horas
-117,78,6,1 pastilla cada 8 horas
-118,79,3,1 pastilla cada 8 horas
-119,79,5,1 pastilla cada 8 horas
-120,80,4,1 pastilla cada 8 horas
-121,80,6,1 pastilla cada 8 horas
-122,81,2,1 pastilla cada 8 horas
-123,82,4,1 pastilla cada 8 horas
-124,82,2,1 pastilla cada 8 horas
-125,83,3,1 pastilla cada 8 horas
-126,84,5,1 pastilla cada 8 horas
-127,84,3,1 pastilla cada 8 horas
-128,85,3,1 pastilla cada 8 horas
-129,85,2,1 pastilla cada 8 horas
-130,86,1,1 pastilla cada 8 horas
-131,86,4,1 pastilla cada 8 horas
-132,87,6,1 pastilla cada 8 horas
-133,87,4,1 pastilla cada 8 horas
-134,88,5,1 pastilla cada 8 horas
-135,88,3,1 pastilla cada 8 horas
-136,89,3,1 pastilla cada 8 horas
-137,89,1,1 pastilla cada 8 horas
-138,90,6,1 pastilla cada 8 horas
-139,90,1,1 pastilla cada 8 horas
-140,91,5,1 pastilla cada 8 horas
-141,91,3,1 pastilla cada 8 horas
-142,92,2,1 pastilla cada 8 horas
-143,92,6,1 pastilla cada 8 horas
-144,93,1,1 pastilla cada 8 horas
-145,93,4,1 pastilla cada 8 horas
-146,94,1,1 pastilla cada 8 horas
-147,95,5,1 pastilla cada 8 horas
-148,96,1,1 pastilla cada 8 horas
-149,96,5,1 pastilla cada 8 horas
-150,97,1,1 pastilla cada 8 horas
-151,98,6,1 pastilla cada 8 horas
-152,98,2,1 pastilla cada 8 horas
-153,99,6,1 pastilla cada 8 horas
-154,100,5,1 pastilla cada 8 horas
-155,100,6,1 pastilla cada 8 horas
-156,101,5,1 pastilla cada 8 horas
-157,102,6,1 pastilla cada 8 horas
-158,103,1,1 pastilla cada 8 horas
-159,103,2,1 pastilla cada 8 horas
-160,104,6,1 pastilla cada 8 horas
-161,105,6,1 pastilla cada 8 horas
-162,105,2,1 pastilla cada 8 horas
-163,106,1,1 pastilla cada 8 horas
-164,106,2,1 pastilla cada 8 horas
-165,107,5,1 pastilla cada 8 horas
-166,107,3,1 pastilla cada 8 horas
-167,108,2,1 pastilla cada 8 horas
-168,108,6,1 pastilla cada 8 horas
-169,109,3,1 pastilla cada 8 horas
-170,110,3,1 pastilla cada 8 horas
-171,110,2,1 pastilla cada 8 horas
-172,111,2,1 pastilla cada 8 horas
-173,112,1,1 pastilla cada 8 horas
-174,113,1,1 pastilla cada 8 horas
-175,113,4,1 pastilla cada 8 horas
-176,114,5,1 pastilla cada 8 horas
-177,114,2,1 pastilla cada 8 horas
-178,115,5,1 pastilla cada 8 horas
-179,115,1,1 pastilla cada 8 horas
-180,116,6,1 pastilla cada 8 horas
-181,117,3,1 pastilla cada 8 horas
-182,117,5,1 pastilla cada 8 horas
-183,118,3,1 pastilla cada 8 horas
-184,119,1,1 pastilla cada 8 horas
-185,120,2,1 pastilla cada 8 horas
-186,121,6,1 pastilla cada 8 horas
-187,122,6,1 pastilla cada 8 horas
-188,122,5,1 pastilla cada 8 horas
-189,123,6,1 pastilla cada 8 horas
-190,124,6,1 pastilla cada 8 horas
-191,124,2,1 pastilla cada 8 horas
-192,125,5,1 pastilla cada 8 horas
-193,126,6,1 pastilla cada 8 horas
-194,126,3,1 pastilla cada 8 horas
-195,127,3,1 pastilla cada 8 horas
-196,127,1,1 pastilla cada 8 horas
-197,128,6,1 pastilla cada 8 horas
-198,128,1,1 pastilla cada 8 horas
-199,129,1,1 pastilla cada 8 horas
-200,129,5,1 pastilla cada 8 horas
-201,130,6,1 pastilla cada 8 horas
-202,131,2,1 pastilla cada 8 horas
-203,132,5,1 pastilla cada 8 horas
-204,133,1,1 pastilla cada 8 horas
-205,133,2,1 pastilla cada 8 horas
-206,134,3,1 pastilla cada 8 horas
-207,134,5,1 pastilla cada 8 horas
-208,135,5,1 pastilla cada 8 horas
-209,136,3,1 pastilla cada 8 horas
-210,137,3,1 pastilla cada 8 horas
-211,137,2,1 pastilla cada 8 horas
-212,138,4,1 pastilla cada 8 horas
-213,139,5,1 pastilla cada 8 horas
-214,140,4,1 pastilla cada 8 horas
-215,141,2,1 pastilla cada 8 horas
-216,142,4,1 pastilla cada 8 horas
-217,142,1,1 pastilla cada 8 horas
-218,143,2,1 pastilla cada 8 horas
-219,144,1,1 pastilla cada 8 horas
-220,145,2,1 pastilla cada 8 horas
-221,145,6,1 pastilla cada 8 horas
-222,146,3,1 pastilla cada 8 horas
-223,147,4,1 pastilla cada 8 horas
-224,147,3,1 pastilla cada 8 horas
-225,148,5,1 pastilla cada 8 horas
-226,149,4,1 pastilla cada 8 horas
-227,150,1,1 pastilla cada 8 horas
-228,151,3,1 pastilla cada 8 horas
-229,152,3,1 pastilla cada 8 horas
-230,153,5,1 pastilla cada 8 horas
-231,154,1,1 pastilla cada 8 horas
-232,155,6,1 pastilla cada 8 horas
-233,155,1,1 pastilla cada 8 horas
-234,156,5,1 pastilla cada 8 horas
-235,157,6,1 pastilla cada 8 horas
-236,158,5,1 pastilla cada 8 horas
-237,159,5,1 pastilla cada 8 horas
-238,159,3,1 pastilla cada 8 horas
-239,160,1,1 pastilla cada 8 horas
-240,160,3,1 pastilla cada 8 horas
-241,161,2,1 pastilla cada 8 horas
-242,162,6,1 pastilla cada 8 horas
-243,163,3,1 pastilla cada 8 horas
-244,163,5,1 pastilla cada 8 horas
-245,164,5,1 pastilla cada 8 horas
-246,164,4,1 pastilla cada 8 horas
-247,165,5,1 pastilla cada 8 horas
-248,165,3,1 pastilla cada 8 horas
-249,166,6,1 pastilla cada 8 horas
-250,166,2,1 pastilla cada 8 horas
-251,167,4,1 pastilla cada 8 horas
-252,167,6,1 pastilla cada 8 horas
-253,168,1,1 pastilla cada 8 horas
-254,168,2,1 pastilla cada 8 horas
-255,169,3,1 pastilla cada 8 horas
-256,169,2,1 pastilla cada 8 horas
-257,170,3,1 pastilla cada 8 horas
-258,170,5,1 pastilla cada 8 horas
-259,171,4,1 pastilla cada 8 horas
-260,172,1,1 pastilla cada 8 horas
-261,172,6,1 pastilla cada 8 horas
-262,173,3,1 pastilla cada 8 horas
-263,173,6,1 pastilla cada 8 horas
-264,174,5,1 pastilla cada 8 horas
-265,174,1,1 pastilla cada 8 horas
-266,175,4,1 pastilla cada 8 horas
-267,176,5,1 pastilla cada 8 horas
-268,177,3,1 pastilla cada 8 horas
-269,177,1,1 pastilla cada 8 horas
-270,178,2,1 pastilla cada 8 horas
-271,178,1,1 pastilla cada 8 horas
-272,179,5,1 pastilla cada 8 horas
-273,179,1,1 pastilla cada 8 horas
-274,180,3,1 pastilla cada 8 horas
-275,181,2,1 pastilla cada 8 horas
-276,181,3,1 pastilla cada 8 horas
-277,182,3,1 pastilla cada 8 horas
-278,182,4,1 pastilla cada 8 horas
-279,183,5,1 pastilla cada 8 horas
-280,184,2,1 pastilla cada 8 horas
-281,185,6,1 pastilla cada 8 horas
-282,185,3,1 pastilla cada 8 horas
-283,186,2,1 pastilla cada 8 horas
-284,187,3,1 pastilla cada 8 horas
-285,188,2,1 pastilla cada 8 horas
-286,188,1,1 pastilla cada 8 horas
-287,189,2,1 pastilla cada 8 horas
-288,190,3,1 pastilla cada 8 horas
-289,191,1,1 pastilla cada 8 horas
-290,191,4,1 pastilla cada 8 horas
-291,192,5,1 pastilla cada 8 horas
-292,193,2,1 pastilla cada 8 horas
-293,194,1,1 pastilla cada 8 horas
-294,195,5,1 pastilla cada 8 horas
-295,196,5,1 pastilla cada 8 horas
-296,197,5,1 pastilla cada 8 horas
-297,198,4,1 pastilla cada 8 horas
-298,199,5,1 pastilla cada 8 horas
-299,200,3,1 pastilla cada 8 horas
-300,201,3,1 pastilla cada 8 horas
-301,202,5,1 pastilla cada 8 horas
-302,203,4,1 pastilla cada 8 horas
-303,204,2,1 pastilla cada 8 horas
-304,205,1,1 pastilla cada 8 horas
-305,206,1,1 pastilla cada 8 horas
-306,206,4,1 pastilla cada 8 horas
-307,207,1,1 pastilla cada 8 horas
-308,207,6,1 pastilla cada 8 horas
-309,208,5,1 pastilla cada 8 horas
-310,209,4,1 pastilla cada 8 horas
-311,209,5,1 pastilla cada 8 horas
-312,210,4,1 pastilla cada 8 horas
-313,210,6,1 pastilla cada 8 horas
-314,211,2,1 pastilla cada 8 horas
-315,211,6,1 pastilla cada 8 horas
-316,212,2,1 pastilla cada 8 horas
-317,212,1,1 pastilla cada 8 horas
-318,213,6,1 pastilla cada 8 horas
-319,213,1,1 pastilla cada 8 horas
-320,214,5,1 pastilla cada 8 horas
-321,215,1,1 pastilla cada 8 horas
-322,215,2,1 pastilla cada 8 horas
-323,216,3,1 pastilla cada 8 horas
-324,217,1,1 pastilla cada 8 horas
-325,217,6,1 pastilla cada 8 horas
-326,218,3,1 pastilla cada 8 horas
-327,219,5,1 pastilla cada 8 horas
-328,220,3,1 pastilla cada 8 horas
-329,221,3,1 pastilla cada 8 horas
-330,222,6,1 pastilla cada 8 horas
-331,223,1,1 pastilla cada 8 horas
-332,224,4,1 pastilla cada 8 horas
-333,225,3,1 pastilla cada 8 horas
-334,226,1,1 pastilla cada 8 horas
-335,226,5,1 pastilla cada 8 horas
-336,227,6,1 pastilla cada 8 horas
-337,227,2,1 pastilla cada 8 horas
-338,228,4,1 pastilla cada 8 horas
-339,229,6,1 pastilla cada 8 horas
-340,229,5,1 pastilla cada 8 horas
-341,230,2,1 pastilla cada 8 horas
-342,231,1,1 pastilla cada 8 horas
-343,231,5,1 pastilla cada 8 horas
-344,232,2,1 pastilla cada 8 horas
-345,233,6,1 pastilla cada 8 horas
-346,233,5,1 pastilla cada 8 horas
-347,234,1,1 pastilla cada 8 horas
-348,234,4,1 pastilla cada 8 horas
-349,235,5,1 pastilla cada 8 horas
-350,236,6,1 pastilla cada 8 horas
-351,236,5,1 pastilla cada 8 horas
-352,237,5,1 pastilla cada 8 horas
-353,238,4,1 pastilla cada 8 horas
-354,238,1,1 pastilla cada 8 horas
-355,239,5,1 pastilla cada 8 horas
-356,239,6,1 pastilla cada 8 horas
-357,240,3,1 pastilla cada 8 horas
-358,241,1,1 pastilla cada 8 horas
-359,242,6,1 pastilla cada 8 horas
-360,243,3,1 pastilla cada 8 horas
-361,243,4,1 pastilla cada 8 horas
-362,244,4,1 pastilla cada 8 horas
-363,245,5,1 pastilla cada 8 horas
-364,246,6,1 pastilla cada 8 horas
-365,246,1,1 pastilla cada 8 horas
-366,247,1,1 pastilla cada 8 horas
-367,247,4,1 pastilla cada 8 horas
-368,248,3,1 pastilla cada 8 horas
-369,248,5,1 pastilla cada 8 horas
-370,249,4,1 pastilla cada 8 horas
-371,250,1,1 pastilla cada 8 horas
-372,251,4,1 pastilla cada 8 horas
-373,252,6,1 pastilla cada 8 horas
-374,252,3,1 pastilla cada 8 horas
-375,253,4,1 pastilla cada 8 horas
-376,253,5,1 pastilla cada 8 horas
-377,254,5,1 pastilla cada 8 horas
-378,255,5,1 pastilla cada 8 horas
-379,256,6,1 pastilla cada 8 horas
-380,256,3,1 pastilla cada 8 horas
-381,257,5,1 pastilla cada 8 horas
-382,258,5,1 pastilla cada 8 horas
-383,258,3,1 pastilla cada 8 horas
-384,259,2,1 pastilla cada 8 horas
-385,260,2,1 pastilla cada 8 horas
-386,260,4,1 pastilla cada 8 horas
-387,261,3,1 pastilla cada 8 horas
-388,262,1,1 pastilla cada 8 horas
-389,263,1,1 pastilla cada 8 horas
-390,264,1,1 pastilla cada 8 horas
-391,264,2,1 pastilla cada 8 horas
-392,265,5,1 pastilla cada 8 horas
-393,265,1,1 pastilla cada 8 horas
-394,266,2,1 pastilla cada 8 horas
-395,266,4,1 pastilla cada 8 horas
-396,267,2,1 pastilla cada 8 horas
-397,268,3,1 pastilla cada 8 horas
-398,269,6,1 pastilla cada 8 horas
-399,270,2,1 pastilla cada 8 horas
-400,270,1,1 pastilla cada 8 horas
-401,271,5,1 pastilla cada 8 horas
-402,271,3,1 pastilla cada 8 horas
-403,272,5,1 pastilla cada 8 horas
-404,272,1,1 pastilla cada 8 horas
-405,273,2,1 pastilla cada 8 horas
-406,273,6,1 pastilla cada 8 horas
-407,274,5,1 pastilla cada 8 horas
-408,274,1,1 pastilla cada 8 horas
-409,275,2,1 pastilla cada 8 horas
-410,276,3,1 pastilla cada 8 horas
-411,277,2,1 pastilla cada 8 horas
-412,277,3,1 pastilla cada 8 horas
-413,278,3,1 pastilla cada 8 horas
-414,278,1,1 pastilla cada 8 horas
-415,279,2,1 pastilla cada 8 horas
-416,279,5,1 pastilla cada 8 horas
-417,280,5,1 pastilla cada 8 horas
-418,280,6,1 pastilla cada 8 horas
-419,281,6,1 pastilla cada 8 horas
-420,282,1,1 pastilla cada 8 horas
-421,283,5,1 pastilla cada 8 horas
-422,284,6,1 pastilla cada 8 horas
-423,284,3,1 pastilla cada 8 horas
-424,285,2,1 pastilla cada 8 horas
-425,286,1,1 pastilla cada 8 horas
-426,286,6,1 pastilla cada 8 horas
-427,287,4,1 pastilla cada 8 horas
-428,287,6,1 pastilla cada 8 horas
-429,288,6,1 pastilla cada 8 horas
-430,289,6,1 pastilla cada 8 horas
-431,290,3,1 pastilla cada 8 horas
-432,291,3,1 pastilla cada 8 horas
-433,291,6,1 pastilla cada 8 horas
-434,292,2,1 pastilla cada 8 horas
-435,292,6,1 pastilla cada 8 horas
-436,293,3,1 pastilla cada 8 horas
-437,293,5,1 pastilla cada 8 horas
-438,294,2,1 pastilla cada 8 horas
-439,294,6,1 pastilla cada 8 horas
-440,295,2,1 pastilla cada 8 horas
-441,296,6,1 pastilla cada 8 horas
-442,297,2,1 pastilla cada 8 horas
-443,298,5,1 pastilla cada 8 horas
-444,299,2,1 pastilla cada 8 horas
-445,300,3,1 pastilla cada 8 horas
-446,301,2,1 pastilla cada 8 horas
-447,302,6,1 pastilla cada 8 horas
-448,302,2,1 pastilla cada 8 horas
-449,303,1,1 pastilla cada 8 horas
-450,303,6,1 pastilla cada 8 horas
-451,304,5,1 pastilla cada 8 horas
-452,304,6,1 pastilla cada 8 horas
-453,305,3,1 pastilla cada 8 horas
-454,305,1,1 pastilla cada 8 horas
-455,306,1,1 pastilla cada 8 horas
-456,307,1,1 pastilla cada 8 horas
-457,308,3,1 pastilla cada 8 horas
-458,308,1,1 pastilla cada 8 horas
-459,309,3,1 pastilla cada 8 horas
-460,309,2,1 pastilla cada 8 horas
-461,310,2,1 pastilla cada 8 horas
-462,310,3,1 pastilla cada 8 horas
-463,311,4,1 pastilla cada 8 horas
-464,311,6,1 pastilla cada 8 horas
-465,312,5,1 pastilla cada 8 horas
-466,312,1,1 pastilla cada 8 horas
-467,313,3,1 pastilla cada 8 horas
-468,314,4,1 pastilla cada 8 horas
-469,314,2,1 pastilla cada 8 horas
-470,315,2,1 pastilla cada 8 horas
-471,315,4,1 pastilla cada 8 horas
+1,1,25,1 toma c/8h s/indicación
+2,1,19,1 comp. c/24h
+3,1,15,1 toma c/8h s/indicación
+4,1,12,1 toma c/8h s/indicación
+5,1,33,1 toma c/8h s/indicación
+6,2,25,1 toma c/8h s/indicación
+7,2,19,1 comp. c/24h
+8,2,15,1 toma c/8h s/indicación
+9,3,25,1 toma c/8h s/indicación
+10,3,19,1 comp. c/24h
+11,3,15,1 toma c/8h s/indicación
+12,4,84,1 toma c/8h s/indicación
+13,4,80,1 toma c/8h s/indicación
+14,4,85,1 toma c/8h s/indicación
+15,4,91,1 toma c/8h s/indicación
+16,5,84,1 toma c/8h s/indicación
+17,5,80,1 toma c/8h s/indicación
+18,5,85,1 toma c/8h s/indicación
+19,5,57,1 toma c/8h s/indicación
+20,6,84,1 toma c/8h s/indicación
+21,6,16,1 toma c/8h s/indicación
+22,6,80,1 toma c/8h s/indicación
+23,6,85,1 toma c/8h s/indicación
+24,7,84,1 toma c/8h s/indicación
+25,7,80,1 toma c/8h s/indicación
+26,7,85,1 toma c/8h s/indicación
+27,7,10,1 toma c/8h s/indicación
+28,8,21,1 comp. c/24h
+29,8,10,1 toma c/8h s/indicación
+30,8,41,1 comp. c/24h
+31,8,73,1 toma c/8h s/indicación
+32,8,3,1 toma c/8h s/indicación
+33,8,30,1 toma c/8h s/indicación
+34,9,41,1 comp. c/24h
+35,9,3,1 toma c/8h s/indicación
+36,9,30,1 toma c/8h s/indicación
+37,9,21,1 comp. c/24h
+38,10,59,1 toma c/8h s/indicación
+39,10,21,1 comp. c/24h
+40,10,41,1 comp. c/24h
+41,10,3,1 toma c/8h s/indicación
+42,10,60,1 toma c/8h s/indicación
+43,10,30,1 toma c/8h s/indicación
+44,11,21,1 comp. c/24h
+45,11,41,1 comp. c/24h
+46,11,3,1 toma c/8h s/indicación
+47,11,30,1 toma c/8h s/indicación
+48,11,11,1 toma c/8h s/indicación
+49,12,25,1 toma c/8h s/indicación
+50,12,19,1 comp. c/24h
+51,12,15,1 toma c/8h s/indicación
+52,12,56,1 toma c/8h s/indicación
+53,13,25,1 toma c/8h s/indicación
+54,13,10,1 toma c/8h s/indicación
+55,13,19,1 comp. c/24h
+56,13,15,1 toma c/8h s/indicación
+57,13,60,1 toma c/8h s/indicación
+58,14,25,1 toma c/8h s/indicación
+59,14,19,1 comp. c/24h
+60,14,15,1 toma c/8h s/indicación
+61,15,15,1 toma c/8h s/indicación
+62,15,84,1 toma c/8h s/indicación
+63,15,16,1 toma c/8h s/indicación
+64,15,80,1 toma c/8h s/indicación
+65,15,85,1 toma c/8h s/indicación
+66,16,84,1 toma c/8h s/indicación
+67,16,80,1 toma c/8h s/indicación
+68,16,85,1 toma c/8h s/indicación
+69,17,39,1 toma c/8h s/indicación
+70,17,35,1 toma c/8h s/indicación
+71,17,2,1 toma c/8h s/indicación
+72,18,39,1 toma c/8h s/indicación
+73,18,35,1 toma c/8h s/indicación
+74,18,2,1 toma c/8h s/indicación
+75,18,33,1 toma c/8h s/indicación
+76,19,57,1 toma c/8h s/indicación
+77,19,39,1 toma c/8h s/indicación
+78,19,35,1 toma c/8h s/indicación
+79,19,2,1 toma c/8h s/indicación
+80,20,10,1 toma c/8h s/indicación
+81,20,39,1 toma c/8h s/indicación
+82,20,35,1 toma c/8h s/indicación
+83,20,2,1 toma c/8h s/indicación
+84,20,33,1 toma c/8h s/indicación
+85,21,71,1 toma c/8h s/indicación
+86,21,64,1 toma c/8h s/indicación
+87,22,71,1 toma c/8h s/indicación
+88,22,64,1 toma c/8h s/indicación
+89,23,57,1 toma c/8h s/indicación
+90,23,71,1 toma c/8h s/indicación
+91,23,16,1 toma c/8h s/indicación
+92,23,64,1 toma c/8h s/indicación
+93,24,71,1 toma c/8h s/indicación
+94,24,16,1 toma c/8h s/indicación
+95,24,64,1 toma c/8h s/indicación
+96,25,10,1 toma c/8h s/indicación
+97,25,39,1 toma c/8h s/indicación
+98,25,2,1 toma c/8h s/indicación
+99,25,11,1 toma c/8h s/indicación
+100,25,35,1 toma c/8h s/indicación
+101,26,16,1 toma c/8h s/indicación
+102,26,39,1 toma c/8h s/indicación
+103,26,35,1 toma c/8h s/indicación
+104,26,2,1 toma c/8h s/indicación
+105,27,25,1 toma c/8h s/indicación
+106,27,10,1 toma c/8h s/indicación
+107,27,19,1 comp. c/24h
+108,27,15,1 toma c/8h s/indicación
+109,27,80,1 toma c/8h s/indicación
+110,28,25,1 toma c/8h s/indicación
+111,28,19,1 comp. c/24h
+112,28,12,1 toma c/8h s/indicación
+113,28,15,1 toma c/8h s/indicación
+114,29,25,1 toma c/8h s/indicación
+115,29,19,1 comp. c/24h
+116,29,15,1 toma c/8h s/indicación
+117,30,39,1 toma c/8h s/indicación
+118,30,35,1 toma c/8h s/indicación
+119,30,2,1 toma c/8h s/indicación
+120,31,39,1 toma c/8h s/indicación
+121,31,35,1 toma c/8h s/indicación
+122,31,2,1 toma c/8h s/indicación
+123,31,9,1 toma c/8h s/indicación
+124,32,56,1 toma c/8h s/indicación
+125,32,33,1 toma c/8h s/indicación
+126,32,20,1 comp. c/24h
+127,32,32,1 toma c/8h s/indicación
+128,32,35,1 toma c/8h s/indicación
+129,33,33,1 toma c/8h s/indicación
+130,33,10,1 toma c/8h s/indicación
+131,33,20,1 comp. c/24h
+132,33,32,1 toma c/8h s/indicación
+133,33,35,1 toma c/8h s/indicación
+134,34,33,1 toma c/8h s/indicación
+135,34,20,1 comp. c/24h
+136,34,16,1 toma c/8h s/indicación
+137,34,60,1 toma c/8h s/indicación
+138,34,32,1 toma c/8h s/indicación
+139,34,35,1 toma c/8h s/indicación
+140,35,39,1 toma c/8h s/indicación
+141,35,35,1 toma c/8h s/indicación
+142,35,2,1 toma c/8h s/indicación
+143,36,39,1 toma c/8h s/indicación
+144,36,35,1 toma c/8h s/indicación
+145,36,2,1 toma c/8h s/indicación
+146,37,56,1 toma c/8h s/indicación
+147,38,59,1 toma c/8h s/indicación
+148,39,20,1 comp. c/24h
+149,39,32,1 toma c/8h s/indicación
+150,39,35,1 toma c/8h s/indicación
+151,39,33,1 toma c/8h s/indicación
+152,40,20,1 comp. c/24h
+153,40,32,1 toma c/8h s/indicación
+154,40,35,1 toma c/8h s/indicación
+155,40,33,1 toma c/8h s/indicación
+156,41,56,1 toma c/8h s/indicación
+157,41,33,1 toma c/8h s/indicación
+158,41,20,1 comp. c/24h
+159,41,32,1 toma c/8h s/indicación
+160,41,35,1 toma c/8h s/indicación
+161,42,84,1 toma c/8h s/indicación
+162,42,16,1 toma c/8h s/indicación
+163,42,80,1 toma c/8h s/indicación
+164,42,85,1 toma c/8h s/indicación
+165,43,84,1 toma c/8h s/indicación
+166,43,80,1 toma c/8h s/indicación
+167,43,85,1 toma c/8h s/indicación
+168,43,60,1 toma c/8h s/indicación
+169,44,25,1 toma c/8h s/indicación
+170,44,19,1 comp. c/24h
+171,44,15,1 toma c/8h s/indicación
+172,44,9,1 toma c/8h s/indicación
+173,45,25,1 toma c/8h s/indicación
+174,45,19,1 comp. c/24h
+175,45,15,1 toma c/8h s/indicación
+176,46,25,1 toma c/8h s/indicación
+177,46,19,1 comp. c/24h
+178,46,15,1 toma c/8h s/indicación
+179,46,9,1 toma c/8h s/indicación
+180,47,25,1 toma c/8h s/indicación
+181,47,19,1 comp. c/24h
+182,47,15,1 toma c/8h s/indicación
+183,47,10,1 toma c/8h s/indicación
+184,48,71,1 toma c/8h s/indicación
+185,48,64,1 toma c/8h s/indicación
+186,49,71,1 toma c/8h s/indicación
+187,49,64,1 toma c/8h s/indicación
+188,49,10,1 toma c/8h s/indicación
+189,50,71,1 toma c/8h s/indicación
+190,50,16,1 toma c/8h s/indicación
+191,50,64,1 toma c/8h s/indicación
+192,51,71,1 toma c/8h s/indicación
+193,51,64,1 toma c/8h s/indicación
+194,51,11,1 toma c/8h s/indicación
+195,52,16,1 toma c/8h s/indicación
+196,52,71,1 toma c/8h s/indicación
+197,52,80,1 toma c/8h s/indicación
+198,52,64,1 toma c/8h s/indicación
+199,53,71,1 toma c/8h s/indicación
+200,53,73,1 toma c/8h s/indicación
+201,53,64,1 toma c/8h s/indicación
+202,54,80,1 toma c/8h s/indicación
+203,55,9,1 toma c/8h s/indicación
+204,56,73,1 toma c/8h s/indicación
+205,57,47,1 toma c/8h s/indicación
+206,57,20,1 comp. c/24h
+207,57,60,1 toma c/8h s/indicación
+208,57,51,1 toma c/8h s/indicación
+209,57,42,1 comp. c/24h
+210,58,47,1 toma c/8h s/indicación
+211,58,20,1 comp. c/24h
+212,58,15,1 toma c/8h s/indicación
+213,58,51,1 toma c/8h s/indicación
+214,58,42,1 comp. c/24h
+215,58,33,1 toma c/8h s/indicación
+216,59,47,1 toma c/8h s/indicación
+217,59,20,1 comp. c/24h
+218,59,73,1 toma c/8h s/indicación
+219,59,51,1 toma c/8h s/indicación
+220,59,42,1 comp. c/24h
+221,60,47,1 toma c/8h s/indicación
+222,60,20,1 comp. c/24h
+223,60,16,1 toma c/8h s/indicación
+224,60,51,1 toma c/8h s/indicación
+225,60,42,1 comp. c/24h
+226,61,84,1 toma c/8h s/indicación
+227,61,80,1 toma c/8h s/indicación
+228,61,85,1 toma c/8h s/indicación
+229,61,57,1 toma c/8h s/indicación
+230,62,84,1 toma c/8h s/indicación
+231,62,80,1 toma c/8h s/indicación
+232,62,85,1 toma c/8h s/indicación
+233,63,84,1 toma c/8h s/indicación
+234,63,80,1 toma c/8h s/indicación
+235,63,85,1 toma c/8h s/indicación
+236,64,84,1 toma c/8h s/indicación
+237,64,12,1 toma c/8h s/indicación
+238,64,80,1 toma c/8h s/indicación
+239,64,85,1 toma c/8h s/indicación
+240,65,21,1 comp. c/24h
+241,65,41,1 comp. c/24h
+242,65,3,1 toma c/8h s/indicación
+243,65,60,1 toma c/8h s/indicación
+244,65,30,1 toma c/8h s/indicación
+245,65,80,1 toma c/8h s/indicación
+246,66,21,1 comp. c/24h
+247,66,41,1 comp. c/24h
+248,66,3,1 toma c/8h s/indicación
+249,66,16,1 toma c/8h s/indicación
+250,66,30,1 toma c/8h s/indicación
+251,67,56,1 toma c/8h s/indicación
+252,67,21,1 comp. c/24h
+253,67,41,1 comp. c/24h
+254,67,3,1 toma c/8h s/indicación
+255,67,30,1 toma c/8h s/indicación
+256,68,57,1 toma c/8h s/indicación
+257,68,71,1 toma c/8h s/indicación
+258,68,64,1 toma c/8h s/indicación
+259,69,71,1 toma c/8h s/indicación
+260,69,12,1 toma c/8h s/indicación
+261,69,64,1 toma c/8h s/indicación
+262,70,71,1 toma c/8h s/indicación
+263,70,64,1 toma c/8h s/indicación
+264,71,15,1 toma c/8h s/indicación
+265,71,71,1 toma c/8h s/indicación
+266,71,64,1 toma c/8h s/indicación
+267,71,33,1 toma c/8h s/indicación
+268,72,47,1 toma c/8h s/indicación
+269,72,20,1 comp. c/24h
+270,72,16,1 toma c/8h s/indicación
+271,72,51,1 toma c/8h s/indicación
+272,72,42,1 comp. c/24h
+273,73,47,1 toma c/8h s/indicación
+274,73,20,1 comp. c/24h
+275,73,16,1 toma c/8h s/indicación
+276,73,51,1 toma c/8h s/indicación
+277,73,11,1 toma c/8h s/indicación
+278,73,42,1 comp. c/24h
+279,74,47,1 toma c/8h s/indicación
+280,74,10,1 toma c/8h s/indicación
+281,74,20,1 comp. c/24h
+282,74,51,1 toma c/8h s/indicación
+283,74,42,1 comp. c/24h
+284,74,80,1 toma c/8h s/indicación
+285,75,47,1 toma c/8h s/indicación
+286,75,20,1 comp. c/24h
+287,75,15,1 toma c/8h s/indicación
+288,75,51,1 toma c/8h s/indicación
+289,75,42,1 comp. c/24h
+290,76,25,1 toma c/8h s/indicación
+291,76,19,1 comp. c/24h
+292,76,15,1 toma c/8h s/indicación
+293,77,25,1 toma c/8h s/indicación
+294,77,19,1 comp. c/24h
+295,77,15,1 toma c/8h s/indicación
+296,77,60,1 toma c/8h s/indicación
+297,78,25,1 toma c/8h s/indicación
+298,78,9,1 toma c/8h s/indicación
+299,78,19,1 comp. c/24h
+300,78,15,1 toma c/8h s/indicación
+301,78,12,1 toma c/8h s/indicación
+302,79,25,1 toma c/8h s/indicación
+303,79,19,1 comp. c/24h
+304,79,15,1 toma c/8h s/indicación
+305,80,21,1 comp. c/24h
+306,80,9,1 toma c/8h s/indicación
+307,80,41,1 comp. c/24h
+308,80,3,1 toma c/8h s/indicación
+309,80,30,1 toma c/8h s/indicación
+310,81,21,1 comp. c/24h
+311,81,41,1 comp. c/24h
+312,81,3,1 toma c/8h s/indicación
+313,81,15,1 toma c/8h s/indicación
+314,81,30,1 toma c/8h s/indicación
+315,82,71,1 toma c/8h s/indicación
+316,82,73,1 toma c/8h s/indicación
+317,82,64,1 toma c/8h s/indicación
+318,82,60,1 toma c/8h s/indicación
+319,83,71,1 toma c/8h s/indicación
+320,83,64,1 toma c/8h s/indicación
+321,84,71,1 toma c/8h s/indicación
+322,84,64,1 toma c/8h s/indicación
+323,85,39,1 toma c/8h s/indicación
+324,85,35,1 toma c/8h s/indicación
+325,85,2,1 toma c/8h s/indicación
+326,85,60,1 toma c/8h s/indicación
+327,86,39,1 toma c/8h s/indicación
+328,86,35,1 toma c/8h s/indicación
+329,86,2,1 toma c/8h s/indicación
+330,87,47,1 toma c/8h s/indicación
+331,87,20,1 comp. c/24h
+332,87,51,1 toma c/8h s/indicación
+333,87,88,1 toma c/8h s/indicación
+334,87,42,1 comp. c/24h
+335,88,10,1 toma c/8h s/indicación
+336,88,47,1 toma c/8h s/indicación
+337,88,20,1 comp. c/24h
+338,88,51,1 toma c/8h s/indicación
+339,88,42,1 comp. c/24h
+340,89,42,1 comp. c/24h
+341,89,20,1 comp. c/24h
+342,89,51,1 toma c/8h s/indicación
+343,89,47,1 toma c/8h s/indicación
+344,90,47,1 toma c/8h s/indicación
+345,90,20,1 comp. c/24h
+346,90,16,1 toma c/8h s/indicación
+347,90,51,1 toma c/8h s/indicación
+348,90,42,1 comp. c/24h
+349,91,73,1 toma c/8h s/indicación
+350,91,84,1 toma c/8h s/indicación
+351,91,60,1 toma c/8h s/indicación
+352,91,80,1 toma c/8h s/indicación
+353,91,85,1 toma c/8h s/indicación
+354,92,84,1 toma c/8h s/indicación
+355,92,80,1 toma c/8h s/indicación
+356,92,85,1 toma c/8h s/indicación
+357,92,10,1 toma c/8h s/indicación
+358,93,84,1 toma c/8h s/indicación
+359,93,15,1 toma c/8h s/indicación
+360,93,80,1 toma c/8h s/indicación
+361,93,85,1 toma c/8h s/indicación
+362,94,33,1 toma c/8h s/indicación
+363,94,20,1 comp. c/24h
+364,94,16,1 toma c/8h s/indicación
+365,94,32,1 toma c/8h s/indicación
+366,94,35,1 toma c/8h s/indicación
+367,95,20,1 comp. c/24h
+368,95,32,1 toma c/8h s/indicación
+369,95,35,1 toma c/8h s/indicación
+370,95,33,1 toma c/8h s/indicación
+371,96,33,1 toma c/8h s/indicación
+372,96,20,1 comp. c/24h
+373,96,16,1 toma c/8h s/indicación
+374,96,32,1 toma c/8h s/indicación
+375,96,35,1 toma c/8h s/indicación
+376,97,20,1 comp. c/24h
+377,97,32,1 toma c/8h s/indicación
+378,97,35,1 toma c/8h s/indicación
+379,97,33,1 toma c/8h s/indicación
+380,98,80,1 toma c/8h s/indicación
+381,98,39,1 toma c/8h s/indicación
+382,98,35,1 toma c/8h s/indicación
+383,98,2,1 toma c/8h s/indicación
+384,99,80,1 toma c/8h s/indicación
+385,99,39,1 toma c/8h s/indicación
+386,99,35,1 toma c/8h s/indicación
+387,99,2,1 toma c/8h s/indicación
+388,100,25,1 toma c/8h s/indicación
+389,100,19,1 comp. c/24h
+390,100,15,1 toma c/8h s/indicación
+391,100,57,1 toma c/8h s/indicación
+392,101,25,1 toma c/8h s/indicación
+393,101,19,1 comp. c/24h
+394,101,15,1 toma c/8h s/indicación
+395,102,39,1 toma c/8h s/indicación
+396,102,35,1 toma c/8h s/indicación
+397,102,2,1 toma c/8h s/indicación
+398,103,39,1 toma c/8h s/indicación
+399,103,35,1 toma c/8h s/indicación
+400,103,2,1 toma c/8h s/indicación
+401,103,9,1 toma c/8h s/indicación
+402,104,71,1 toma c/8h s/indicación
+403,104,64,1 toma c/8h s/indicación
+404,104,88,1 toma c/8h s/indicación
+405,104,10,1 toma c/8h s/indicación
+406,105,57,1 toma c/8h s/indicación
+407,105,71,1 toma c/8h s/indicación
+408,105,64,1 toma c/8h s/indicación
+409,106,71,1 toma c/8h s/indicación
+410,106,64,1 toma c/8h s/indicación
+411,106,33,1 toma c/8h s/indicación
+412,107,91,1 toma c/8h s/indicación
+413,107,71,1 toma c/8h s/indicación
+414,107,64,1 toma c/8h s/indicación
+415,107,33,1 toma c/8h s/indicación
+416,108,59,1 toma c/8h s/indicación
+417,109,11,1 toma c/8h s/indicación
+418,110,80,1 toma c/8h s/indicación
+419,111,39,1 toma c/8h s/indicación
+420,111,35,1 toma c/8h s/indicación
+421,111,2,1 toma c/8h s/indicación
+422,112,33,1 toma c/8h s/indicación
+423,112,39,1 toma c/8h s/indicación
+424,112,2,1 toma c/8h s/indicación
+425,112,88,1 toma c/8h s/indicación
+426,112,35,1 toma c/8h s/indicación
+427,113,15,1 toma c/8h s/indicación
+428,114,91,1 toma c/8h s/indicación
+429,115,10,1 toma c/8h s/indicación
+430,116,84,1 toma c/8h s/indicación
+431,116,80,1 toma c/8h s/indicación
+432,116,85,1 toma c/8h s/indicación
+433,116,9,1 toma c/8h s/indicación
+434,117,84,1 toma c/8h s/indicación
+435,117,16,1 toma c/8h s/indicación
+436,117,80,1 toma c/8h s/indicación
+437,117,85,1 toma c/8h s/indicación
+438,118,84,1 toma c/8h s/indicación
+439,118,80,1 toma c/8h s/indicación
+440,118,85,1 toma c/8h s/indicación
+441,118,56,1 toma c/8h s/indicación
+442,119,25,1 toma c/8h s/indicación
+443,119,19,1 comp. c/24h
+444,119,15,1 toma c/8h s/indicación
+445,119,91,1 toma c/8h s/indicación
+446,120,25,1 toma c/8h s/indicación
+447,120,19,1 comp. c/24h
+448,120,15,1 toma c/8h s/indicación
+449,120,11,1 toma c/8h s/indicación
+450,121,56,1 toma c/8h s/indicación
+451,121,25,1 toma c/8h s/indicación
+452,121,19,1 comp. c/24h
+453,121,15,1 toma c/8h s/indicación
+454,121,16,1 toma c/8h s/indicación
+455,122,25,1 toma c/8h s/indicación
+456,122,19,1 comp. c/24h
+457,122,80,1 toma c/8h s/indicación
+458,122,15,1 toma c/8h s/indicación
+459,123,71,1 toma c/8h s/indicación
+460,123,64,1 toma c/8h s/indicación
+461,124,16,1 toma c/8h s/indicación
+462,124,71,1 toma c/8h s/indicación
+463,124,59,1 toma c/8h s/indicación
+464,124,64,1 toma c/8h s/indicación
+465,125,71,1 toma c/8h s/indicación
+466,125,64,1 toma c/8h s/indicación
+467,126,39,1 toma c/8h s/indicación
+468,126,35,1 toma c/8h s/indicación
+469,126,2,1 toma c/8h s/indicación
+470,127,56,1 toma c/8h s/indicación
+471,127,9,1 toma c/8h s/indicación
+472,127,39,1 toma c/8h s/indicación
+473,127,2,1 toma c/8h s/indicación
+474,127,35,1 toma c/8h s/indicación
+475,128,15,1 toma c/8h s/indicación
+476,128,39,1 toma c/8h s/indicación
+477,128,35,1 toma c/8h s/indicación
+478,128,2,1 toma c/8h s/indicación
+479,129,73,1 toma c/8h s/indicación
+480,129,39,1 toma c/8h s/indicación
+481,129,35,1 toma c/8h s/indicación
+482,129,2,1 toma c/8h s/indicación
+483,130,84,1 toma c/8h s/indicación
+484,130,80,1 toma c/8h s/indicación
+485,130,85,1 toma c/8h s/indicación
+486,131,84,1 toma c/8h s/indicación
+487,131,80,1 toma c/8h s/indicación
+488,131,85,1 toma c/8h s/indicación
+489,132,47,1 toma c/8h s/indicación
+490,132,20,1 comp. c/24h
+491,132,51,1 toma c/8h s/indicación
+492,132,42,1 comp. c/24h
+493,132,33,1 toma c/8h s/indicación
+494,133,47,1 toma c/8h s/indicación
+495,133,20,1 comp. c/24h
+496,133,16,1 toma c/8h s/indicación
+497,133,51,1 toma c/8h s/indicación
+498,133,42,1 comp. c/24h
+499,134,71,1 toma c/8h s/indicación
+500,134,64,1 toma c/8h s/indicación
+501,135,57,1 toma c/8h s/indicación
+502,135,71,1 toma c/8h s/indicación
+503,135,64,1 toma c/8h s/indicación
+504,136,25,1 toma c/8h s/indicación
+505,136,19,1 comp. c/24h
+506,136,15,1 toma c/8h s/indicación
+507,137,25,1 toma c/8h s/indicación
+508,137,59,1 toma c/8h s/indicación
+509,137,10,1 toma c/8h s/indicación
+510,137,19,1 comp. c/24h
+511,137,15,1 toma c/8h s/indicación
+512,138,25,1 toma c/8h s/indicación
+513,138,19,1 comp. c/24h
+514,138,73,1 toma c/8h s/indicación
+515,138,15,1 toma c/8h s/indicación
+516,139,21,1 comp. c/24h
+517,139,41,1 comp. c/24h
+518,139,3,1 toma c/8h s/indicación
+519,139,16,1 toma c/8h s/indicación
+520,139,30,1 toma c/8h s/indicación
+521,140,21,1 comp. c/24h
+522,140,41,1 comp. c/24h
+523,140,3,1 toma c/8h s/indicación
+524,140,12,1 toma c/8h s/indicación
+525,140,30,1 toma c/8h s/indicación
+526,140,33,1 toma c/8h s/indicación
+527,141,21,1 comp. c/24h
+528,141,41,1 comp. c/24h
+529,141,3,1 toma c/8h s/indicación
+530,141,15,1 toma c/8h s/indicación
+531,141,30,1 toma c/8h s/indicación
+532,142,21,1 comp. c/24h
+533,142,41,1 comp. c/24h
+534,142,3,1 toma c/8h s/indicación
+535,142,30,1 toma c/8h s/indicación
+536,142,80,1 toma c/8h s/indicación
+537,143,21,1 comp. c/24h
+538,143,9,1 toma c/8h s/indicación
+539,143,41,1 comp. c/24h
+540,143,3,1 toma c/8h s/indicación
+541,143,30,1 toma c/8h s/indicación
+542,144,39,1 toma c/8h s/indicación
+543,144,35,1 toma c/8h s/indicación
+544,144,2,1 toma c/8h s/indicación
+545,144,10,1 toma c/8h s/indicación
+546,145,57,1 toma c/8h s/indicación
+547,145,39,1 toma c/8h s/indicación
+548,145,16,1 toma c/8h s/indicación
+549,145,2,1 toma c/8h s/indicación
+550,145,35,1 toma c/8h s/indicación
+551,146,21,1 comp. c/24h
+552,146,41,1 comp. c/24h
+553,146,3,1 toma c/8h s/indicación
+554,146,30,1 toma c/8h s/indicación
+555,146,80,1 toma c/8h s/indicación
+556,147,56,1 toma c/8h s/indicación
+557,147,21,1 comp. c/24h
+558,147,41,1 comp. c/24h
+559,147,3,1 toma c/8h s/indicación
+560,147,30,1 toma c/8h s/indicación
+561,148,21,1 comp. c/24h
+562,148,41,1 comp. c/24h
+563,148,3,1 toma c/8h s/indicación
+564,148,15,1 toma c/8h s/indicación
+565,148,30,1 toma c/8h s/indicación
+566,149,33,1 toma c/8h s/indicación
+567,149,20,1 comp. c/24h
+568,149,16,1 toma c/8h s/indicación
+569,149,32,1 toma c/8h s/indicación
+570,149,35,1 toma c/8h s/indicación
+571,150,59,1 toma c/8h s/indicación
+572,150,33,1 toma c/8h s/indicación
+573,150,20,1 comp. c/24h
+574,150,32,1 toma c/8h s/indicación
+575,150,35,1 toma c/8h s/indicación
+576,151,71,1 toma c/8h s/indicación
+577,151,64,1 toma c/8h s/indicación
+578,152,71,1 toma c/8h s/indicación
+579,152,64,1 toma c/8h s/indicación
+580,152,88,1 toma c/8h s/indicación
+581,153,71,1 toma c/8h s/indicación
+582,153,59,1 toma c/8h s/indicación
+583,153,64,1 toma c/8h s/indicación
+584,154,20,1 comp. c/24h
+585,154,32,1 toma c/8h s/indicación
+586,154,35,1 toma c/8h s/indicación
+587,154,33,1 toma c/8h s/indicación
+588,155,33,1 toma c/8h s/indicación
+589,155,20,1 comp. c/24h
+590,155,88,1 toma c/8h s/indicación
+591,155,32,1 toma c/8h s/indicación
+592,155,35,1 toma c/8h s/indicación
+593,156,39,1 toma c/8h s/indicación
+594,156,35,1 toma c/8h s/indicación
+595,156,2,1 toma c/8h s/indicación
+596,156,88,1 toma c/8h s/indicación
+597,157,39,1 toma c/8h s/indicación
+598,157,35,1 toma c/8h s/indicación
+599,157,2,1 toma c/8h s/indicación
+600,157,10,1 toma c/8h s/indicación
+601,158,10,1 toma c/8h s/indicación
+602,158,39,1 toma c/8h s/indicación
+603,158,2,1 toma c/8h s/indicación
+604,158,88,1 toma c/8h s/indicación
+605,158,35,1 toma c/8h s/indicación
+606,159,39,1 toma c/8h s/indicación
+607,159,35,1 toma c/8h s/indicación
+608,159,2,1 toma c/8h s/indicación
+609,160,33,1 toma c/8h s/indicación
+610,160,20,1 comp. c/24h
+611,160,16,1 toma c/8h s/indicación
+612,160,32,1 toma c/8h s/indicación
+613,160,35,1 toma c/8h s/indicación
+614,161,33,1 toma c/8h s/indicación
+615,161,10,1 toma c/8h s/indicación
+616,161,20,1 comp. c/24h
+617,161,32,1 toma c/8h s/indicación
+618,161,35,1 toma c/8h s/indicación
+619,162,33,1 toma c/8h s/indicación
+620,162,20,1 comp. c/24h
+621,162,15,1 toma c/8h s/indicación
+622,162,32,1 toma c/8h s/indicación
+623,162,35,1 toma c/8h s/indicación
+624,163,10,1 toma c/8h s/indicación
+625,164,91,1 toma c/8h s/indicación
+626,165,57,1 toma c/8h s/indicación
+627,165,71,1 toma c/8h s/indicación
+628,165,64,1 toma c/8h s/indicación
+629,166,71,1 toma c/8h s/indicación
+630,166,73,1 toma c/8h s/indicación
+631,166,64,1 toma c/8h s/indicación
+632,167,71,1 toma c/8h s/indicación
+633,167,64,1 toma c/8h s/indicación
+634,168,15,1 toma c/8h s/indicación
+635,168,71,1 toma c/8h s/indicación
+636,168,64,1 toma c/8h s/indicación
+637,169,10,1 toma c/8h s/indicación
+638,169,47,1 toma c/8h s/indicación
+639,169,20,1 comp. c/24h
+640,169,60,1 toma c/8h s/indicación
+641,169,51,1 toma c/8h s/indicación
+642,169,42,1 comp. c/24h
+643,170,9,1 toma c/8h s/indicación
+644,170,47,1 toma c/8h s/indicación
+645,170,20,1 comp. c/24h
+646,170,51,1 toma c/8h s/indicación
+647,170,42,1 comp. c/24h
+648,171,25,1 toma c/8h s/indicación
+649,171,19,1 comp. c/24h
+650,171,80,1 toma c/8h s/indicación
+651,171,15,1 toma c/8h s/indicación
+652,172,25,1 toma c/8h s/indicación
+653,172,19,1 comp. c/24h
+654,172,15,1 toma c/8h s/indicación
+655,172,10,1 toma c/8h s/indicación
+656,173,84,1 toma c/8h s/indicación
+657,173,59,1 toma c/8h s/indicación
+658,173,80,1 toma c/8h s/indicación
+659,173,85,1 toma c/8h s/indicación
+660,174,84,1 toma c/8h s/indicación
+661,174,80,1 toma c/8h s/indicación
+662,174,85,1 toma c/8h s/indicación
+663,174,11,1 toma c/8h s/indicación
+664,175,84,1 toma c/8h s/indicación
+665,175,80,1 toma c/8h s/indicación
+666,175,85,1 toma c/8h s/indicación
+667,175,56,1 toma c/8h s/indicación
+668,176,56,1 toma c/8h s/indicación
+669,176,47,1 toma c/8h s/indicación
+670,176,20,1 comp. c/24h
+671,176,51,1 toma c/8h s/indicación
+672,176,42,1 comp. c/24h
+673,177,47,1 toma c/8h s/indicación
+674,177,20,1 comp. c/24h
+675,177,16,1 toma c/8h s/indicación
+676,177,51,1 toma c/8h s/indicación
+677,177,42,1 comp. c/24h
+678,178,9,1 toma c/8h s/indicación
+679,178,10,1 toma c/8h s/indicación
+680,178,84,1 toma c/8h s/indicación
+681,178,80,1 toma c/8h s/indicación
+682,178,85,1 toma c/8h s/indicación
+683,179,84,1 toma c/8h s/indicación
+684,179,80,1 toma c/8h s/indicación
+685,179,85,1 toma c/8h s/indicación
+686,180,84,1 toma c/8h s/indicación
+687,180,80,1 toma c/8h s/indicación
+688,180,85,1 toma c/8h s/indicación
+689,180,88,1 toma c/8h s/indicación
+690,181,21,1 comp. c/24h
+691,181,41,1 comp. c/24h
+692,181,73,1 toma c/8h s/indicación
+693,181,3,1 toma c/8h s/indicación
+694,181,30,1 toma c/8h s/indicación
+695,182,59,1 toma c/8h s/indicación
+696,182,21,1 comp. c/24h
+697,182,41,1 comp. c/24h
+698,182,3,1 toma c/8h s/indicación
+699,182,30,1 toma c/8h s/indicación
+700,183,41,1 comp. c/24h
+701,183,3,1 toma c/8h s/indicación
+702,183,30,1 toma c/8h s/indicación
+703,183,21,1 comp. c/24h
+704,184,21,1 comp. c/24h
+705,184,41,1 comp. c/24h
+706,184,3,1 toma c/8h s/indicación
+707,184,91,1 toma c/8h s/indicación
+708,184,30,1 toma c/8h s/indicación
+709,185,16,1 toma c/8h s/indicación
+710,185,71,1 toma c/8h s/indicación
+711,185,80,1 toma c/8h s/indicación
+712,185,64,1 toma c/8h s/indicación
+713,186,71,1 toma c/8h s/indicación
+714,186,64,1 toma c/8h s/indicación
+715,187,25,1 toma c/8h s/indicación
+716,187,19,1 comp. c/24h
+717,187,15,1 toma c/8h s/indicación
+718,188,25,1 toma c/8h s/indicación
+719,188,19,1 comp. c/24h
+720,188,12,1 toma c/8h s/indicación
+721,188,15,1 toma c/8h s/indicación
+722,189,25,1 toma c/8h s/indicación
+723,189,19,1 comp. c/24h
+724,189,59,1 toma c/8h s/indicación
+725,189,15,1 toma c/8h s/indicación
+726,190,59,1 toma c/8h s/indicación
+727,190,47,1 toma c/8h s/indicación
+728,190,20,1 comp. c/24h
+729,190,51,1 toma c/8h s/indicación
+730,190,42,1 comp. c/24h
+731,191,47,1 toma c/8h s/indicación
+732,191,20,1 comp. c/24h
+733,191,91,1 toma c/8h s/indicación
+734,191,51,1 toma c/8h s/indicación
+735,191,42,1 comp. c/24h
+736,192,21,1 comp. c/24h
+737,192,41,1 comp. c/24h
+738,192,3,1 toma c/8h s/indicación
+739,192,16,1 toma c/8h s/indicación
+740,192,30,1 toma c/8h s/indicación
+741,193,21,1 comp. c/24h
+742,193,9,1 toma c/8h s/indicación
+743,193,41,1 comp. c/24h
+744,193,3,1 toma c/8h s/indicación
+745,193,30,1 toma c/8h s/indicación
+746,194,21,1 comp. c/24h
+747,194,41,1 comp. c/24h
+748,194,3,1 toma c/8h s/indicación
+749,194,30,1 toma c/8h s/indicación
+750,194,33,1 toma c/8h s/indicación
+751,195,21,1 comp. c/24h
+752,195,41,1 comp. c/24h
+753,195,3,1 toma c/8h s/indicación
+754,195,16,1 toma c/8h s/indicación
+755,195,30,1 toma c/8h s/indicación
+756,196,71,1 toma c/8h s/indicación
+757,196,59,1 toma c/8h s/indicación
+758,196,64,1 toma c/8h s/indicación
+759,197,71,1 toma c/8h s/indicación
+760,197,64,1 toma c/8h s/indicación
+761,197,9,1 toma c/8h s/indicación
+762,198,71,1 toma c/8h s/indicación
+763,198,64,1 toma c/8h s/indicación
+764,198,10,1 toma c/8h s/indicación
+765,199,91,1 toma c/8h s/indicación
+766,199,71,1 toma c/8h s/indicación
+767,199,64,1 toma c/8h s/indicación
+768,200,25,1 toma c/8h s/indicación
+769,200,19,1 comp. c/24h
+770,200,15,1 toma c/8h s/indicación
+771,201,25,1 toma c/8h s/indicación
+772,201,19,1 comp. c/24h
+773,201,15,1 toma c/8h s/indicación
+774,201,91,1 toma c/8h s/indicación
+775,202,25,1 toma c/8h s/indicación
+776,202,19,1 comp. c/24h
+777,202,12,1 toma c/8h s/indicación
+778,202,15,1 toma c/8h s/indicación
+779,203,25,1 toma c/8h s/indicación
+780,203,19,1 comp. c/24h
+781,203,15,1 toma c/8h s/indicación
+782,203,11,1 toma c/8h s/indicación
+783,204,25,1 toma c/8h s/indicación
+784,204,19,1 comp. c/24h
+785,204,59,1 toma c/8h s/indicación
+786,204,15,1 toma c/8h s/indicación
+787,205,25,1 toma c/8h s/indicación
+788,205,59,1 toma c/8h s/indicación
+789,205,19,1 comp. c/24h
+790,205,15,1 toma c/8h s/indicación
+791,205,16,1 toma c/8h s/indicación
+792,206,25,1 toma c/8h s/indicación
+793,206,59,1 toma c/8h s/indicación
+794,206,10,1 toma c/8h s/indicación
+795,206,19,1 comp. c/24h
+796,206,15,1 toma c/8h s/indicación
+797,207,91,1 toma c/8h s/indicación
+798,207,39,1 toma c/8h s/indicación
+799,207,35,1 toma c/8h s/indicación
+800,207,2,1 toma c/8h s/indicación
+801,208,39,1 toma c/8h s/indicación
+802,208,35,1 toma c/8h s/indicación
+803,208,60,1 toma c/8h s/indicación
+804,208,2,1 toma c/8h s/indicación
+805,208,33,1 toma c/8h s/indicación
+806,209,9,1 toma c/8h s/indicación
+807,209,33,1 toma c/8h s/indicación
+808,209,20,1 comp. c/24h
+809,209,73,1 toma c/8h s/indicación
+810,209,32,1 toma c/8h s/indicación
+811,209,35,1 toma c/8h s/indicación
+812,210,20,1 comp. c/24h
+813,210,32,1 toma c/8h s/indicación
+814,210,35,1 toma c/8h s/indicación
+815,210,33,1 toma c/8h s/indicación
+816,211,20,1 comp. c/24h
+817,211,32,1 toma c/8h s/indicación
+818,211,35,1 toma c/8h s/indicación
+819,211,33,1 toma c/8h s/indicación
+820,212,57,1 toma c/8h s/indicación
+821,212,33,1 toma c/8h s/indicación
+822,212,20,1 comp. c/24h
+823,212,60,1 toma c/8h s/indicación
+824,212,32,1 toma c/8h s/indicación
+825,212,35,1 toma c/8h s/indicación
+826,213,71,1 toma c/8h s/indicación
+827,213,80,1 toma c/8h s/indicación
+828,213,64,1 toma c/8h s/indicación
+829,214,16,1 toma c/8h s/indicación
+830,214,71,1 toma c/8h s/indicación
+831,214,59,1 toma c/8h s/indicación
+832,214,64,1 toma c/8h s/indicación
+833,215,33,1 toma c/8h s/indicación
+834,215,10,1 toma c/8h s/indicación
+835,215,20,1 comp. c/24h
+836,215,60,1 toma c/8h s/indicación
+837,215,32,1 toma c/8h s/indicación
+838,215,35,1 toma c/8h s/indicación
+839,216,9,1 toma c/8h s/indicación
+840,216,33,1 toma c/8h s/indicación
+841,216,20,1 comp. c/24h
+842,216,88,1 toma c/8h s/indicación
+843,216,32,1 toma c/8h s/indicación
+844,216,35,1 toma c/8h s/indicación
+845,217,59,1 toma c/8h s/indicación
+846,217,33,1 toma c/8h s/indicación
+847,217,20,1 comp. c/24h
+848,217,32,1 toma c/8h s/indicación
+849,217,35,1 toma c/8h s/indicación
+850,218,33,1 toma c/8h s/indicación
+851,218,20,1 comp. c/24h
+852,218,12,1 toma c/8h s/indicación
+853,218,32,1 toma c/8h s/indicación
+854,218,35,1 toma c/8h s/indicación
+855,219,71,1 toma c/8h s/indicación
+856,219,73,1 toma c/8h s/indicación
+857,219,64,1 toma c/8h s/indicación
+858,219,10,1 toma c/8h s/indicación
+859,220,71,1 toma c/8h s/indicación
+860,220,80,1 toma c/8h s/indicación
+861,220,64,1 toma c/8h s/indicación
+862,221,71,1 toma c/8h s/indicación
+863,221,64,1 toma c/8h s/indicación
+864,221,10,1 toma c/8h s/indicación
+865,222,91,1 toma c/8h s/indicación
+866,222,71,1 toma c/8h s/indicación
+867,222,64,1 toma c/8h s/indicación
+868,222,33,1 toma c/8h s/indicación
+869,223,25,1 toma c/8h s/indicación
+870,223,19,1 comp. c/24h
+871,223,15,1 toma c/8h s/indicación
+872,223,88,1 toma c/8h s/indicación
+873,224,25,1 toma c/8h s/indicación
+874,224,19,1 comp. c/24h
+875,224,15,1 toma c/8h s/indicación
+876,224,60,1 toma c/8h s/indicación
+877,225,25,1 toma c/8h s/indicación
+878,225,19,1 comp. c/24h
+879,225,15,1 toma c/8h s/indicación
+880,225,10,1 toma c/8h s/indicación
+881,226,25,1 toma c/8h s/indicación
+882,226,19,1 comp. c/24h
+883,226,15,1 toma c/8h s/indicación
+884,227,33,1 toma c/8h s/indicación
+885,227,10,1 toma c/8h s/indicación
+886,227,20,1 comp. c/24h
+887,227,73,1 toma c/8h s/indicación
+888,227,32,1 toma c/8h s/indicación
+889,227,35,1 toma c/8h s/indicación
+890,228,32,1 toma c/8h s/indicación
+891,228,33,1 toma c/8h s/indicación
+892,228,20,1 comp. c/24h
+893,228,16,1 toma c/8h s/indicación
+894,228,80,1 toma c/8h s/indicación
+895,228,35,1 toma c/8h s/indicación
+896,229,33,1 toma c/8h s/indicación
+897,229,20,1 comp. c/24h
+898,229,16,1 toma c/8h s/indicación
+899,229,32,1 toma c/8h s/indicación
+900,229,35,1 toma c/8h s/indicación
+901,230,20,1 comp. c/24h
+902,230,32,1 toma c/8h s/indicación
+903,230,35,1 toma c/8h s/indicación
+904,230,33,1 toma c/8h s/indicación
+905,231,33,1 toma c/8h s/indicación
+906,231,10,1 toma c/8h s/indicación
+907,231,20,1 comp. c/24h
+908,231,32,1 toma c/8h s/indicación
+909,231,35,1 toma c/8h s/indicación
+910,232,20,1 comp. c/24h
+911,232,32,1 toma c/8h s/indicación
+912,232,35,1 toma c/8h s/indicación
+913,232,33,1 toma c/8h s/indicación
+914,233,84,1 toma c/8h s/indicación
+915,233,12,1 toma c/8h s/indicación
+916,233,80,1 toma c/8h s/indicación
+917,233,85,1 toma c/8h s/indicación
+918,234,84,1 toma c/8h s/indicación
+919,234,12,1 toma c/8h s/indicación
+920,234,80,1 toma c/8h s/indicación
+921,234,85,1 toma c/8h s/indicación
+922,235,84,1 toma c/8h s/indicación
+923,235,80,1 toma c/8h s/indicación
+924,235,85,1 toma c/8h s/indicación
+925,235,56,1 toma c/8h s/indicación
+926,236,84,1 toma c/8h s/indicación
+927,236,80,1 toma c/8h s/indicación
+928,236,85,1 toma c/8h s/indicación
+929,237,15,1 toma c/8h s/indicación
+930,237,71,1 toma c/8h s/indicación
+931,237,64,1 toma c/8h s/indicación
+932,238,71,1 toma c/8h s/indicación
+933,238,59,1 toma c/8h s/indicación
+934,238,64,1 toma c/8h s/indicación
+935,239,84,1 toma c/8h s/indicación
+936,239,80,1 toma c/8h s/indicación
+937,239,85,1 toma c/8h s/indicación
+938,240,84,1 toma c/8h s/indicación
+939,240,80,1 toma c/8h s/indicación
+940,240,85,1 toma c/8h s/indicación
+941,240,60,1 toma c/8h s/indicación
+942,241,84,1 toma c/8h s/indicación
+943,241,12,1 toma c/8h s/indicación
+944,241,80,1 toma c/8h s/indicación
+945,241,85,1 toma c/8h s/indicación
+946,242,25,1 toma c/8h s/indicación
+947,242,19,1 comp. c/24h
+948,242,15,1 toma c/8h s/indicación
+949,242,33,1 toma c/8h s/indicación
+950,243,25,1 toma c/8h s/indicación
+951,243,19,1 comp. c/24h
+952,243,15,1 toma c/8h s/indicación
+953,244,56,1 toma c/8h s/indicación
+954,244,25,1 toma c/8h s/indicación
+955,244,19,1 comp. c/24h
+956,244,15,1 toma c/8h s/indicación
+957,244,60,1 toma c/8h s/indicación
+958,245,71,1 toma c/8h s/indicación
+959,245,12,1 toma c/8h s/indicación
+960,245,64,1 toma c/8h s/indicación
+961,245,33,1 toma c/8h s/indicación
+962,246,71,1 toma c/8h s/indicación
+963,246,64,1 toma c/8h s/indicación
+964,247,71,1 toma c/8h s/indicación
+965,247,64,1 toma c/8h s/indicación
+966,247,33,1 toma c/8h s/indicación
+967,248,25,1 toma c/8h s/indicación
+968,248,19,1 comp. c/24h
+969,248,12,1 toma c/8h s/indicación
+970,248,15,1 toma c/8h s/indicación
+971,249,25,1 toma c/8h s/indicación
+972,249,19,1 comp. c/24h
+973,249,15,1 toma c/8h s/indicación
+974,249,10,1 toma c/8h s/indicación
+975,250,16,1 toma c/8h s/indicación
+976,251,56,1 toma c/8h s/indicación
+977,252,11,1 toma c/8h s/indicación
+978,253,25,1 toma c/8h s/indicación
+979,253,19,1 comp. c/24h
+980,253,15,1 toma c/8h s/indicación
+981,253,60,1 toma c/8h s/indicación
+982,254,25,1 toma c/8h s/indicación
+983,254,19,1 comp. c/24h
+984,254,15,1 toma c/8h s/indicación
+985,255,25,1 toma c/8h s/indicación
+986,255,9,1 toma c/8h s/indicación
+987,255,19,1 comp. c/24h
+988,255,15,1 toma c/8h s/indicación
+989,255,16,1 toma c/8h s/indicación
+990,256,25,1 toma c/8h s/indicación
+991,256,19,1 comp. c/24h
+992,256,59,1 toma c/8h s/indicación
+993,256,15,1 toma c/8h s/indicación
+994,257,21,1 comp. c/24h
+995,257,41,1 comp. c/24h
+996,257,3,1 toma c/8h s/indicación
+997,257,16,1 toma c/8h s/indicación
+998,257,12,1 toma c/8h s/indicación
+999,257,30,1 toma c/8h s/indicación
+1000,258,41,1 comp. c/24h
+1001,258,3,1 toma c/8h s/indicación
+1002,258,30,1 toma c/8h s/indicación
+1003,258,21,1 comp. c/24h
+1004,259,21,1 comp. c/24h
+1005,259,41,1 comp. c/24h
+1006,259,73,1 toma c/8h s/indicación
+1007,259,3,1 toma c/8h s/indicación
+1008,259,30,1 toma c/8h s/indicación
+1009,260,91,1 toma c/8h s/indicación
+1010,261,16,1 toma c/8h s/indicación
+1011,262,9,1 toma c/8h s/indicación
+1012,263,88,1 toma c/8h s/indicación
+1013,264,47,1 toma c/8h s/indicación
+1014,264,20,1 comp. c/24h
+1015,264,60,1 toma c/8h s/indicación
+1016,264,51,1 toma c/8h s/indicación
+1017,264,42,1 comp. c/24h
+1018,265,9,1 toma c/8h s/indicación
+1019,265,47,1 toma c/8h s/indicación
+1020,265,20,1 comp. c/24h
+1021,265,51,1 toma c/8h s/indicación
+1022,265,42,1 comp. c/24h
+1023,266,42,1 comp. c/24h
+1024,266,20,1 comp. c/24h
+1025,266,51,1 toma c/8h s/indicación
+1026,266,47,1 toma c/8h s/indicación
+1027,267,84,1 toma c/8h s/indicación
+1028,267,59,1 toma c/8h s/indicación
+1029,267,80,1 toma c/8h s/indicación
+1030,267,85,1 toma c/8h s/indicación
+1031,268,84,1 toma c/8h s/indicación
+1032,268,80,1 toma c/8h s/indicación
+1033,268,85,1 toma c/8h s/indicación
+1034,269,84,1 toma c/8h s/indicación
+1035,269,80,1 toma c/8h s/indicación
+1036,269,85,1 toma c/8h s/indicación
+1037,270,12,1 toma c/8h s/indicación
+1038,271,56,1 toma c/8h s/indicación
+1039,272,59,1 toma c/8h s/indicación
+1040,273,12,1 toma c/8h s/indicación
+1041,274,11,1 toma c/8h s/indicación
+1042,275,80,1 toma c/8h s/indicación
+1043,276,15,1 toma c/8h s/indicación
+1044,276,71,1 toma c/8h s/indicación
+1045,276,64,1 toma c/8h s/indicación
+1046,277,71,1 toma c/8h s/indicación
+1047,277,64,1 toma c/8h s/indicación
+1048,277,33,1 toma c/8h s/indicación
+1049,278,71,1 toma c/8h s/indicación
+1050,278,73,1 toma c/8h s/indicación
+1051,278,64,1 toma c/8h s/indicación
+1052,279,71,1 toma c/8h s/indicación
+1053,279,64,1 toma c/8h s/indicación
+1054,279,9,1 toma c/8h s/indicación
+1055,280,39,1 toma c/8h s/indicación
+1056,280,91,1 toma c/8h s/indicación
+1057,280,16,1 toma c/8h s/indicación
+1058,280,2,1 toma c/8h s/indicación
+1059,280,35,1 toma c/8h s/indicación
+1060,281,9,1 toma c/8h s/indicación
+1061,281,39,1 toma c/8h s/indicación
+1062,281,2,1 toma c/8h s/indicación
+1063,281,80,1 toma c/8h s/indicación
+1064,281,35,1 toma c/8h s/indicación
+1065,282,59,1 toma c/8h s/indicación
+1066,282,39,1 toma c/8h s/indicación
+1067,282,35,1 toma c/8h s/indicación
+1068,282,2,1 toma c/8h s/indicación
+1069,283,15,1 toma c/8h s/indicación
+1070,283,39,1 toma c/8h s/indicación
+1071,283,35,1 toma c/8h s/indicación
+1072,283,2,1 toma c/8h s/indicación
+1073,284,25,1 toma c/8h s/indicación
+1074,284,19,1 comp. c/24h
+1075,284,15,1 toma c/8h s/indicación
+1076,285,25,1 toma c/8h s/indicación
+1077,285,19,1 comp. c/24h
+1078,285,80,1 toma c/8h s/indicación
+1079,285,15,1 toma c/8h s/indicación
+1080,286,25,1 toma c/8h s/indicación
+1081,286,19,1 comp. c/24h
+1082,286,80,1 toma c/8h s/indicación
+1083,286,15,1 toma c/8h s/indicación
+1084,287,91,1 toma c/8h s/indicación
+1085,288,9,1 toma c/8h s/indicación
+1086,289,15,1 toma c/8h s/indicación
+1087,290,41,1 comp. c/24h
+1088,290,3,1 toma c/8h s/indicación
+1089,290,30,1 toma c/8h s/indicación
+1090,290,21,1 comp. c/24h
+1091,291,59,1 toma c/8h s/indicación
+1092,291,21,1 comp. c/24h
+1093,291,41,1 comp. c/24h
+1094,291,3,1 toma c/8h s/indicación
+1095,291,16,1 toma c/8h s/indicación
+1096,291,30,1 toma c/8h s/indicación
+1097,292,21,1 comp. c/24h
+1098,292,41,1 comp. c/24h
+1099,292,3,1 toma c/8h s/indicación
+1100,292,30,1 toma c/8h s/indicación
+1101,292,33,1 toma c/8h s/indicación
+1102,293,71,1 toma c/8h s/indicación
+1103,293,16,1 toma c/8h s/indicación
+1104,293,64,1 toma c/8h s/indicación
+1105,294,71,1 toma c/8h s/indicación
+1106,294,64,1 toma c/8h s/indicación
+1107,294,10,1 toma c/8h s/indicación
+1108,295,71,1 toma c/8h s/indicación
+1109,295,64,1 toma c/8h s/indicación
+1110,296,71,1 toma c/8h s/indicación
+1111,296,12,1 toma c/8h s/indicación
+1112,296,64,1 toma c/8h s/indicación
+1113,297,25,1 toma c/8h s/indicación
+1114,297,19,1 comp. c/24h
+1115,297,12,1 toma c/8h s/indicación
+1116,297,15,1 toma c/8h s/indicación
+1117,298,25,1 toma c/8h s/indicación
+1118,298,19,1 comp. c/24h
+1119,298,15,1 toma c/8h s/indicación
+1120,298,57,1 toma c/8h s/indicación
+1121,299,56,1 toma c/8h s/indicación
+1122,299,21,1 comp. c/24h
+1123,299,10,1 toma c/8h s/indicación
+1124,299,41,1 comp. c/24h
+1125,299,3,1 toma c/8h s/indicación
+1126,299,30,1 toma c/8h s/indicación
+1127,300,21,1 comp. c/24h
+1128,300,41,1 comp. c/24h
+1129,300,3,1 toma c/8h s/indicación
+1130,300,30,1 toma c/8h s/indicación
+1131,300,11,1 toma c/8h s/indicación
+1132,301,57,1 toma c/8h s/indicación
+1133,301,21,1 comp. c/24h
+1134,301,41,1 comp. c/24h
+1135,301,3,1 toma c/8h s/indicación
+1136,301,30,1 toma c/8h s/indicación
+1137,302,88,1 toma c/8h s/indicación
+1138,303,15,1 toma c/8h s/indicación
+1139,304,21,1 comp. c/24h
+1140,304,41,1 comp. c/24h
+1141,304,3,1 toma c/8h s/indicación
+1142,304,15,1 toma c/8h s/indicación
+1143,304,60,1 toma c/8h s/indicación
+1144,304,30,1 toma c/8h s/indicación
+1145,305,56,1 toma c/8h s/indicación
+1146,305,21,1 comp. c/24h
+1147,305,41,1 comp. c/24h
+1148,305,3,1 toma c/8h s/indicación
+1149,305,30,1 toma c/8h s/indicación
+1150,306,41,1 comp. c/24h
+1151,306,3,1 toma c/8h s/indicación
+1152,306,30,1 toma c/8h s/indicación
+1153,306,21,1 comp. c/24h
+1154,307,21,1 comp. c/24h
+1155,307,10,1 toma c/8h s/indicación
+1156,307,41,1 comp. c/24h
+1157,307,3,1 toma c/8h s/indicación
+1158,307,30,1 toma c/8h s/indicación
+1159,308,33,1 toma c/8h s/indicación
+1160,308,20,1 comp. c/24h
+1161,308,91,1 toma c/8h s/indicación
+1162,308,32,1 toma c/8h s/indicación
+1163,308,35,1 toma c/8h s/indicación
+1164,309,9,1 toma c/8h s/indicación
+1165,309,33,1 toma c/8h s/indicación
+1166,309,20,1 comp. c/24h
+1167,309,32,1 toma c/8h s/indicación
+1168,309,35,1 toma c/8h s/indicación
+1169,310,39,1 toma c/8h s/indicación
+1170,310,35,1 toma c/8h s/indicación
+1171,310,2,1 toma c/8h s/indicación
+1172,310,9,1 toma c/8h s/indicación
+1173,311,39,1 toma c/8h s/indicación
+1174,311,35,1 toma c/8h s/indicación
+1175,311,2,1 toma c/8h s/indicación
+1176,311,60,1 toma c/8h s/indicación
+1177,312,16,1 toma c/8h s/indicación
+1178,312,39,1 toma c/8h s/indicación
+1179,312,35,1 toma c/8h s/indicación
+1180,312,2,1 toma c/8h s/indicación
+1181,313,59,1 toma c/8h s/indicación
+1182,313,39,1 toma c/8h s/indicación
+1183,313,35,1 toma c/8h s/indicación
+1184,313,2,1 toma c/8h s/indicación
+1185,314,20,1 comp. c/24h
+1186,314,32,1 toma c/8h s/indicación
+1187,314,35,1 toma c/8h s/indicación
+1188,314,33,1 toma c/8h s/indicación
+1189,315,33,1 toma c/8h s/indicación
+1190,315,20,1 comp. c/24h
+1191,315,73,1 toma c/8h s/indicación
+1192,315,60,1 toma c/8h s/indicación
+1193,315,32,1 toma c/8h s/indicación
+1194,315,35,1 toma c/8h s/indicación
+1195,316,25,1 toma c/8h s/indicación
+1196,316,19,1 comp. c/24h
+1197,316,15,1 toma c/8h s/indicación
+1198,316,10,1 toma c/8h s/indicación
+1199,317,25,1 toma c/8h s/indicación
+1200,317,19,1 comp. c/24h
+1201,317,15,1 toma c/8h s/indicación
+1202,317,91,1 toma c/8h s/indicación
+1203,318,25,1 toma c/8h s/indicación
+1204,318,19,1 comp. c/24h
+1205,318,15,1 toma c/8h s/indicación
+1206,319,47,1 toma c/8h s/indicación
+1207,319,20,1 comp. c/24h
+1208,319,60,1 toma c/8h s/indicación
+1209,319,51,1 toma c/8h s/indicación
+1210,319,42,1 comp. c/24h
+1211,320,56,1 toma c/8h s/indicación
+1212,320,47,1 toma c/8h s/indicación
+1213,320,20,1 comp. c/24h
+1214,320,60,1 toma c/8h s/indicación
+1215,320,51,1 toma c/8h s/indicación
+1216,320,42,1 comp. c/24h
+1217,321,47,1 toma c/8h s/indicación
+1218,321,20,1 comp. c/24h
+1219,321,91,1 toma c/8h s/indicación
+1220,321,51,1 toma c/8h s/indicación
+1221,321,42,1 comp. c/24h
+1222,322,47,1 toma c/8h s/indicación
+1223,322,20,1 comp. c/24h
+1224,322,91,1 toma c/8h s/indicación
+1225,322,51,1 toma c/8h s/indicación
+1226,322,42,1 comp. c/24h
+1227,323,71,1 toma c/8h s/indicación
+1228,323,16,1 toma c/8h s/indicación
+1229,323,64,1 toma c/8h s/indicación
+1230,324,91,1 toma c/8h s/indicación
+1231,324,71,1 toma c/8h s/indicación
+1232,324,64,1 toma c/8h s/indicación
+1233,325,47,1 toma c/8h s/indicación
+1234,325,20,1 comp. c/24h
+1235,325,91,1 toma c/8h s/indicación
+1236,325,51,1 toma c/8h s/indicación
+1237,325,42,1 comp. c/24h
+1238,326,47,1 toma c/8h s/indicación
+1239,326,20,1 comp. c/24h
+1240,326,15,1 toma c/8h s/indicación
+1241,326,51,1 toma c/8h s/indicación
+1242,326,42,1 comp. c/24h
+1243,327,84,1 toma c/8h s/indicación
+1244,327,16,1 toma c/8h s/indicación
+1245,327,80,1 toma c/8h s/indicación
+1246,327,85,1 toma c/8h s/indicación
+1247,328,9,1 toma c/8h s/indicación
+1248,328,84,1 toma c/8h s/indicación
+1249,328,60,1 toma c/8h s/indicación
+1250,328,80,1 toma c/8h s/indicación
+1251,328,85,1 toma c/8h s/indicación
+1252,329,84,1 toma c/8h s/indicación
+1253,329,80,1 toma c/8h s/indicación
+1254,329,85,1 toma c/8h s/indicación
+1255,330,84,1 toma c/8h s/indicación
+1256,330,80,1 toma c/8h s/indicación
+1257,330,85,1 toma c/8h s/indicación
+1258,330,11,1 toma c/8h s/indicación
+1259,331,73,1 toma c/8h s/indicación
+1260,331,39,1 toma c/8h s/indicación
+1261,331,35,1 toma c/8h s/indicación
+1262,331,2,1 toma c/8h s/indicación
+1263,332,39,1 toma c/8h s/indicación
+1264,332,35,1 toma c/8h s/indicación
+1265,332,2,1 toma c/8h s/indicación
+1266,333,9,1 toma c/8h s/indicación
+1267,333,33,1 toma c/8h s/indicación
+1268,333,20,1 comp. c/24h
+1269,333,32,1 toma c/8h s/indicación
+1270,333,35,1 toma c/8h s/indicación
+1271,334,33,1 toma c/8h s/indicación
+1272,334,20,1 comp. c/24h
+1273,334,11,1 toma c/8h s/indicación
+1274,334,32,1 toma c/8h s/indicación
+1275,334,35,1 toma c/8h s/indicación
+1276,335,33,1 toma c/8h s/indicación
+1277,335,20,1 comp. c/24h
+1278,335,11,1 toma c/8h s/indicación
+1279,335,32,1 toma c/8h s/indicación
+1280,335,35,1 toma c/8h s/indicación
+1281,336,20,1 comp. c/24h
+1282,336,32,1 toma c/8h s/indicación
+1283,336,35,1 toma c/8h s/indicación
+1284,336,33,1 toma c/8h s/indicación
+1285,337,33,1 toma c/8h s/indicación
+1286,337,20,1 comp. c/24h
+1287,337,60,1 toma c/8h s/indicación
+1288,337,88,1 toma c/8h s/indicación
+1289,337,32,1 toma c/8h s/indicación
+1290,337,35,1 toma c/8h s/indicación
+1291,338,15,1 toma c/8h s/indicación
+1292,338,84,1 toma c/8h s/indicación
+1293,338,16,1 toma c/8h s/indicación
+1294,338,80,1 toma c/8h s/indicación
+1295,338,85,1 toma c/8h s/indicación
+1296,339,84,1 toma c/8h s/indicación
+1297,339,80,1 toma c/8h s/indicación
+1298,339,85,1 toma c/8h s/indicación
+1299,339,73,1 toma c/8h s/indicación
+1300,340,84,1 toma c/8h s/indicación
+1301,340,80,1 toma c/8h s/indicación
+1302,340,85,1 toma c/8h s/indicación
+1303,340,10,1 toma c/8h s/indicación
+1304,341,84,1 toma c/8h s/indicación
+1305,341,80,1 toma c/8h s/indicación
+1306,341,85,1 toma c/8h s/indicación
+1307,342,47,1 toma c/8h s/indicación
+1308,342,20,1 comp. c/24h
+1309,342,60,1 toma c/8h s/indicación
+1310,342,51,1 toma c/8h s/indicación
+1311,342,42,1 comp. c/24h
+1312,343,47,1 toma c/8h s/indicación
+1313,343,20,1 comp. c/24h
+1314,343,16,1 toma c/8h s/indicación
+1315,343,51,1 toma c/8h s/indicación
+1316,343,42,1 comp. c/24h
+1317,344,42,1 comp. c/24h
+1318,344,20,1 comp. c/24h
+1319,344,51,1 toma c/8h s/indicación
+1320,344,47,1 toma c/8h s/indicación
+1321,345,11,1 toma c/8h s/indicación
+1322,346,59,1 toma c/8h s/indicación
+1323,347,71,1 toma c/8h s/indicación
+1324,347,64,1 toma c/8h s/indicación
+1325,347,10,1 toma c/8h s/indicación
+1326,348,56,1 toma c/8h s/indicación
+1327,348,71,1 toma c/8h s/indicación
+1328,348,64,1 toma c/8h s/indicación
+1329,349,71,1 toma c/8h s/indicación
+1330,349,59,1 toma c/8h s/indicación
+1331,349,64,1 toma c/8h s/indicación
+1332,349,9,1 toma c/8h s/indicación
+1333,350,84,1 toma c/8h s/indicación
+1334,350,80,1 toma c/8h s/indicación
+1335,350,85,1 toma c/8h s/indicación
+1336,350,73,1 toma c/8h s/indicación
+1337,351,84,1 toma c/8h s/indicación
+1338,351,12,1 toma c/8h s/indicación
+1339,351,80,1 toma c/8h s/indicación
+1340,351,85,1 toma c/8h s/indicación
+1341,352,84,1 toma c/8h s/indicación
+1342,352,80,1 toma c/8h s/indicación
+1343,352,85,1 toma c/8h s/indicación
+1344,352,57,1 toma c/8h s/indicación
+1345,353,84,1 toma c/8h s/indicación
+1346,353,15,1 toma c/8h s/indicación
+1347,353,80,1 toma c/8h s/indicación
+1348,353,85,1 toma c/8h s/indicación
+1349,354,16,1 toma c/8h s/indicación
+1350,355,60,1 toma c/8h s/indicación
+1351,356,56,1 toma c/8h s/indicación
+1352,357,10,1 toma c/8h s/indicación
+1353,358,71,1 toma c/8h s/indicación
+1354,358,64,1 toma c/8h s/indicación
+1355,358,10,1 toma c/8h s/indicación
+1356,359,71,1 toma c/8h s/indicación
+1357,359,12,1 toma c/8h s/indicación
+1358,359,64,1 toma c/8h s/indicación
+1359,360,71,1 toma c/8h s/indicación
+1360,360,59,1 toma c/8h s/indicación
+1361,360,64,1 toma c/8h s/indicación
+1362,361,71,1 toma c/8h s/indicación
+1363,361,64,1 toma c/8h s/indicación
+1364,361,60,1 toma c/8h s/indicación
+1365,362,25,1 toma c/8h s/indicación
+1366,362,19,1 comp. c/24h
+1367,362,15,1 toma c/8h s/indicación
+1368,363,25,1 toma c/8h s/indicación
+1369,363,19,1 comp. c/24h
+1370,363,80,1 toma c/8h s/indicación
+1371,363,15,1 toma c/8h s/indicación
+1372,364,25,1 toma c/8h s/indicación
+1373,364,19,1 comp. c/24h
+1374,364,15,1 toma c/8h s/indicación
+1375,364,88,1 toma c/8h s/indicación
+1376,365,60,1 toma c/8h s/indicación
+1377,366,59,1 toma c/8h s/indicación
+1378,367,80,1 toma c/8h s/indicación
+1379,368,91,1 toma c/8h s/indicación
+1380,369,59,1 toma c/8h s/indicación
+1381,369,84,1 toma c/8h s/indicación
+1382,369,80,1 toma c/8h s/indicación
+1383,369,85,1 toma c/8h s/indicación
+1384,369,33,1 toma c/8h s/indicación
+1385,370,84,1 toma c/8h s/indicación
+1386,370,80,1 toma c/8h s/indicación
+1387,370,85,1 toma c/8h s/indicación
+1388,370,73,1 toma c/8h s/indicación
+1389,371,59,1 toma c/8h s/indicación
+1390,372,16,1 toma c/8h s/indicación
+1391,372,88,1 toma c/8h s/indicación
+1392,373,10,1 toma c/8h s/indicación
+1393,374,91,1 toma c/8h s/indicación
+1394,375,20,1 comp. c/24h
+1395,375,32,1 toma c/8h s/indicación
+1396,375,35,1 toma c/8h s/indicación
+1397,375,33,1 toma c/8h s/indicación
+1398,376,20,1 comp. c/24h
+1399,376,32,1 toma c/8h s/indicación
+1400,376,35,1 toma c/8h s/indicación
+1401,376,33,1 toma c/8h s/indicación
+1402,377,56,1 toma c/8h s/indicación
+1403,377,39,1 toma c/8h s/indicación
+1404,377,16,1 toma c/8h s/indicación
+1405,377,2,1 toma c/8h s/indicación
+1406,377,35,1 toma c/8h s/indicación
+1407,378,57,1 toma c/8h s/indicación
+1408,378,39,1 toma c/8h s/indicación
+1409,378,35,1 toma c/8h s/indicación
+1410,378,2,1 toma c/8h s/indicación
+1411,379,39,1 toma c/8h s/indicación
+1412,379,35,1 toma c/8h s/indicación
+1413,379,2,1 toma c/8h s/indicación
+1414,380,39,1 toma c/8h s/indicación
+1415,380,35,1 toma c/8h s/indicación
+1416,380,2,1 toma c/8h s/indicación
+1417,380,60,1 toma c/8h s/indicación
+1418,381,25,1 toma c/8h s/indicación
+1419,381,19,1 comp. c/24h
+1420,381,15,1 toma c/8h s/indicación
+1421,381,60,1 toma c/8h s/indicación
+1422,381,88,1 toma c/8h s/indicación
+1423,382,25,1 toma c/8h s/indicación
+1424,382,19,1 comp. c/24h
+1425,382,59,1 toma c/8h s/indicación
+1426,382,15,1 toma c/8h s/indicación
+1427,383,25,1 toma c/8h s/indicación
+1428,383,19,1 comp. c/24h
+1429,383,15,1 toma c/8h s/indicación
+1430,383,88,1 toma c/8h s/indicación
+1431,384,71,1 toma c/8h s/indicación
+1432,384,64,1 toma c/8h s/indicación
+1433,385,71,1 toma c/8h s/indicación
+1434,385,80,1 toma c/8h s/indicación
+1435,385,64,1 toma c/8h s/indicación
+1436,386,71,1 toma c/8h s/indicación
+1437,386,64,1 toma c/8h s/indicación
+1438,386,88,1 toma c/8h s/indicación
+1439,387,57,1 toma c/8h s/indicación
+1440,387,47,1 toma c/8h s/indicación
+1441,387,20,1 comp. c/24h
+1442,387,51,1 toma c/8h s/indicación
+1443,387,42,1 comp. c/24h
+1444,388,42,1 comp. c/24h
+1445,388,20,1 comp. c/24h
+1446,388,51,1 toma c/8h s/indicación
+1447,388,47,1 toma c/8h s/indicación
+1448,389,71,1 toma c/8h s/indicación
+1449,389,64,1 toma c/8h s/indicación
+1450,389,60,1 toma c/8h s/indicación
+1451,390,57,1 toma c/8h s/indicación
+1452,390,71,1 toma c/8h s/indicación
+1453,390,64,1 toma c/8h s/indicación
+1454,391,16,1 toma c/8h s/indicación
+1455,391,71,1 toma c/8h s/indicación
+1456,391,59,1 toma c/8h s/indicación
+1457,391,64,1 toma c/8h s/indicación
+1458,392,71,1 toma c/8h s/indicación
+1459,392,12,1 toma c/8h s/indicación
+1460,392,64,1 toma c/8h s/indicación
+1461,393,91,1 toma c/8h s/indicación
+1462,394,11,1 toma c/8h s/indicación
+1463,395,73,1 toma c/8h s/indicación
+1464,396,12,1 toma c/8h s/indicación
+1465,397,60,1 toma c/8h s/indicación
+1466,398,60,1 toma c/8h s/indicación
+1467,398,10,1 toma c/8h s/indicación
+1468,399,56,1 toma c/8h s/indicación
+1469,400,56,1 toma c/8h s/indicación
+1470,401,12,1 toma c/8h s/indicación
+1471,402,41,1 comp. c/24h
+1472,402,3,1 toma c/8h s/indicación
+1473,402,30,1 toma c/8h s/indicación
+1474,402,21,1 comp. c/24h
+1475,403,21,1 comp. c/24h
+1476,403,9,1 toma c/8h s/indicación
+1477,403,41,1 comp. c/24h
+1478,403,3,1 toma c/8h s/indicación
+1479,403,12,1 toma c/8h s/indicación
+1480,403,30,1 toma c/8h s/indicación
+1481,404,59,1 toma c/8h s/indicación
+1482,404,9,1 toma c/8h s/indicación
+1483,404,39,1 toma c/8h s/indicación
+1484,404,2,1 toma c/8h s/indicación
+1485,404,35,1 toma c/8h s/indicación
+1486,405,15,1 toma c/8h s/indicación
+1487,405,39,1 toma c/8h s/indicación
+1488,405,16,1 toma c/8h s/indicación
+1489,405,2,1 toma c/8h s/indicación
+1490,405,35,1 toma c/8h s/indicación
+1491,406,39,1 toma c/8h s/indicación
+1492,406,35,1 toma c/8h s/indicación
+1493,406,2,1 toma c/8h s/indicación
+1494,407,39,1 toma c/8h s/indicación
+1495,407,35,1 toma c/8h s/indicación
+1496,407,2,1 toma c/8h s/indicación
+1497,408,25,1 toma c/8h s/indicación
+1498,408,19,1 comp. c/24h
+1499,408,15,1 toma c/8h s/indicación
+1500,408,11,1 toma c/8h s/indicación
+1501,409,25,1 toma c/8h s/indicación
+1502,409,19,1 comp. c/24h
+1503,409,15,1 toma c/8h s/indicación
+1504,410,25,1 toma c/8h s/indicación
+1505,410,19,1 comp. c/24h
+1506,410,16,1 toma c/8h s/indicación
+1507,410,15,1 toma c/8h s/indicación
+1508,411,25,1 toma c/8h s/indicación
+1509,411,19,1 comp. c/24h
+1510,411,15,1 toma c/8h s/indicación
+1511,412,84,1 toma c/8h s/indicación
+1512,412,80,1 toma c/8h s/indicación
+1513,412,85,1 toma c/8h s/indicación
+1514,412,10,1 toma c/8h s/indicación
+1515,413,10,1 toma c/8h s/indicación
+1516,413,73,1 toma c/8h s/indicación
+1517,413,84,1 toma c/8h s/indicación
+1518,413,80,1 toma c/8h s/indicación
+1519,413,85,1 toma c/8h s/indicación
+1520,414,84,1 toma c/8h s/indicación
+1521,414,80,1 toma c/8h s/indicación
+1522,414,85,1 toma c/8h s/indicación
+1523,415,25,1 toma c/8h s/indicación
+1524,415,19,1 comp. c/24h
+1525,415,15,1 toma c/8h s/indicación
+1526,415,10,1 toma c/8h s/indicación
+1527,416,25,1 toma c/8h s/indicación
+1528,416,19,1 comp. c/24h
+1529,416,15,1 toma c/8h s/indicación
+1530,417,25,1 toma c/8h s/indicación
+1531,417,19,1 comp. c/24h
+1532,417,15,1 toma c/8h s/indicación
+1533,417,9,1 toma c/8h s/indicación
+1534,418,9,1 toma c/8h s/indicación
+1535,418,39,1 toma c/8h s/indicación
+1536,418,60,1 toma c/8h s/indicación
+1537,418,2,1 toma c/8h s/indicación
+1538,418,35,1 toma c/8h s/indicación
+1539,419,39,1 toma c/8h s/indicación
+1540,419,35,1 toma c/8h s/indicación
+1541,419,2,1 toma c/8h s/indicación
+1542,419,11,1 toma c/8h s/indicación
+1543,420,33,1 toma c/8h s/indicación
+1544,420,39,1 toma c/8h s/indicación
+1545,420,12,1 toma c/8h s/indicación
+1546,420,2,1 toma c/8h s/indicación
+1547,420,35,1 toma c/8h s/indicación
+1548,421,16,1 toma c/8h s/indicación
+1549,422,80,1 toma c/8h s/indicación
+1550,423,16,1 toma c/8h s/indicación
+1551,424,80,1 toma c/8h s/indicación
+1552,425,56,1 toma c/8h s/indicación
+1553,426,80,1 toma c/8h s/indicación
+1554,427,25,1 toma c/8h s/indicación
+1555,427,19,1 comp. c/24h
+1556,427,15,1 toma c/8h s/indicación
+1557,428,25,1 toma c/8h s/indicación
+1558,428,19,1 comp. c/24h
+1559,428,15,1 toma c/8h s/indicación
+1560,429,25,1 toma c/8h s/indicación
+1561,429,19,1 comp. c/24h
+1562,429,15,1 toma c/8h s/indicación
+1563,430,25,1 toma c/8h s/indicación
+1564,430,19,1 comp. c/24h
+1565,430,15,1 toma c/8h s/indicación
+1566,430,60,1 toma c/8h s/indicación
+1567,430,80,1 toma c/8h s/indicación
+1568,431,71,1 toma c/8h s/indicación
+1569,431,12,1 toma c/8h s/indicación
+1570,431,64,1 toma c/8h s/indicación
+1571,432,71,1 toma c/8h s/indicación
+1572,432,64,1 toma c/8h s/indicación
+1573,432,9,1 toma c/8h s/indicación
+1574,433,71,1 toma c/8h s/indicación
+1575,433,64,1 toma c/8h s/indicación
+1576,433,10,1 toma c/8h s/indicación
+1577,434,71,1 toma c/8h s/indicación
+1578,434,64,1 toma c/8h s/indicación
+1579,434,60,1 toma c/8h s/indicación
+1580,435,16,1 toma c/8h s/indicación
+1581,435,71,1 toma c/8h s/indicación
+1582,435,12,1 toma c/8h s/indicación
+1583,435,64,1 toma c/8h s/indicación
+1584,436,71,1 toma c/8h s/indicación
+1585,436,64,1 toma c/8h s/indicación
+1586,436,10,1 toma c/8h s/indicación
+1587,437,71,1 toma c/8h s/indicación
+1588,437,64,1 toma c/8h s/indicación
+1589,437,10,1 toma c/8h s/indicación
+1590,438,71,1 toma c/8h s/indicación
+1591,438,64,1 toma c/8h s/indicación
+1592,439,71,1 toma c/8h s/indicación
+1593,439,64,1 toma c/8h s/indicación
+1594,440,71,1 toma c/8h s/indicación
+1595,440,64,1 toma c/8h s/indicación
+1596,441,21,1 comp. c/24h
+1597,441,9,1 toma c/8h s/indicación
+1598,441,41,1 comp. c/24h
+1599,441,3,1 toma c/8h s/indicación
+1600,441,12,1 toma c/8h s/indicación
+1601,441,30,1 toma c/8h s/indicación
+1602,442,21,1 comp. c/24h
+1603,442,10,1 toma c/8h s/indicación
+1604,442,41,1 comp. c/24h
+1605,442,3,1 toma c/8h s/indicación
+1606,442,30,1 toma c/8h s/indicación
+1607,443,41,1 comp. c/24h
+1608,443,3,1 toma c/8h s/indicación
+1609,443,30,1 toma c/8h s/indicación
+1610,443,21,1 comp. c/24h
+1611,444,39,1 toma c/8h s/indicación
+1612,444,35,1 toma c/8h s/indicación
+1613,444,2,1 toma c/8h s/indicación
+1614,444,10,1 toma c/8h s/indicación
+1615,445,9,1 toma c/8h s/indicación
+1616,445,39,1 toma c/8h s/indicación
+1617,445,12,1 toma c/8h s/indicación
+1618,445,2,1 toma c/8h s/indicación
+1619,445,35,1 toma c/8h s/indicación
+1620,446,39,1 toma c/8h s/indicación
+1621,446,35,1 toma c/8h s/indicación
+1622,446,2,1 toma c/8h s/indicación
+1623,446,11,1 toma c/8h s/indicación
+1624,447,41,1 comp. c/24h
+1625,447,3,1 toma c/8h s/indicación
+1626,447,30,1 toma c/8h s/indicación
+1627,447,21,1 comp. c/24h
+1628,448,57,1 toma c/8h s/indicación
+1629,448,21,1 comp. c/24h
+1630,448,41,1 comp. c/24h
+1631,448,3,1 toma c/8h s/indicación
+1632,448,30,1 toma c/8h s/indicación
+1633,448,33,1 toma c/8h s/indicación
+1634,449,42,1 comp. c/24h
+1635,449,20,1 comp. c/24h
+1636,449,51,1 toma c/8h s/indicación
+1637,449,47,1 toma c/8h s/indicación
+1638,450,47,1 toma c/8h s/indicación
+1639,450,10,1 toma c/8h s/indicación
+1640,450,20,1 comp. c/24h
+1641,450,91,1 toma c/8h s/indicación
+1642,450,51,1 toma c/8h s/indicación
+1643,450,42,1 comp. c/24h
+1644,451,47,1 toma c/8h s/indicación
+1645,451,20,1 comp. c/24h
+1646,451,51,1 toma c/8h s/indicación
+1647,451,88,1 toma c/8h s/indicación
+1648,451,42,1 comp. c/24h
+1649,451,33,1 toma c/8h s/indicación
+1650,452,11,1 toma c/8h s/indicación
+1651,453,12,1 toma c/8h s/indicación
+1652,454,10,1 toma c/8h s/indicación
+1653,455,12,1 toma c/8h s/indicación
+1654,456,42,1 comp. c/24h
+1655,456,20,1 comp. c/24h
+1656,456,51,1 toma c/8h s/indicación
+1657,456,47,1 toma c/8h s/indicación
+1658,457,42,1 comp. c/24h
+1659,457,20,1 comp. c/24h
+1660,457,51,1 toma c/8h s/indicación
+1661,457,47,1 toma c/8h s/indicación
+1662,458,47,1 toma c/8h s/indicación
+1663,458,20,1 comp. c/24h
+1664,458,15,1 toma c/8h s/indicación
+1665,458,51,1 toma c/8h s/indicación
+1666,458,42,1 comp. c/24h
+1667,459,42,1 comp. c/24h
+1668,459,20,1 comp. c/24h
+1669,459,51,1 toma c/8h s/indicación
+1670,459,47,1 toma c/8h s/indicación
+1671,460,84,1 toma c/8h s/indicación
+1672,460,80,1 toma c/8h s/indicación
+1673,460,85,1 toma c/8h s/indicación
+1674,460,88,1 toma c/8h s/indicación
+1675,461,84,1 toma c/8h s/indicación
+1676,461,80,1 toma c/8h s/indicación
+1677,461,85,1 toma c/8h s/indicación
+1678,461,11,1 toma c/8h s/indicación
+1679,462,84,1 toma c/8h s/indicación
+1680,462,80,1 toma c/8h s/indicación
+1681,462,85,1 toma c/8h s/indicación
+1682,462,33,1 toma c/8h s/indicación
+1683,463,56,1 toma c/8h s/indicación
+1684,463,10,1 toma c/8h s/indicación
+1685,463,84,1 toma c/8h s/indicación
+1686,463,80,1 toma c/8h s/indicación
+1687,463,85,1 toma c/8h s/indicación
+1688,464,71,1 toma c/8h s/indicación
+1689,464,16,1 toma c/8h s/indicación
+1690,464,64,1 toma c/8h s/indicación
+1691,464,33,1 toma c/8h s/indicación
+1692,465,71,1 toma c/8h s/indicación
+1693,465,64,1 toma c/8h s/indicación
+1694,465,60,1 toma c/8h s/indicación
+1695,466,71,1 toma c/8h s/indicación
+1696,466,64,1 toma c/8h s/indicación
+1697,466,33,1 toma c/8h s/indicación
+1698,467,71,1 toma c/8h s/indicación
+1699,467,64,1 toma c/8h s/indicación
+1700,467,9,1 toma c/8h s/indicación
+1701,468,41,1 comp. c/24h
+1702,468,3,1 toma c/8h s/indicación
+1703,468,30,1 toma c/8h s/indicación
+1704,468,21,1 comp. c/24h
+1705,469,41,1 comp. c/24h
+1706,469,3,1 toma c/8h s/indicación
+1707,469,30,1 toma c/8h s/indicación
+1708,469,21,1 comp. c/24h
+1709,470,21,1 comp. c/24h
+1710,470,41,1 comp. c/24h
+1711,470,3,1 toma c/8h s/indicación
+1712,470,16,1 toma c/8h s/indicación
+1713,470,30,1 toma c/8h s/indicación
+1714,471,41,1 comp. c/24h
+1715,471,3,1 toma c/8h s/indicación
+1716,471,30,1 toma c/8h s/indicación
+1717,471,21,1 comp. c/24h
+1718,472,33,1 toma c/8h s/indicación
+1719,472,20,1 comp. c/24h
+1720,472,60,1 toma c/8h s/indicación
+1721,472,32,1 toma c/8h s/indicación
+1722,472,35,1 toma c/8h s/indicación
+1723,473,33,1 toma c/8h s/indicación
+1724,473,20,1 comp. c/24h
+1725,473,16,1 toma c/8h s/indicación
+1726,473,32,1 toma c/8h s/indicación
+1727,473,35,1 toma c/8h s/indicación
+1728,474,33,1 toma c/8h s/indicación
+1729,474,20,1 comp. c/24h
+1730,474,11,1 toma c/8h s/indicación
+1731,474,32,1 toma c/8h s/indicación
+1732,474,35,1 toma c/8h s/indicación
+1733,475,71,1 toma c/8h s/indicación
+1734,475,16,1 toma c/8h s/indicación
+1735,475,64,1 toma c/8h s/indicación
+1736,475,33,1 toma c/8h s/indicación
+1737,476,71,1 toma c/8h s/indicación
+1738,476,64,1 toma c/8h s/indicación
+1739,476,60,1 toma c/8h s/indicación
+1740,477,71,1 toma c/8h s/indicación
+1741,477,12,1 toma c/8h s/indicación
+1742,477,64,1 toma c/8h s/indicación
+1743,478,71,1 toma c/8h s/indicación
+1744,478,64,1 toma c/8h s/indicación
+1745,479,21,1 comp. c/24h
+1746,479,9,1 toma c/8h s/indicación
+1747,479,41,1 comp. c/24h
+1748,479,3,1 toma c/8h s/indicación
+1749,479,30,1 toma c/8h s/indicación
+1750,480,41,1 comp. c/24h
+1751,480,3,1 toma c/8h s/indicación
+1752,480,30,1 toma c/8h s/indicación
+1753,480,21,1 comp. c/24h
+1754,481,21,1 comp. c/24h
+1755,481,41,1 comp. c/24h
+1756,481,3,1 toma c/8h s/indicación
+1757,481,30,1 toma c/8h s/indicación
+1758,481,11,1 toma c/8h s/indicación
+1759,482,21,1 comp. c/24h
+1760,482,41,1 comp. c/24h
+1761,482,73,1 toma c/8h s/indicación
+1762,482,3,1 toma c/8h s/indicación
+1763,482,30,1 toma c/8h s/indicación
+1764,483,84,1 toma c/8h s/indicación
+1765,483,80,1 toma c/8h s/indicación
+1766,483,85,1 toma c/8h s/indicación
+1767,483,73,1 toma c/8h s/indicación
+1768,484,84,1 toma c/8h s/indicación
+1769,484,80,1 toma c/8h s/indicación
+1770,484,85,1 toma c/8h s/indicación
+1771,484,57,1 toma c/8h s/indicación
+1772,485,84,1 toma c/8h s/indicación
+1773,485,80,1 toma c/8h s/indicación
+1774,485,85,1 toma c/8h s/indicación
+1775,485,73,1 toma c/8h s/indicación
+1776,486,39,1 toma c/8h s/indicación
+1777,486,35,1 toma c/8h s/indicación
+1778,486,2,1 toma c/8h s/indicación
+1779,487,73,1 toma c/8h s/indicación
+1780,487,39,1 toma c/8h s/indicación
+1781,487,35,1 toma c/8h s/indicación
+1782,487,2,1 toma c/8h s/indicación
+1783,488,39,1 toma c/8h s/indicación
+1784,488,35,1 toma c/8h s/indicación
+1785,488,2,1 toma c/8h s/indicación
+1786,488,10,1 toma c/8h s/indicación
+1787,489,39,1 toma c/8h s/indicación
+1788,489,35,1 toma c/8h s/indicación
+1789,489,2,1 toma c/8h s/indicación
+1790,490,71,1 toma c/8h s/indicación
+1791,490,64,1 toma c/8h s/indicación
+1792,490,88,1 toma c/8h s/indicación
+1793,491,71,1 toma c/8h s/indicación
+1794,491,64,1 toma c/8h s/indicación
+1795,491,9,1 toma c/8h s/indicación
+1796,492,91,1 toma c/8h s/indicación
+1797,492,71,1 toma c/8h s/indicación
+1798,492,64,1 toma c/8h s/indicación
+1799,493,71,1 toma c/8h s/indicación
+1800,493,64,1 toma c/8h s/indicación
+1801,493,9,1 toma c/8h s/indicación
+1802,494,47,1 toma c/8h s/indicación
+1803,494,20,1 comp. c/24h
+1804,494,51,1 toma c/8h s/indicación
+1805,494,88,1 toma c/8h s/indicación
+1806,494,42,1 comp. c/24h
+1807,495,42,1 comp. c/24h
+1808,495,20,1 comp. c/24h
+1809,495,51,1 toma c/8h s/indicación
+1810,495,47,1 toma c/8h s/indicación
+1811,496,47,1 toma c/8h s/indicación
+1812,496,20,1 comp. c/24h
+1813,496,51,1 toma c/8h s/indicación
+1814,496,42,1 comp. c/24h
+1815,496,80,1 toma c/8h s/indicación
+1816,497,59,1 toma c/8h s/indicación
+1817,497,47,1 toma c/8h s/indicación
+1818,497,20,1 comp. c/24h
+1819,497,51,1 toma c/8h s/indicación
+1820,497,42,1 comp. c/24h
+1821,498,47,1 toma c/8h s/indicación
+1822,498,20,1 comp. c/24h
+1823,498,60,1 toma c/8h s/indicación
+1824,498,51,1 toma c/8h s/indicación
+1825,498,42,1 comp. c/24h
+1826,499,42,1 comp. c/24h
+1827,499,20,1 comp. c/24h
+1828,499,51,1 toma c/8h s/indicación
+1829,499,47,1 toma c/8h s/indicación
+1830,500,42,1 comp. c/24h
+1831,500,20,1 comp. c/24h
+1832,500,51,1 toma c/8h s/indicación
+1833,500,47,1 toma c/8h s/indicación
+1834,501,71,1 toma c/8h s/indicación
+1835,501,64,1 toma c/8h s/indicación
+1836,502,71,1 toma c/8h s/indicación
+1837,502,12,1 toma c/8h s/indicación
+1838,502,64,1 toma c/8h s/indicación
+1839,502,10,1 toma c/8h s/indicación
+1840,503,71,1 toma c/8h s/indicación
+1841,503,59,1 toma c/8h s/indicación
+1842,503,64,1 toma c/8h s/indicación
+1843,504,71,1 toma c/8h s/indicación
+1844,504,64,1 toma c/8h s/indicación
+1845,504,88,1 toma c/8h s/indicación
+1846,505,9,1 toma c/8h s/indicación
+1847,506,12,1 toma c/8h s/indicación
+1848,507,73,1 toma c/8h s/indicación
+1849,508,33,1 toma c/8h s/indicación
+1850,508,20,1 comp. c/24h
+1851,508,11,1 toma c/8h s/indicación
+1852,508,32,1 toma c/8h s/indicación
+1853,508,35,1 toma c/8h s/indicación
+1854,509,32,1 toma c/8h s/indicación
+1855,509,33,1 toma c/8h s/indicación
+1856,509,20,1 comp. c/24h
+1857,509,80,1 toma c/8h s/indicación
+1858,509,35,1 toma c/8h s/indicación
+1859,510,25,1 toma c/8h s/indicación
+1860,510,19,1 comp. c/24h
+1861,510,15,1 toma c/8h s/indicación
+1862,510,57,1 toma c/8h s/indicación
+1863,511,25,1 toma c/8h s/indicación
+1864,511,19,1 comp. c/24h
+1865,511,80,1 toma c/8h s/indicación
+1866,511,15,1 toma c/8h s/indicación
+1867,512,25,1 toma c/8h s/indicación
+1868,512,19,1 comp. c/24h
+1869,512,15,1 toma c/8h s/indicación
+1870,512,57,1 toma c/8h s/indicación
+1871,513,9,1 toma c/8h s/indicación
+1872,513,33,1 toma c/8h s/indicación
+1873,513,20,1 comp. c/24h
+1874,513,32,1 toma c/8h s/indicación
+1875,513,35,1 toma c/8h s/indicación
+1876,514,20,1 comp. c/24h
+1877,514,32,1 toma c/8h s/indicación
+1878,514,35,1 toma c/8h s/indicación
+1879,514,33,1 toma c/8h s/indicación
+1880,515,56,1 toma c/8h s/indicación
+1881,515,33,1 toma c/8h s/indicación
+1882,515,20,1 comp. c/24h
+1883,515,16,1 toma c/8h s/indicación
+1884,515,32,1 toma c/8h s/indicación
+1885,515,35,1 toma c/8h s/indicación
+1886,516,20,1 comp. c/24h
+1887,516,32,1 toma c/8h s/indicación
+1888,516,35,1 toma c/8h s/indicación
+1889,516,33,1 toma c/8h s/indicación
+1890,517,21,1 comp. c/24h
+1891,517,10,1 toma c/8h s/indicación
+1892,517,41,1 comp. c/24h
+1893,517,3,1 toma c/8h s/indicación
+1894,517,30,1 toma c/8h s/indicación
+1895,518,21,1 comp. c/24h
+1896,518,41,1 comp. c/24h
+1897,518,3,1 toma c/8h s/indicación
+1898,518,16,1 toma c/8h s/indicación
+1899,518,30,1 toma c/8h s/indicación
+1900,519,39,1 toma c/8h s/indicación
+1901,519,35,1 toma c/8h s/indicación
+1902,519,2,1 toma c/8h s/indicación
+1903,519,33,1 toma c/8h s/indicación
+1904,520,39,1 toma c/8h s/indicación
+1905,520,35,1 toma c/8h s/indicación
+1906,520,2,1 toma c/8h s/indicación
+1907,520,33,1 toma c/8h s/indicación
+1908,521,9,1 toma c/8h s/indicación
+1909,521,47,1 toma c/8h s/indicación
+1910,521,20,1 comp. c/24h
+1911,521,60,1 toma c/8h s/indicación
+1912,521,51,1 toma c/8h s/indicación
+1913,521,42,1 comp. c/24h
+1914,522,47,1 toma c/8h s/indicación
+1915,522,20,1 comp. c/24h
+1916,522,16,1 toma c/8h s/indicación
+1917,522,51,1 toma c/8h s/indicación
+1918,522,42,1 comp. c/24h
+1919,523,59,1 toma c/8h s/indicación
+1920,523,47,1 toma c/8h s/indicación
+1921,523,20,1 comp. c/24h
+1922,523,51,1 toma c/8h s/indicación
+1923,523,42,1 comp. c/24h
+1924,524,47,1 toma c/8h s/indicación
+1925,524,20,1 comp. c/24h
+1926,524,16,1 toma c/8h s/indicación
+1927,524,51,1 toma c/8h s/indicación
+1928,524,42,1 comp. c/24h
+1929,524,80,1 toma c/8h s/indicación
+1930,525,84,1 toma c/8h s/indicación
+1931,525,16,1 toma c/8h s/indicación
+1932,525,80,1 toma c/8h s/indicación
+1933,525,85,1 toma c/8h s/indicación
+1934,526,84,1 toma c/8h s/indicación
+1935,526,80,1 toma c/8h s/indicación
+1936,526,85,1 toma c/8h s/indicación
+1937,527,84,1 toma c/8h s/indicación
+1938,527,80,1 toma c/8h s/indicación
+1939,527,85,1 toma c/8h s/indicación
+1940,527,88,1 toma c/8h s/indicación
+1941,528,84,1 toma c/8h s/indicación
+1942,528,80,1 toma c/8h s/indicación
+1943,528,85,1 toma c/8h s/indicación
+1944,528,11,1 toma c/8h s/indicación
+1945,529,91,1 toma c/8h s/indicación
+1946,529,39,1 toma c/8h s/indicación
+1947,529,35,1 toma c/8h s/indicación
+1948,529,2,1 toma c/8h s/indicación
+1949,530,16,1 toma c/8h s/indicación
+1950,530,39,1 toma c/8h s/indicación
+1951,530,35,1 toma c/8h s/indicación
+1952,530,2,1 toma c/8h s/indicación
+1953,531,73,1 toma c/8h s/indicación
+1954,531,39,1 toma c/8h s/indicación
+1955,531,35,1 toma c/8h s/indicación
+1956,531,2,1 toma c/8h s/indicación
+1957,532,15,1 toma c/8h s/indicación
+1958,532,39,1 toma c/8h s/indicación
+1959,532,35,1 toma c/8h s/indicación
+1960,532,2,1 toma c/8h s/indicación
+1961,533,12,1 toma c/8h s/indicación
+1962,533,39,1 toma c/8h s/indicación
+1963,533,35,1 toma c/8h s/indicación
+1964,533,2,1 toma c/8h s/indicación
+1965,534,73,1 toma c/8h s/indicación
+1966,534,39,1 toma c/8h s/indicación
+1967,534,35,1 toma c/8h s/indicación
+1968,534,2,1 toma c/8h s/indicación
+1969,535,91,1 toma c/8h s/indicación
+1970,535,39,1 toma c/8h s/indicación
+1971,535,35,1 toma c/8h s/indicación
+1972,535,2,1 toma c/8h s/indicación
+1973,536,9,1 toma c/8h s/indicación
+1974,536,10,1 toma c/8h s/indicación
+1975,536,39,1 toma c/8h s/indicación
+1976,536,2,1 toma c/8h s/indicación
+1977,536,35,1 toma c/8h s/indicación
+1978,537,41,1 comp. c/24h
+1979,537,3,1 toma c/8h s/indicación
+1980,537,30,1 toma c/8h s/indicación
+1981,537,21,1 comp. c/24h
+1982,538,21,1 comp. c/24h
+1983,538,41,1 comp. c/24h
+1984,538,3,1 toma c/8h s/indicación
+1985,538,12,1 toma c/8h s/indicación
+1986,538,60,1 toma c/8h s/indicación
+1987,538,30,1 toma c/8h s/indicación
+1988,539,21,1 comp. c/24h
+1989,539,41,1 comp. c/24h
+1990,539,3,1 toma c/8h s/indicación
+1991,539,30,1 toma c/8h s/indicación
+1992,539,33,1 toma c/8h s/indicación
+1993,540,84,1 toma c/8h s/indicación
+1994,540,80,1 toma c/8h s/indicación
+1995,540,85,1 toma c/8h s/indicación
+1996,540,73,1 toma c/8h s/indicación
+1997,541,84,1 toma c/8h s/indicación
+1998,541,80,1 toma c/8h s/indicación
+1999,541,85,1 toma c/8h s/indicación
+2000,542,84,1 toma c/8h s/indicación
+2001,542,80,1 toma c/8h s/indicación
+2002,542,85,1 toma c/8h s/indicación
+2003,542,91,1 toma c/8h s/indicación
+2004,543,57,1 toma c/8h s/indicación
+2005,543,47,1 toma c/8h s/indicación
+2006,543,20,1 comp. c/24h
+2007,543,60,1 toma c/8h s/indicación
+2008,543,51,1 toma c/8h s/indicación
+2009,543,42,1 comp. c/24h
+2010,544,47,1 toma c/8h s/indicación
+2011,544,20,1 comp. c/24h
+2012,544,91,1 toma c/8h s/indicación
+2013,544,51,1 toma c/8h s/indicación
+2014,544,42,1 comp. c/24h
+2015,545,47,1 toma c/8h s/indicación
+2016,545,20,1 comp. c/24h
+2017,545,73,1 toma c/8h s/indicación
+2018,545,60,1 toma c/8h s/indicación
+2019,545,51,1 toma c/8h s/indicación
+2020,545,42,1 comp. c/24h
+2021,546,47,1 toma c/8h s/indicación
+2022,546,20,1 comp. c/24h
+2023,546,15,1 toma c/8h s/indicación
+2024,546,51,1 toma c/8h s/indicación
+2025,546,42,1 comp. c/24h
+2026,547,25,1 toma c/8h s/indicación
+2027,547,19,1 comp. c/24h
+2028,547,15,1 toma c/8h s/indicación
+2029,548,25,1 toma c/8h s/indicación
+2030,548,9,1 toma c/8h s/indicación
+2031,548,19,1 comp. c/24h
+2032,548,73,1 toma c/8h s/indicación
+2033,548,15,1 toma c/8h s/indicación
+2034,549,80,1 toma c/8h s/indicación
+2035,550,91,1 toma c/8h s/indicación
+2036,551,80,1 toma c/8h s/indicación
+2037,552,16,1 toma c/8h s/indicación
+2038,553,10,1 toma c/8h s/indicación
+2039,553,47,1 toma c/8h s/indicación
+2040,553,20,1 comp. c/24h
+2041,553,51,1 toma c/8h s/indicación
+2042,553,42,1 comp. c/24h
+2043,554,42,1 comp. c/24h
+2044,554,20,1 comp. c/24h
+2045,554,51,1 toma c/8h s/indicación
+2046,554,47,1 toma c/8h s/indicación
+2047,555,42,1 comp. c/24h
+2048,555,20,1 comp. c/24h
+2049,555,51,1 toma c/8h s/indicación
+2050,555,47,1 toma c/8h s/indicación
+2051,556,47,1 toma c/8h s/indicación
+2052,556,20,1 comp. c/24h
+2053,556,60,1 toma c/8h s/indicación
+2054,556,51,1 toma c/8h s/indicación
+2055,556,42,1 comp. c/24h
+2056,557,84,1 toma c/8h s/indicación
+2057,557,80,1 toma c/8h s/indicación
+2058,557,85,1 toma c/8h s/indicación
+2059,558,84,1 toma c/8h s/indicación
+2060,558,80,1 toma c/8h s/indicación
+2061,558,85,1 toma c/8h s/indicación
+2062,558,60,1 toma c/8h s/indicación
+2063,559,84,1 toma c/8h s/indicación
+2064,559,15,1 toma c/8h s/indicación
+2065,559,80,1 toma c/8h s/indicación
+2066,559,85,1 toma c/8h s/indicación
+2067,560,84,1 toma c/8h s/indicación
+2068,560,80,1 toma c/8h s/indicación
+2069,560,85,1 toma c/8h s/indicación
+2070,561,84,1 toma c/8h s/indicación
+2071,561,80,1 toma c/8h s/indicación
+2072,561,85,1 toma c/8h s/indicación
+2073,561,73,1 toma c/8h s/indicación
+2074,562,84,1 toma c/8h s/indicación
+2075,562,16,1 toma c/8h s/indicación
+2076,562,80,1 toma c/8h s/indicación
+2077,562,85,1 toma c/8h s/indicación
+2078,563,84,1 toma c/8h s/indicación
+2079,563,80,1 toma c/8h s/indicación
+2080,563,85,1 toma c/8h s/indicación
+2081,563,60,1 toma c/8h s/indicación
+2082,564,33,1 toma c/8h s/indicación
+2083,564,20,1 comp. c/24h
+2084,564,16,1 toma c/8h s/indicación
+2085,564,60,1 toma c/8h s/indicación
+2086,564,32,1 toma c/8h s/indicación
+2087,564,35,1 toma c/8h s/indicación
+2088,565,57,1 toma c/8h s/indicación
+2089,565,33,1 toma c/8h s/indicación
+2090,565,20,1 comp. c/24h
+2091,565,32,1 toma c/8h s/indicación
+2092,565,35,1 toma c/8h s/indicación
+2093,566,84,1 toma c/8h s/indicación
+2094,566,80,1 toma c/8h s/indicación
+2095,566,85,1 toma c/8h s/indicación
+2096,566,57,1 toma c/8h s/indicación
+2097,567,84,1 toma c/8h s/indicación
+2098,567,16,1 toma c/8h s/indicación
+2099,567,80,1 toma c/8h s/indicación
+2100,567,85,1 toma c/8h s/indicación
+2101,568,11,1 toma c/8h s/indicación
+2102,569,9,1 toma c/8h s/indicación
+2103,570,11,1 toma c/8h s/indicación
+2104,571,12,1 toma c/8h s/indicación
+2105,571,60,1 toma c/8h s/indicación
+2106,572,25,1 toma c/8h s/indicación
+2107,572,19,1 comp. c/24h
+2108,572,15,1 toma c/8h s/indicación
+2109,572,60,1 toma c/8h s/indicación
+2110,573,25,1 toma c/8h s/indicación
+2111,573,19,1 comp. c/24h
+2112,573,15,1 toma c/8h s/indicación
+2113,574,21,1 comp. c/24h
+2114,574,41,1 comp. c/24h
+2115,574,3,1 toma c/8h s/indicación
+2116,574,12,1 toma c/8h s/indicación
+2117,574,30,1 toma c/8h s/indicación
+2118,574,33,1 toma c/8h s/indicación
+2119,575,59,1 toma c/8h s/indicación
+2120,575,21,1 comp. c/24h
+2121,575,9,1 toma c/8h s/indicación
+2122,575,41,1 comp. c/24h
+2123,575,3,1 toma c/8h s/indicación
+2124,575,30,1 toma c/8h s/indicación
+2125,576,41,1 comp. c/24h
+2126,576,3,1 toma c/8h s/indicación
+2127,576,30,1 toma c/8h s/indicación
+2128,576,21,1 comp. c/24h
+2129,577,41,1 comp. c/24h
+2130,577,3,1 toma c/8h s/indicación
+2131,577,30,1 toma c/8h s/indicación
+2132,577,21,1 comp. c/24h
+2133,578,47,1 toma c/8h s/indicación
+2134,578,20,1 comp. c/24h
+2135,578,16,1 toma c/8h s/indicación
+2136,578,12,1 toma c/8h s/indicación
+2137,578,51,1 toma c/8h s/indicación
+2138,578,42,1 comp. c/24h
+2139,579,42,1 comp. c/24h
+2140,579,20,1 comp. c/24h
+2141,579,51,1 toma c/8h s/indicación
+2142,579,47,1 toma c/8h s/indicación
+2143,580,57,1 toma c/8h s/indicación
+2144,580,47,1 toma c/8h s/indicación
+2145,580,20,1 comp. c/24h
+2146,580,51,1 toma c/8h s/indicación
+2147,580,42,1 comp. c/24h
+2148,581,47,1 toma c/8h s/indicación
+2149,581,20,1 comp. c/24h
+2150,581,91,1 toma c/8h s/indicación
+2151,581,51,1 toma c/8h s/indicación
+2152,581,42,1 comp. c/24h
+2153,582,25,1 toma c/8h s/indicación
+2154,582,19,1 comp. c/24h
+2155,582,15,1 toma c/8h s/indicación
+2156,583,25,1 toma c/8h s/indicación
+2157,583,10,1 toma c/8h s/indicación
+2158,583,19,1 comp. c/24h
+2159,583,15,1 toma c/8h s/indicación
+2160,583,11,1 toma c/8h s/indicación
+2161,584,25,1 toma c/8h s/indicación
+2162,584,19,1 comp. c/24h
+2163,584,80,1 toma c/8h s/indicación
+2164,584,15,1 toma c/8h s/indicación
+2165,585,47,1 toma c/8h s/indicación
+2166,585,20,1 comp. c/24h
+2167,585,16,1 toma c/8h s/indicación
+2168,585,51,1 toma c/8h s/indicación
+2169,585,42,1 comp. c/24h
+2170,586,47,1 toma c/8h s/indicación
+2171,586,20,1 comp. c/24h
+2172,586,12,1 toma c/8h s/indicación
+2173,586,60,1 toma c/8h s/indicación
+2174,586,51,1 toma c/8h s/indicación
+2175,586,42,1 comp. c/24h
+2176,587,12,1 toma c/8h s/indicación
+2177,587,39,1 toma c/8h s/indicación
+2178,587,35,1 toma c/8h s/indicación
+2179,587,2,1 toma c/8h s/indicación
+2180,588,33,1 toma c/8h s/indicación
+2181,588,73,1 toma c/8h s/indicación
+2182,588,39,1 toma c/8h s/indicación
+2183,588,2,1 toma c/8h s/indicación
+2184,588,35,1 toma c/8h s/indicación
+2185,589,80,1 toma c/8h s/indicación
+2186,589,39,1 toma c/8h s/indicación
+2187,589,35,1 toma c/8h s/indicación
+2188,589,2,1 toma c/8h s/indicación
+2189,590,56,1 toma c/8h s/indicación
+2190,590,33,1 toma c/8h s/indicación
+2191,590,20,1 comp. c/24h
+2192,590,32,1 toma c/8h s/indicación
+2193,590,35,1 toma c/8h s/indicación
+2194,591,33,1 toma c/8h s/indicación
+2195,591,20,1 comp. c/24h
+2196,591,88,1 toma c/8h s/indicación
+2197,591,32,1 toma c/8h s/indicación
+2198,591,35,1 toma c/8h s/indicación
+2199,592,20,1 comp. c/24h
+2200,592,32,1 toma c/8h s/indicación
+2201,592,35,1 toma c/8h s/indicación
+2202,592,33,1 toma c/8h s/indicación
+2203,593,39,1 toma c/8h s/indicación
+2204,593,35,1 toma c/8h s/indicación
+2205,593,2,1 toma c/8h s/indicación
+2206,594,9,1 toma c/8h s/indicación
+2207,594,39,1 toma c/8h s/indicación
+2208,594,12,1 toma c/8h s/indicación
+2209,594,2,1 toma c/8h s/indicación
+2210,594,35,1 toma c/8h s/indicación
+2211,595,84,1 toma c/8h s/indicación
+2212,595,80,1 toma c/8h s/indicación
+2213,595,85,1 toma c/8h s/indicación
+2214,595,10,1 toma c/8h s/indicación
+2215,596,84,1 toma c/8h s/indicación
+2216,596,15,1 toma c/8h s/indicación
+2217,596,80,1 toma c/8h s/indicación
+2218,596,85,1 toma c/8h s/indicación
+2219,597,41,1 comp. c/24h
+2220,597,3,1 toma c/8h s/indicación
+2221,597,30,1 toma c/8h s/indicación
+2222,597,21,1 comp. c/24h
+2223,598,21,1 comp. c/24h
+2224,598,41,1 comp. c/24h
+2225,598,3,1 toma c/8h s/indicación
+2226,598,16,1 toma c/8h s/indicación
+2227,598,30,1 toma c/8h s/indicación
+2228,599,21,1 comp. c/24h
+2229,599,41,1 comp. c/24h
+2230,599,3,1 toma c/8h s/indicación
+2231,599,91,1 toma c/8h s/indicación
+2232,599,30,1 toma c/8h s/indicación
+2233,600,10,1 toma c/8h s/indicación
+2234,600,39,1 toma c/8h s/indicación
+2235,600,12,1 toma c/8h s/indicación
+2236,600,2,1 toma c/8h s/indicación
+2237,600,35,1 toma c/8h s/indicación
+2238,601,39,1 toma c/8h s/indicación
+2239,601,35,1 toma c/8h s/indicación
+2240,601,2,1 toma c/8h s/indicación
+2241,601,60,1 toma c/8h s/indicación
+2242,602,59,1 toma c/8h s/indicación
+2243,602,39,1 toma c/8h s/indicación
+2244,602,35,1 toma c/8h s/indicación
+2245,602,2,1 toma c/8h s/indicación
+2246,603,39,1 toma c/8h s/indicación
+2247,603,35,1 toma c/8h s/indicación
+2248,603,2,1 toma c/8h s/indicación
+2249,603,9,1 toma c/8h s/indicación
+2250,604,42,1 comp. c/24h
+2251,604,20,1 comp. c/24h
+2252,604,51,1 toma c/8h s/indicación
+2253,604,47,1 toma c/8h s/indicación
+2254,605,42,1 comp. c/24h
+2255,605,20,1 comp. c/24h
+2256,605,51,1 toma c/8h s/indicación
+2257,605,47,1 toma c/8h s/indicación
+2258,606,59,1 toma c/8h s/indicación
+2259,606,47,1 toma c/8h s/indicación
+2260,606,20,1 comp. c/24h
+2261,606,51,1 toma c/8h s/indicación
+2262,606,42,1 comp. c/24h
+2263,607,10,1 toma c/8h s/indicación
+2264,607,47,1 toma c/8h s/indicación
+2265,607,20,1 comp. c/24h
+2266,607,51,1 toma c/8h s/indicación
+2267,607,42,1 comp. c/24h
+2268,608,39,1 toma c/8h s/indicación
+2269,608,35,1 toma c/8h s/indicación
+2270,608,2,1 toma c/8h s/indicación
+2271,609,59,1 toma c/8h s/indicación
+2272,609,39,1 toma c/8h s/indicación
+2273,609,35,1 toma c/8h s/indicación
+2274,609,2,1 toma c/8h s/indicación
+2275,610,39,1 toma c/8h s/indicación
+2276,610,35,1 toma c/8h s/indicación
+2277,610,2,1 toma c/8h s/indicación
+2278,611,56,1 toma c/8h s/indicación
+2279,611,10,1 toma c/8h s/indicación
+2280,611,39,1 toma c/8h s/indicación
+2281,611,2,1 toma c/8h s/indicación
+2282,611,35,1 toma c/8h s/indicación
+2283,612,84,1 toma c/8h s/indicación
+2284,612,80,1 toma c/8h s/indicación
+2285,612,85,1 toma c/8h s/indicación
+2286,613,84,1 toma c/8h s/indicación
+2287,613,15,1 toma c/8h s/indicación
+2288,613,80,1 toma c/8h s/indicación
+2289,613,85,1 toma c/8h s/indicación
+2290,614,84,1 toma c/8h s/indicación
+2291,614,12,1 toma c/8h s/indicación
+2292,614,80,1 toma c/8h s/indicación
+2293,614,85,1 toma c/8h s/indicación
+2294,615,84,1 toma c/8h s/indicación
+2295,615,80,1 toma c/8h s/indicación
+2296,615,85,1 toma c/8h s/indicación
+2297,615,11,1 toma c/8h s/indicación
+2298,616,15,1 toma c/8h s/indicación
+2299,617,16,1 toma c/8h s/indicación
+2300,618,88,1 toma c/8h s/indicación
+2301,619,25,1 toma c/8h s/indicación
+2302,619,19,1 comp. c/24h
+2303,619,15,1 toma c/8h s/indicación
+2304,619,9,1 toma c/8h s/indicación
+2305,620,25,1 toma c/8h s/indicación
+2306,620,19,1 comp. c/24h
+2307,620,15,1 toma c/8h s/indicación
+2308,620,9,1 toma c/8h s/indicación
+2309,621,25,1 toma c/8h s/indicación
+2310,621,19,1 comp. c/24h
+2311,621,15,1 toma c/8h s/indicación
+2312,622,25,1 toma c/8h s/indicación
+2313,622,19,1 comp. c/24h
+2314,622,15,1 toma c/8h s/indicación
+2315,623,33,1 toma c/8h s/indicación
+2316,623,20,1 comp. c/24h
+2317,623,91,1 toma c/8h s/indicación
+2318,623,32,1 toma c/8h s/indicación
+2319,623,35,1 toma c/8h s/indicación
+2320,624,33,1 toma c/8h s/indicación
+2321,624,20,1 comp. c/24h
+2322,624,73,1 toma c/8h s/indicación
+2323,624,16,1 toma c/8h s/indicación
+2324,624,32,1 toma c/8h s/indicación
+2325,624,35,1 toma c/8h s/indicación
+2326,625,33,1 toma c/8h s/indicación
+2327,625,20,1 comp. c/24h
+2328,625,60,1 toma c/8h s/indicación
+2329,625,32,1 toma c/8h s/indicación
+2330,625,35,1 toma c/8h s/indicación
+2331,626,20,1 comp. c/24h
+2332,626,32,1 toma c/8h s/indicación
+2333,626,35,1 toma c/8h s/indicación
+2334,626,33,1 toma c/8h s/indicación
+2335,627,25,1 toma c/8h s/indicación
+2336,627,19,1 comp. c/24h
+2337,627,15,1 toma c/8h s/indicación
+2338,627,10,1 toma c/8h s/indicación
+2339,628,25,1 toma c/8h s/indicación
+2340,628,19,1 comp. c/24h
+2341,628,15,1 toma c/8h s/indicación
+2342,628,57,1 toma c/8h s/indicación
+2343,629,21,1 comp. c/24h
+2344,629,41,1 comp. c/24h
+2345,629,3,1 toma c/8h s/indicación
+2346,629,60,1 toma c/8h s/indicación
+2347,629,30,1 toma c/8h s/indicación
+2348,630,59,1 toma c/8h s/indicación
+2349,630,21,1 comp. c/24h
+2350,630,41,1 comp. c/24h
+2351,630,3,1 toma c/8h s/indicación
+2352,630,60,1 toma c/8h s/indicación
+2353,630,30,1 toma c/8h s/indicación
+2354,631,21,1 comp. c/24h
+2355,631,41,1 comp. c/24h
+2356,631,3,1 toma c/8h s/indicación
+2357,631,30,1 toma c/8h s/indicación
+2358,631,11,1 toma c/8h s/indicación
+2359,632,25,1 toma c/8h s/indicación
+2360,632,19,1 comp. c/24h
+2361,632,15,1 toma c/8h s/indicación
+2362,633,25,1 toma c/8h s/indicación
+2363,633,59,1 toma c/8h s/indicación
+2364,633,10,1 toma c/8h s/indicación
+2365,633,19,1 comp. c/24h
+2366,633,15,1 toma c/8h s/indicación
+2367,634,25,1 toma c/8h s/indicación
+2368,634,19,1 comp. c/24h
+2369,634,15,1 toma c/8h s/indicación
+2370,634,16,1 toma c/8h s/indicación
+2371,634,60,1 toma c/8h s/indicación
+2372,635,25,1 toma c/8h s/indicación
+2373,635,19,1 comp. c/24h
+2374,635,15,1 toma c/8h s/indicación
+2375,635,60,1 toma c/8h s/indicación
+2376,636,33,1 toma c/8h s/indicación
+2377,636,10,1 toma c/8h s/indicación
+2378,636,20,1 comp. c/24h
+2379,636,15,1 toma c/8h s/indicación
+2380,636,32,1 toma c/8h s/indicación
+2381,636,35,1 toma c/8h s/indicación
+2382,637,33,1 toma c/8h s/indicación
+2383,637,20,1 comp. c/24h
+2384,637,60,1 toma c/8h s/indicación
+2385,637,32,1 toma c/8h s/indicación
+2386,637,35,1 toma c/8h s/indicación
+2387,638,32,1 toma c/8h s/indicación
+2388,638,33,1 toma c/8h s/indicación
+2389,638,20,1 comp. c/24h
+2390,638,80,1 toma c/8h s/indicación
+2391,638,35,1 toma c/8h s/indicación
+2392,639,33,1 toma c/8h s/indicación
+2393,639,10,1 toma c/8h s/indicación
+2394,639,20,1 comp. c/24h
+2395,639,16,1 toma c/8h s/indicación
+2396,639,32,1 toma c/8h s/indicación
+2397,639,35,1 toma c/8h s/indicación
+2398,640,71,1 toma c/8h s/indicación
+2399,640,64,1 toma c/8h s/indicación
+2400,641,71,1 toma c/8h s/indicación
+2401,641,64,1 toma c/8h s/indicación
+2402,642,21,1 comp. c/24h
+2403,642,41,1 comp. c/24h
+2404,642,3,1 toma c/8h s/indicación
+2405,642,30,1 toma c/8h s/indicación
+2406,642,11,1 toma c/8h s/indicación
+2407,643,21,1 comp. c/24h
+2408,643,41,1 comp. c/24h
+2409,643,73,1 toma c/8h s/indicación
+2410,643,3,1 toma c/8h s/indicación
+2411,643,30,1 toma c/8h s/indicación
+2412,644,57,1 toma c/8h s/indicación
+2413,644,47,1 toma c/8h s/indicación
+2414,644,20,1 comp. c/24h
+2415,644,51,1 toma c/8h s/indicación
+2416,644,42,1 comp. c/24h
+2417,645,47,1 toma c/8h s/indicación
+2418,645,20,1 comp. c/24h
+2419,645,12,1 toma c/8h s/indicación
+2420,645,51,1 toma c/8h s/indicación
+2421,645,42,1 comp. c/24h
+2422,646,39,1 toma c/8h s/indicación
+2423,646,35,1 toma c/8h s/indicación
+2424,646,2,1 toma c/8h s/indicación
+2425,646,11,1 toma c/8h s/indicación
+2426,647,15,1 toma c/8h s/indicación
+2427,647,39,1 toma c/8h s/indicación
+2428,647,35,1 toma c/8h s/indicación
+2429,647,2,1 toma c/8h s/indicación
+2430,648,10,1 toma c/8h s/indicación
+2431,648,39,1 toma c/8h s/indicación
+2432,648,35,1 toma c/8h s/indicación
+2433,648,2,1 toma c/8h s/indicación
+2434,648,33,1 toma c/8h s/indicación
+2435,649,39,1 toma c/8h s/indicación
+2436,649,35,1 toma c/8h s/indicación
+2437,649,2,1 toma c/8h s/indicación
+2438,650,33,1 toma c/8h s/indicación
+2439,650,39,1 toma c/8h s/indicación
+2440,650,2,1 toma c/8h s/indicación
+2441,650,11,1 toma c/8h s/indicación
+2442,650,35,1 toma c/8h s/indicación
+2443,651,56,1 toma c/8h s/indicación
+2444,651,10,1 toma c/8h s/indicación
+2445,651,39,1 toma c/8h s/indicación
+2446,651,2,1 toma c/8h s/indicación
+2447,651,35,1 toma c/8h s/indicación
+2448,652,39,1 toma c/8h s/indicación
+2449,652,12,1 toma c/8h s/indicación
+2450,652,60,1 toma c/8h s/indicación
+2451,652,2,1 toma c/8h s/indicación
+2452,652,35,1 toma c/8h s/indicación
+2453,653,71,1 toma c/8h s/indicación
+2454,653,64,1 toma c/8h s/indicación
+2455,653,11,1 toma c/8h s/indicación
+2456,654,71,1 toma c/8h s/indicación
+2457,654,64,1 toma c/8h s/indicación
+2458,654,60,1 toma c/8h s/indicación
+2459,655,71,1 toma c/8h s/indicación
+2460,655,12,1 toma c/8h s/indicación
+2461,655,64,1 toma c/8h s/indicación
+2462,656,84,1 toma c/8h s/indicación
+2463,656,80,1 toma c/8h s/indicación
+2464,656,85,1 toma c/8h s/indicación
+2465,656,10,1 toma c/8h s/indicación
+2466,657,56,1 toma c/8h s/indicación
+2467,657,84,1 toma c/8h s/indicación
+2468,657,16,1 toma c/8h s/indicación
+2469,657,80,1 toma c/8h s/indicación
+2470,657,85,1 toma c/8h s/indicación
+2471,658,84,1 toma c/8h s/indicación
+2472,658,80,1 toma c/8h s/indicación
+2473,658,85,1 toma c/8h s/indicación
+2474,658,33,1 toma c/8h s/indicación
+2475,659,39,1 toma c/8h s/indicación
+2476,659,35,1 toma c/8h s/indicación
+2477,659,2,1 toma c/8h s/indicación
+2478,660,39,1 toma c/8h s/indicación
+2479,660,35,1 toma c/8h s/indicación
+2480,660,2,1 toma c/8h s/indicación
+2481,661,39,1 toma c/8h s/indicación
+2482,661,35,1 toma c/8h s/indicación
+2483,661,2,1 toma c/8h s/indicación
+2484,661,10,1 toma c/8h s/indicación
+2485,662,9,1 toma c/8h s/indicación
+2486,662,33,1 toma c/8h s/indicación
+2487,662,20,1 comp. c/24h
+2488,662,32,1 toma c/8h s/indicación
+2489,662,35,1 toma c/8h s/indicación
+2490,663,33,1 toma c/8h s/indicación
+2491,663,20,1 comp. c/24h
+2492,663,91,1 toma c/8h s/indicación
+2493,663,32,1 toma c/8h s/indicación
+2494,663,35,1 toma c/8h s/indicación
+2495,664,84,1 toma c/8h s/indicación
+2496,664,12,1 toma c/8h s/indicación
+2497,664,80,1 toma c/8h s/indicación
+2498,664,85,1 toma c/8h s/indicación
+2499,665,84,1 toma c/8h s/indicación
+2500,665,80,1 toma c/8h s/indicación
+2501,665,85,1 toma c/8h s/indicación
+2502,665,10,1 toma c/8h s/indicación
+2503,666,84,1 toma c/8h s/indicación
+2504,666,80,1 toma c/8h s/indicación
+2505,666,85,1 toma c/8h s/indicación
+2506,666,73,1 toma c/8h s/indicación
+2507,667,57,1 toma c/8h s/indicación
+2508,667,9,1 toma c/8h s/indicación
+2509,667,84,1 toma c/8h s/indicación
+2510,667,80,1 toma c/8h s/indicación
+2511,667,85,1 toma c/8h s/indicación
+2512,668,84,1 toma c/8h s/indicación
+2513,668,80,1 toma c/8h s/indicación
+2514,668,85,1 toma c/8h s/indicación
+2515,669,84,1 toma c/8h s/indicación
+2516,669,80,1 toma c/8h s/indicación
+2517,669,85,1 toma c/8h s/indicación
+2518,669,9,1 toma c/8h s/indicación
+2519,670,84,1 toma c/8h s/indicación
+2520,670,80,1 toma c/8h s/indicación
+2521,670,85,1 toma c/8h s/indicación
+2522,670,57,1 toma c/8h s/indicación
+2523,671,9,1 toma c/8h s/indicación
+2524,671,84,1 toma c/8h s/indicación
+2525,671,91,1 toma c/8h s/indicación
+2526,671,80,1 toma c/8h s/indicación
+2527,671,85,1 toma c/8h s/indicación
+2528,672,84,1 toma c/8h s/indicación
+2529,672,80,1 toma c/8h s/indicación
+2530,672,85,1 toma c/8h s/indicación
+2531,672,33,1 toma c/8h s/indicación
+2532,673,84,1 toma c/8h s/indicación
+2533,673,80,1 toma c/8h s/indicación
+2534,673,85,1 toma c/8h s/indicación
+2535,674,71,1 toma c/8h s/indicación
+2536,674,64,1 toma c/8h s/indicación
+2537,675,71,1 toma c/8h s/indicación
+2538,675,64,1 toma c/8h s/indicación
+2539,675,9,1 toma c/8h s/indicación
+2540,676,71,1 toma c/8h s/indicación
+2541,676,12,1 toma c/8h s/indicación
+2542,676,64,1 toma c/8h s/indicación
+2543,677,39,1 toma c/8h s/indicación
+2544,677,35,1 toma c/8h s/indicación
+2545,677,2,1 toma c/8h s/indicación
+2546,678,56,1 toma c/8h s/indicación
+2547,678,9,1 toma c/8h s/indicación
+2548,678,39,1 toma c/8h s/indicación
+2549,678,2,1 toma c/8h s/indicación
+2550,678,35,1 toma c/8h s/indicación
+2551,679,39,1 toma c/8h s/indicación
+2552,679,35,1 toma c/8h s/indicación
+2553,679,2,1 toma c/8h s/indicación
+2554,679,33,1 toma c/8h s/indicación
+2555,680,42,1 comp. c/24h
+2556,680,20,1 comp. c/24h
+2557,680,51,1 toma c/8h s/indicación
+2558,680,47,1 toma c/8h s/indicación
+2559,681,9,1 toma c/8h s/indicación
+2560,681,47,1 toma c/8h s/indicación
+2561,681,20,1 comp. c/24h
+2562,681,51,1 toma c/8h s/indicación
+2563,681,42,1 comp. c/24h
+2564,682,47,1 toma c/8h s/indicación
+2565,682,20,1 comp. c/24h
+2566,682,51,1 toma c/8h s/indicación
+2567,682,11,1 toma c/8h s/indicación
+2568,682,42,1 comp. c/24h
+2569,683,33,1 toma c/8h s/indicación
+2570,683,20,1 comp. c/24h
+2571,683,12,1 toma c/8h s/indicación
+2572,683,32,1 toma c/8h s/indicación
+2573,683,35,1 toma c/8h s/indicación
+2574,684,33,1 toma c/8h s/indicación
+2575,684,20,1 comp. c/24h
+2576,684,16,1 toma c/8h s/indicación
+2577,684,12,1 toma c/8h s/indicación
+2578,684,32,1 toma c/8h s/indicación
+2579,684,35,1 toma c/8h s/indicación
+2580,685,71,1 toma c/8h s/indicación
+2581,685,80,1 toma c/8h s/indicación
+2582,685,64,1 toma c/8h s/indicación
+2583,686,71,1 toma c/8h s/indicación
+2584,686,64,1 toma c/8h s/indicación
+2585,686,33,1 toma c/8h s/indicación
+2586,687,25,1 toma c/8h s/indicación
+2587,687,19,1 comp. c/24h
+2588,687,15,1 toma c/8h s/indicación
+2589,688,25,1 toma c/8h s/indicación
+2590,688,19,1 comp. c/24h
+2591,688,15,1 toma c/8h s/indicación
+2592,689,25,1 toma c/8h s/indicación
+2593,689,19,1 comp. c/24h
+2594,689,15,1 toma c/8h s/indicación
+2595,689,57,1 toma c/8h s/indicación
+2596,690,32,1 toma c/8h s/indicación
+2597,690,33,1 toma c/8h s/indicación
+2598,690,20,1 comp. c/24h
+2599,690,60,1 toma c/8h s/indicación
+2600,690,80,1 toma c/8h s/indicación
+2601,690,35,1 toma c/8h s/indicación
+2602,691,9,1 toma c/8h s/indicación
+2603,691,33,1 toma c/8h s/indicación
+2604,691,20,1 comp. c/24h
+2605,691,32,1 toma c/8h s/indicación
+2606,691,35,1 toma c/8h s/indicación
+2607,692,20,1 comp. c/24h
+2608,692,32,1 toma c/8h s/indicación
+2609,692,35,1 toma c/8h s/indicación
+2610,692,33,1 toma c/8h s/indicación
+2611,693,21,1 comp. c/24h
+2612,693,10,1 toma c/8h s/indicación
+2613,693,41,1 comp. c/24h
+2614,693,3,1 toma c/8h s/indicación
+2615,693,30,1 toma c/8h s/indicación
+2616,694,21,1 comp. c/24h
+2617,694,41,1 comp. c/24h
+2618,694,3,1 toma c/8h s/indicación
+2619,694,12,1 toma c/8h s/indicación
+2620,694,30,1 toma c/8h s/indicación
+2621,695,57,1 toma c/8h s/indicación
+2622,695,21,1 comp. c/24h
+2623,695,41,1 comp. c/24h
+2624,695,3,1 toma c/8h s/indicación
+2625,695,30,1 toma c/8h s/indicación
+2626,696,21,1 comp. c/24h
+2627,696,10,1 toma c/8h s/indicación
+2628,696,41,1 comp. c/24h
+2629,696,3,1 toma c/8h s/indicación
+2630,696,12,1 toma c/8h s/indicación
+2631,696,30,1 toma c/8h s/indicación
+2632,697,33,1 toma c/8h s/indicación
+2633,697,20,1 comp. c/24h
+2634,697,16,1 toma c/8h s/indicación
+2635,697,32,1 toma c/8h s/indicación
+2636,697,35,1 toma c/8h s/indicación
+2637,698,32,1 toma c/8h s/indicación
+2638,698,33,1 toma c/8h s/indicación
+2639,698,20,1 comp. c/24h
+2640,698,80,1 toma c/8h s/indicación
+2641,698,35,1 toma c/8h s/indicación
+2642,699,84,1 toma c/8h s/indicación
+2643,699,80,1 toma c/8h s/indicación
+2644,699,85,1 toma c/8h s/indicación
+2645,699,73,1 toma c/8h s/indicación
+2646,700,9,1 toma c/8h s/indicación
+2647,700,84,1 toma c/8h s/indicación
+2648,700,88,1 toma c/8h s/indicación
+2649,700,80,1 toma c/8h s/indicación
+2650,700,85,1 toma c/8h s/indicación
+2651,701,84,1 toma c/8h s/indicación
+2652,701,80,1 toma c/8h s/indicación
+2653,701,85,1 toma c/8h s/indicación
+2654,702,84,1 toma c/8h s/indicación
+2655,702,80,1 toma c/8h s/indicación
+2656,702,85,1 toma c/8h s/indicación
+2657,702,73,1 toma c/8h s/indicación
+2658,703,25,1 toma c/8h s/indicación
+2659,703,19,1 comp. c/24h
+2660,703,16,1 toma c/8h s/indicación
+2661,703,15,1 toma c/8h s/indicación
+2662,704,25,1 toma c/8h s/indicación
+2663,704,19,1 comp. c/24h
+2664,704,15,1 toma c/8h s/indicación
+2665,705,33,1 toma c/8h s/indicación
+2666,705,20,1 comp. c/24h
+2667,705,73,1 toma c/8h s/indicación
+2668,705,32,1 toma c/8h s/indicación
+2669,705,35,1 toma c/8h s/indicación
+2670,706,20,1 comp. c/24h
+2671,706,32,1 toma c/8h s/indicación
+2672,706,35,1 toma c/8h s/indicación
+2673,706,33,1 toma c/8h s/indicación
+2674,707,15,1 toma c/8h s/indicación
+2675,707,39,1 toma c/8h s/indicación
+2676,707,35,1 toma c/8h s/indicación
+2677,707,2,1 toma c/8h s/indicación
+2678,708,39,1 toma c/8h s/indicación
+2679,708,35,1 toma c/8h s/indicación
+2680,708,2,1 toma c/8h s/indicación
+2681,709,73,1 toma c/8h s/indicación
+2682,709,39,1 toma c/8h s/indicación
+2683,709,60,1 toma c/8h s/indicación
+2684,709,2,1 toma c/8h s/indicación
+2685,709,35,1 toma c/8h s/indicación
+2686,710,39,1 toma c/8h s/indicación
+2687,710,35,1 toma c/8h s/indicación
+2688,710,2,1 toma c/8h s/indicación
+2689,710,33,1 toma c/8h s/indicación
+2690,711,16,1 toma c/8h s/indicación
+2691,711,39,1 toma c/8h s/indicación
+2692,711,35,1 toma c/8h s/indicación
+2693,711,2,1 toma c/8h s/indicación
+2694,712,39,1 toma c/8h s/indicación
+2695,712,35,1 toma c/8h s/indicación
+2696,712,2,1 toma c/8h s/indicación
+2697,712,33,1 toma c/8h s/indicación
+2698,713,80,1 toma c/8h s/indicación
+2699,714,16,1 toma c/8h s/indicación
+2700,715,20,1 comp. c/24h
+2701,715,32,1 toma c/8h s/indicación
+2702,715,35,1 toma c/8h s/indicación
+2703,715,33,1 toma c/8h s/indicación
+2704,716,9,1 toma c/8h s/indicación
+2705,716,33,1 toma c/8h s/indicación
+2706,716,20,1 comp. c/24h
+2707,716,73,1 toma c/8h s/indicación
+2708,716,32,1 toma c/8h s/indicación
+2709,716,35,1 toma c/8h s/indicación
+2710,717,56,1 toma c/8h s/indicación
+2711,717,33,1 toma c/8h s/indicación
+2712,717,20,1 comp. c/24h
+2713,717,16,1 toma c/8h s/indicación
+2714,717,32,1 toma c/8h s/indicación
+2715,717,35,1 toma c/8h s/indicación
+2716,718,71,1 toma c/8h s/indicación
+2717,718,64,1 toma c/8h s/indicación
+2718,718,33,1 toma c/8h s/indicación
+2719,719,71,1 toma c/8h s/indicación
+2720,719,64,1 toma c/8h s/indicación
+2721,720,41,1 comp. c/24h
+2722,720,3,1 toma c/8h s/indicación
+2723,720,30,1 toma c/8h s/indicación
+2724,720,21,1 comp. c/24h
+2725,721,56,1 toma c/8h s/indicación
+2726,721,21,1 comp. c/24h
+2727,721,41,1 comp. c/24h
+2728,721,3,1 toma c/8h s/indicación
+2729,721,16,1 toma c/8h s/indicación
+2730,721,30,1 toma c/8h s/indicación
+2731,722,41,1 comp. c/24h
+2732,722,3,1 toma c/8h s/indicación
+2733,722,30,1 toma c/8h s/indicación
+2734,722,21,1 comp. c/24h
+2735,723,71,1 toma c/8h s/indicación
+2736,723,64,1 toma c/8h s/indicación
+2737,723,88,1 toma c/8h s/indicación
+2738,723,10,1 toma c/8h s/indicación
+2739,724,71,1 toma c/8h s/indicación
+2740,724,12,1 toma c/8h s/indicación
+2741,724,64,1 toma c/8h s/indicación
+2742,725,16,1 toma c/8h s/indicación
+2743,725,71,1 toma c/8h s/indicación
+2744,725,73,1 toma c/8h s/indicación
+2745,725,64,1 toma c/8h s/indicación
+2746,726,47,1 toma c/8h s/indicación
+2747,726,20,1 comp. c/24h
+2748,726,15,1 toma c/8h s/indicación
+2749,726,51,1 toma c/8h s/indicación
+2750,726,42,1 comp. c/24h
+2751,727,10,1 toma c/8h s/indicación
+2752,727,47,1 toma c/8h s/indicación
+2753,727,20,1 comp. c/24h
+2754,727,60,1 toma c/8h s/indicación
+2755,727,51,1 toma c/8h s/indicación
+2756,727,42,1 comp. c/24h
+2757,728,10,1 toma c/8h s/indicación
+2758,728,47,1 toma c/8h s/indicación
+2759,728,20,1 comp. c/24h
+2760,728,51,1 toma c/8h s/indicación
+2761,728,42,1 comp. c/24h
+2762,729,10,1 toma c/8h s/indicación
+2763,729,47,1 toma c/8h s/indicación
+2764,729,20,1 comp. c/24h
+2765,729,51,1 toma c/8h s/indicación
+2766,729,42,1 comp. c/24h
+2767,730,20,1 comp. c/24h
+2768,730,32,1 toma c/8h s/indicación
+2769,730,35,1 toma c/8h s/indicación
+2770,730,33,1 toma c/8h s/indicación
+2771,731,33,1 toma c/8h s/indicación
+2772,731,20,1 comp. c/24h
+2773,731,73,1 toma c/8h s/indicación
+2774,731,16,1 toma c/8h s/indicación
+2775,731,32,1 toma c/8h s/indicación
+2776,731,35,1 toma c/8h s/indicación
+2777,732,56,1 toma c/8h s/indicación
+2778,732,33,1 toma c/8h s/indicación
+2779,732,20,1 comp. c/24h
+2780,732,32,1 toma c/8h s/indicación
+2781,732,35,1 toma c/8h s/indicación
+2782,733,59,1 toma c/8h s/indicación
+2783,733,21,1 comp. c/24h
+2784,733,41,1 comp. c/24h
+2785,733,3,1 toma c/8h s/indicación
+2786,733,30,1 toma c/8h s/indicación
+2787,734,21,1 comp. c/24h
+2788,734,41,1 comp. c/24h
+2789,734,73,1 toma c/8h s/indicación
+2790,734,3,1 toma c/8h s/indicación
+2791,734,30,1 toma c/8h s/indicación
+2792,735,41,1 comp. c/24h
+2793,735,3,1 toma c/8h s/indicación
+2794,735,30,1 toma c/8h s/indicación
+2795,735,21,1 comp. c/24h
+2796,736,84,1 toma c/8h s/indicación
+2797,736,80,1 toma c/8h s/indicación
+2798,736,85,1 toma c/8h s/indicación
+2799,736,88,1 toma c/8h s/indicación
+2800,737,84,1 toma c/8h s/indicación
+2801,737,15,1 toma c/8h s/indicación
+2802,737,80,1 toma c/8h s/indicación
+2803,737,85,1 toma c/8h s/indicación
+2804,738,84,1 toma c/8h s/indicación
+2805,738,80,1 toma c/8h s/indicación
+2806,738,85,1 toma c/8h s/indicación
+2807,738,73,1 toma c/8h s/indicación
+2808,739,10,1 toma c/8h s/indicación
+2809,739,39,1 toma c/8h s/indicación
+2810,739,35,1 toma c/8h s/indicación
+2811,739,2,1 toma c/8h s/indicación
+2812,739,33,1 toma c/8h s/indicación
+2813,740,39,1 toma c/8h s/indicación
+2814,740,16,1 toma c/8h s/indicación
+2815,740,2,1 toma c/8h s/indicación
+2816,740,80,1 toma c/8h s/indicación
+2817,740,35,1 toma c/8h s/indicación
+2818,741,73,1 toma c/8h s/indicación
+2819,741,39,1 toma c/8h s/indicación
+2820,741,35,1 toma c/8h s/indicación
+2821,741,2,1 toma c/8h s/indicación
+2822,742,59,1 toma c/8h s/indicación
+2823,743,11,1 toma c/8h s/indicación
+2824,744,25,1 toma c/8h s/indicación
+2825,744,19,1 comp. c/24h
+2826,744,15,1 toma c/8h s/indicación
+2827,744,60,1 toma c/8h s/indicación
+2828,745,25,1 toma c/8h s/indicación
+2829,745,19,1 comp. c/24h
+2830,745,15,1 toma c/8h s/indicación
+2831,745,56,1 toma c/8h s/indicación
+2832,746,71,1 toma c/8h s/indicación
+2833,746,64,1 toma c/8h s/indicación
+2834,746,88,1 toma c/8h s/indicación
+2835,747,71,1 toma c/8h s/indicación
+2836,747,64,1 toma c/8h s/indicación
+2837,748,71,1 toma c/8h s/indicación
+2838,748,73,1 toma c/8h s/indicación
+2839,748,64,1 toma c/8h s/indicación
+2840,749,71,1 toma c/8h s/indicación
+2841,749,64,1 toma c/8h s/indicación
+2842,749,60,1 toma c/8h s/indicación
+2843,750,33,1 toma c/8h s/indicación
+2844,750,39,1 toma c/8h s/indicación
+2845,750,2,1 toma c/8h s/indicación
+2846,750,80,1 toma c/8h s/indicación
+2847,750,35,1 toma c/8h s/indicación
+2848,751,39,1 toma c/8h s/indicación
+2849,751,12,1 toma c/8h s/indicación
+2850,751,60,1 toma c/8h s/indicación
+2851,751,2,1 toma c/8h s/indicación
+2852,751,35,1 toma c/8h s/indicación
+2853,752,39,1 toma c/8h s/indicación
+2854,752,35,1 toma c/8h s/indicación
+2855,752,2,1 toma c/8h s/indicación
+2856,753,39,1 toma c/8h s/indicación
+2857,753,35,1 toma c/8h s/indicación
+2858,753,2,1 toma c/8h s/indicación
+2859,754,42,1 comp. c/24h
+2860,754,20,1 comp. c/24h
+2861,754,51,1 toma c/8h s/indicación
+2862,754,47,1 toma c/8h s/indicación
+2863,755,47,1 toma c/8h s/indicación
+2864,755,20,1 comp. c/24h
+2865,755,12,1 toma c/8h s/indicación
+2866,755,51,1 toma c/8h s/indicación
+2867,755,42,1 comp. c/24h
+2868,756,47,1 toma c/8h s/indicación
+2869,756,20,1 comp. c/24h
+2870,756,73,1 toma c/8h s/indicación
+2871,756,60,1 toma c/8h s/indicación
+2872,756,51,1 toma c/8h s/indicación
+2873,756,42,1 comp. c/24h
+2874,757,47,1 toma c/8h s/indicación
+2875,757,10,1 toma c/8h s/indicación
+2876,757,20,1 comp. c/24h
+2877,757,51,1 toma c/8h s/indicación
+2878,757,11,1 toma c/8h s/indicación
+2879,757,42,1 comp. c/24h
+2880,758,47,1 toma c/8h s/indicación
+2881,758,20,1 comp. c/24h
+2882,758,16,1 toma c/8h s/indicación
+2883,758,51,1 toma c/8h s/indicación
+2884,758,42,1 comp. c/24h
+2885,759,42,1 comp. c/24h
+2886,759,20,1 comp. c/24h
+2887,759,51,1 toma c/8h s/indicación
+2888,759,47,1 toma c/8h s/indicación
+2889,760,73,1 toma c/8h s/indicación
+2890,761,15,1 toma c/8h s/indicación
+2891,762,57,1 toma c/8h s/indicación
+2892,762,33,1 toma c/8h s/indicación
+2893,762,20,1 comp. c/24h
+2894,762,32,1 toma c/8h s/indicación
+2895,762,35,1 toma c/8h s/indicación
+2896,763,33,1 toma c/8h s/indicación
+2897,763,20,1 comp. c/24h
+2898,763,15,1 toma c/8h s/indicación
+2899,763,32,1 toma c/8h s/indicación
+2900,763,35,1 toma c/8h s/indicación
+2901,764,33,1 toma c/8h s/indicación
+2902,764,10,1 toma c/8h s/indicación
+2903,764,20,1 comp. c/24h
+2904,764,91,1 toma c/8h s/indicación
+2905,764,32,1 toma c/8h s/indicación
+2906,764,35,1 toma c/8h s/indicación
+2907,765,73,1 toma c/8h s/indicación
+2908,766,12,1 toma c/8h s/indicación
+2909,766,9,1 toma c/8h s/indicación
+2910,767,21,1 comp. c/24h
+2911,767,41,1 comp. c/24h
+2912,767,73,1 toma c/8h s/indicación
+2913,767,3,1 toma c/8h s/indicación
+2914,767,30,1 toma c/8h s/indicación
+2915,768,59,1 toma c/8h s/indicación
+2916,768,21,1 comp. c/24h
+2917,768,41,1 comp. c/24h
+2918,768,3,1 toma c/8h s/indicación
+2919,768,30,1 toma c/8h s/indicación
+2920,769,21,1 comp. c/24h
+2921,769,9,1 toma c/8h s/indicación
+2922,769,41,1 comp. c/24h
+2923,769,3,1 toma c/8h s/indicación
+2924,769,30,1 toma c/8h s/indicación
+2925,770,21,1 comp. c/24h
+2926,770,10,1 toma c/8h s/indicación
+2927,770,41,1 comp. c/24h
+2928,770,3,1 toma c/8h s/indicación
+2929,770,30,1 toma c/8h s/indicación
+2930,771,41,1 comp. c/24h
+2931,771,3,1 toma c/8h s/indicación
+2932,771,30,1 toma c/8h s/indicación
+2933,771,21,1 comp. c/24h
+2934,772,21,1 comp. c/24h
+2935,772,41,1 comp. c/24h
+2936,772,3,1 toma c/8h s/indicación
+2937,772,30,1 toma c/8h s/indicación
+2938,772,88,1 toma c/8h s/indicación
+2939,773,39,1 toma c/8h s/indicación
+2940,773,35,1 toma c/8h s/indicación
+2941,773,2,1 toma c/8h s/indicación
+2942,774,15,1 toma c/8h s/indicación
+2943,774,39,1 toma c/8h s/indicación
+2944,774,35,1 toma c/8h s/indicación
+2945,774,2,1 toma c/8h s/indicación
+2946,775,21,1 comp. c/24h
+2947,775,41,1 comp. c/24h
+2948,775,3,1 toma c/8h s/indicación
+2949,775,60,1 toma c/8h s/indicación
+2950,775,30,1 toma c/8h s/indicación
+2951,776,59,1 toma c/8h s/indicación
+2952,776,21,1 comp. c/24h
+2953,776,41,1 comp. c/24h
+2954,776,3,1 toma c/8h s/indicación
+2955,776,30,1 toma c/8h s/indicación
+2956,777,21,1 comp. c/24h
+2957,777,41,1 comp. c/24h
+2958,777,3,1 toma c/8h s/indicación
+2959,777,12,1 toma c/8h s/indicación
+2960,777,30,1 toma c/8h s/indicación
+2961,778,56,1 toma c/8h s/indicación
+2962,778,21,1 comp. c/24h
+2963,778,41,1 comp. c/24h
+2964,778,3,1 toma c/8h s/indicación
+2965,778,30,1 toma c/8h s/indicación
+2966,779,47,1 toma c/8h s/indicación
+2967,779,20,1 comp. c/24h
+2968,779,73,1 toma c/8h s/indicación
+2969,779,51,1 toma c/8h s/indicación
+2970,779,42,1 comp. c/24h
+2971,780,42,1 comp. c/24h
+2972,780,20,1 comp. c/24h
+2973,780,51,1 toma c/8h s/indicación
+2974,780,47,1 toma c/8h s/indicación
+2975,781,47,1 toma c/8h s/indicación
+2976,781,20,1 comp. c/24h
+2977,781,16,1 toma c/8h s/indicación
+2978,781,51,1 toma c/8h s/indicación
+2979,781,42,1 comp. c/24h
+2980,781,80,1 toma c/8h s/indicación
+2981,782,57,1 toma c/8h s/indicación
+2982,782,47,1 toma c/8h s/indicación
+2983,782,20,1 comp. c/24h
+2984,782,51,1 toma c/8h s/indicación
+2985,782,42,1 comp. c/24h
+2986,783,47,1 toma c/8h s/indicación
+2987,783,20,1 comp. c/24h
+2988,783,15,1 toma c/8h s/indicación
+2989,783,51,1 toma c/8h s/indicación
+2990,783,42,1 comp. c/24h
+2991,784,47,1 toma c/8h s/indicación
+2992,784,20,1 comp. c/24h
+2993,784,15,1 toma c/8h s/indicación
+2994,784,51,1 toma c/8h s/indicación
+2995,784,42,1 comp. c/24h
+2996,785,47,1 toma c/8h s/indicación
+2997,785,20,1 comp. c/24h
+2998,785,51,1 toma c/8h s/indicación
+2999,785,42,1 comp. c/24h
+3000,785,33,1 toma c/8h s/indicación
+3001,786,59,1 toma c/8h s/indicación
+3002,786,47,1 toma c/8h s/indicación
+3003,786,20,1 comp. c/24h
+3004,786,51,1 toma c/8h s/indicación
+3005,786,42,1 comp. c/24h
+3006,787,42,1 comp. c/24h
+3007,787,20,1 comp. c/24h
+3008,787,51,1 toma c/8h s/indicación
+3009,787,47,1 toma c/8h s/indicación
+3010,788,42,1 comp. c/24h
+3011,788,20,1 comp. c/24h
+3012,788,51,1 toma c/8h s/indicación
+3013,788,47,1 toma c/8h s/indicación
+3014,789,10,1 toma c/8h s/indicación
+3015,789,47,1 toma c/8h s/indicación
+3016,789,20,1 comp. c/24h
+3017,789,51,1 toma c/8h s/indicación
+3018,789,42,1 comp. c/24h
+3019,790,84,1 toma c/8h s/indicación
+3020,790,15,1 toma c/8h s/indicación
+3021,790,80,1 toma c/8h s/indicación
+3022,790,85,1 toma c/8h s/indicación
+3023,791,84,1 toma c/8h s/indicación
+3024,791,80,1 toma c/8h s/indicación
+3025,791,85,1 toma c/8h s/indicación
+3026,791,10,1 toma c/8h s/indicación
+3027,792,20,1 comp. c/24h
+3028,792,32,1 toma c/8h s/indicación
+3029,792,35,1 toma c/8h s/indicación
+3030,792,33,1 toma c/8h s/indicación
+3031,793,20,1 comp. c/24h
+3032,793,32,1 toma c/8h s/indicación
+3033,793,35,1 toma c/8h s/indicación
+3034,793,33,1 toma c/8h s/indicación
+3035,794,71,1 toma c/8h s/indicación
+3036,794,64,1 toma c/8h s/indicación
+3037,794,60,1 toma c/8h s/indicación
+3038,795,71,1 toma c/8h s/indicación
+3039,795,64,1 toma c/8h s/indicación
+3040,795,9,1 toma c/8h s/indicación
+3041,796,71,1 toma c/8h s/indicación
+3042,796,80,1 toma c/8h s/indicación
+3043,796,64,1 toma c/8h s/indicación
+3044,797,47,1 toma c/8h s/indicación
+3045,797,20,1 comp. c/24h
+3046,797,12,1 toma c/8h s/indicación
+3047,797,51,1 toma c/8h s/indicación
+3048,797,42,1 comp. c/24h
+3049,798,47,1 toma c/8h s/indicación
+3050,798,20,1 comp. c/24h
+3051,798,51,1 toma c/8h s/indicación
+3052,798,88,1 toma c/8h s/indicación
+3053,798,42,1 comp. c/24h
+3054,799,39,1 toma c/8h s/indicación
+3055,799,60,1 toma c/8h s/indicación
+3056,799,2,1 toma c/8h s/indicación
+3057,799,11,1 toma c/8h s/indicación
+3058,799,35,1 toma c/8h s/indicación
+3059,800,39,1 toma c/8h s/indicación
+3060,800,35,1 toma c/8h s/indicación
+3061,800,2,1 toma c/8h s/indicación
+3062,801,56,1 toma c/8h s/indicación
+3063,801,33,1 toma c/8h s/indicación
+3064,801,39,1 toma c/8h s/indicación
+3065,801,2,1 toma c/8h s/indicación
+3066,801,35,1 toma c/8h s/indicación
+3067,802,39,1 toma c/8h s/indicación
+3068,802,60,1 toma c/8h s/indicación
+3069,802,2,1 toma c/8h s/indicación
+3070,802,11,1 toma c/8h s/indicación
+3071,802,35,1 toma c/8h s/indicación
+3072,803,9,1 toma c/8h s/indicación
+3073,803,15,1 toma c/8h s/indicación
+3074,803,39,1 toma c/8h s/indicación
+3075,803,2,1 toma c/8h s/indicación
+3076,803,35,1 toma c/8h s/indicación
+3077,804,42,1 comp. c/24h
+3078,804,20,1 comp. c/24h
+3079,804,51,1 toma c/8h s/indicación
+3080,804,47,1 toma c/8h s/indicación
+3081,805,42,1 comp. c/24h
+3082,805,20,1 comp. c/24h
+3083,805,51,1 toma c/8h s/indicación
+3084,805,47,1 toma c/8h s/indicación
+3085,806,25,1 toma c/8h s/indicación
+3086,806,57,1 toma c/8h s/indicación
+3087,806,19,1 comp. c/24h
+3088,806,15,1 toma c/8h s/indicación
+3089,806,16,1 toma c/8h s/indicación
+3090,807,25,1 toma c/8h s/indicación
+3091,807,19,1 comp. c/24h
+3092,807,15,1 toma c/8h s/indicación
+3093,808,25,1 toma c/8h s/indicación
+3094,808,19,1 comp. c/24h
+3095,808,15,1 toma c/8h s/indicación
+3096,809,25,1 toma c/8h s/indicación
+3097,809,19,1 comp. c/24h
+3098,809,15,1 toma c/8h s/indicación
+3099,809,56,1 toma c/8h s/indicación
+3100,810,21,1 comp. c/24h
+3101,810,10,1 toma c/8h s/indicación
+3102,810,41,1 comp. c/24h
+3103,810,3,1 toma c/8h s/indicación
+3104,810,91,1 toma c/8h s/indicación
+3105,810,30,1 toma c/8h s/indicación
+3106,811,57,1 toma c/8h s/indicación
+3107,811,21,1 comp. c/24h
+3108,811,10,1 toma c/8h s/indicación
+3109,811,41,1 comp. c/24h
+3110,811,3,1 toma c/8h s/indicación
+3111,811,30,1 toma c/8h s/indicación
+3112,812,56,1 toma c/8h s/indicación
+3113,812,47,1 toma c/8h s/indicación
+3114,812,20,1 comp. c/24h
+3115,812,51,1 toma c/8h s/indicación
+3116,812,42,1 comp. c/24h
+3117,813,57,1 toma c/8h s/indicación
+3118,813,47,1 toma c/8h s/indicación
+3119,813,20,1 comp. c/24h
+3120,813,51,1 toma c/8h s/indicación
+3121,813,42,1 comp. c/24h
+3122,814,84,1 toma c/8h s/indicación
+3123,814,15,1 toma c/8h s/indicación
+3124,814,80,1 toma c/8h s/indicación
+3125,814,85,1 toma c/8h s/indicación
+3126,815,84,1 toma c/8h s/indicación
+3127,815,80,1 toma c/8h s/indicación
+3128,815,85,1 toma c/8h s/indicación
+3129,815,88,1 toma c/8h s/indicación
+3130,816,12,1 toma c/8h s/indicación
+3131,817,88,1 toma c/8h s/indicación
+3132,818,59,1 toma c/8h s/indicación
+3133,819,15,1 toma c/8h s/indicación
+3134,820,33,1 toma c/8h s/indicación
+3135,820,20,1 comp. c/24h
+3136,820,12,1 toma c/8h s/indicación
+3137,820,60,1 toma c/8h s/indicación
+3138,820,32,1 toma c/8h s/indicación
+3139,820,35,1 toma c/8h s/indicación
+3140,821,9,1 toma c/8h s/indicación
+3141,821,33,1 toma c/8h s/indicación
+3142,821,20,1 comp. c/24h
+3143,821,32,1 toma c/8h s/indicación
+3144,821,35,1 toma c/8h s/indicación
+3145,822,20,1 comp. c/24h
+3146,822,32,1 toma c/8h s/indicación
+3147,822,35,1 toma c/8h s/indicación
+3148,822,33,1 toma c/8h s/indicación
+3149,823,33,1 toma c/8h s/indicación
+3150,823,20,1 comp. c/24h
+3151,823,88,1 toma c/8h s/indicación
+3152,823,32,1 toma c/8h s/indicación
+3153,823,35,1 toma c/8h s/indicación
+3154,824,59,1 toma c/8h s/indicación
+3155,824,10,1 toma c/8h s/indicación
+3156,824,84,1 toma c/8h s/indicación
+3157,824,80,1 toma c/8h s/indicación
+3158,824,85,1 toma c/8h s/indicación
+3159,825,84,1 toma c/8h s/indicación
+3160,825,80,1 toma c/8h s/indicación
+3161,825,85,1 toma c/8h s/indicación
+3162,826,84,1 toma c/8h s/indicación
+3163,826,80,1 toma c/8h s/indicación
+3164,826,85,1 toma c/8h s/indicación
+3165,826,57,1 toma c/8h s/indicación
+3166,827,91,1 toma c/8h s/indicación
+3167,827,71,1 toma c/8h s/indicación
+3168,827,64,1 toma c/8h s/indicación
+3169,828,71,1 toma c/8h s/indicación
+3170,828,64,1 toma c/8h s/indicación
+3171,828,60,1 toma c/8h s/indicación
+3172,829,39,1 toma c/8h s/indicación
+3173,829,16,1 toma c/8h s/indicación
+3174,829,2,1 toma c/8h s/indicación
+3175,829,88,1 toma c/8h s/indicación
+3176,829,35,1 toma c/8h s/indicación
+3177,830,39,1 toma c/8h s/indicación
+3178,830,35,1 toma c/8h s/indicación
+3179,830,2,1 toma c/8h s/indicación
+3180,830,9,1 toma c/8h s/indicación
+3181,831,39,1 toma c/8h s/indicación
+3182,831,35,1 toma c/8h s/indicación
+3183,831,2,1 toma c/8h s/indicación
+3184,831,9,1 toma c/8h s/indicación
+3185,832,9,1 toma c/8h s/indicación
+3186,832,39,1 toma c/8h s/indicación
+3187,832,60,1 toma c/8h s/indicación
+3188,832,2,1 toma c/8h s/indicación
+3189,832,35,1 toma c/8h s/indicación
+3190,833,71,1 toma c/8h s/indicación
+3191,833,16,1 toma c/8h s/indicación
+3192,833,64,1 toma c/8h s/indicación
+3193,834,57,1 toma c/8h s/indicación
+3194,834,71,1 toma c/8h s/indicación
+3195,834,64,1 toma c/8h s/indicación
+3196,835,56,1 toma c/8h s/indicación
+3197,835,25,1 toma c/8h s/indicación
+3198,835,19,1 comp. c/24h
+3199,835,15,1 toma c/8h s/indicación
+3200,835,16,1 toma c/8h s/indicación
+3201,836,25,1 toma c/8h s/indicación
+3202,836,19,1 comp. c/24h
+3203,836,80,1 toma c/8h s/indicación
+3204,836,15,1 toma c/8h s/indicación
+3205,837,25,1 toma c/8h s/indicación
+3206,837,19,1 comp. c/24h
+3207,837,15,1 toma c/8h s/indicación
+3208,838,25,1 toma c/8h s/indicación
+3209,838,19,1 comp. c/24h
+3210,838,15,1 toma c/8h s/indicación
+3211,838,56,1 toma c/8h s/indicación
+3212,839,21,1 comp. c/24h
+3213,839,9,1 toma c/8h s/indicación
+3214,839,41,1 comp. c/24h
+3215,839,3,1 toma c/8h s/indicación
+3216,839,30,1 toma c/8h s/indicación
+3217,840,21,1 comp. c/24h
+3218,840,9,1 toma c/8h s/indicación
+3219,840,41,1 comp. c/24h
+3220,840,3,1 toma c/8h s/indicación
+3221,840,30,1 toma c/8h s/indicación
+3222,840,33,1 toma c/8h s/indicación
+3223,841,56,1 toma c/8h s/indicación
+3224,841,21,1 comp. c/24h
+3225,841,10,1 toma c/8h s/indicación
+3226,841,41,1 comp. c/24h
+3227,841,3,1 toma c/8h s/indicación
+3228,841,30,1 toma c/8h s/indicación
+3229,842,33,1 toma c/8h s/indicación
+3230,842,20,1 comp. c/24h
+3231,842,91,1 toma c/8h s/indicación
+3232,842,32,1 toma c/8h s/indicación
+3233,842,35,1 toma c/8h s/indicación
+3234,843,33,1 toma c/8h s/indicación
+3235,843,20,1 comp. c/24h
+3236,843,91,1 toma c/8h s/indicación
+3237,843,32,1 toma c/8h s/indicación
+3238,843,35,1 toma c/8h s/indicación
+3239,844,33,1 toma c/8h s/indicación
+3240,844,20,1 comp. c/24h
+3241,844,12,1 toma c/8h s/indicación
+3242,844,32,1 toma c/8h s/indicación
+3243,844,35,1 toma c/8h s/indicación
+3244,845,33,1 toma c/8h s/indicación
+3245,845,20,1 comp. c/24h
+3246,845,16,1 toma c/8h s/indicación
+3247,845,32,1 toma c/8h s/indicación
+3248,845,35,1 toma c/8h s/indicación
+3249,846,47,1 toma c/8h s/indicación
+3250,846,20,1 comp. c/24h
+3251,846,12,1 toma c/8h s/indicación
+3252,846,51,1 toma c/8h s/indicación
+3253,846,42,1 comp. c/24h
+3254,847,10,1 toma c/8h s/indicación
+3255,847,47,1 toma c/8h s/indicación
+3256,847,20,1 comp. c/24h
+3257,847,51,1 toma c/8h s/indicación
+3258,847,42,1 comp. c/24h
+3259,848,47,1 toma c/8h s/indicación
+3260,848,20,1 comp. c/24h
+3261,848,51,1 toma c/8h s/indicación
+3262,848,11,1 toma c/8h s/indicación
+3263,848,42,1 comp. c/24h
+3264,849,10,1 toma c/8h s/indicación
+3265,850,10,1 toma c/8h s/indicación
+3266,851,59,1 toma c/8h s/indicación
+3267,852,71,1 toma c/8h s/indicación
+3268,852,64,1 toma c/8h s/indicación
+3269,853,71,1 toma c/8h s/indicación
+3270,853,64,1 toma c/8h s/indicación
+3271,854,84,1 toma c/8h s/indicación
+3272,854,16,1 toma c/8h s/indicación
+3273,854,80,1 toma c/8h s/indicación
+3274,854,85,1 toma c/8h s/indicación
+3275,855,84,1 toma c/8h s/indicación
+3276,855,80,1 toma c/8h s/indicación
+3277,855,85,1 toma c/8h s/indicación
+3278,856,84,1 toma c/8h s/indicación
+3279,856,80,1 toma c/8h s/indicación
+3280,856,85,1 toma c/8h s/indicación
+3281,856,60,1 toma c/8h s/indicación
+3282,857,59,1 toma c/8h s/indicación
+3283,857,21,1 comp. c/24h
+3284,857,9,1 toma c/8h s/indicación
+3285,857,41,1 comp. c/24h
+3286,857,3,1 toma c/8h s/indicación
+3287,857,30,1 toma c/8h s/indicación
+3288,858,21,1 comp. c/24h
+3289,858,41,1 comp. c/24h
+3290,858,3,1 toma c/8h s/indicación
+3291,858,12,1 toma c/8h s/indicación
+3292,858,30,1 toma c/8h s/indicación
+3293,859,39,1 toma c/8h s/indicación
+3294,859,35,1 toma c/8h s/indicación
+3295,859,2,1 toma c/8h s/indicación
+3296,860,39,1 toma c/8h s/indicación
+3297,860,35,1 toma c/8h s/indicación
+3298,860,2,1 toma c/8h s/indicación
+3299,861,25,1 toma c/8h s/indicación
+3300,861,19,1 comp. c/24h
+3301,861,73,1 toma c/8h s/indicación
+3302,861,15,1 toma c/8h s/indicación
+3303,862,25,1 toma c/8h s/indicación
+3304,862,19,1 comp. c/24h
+3305,862,15,1 toma c/8h s/indicación
+3306,862,60,1 toma c/8h s/indicación
+3307,863,25,1 toma c/8h s/indicación
+3308,863,19,1 comp. c/24h
+3309,863,15,1 toma c/8h s/indicación
+3310,864,32,1 toma c/8h s/indicación
+3311,864,33,1 toma c/8h s/indicación
+3312,864,20,1 comp. c/24h
+3313,864,80,1 toma c/8h s/indicación
+3314,864,35,1 toma c/8h s/indicación
+3315,865,32,1 toma c/8h s/indicación
+3316,865,33,1 toma c/8h s/indicación
+3317,865,20,1 comp. c/24h
+3318,865,80,1 toma c/8h s/indicación
+3319,865,35,1 toma c/8h s/indicación
+3320,866,33,1 toma c/8h s/indicación
+3321,866,20,1 comp. c/24h
+3322,866,60,1 toma c/8h s/indicación
+3323,866,32,1 toma c/8h s/indicación
+3324,866,35,1 toma c/8h s/indicación
+3325,867,33,1 toma c/8h s/indicación
+3326,867,20,1 comp. c/24h
+3327,867,73,1 toma c/8h s/indicación
+3328,867,60,1 toma c/8h s/indicación
+3329,867,32,1 toma c/8h s/indicación
+3330,867,35,1 toma c/8h s/indicación
+3331,868,84,1 toma c/8h s/indicación
+3332,868,80,1 toma c/8h s/indicación
+3333,868,85,1 toma c/8h s/indicación
+3334,869,84,1 toma c/8h s/indicación
+3335,869,80,1 toma c/8h s/indicación
+3336,869,85,1 toma c/8h s/indicación
+3337,870,84,1 toma c/8h s/indicación
+3338,870,80,1 toma c/8h s/indicación
+3339,870,85,1 toma c/8h s/indicación
+3340,870,88,1 toma c/8h s/indicación
+3341,871,9,1 toma c/8h s/indicación
+3342,871,84,1 toma c/8h s/indicación
+3343,871,80,1 toma c/8h s/indicación
+3344,871,85,1 toma c/8h s/indicación
+3345,871,33,1 toma c/8h s/indicación
+3346,872,12,1 toma c/8h s/indicación
+3347,872,39,1 toma c/8h s/indicación
+3348,872,35,1 toma c/8h s/indicación
+3349,872,2,1 toma c/8h s/indicación
+3350,873,39,1 toma c/8h s/indicación
+3351,873,35,1 toma c/8h s/indicación
+3352,873,2,1 toma c/8h s/indicación
+3353,873,60,1 toma c/8h s/indicación
+3354,874,16,1 toma c/8h s/indicación
+3355,874,39,1 toma c/8h s/indicación
+3356,874,35,1 toma c/8h s/indicación
+3357,874,2,1 toma c/8h s/indicación
+3358,875,16,1 toma c/8h s/indicación
+3359,875,39,1 toma c/8h s/indicación
+3360,875,35,1 toma c/8h s/indicación
+3361,875,2,1 toma c/8h s/indicación
+3362,876,9,1 toma c/8h s/indicación
+3363,876,33,1 toma c/8h s/indicación
+3364,876,20,1 comp. c/24h
+3365,876,32,1 toma c/8h s/indicación
+3366,876,35,1 toma c/8h s/indicación
+3367,877,20,1 comp. c/24h
+3368,877,32,1 toma c/8h s/indicación
+3369,877,35,1 toma c/8h s/indicación
+3370,877,33,1 toma c/8h s/indicación
+3371,878,33,1 toma c/8h s/indicación
+3372,878,20,1 comp. c/24h
+3373,878,15,1 toma c/8h s/indicación
+3374,878,32,1 toma c/8h s/indicación
+3375,878,35,1 toma c/8h s/indicación
+3376,879,47,1 toma c/8h s/indicación
+3377,879,20,1 comp. c/24h
+3378,879,73,1 toma c/8h s/indicación
+3379,879,51,1 toma c/8h s/indicación
+3380,879,42,1 comp. c/24h
+3381,879,33,1 toma c/8h s/indicación
+3382,880,47,1 toma c/8h s/indicación
+3383,880,20,1 comp. c/24h
+3384,880,16,1 toma c/8h s/indicación
+3385,880,12,1 toma c/8h s/indicación
+3386,880,51,1 toma c/8h s/indicación
+3387,880,42,1 comp. c/24h
+3388,881,57,1 toma c/8h s/indicación
+3389,881,47,1 toma c/8h s/indicación
+3390,881,20,1 comp. c/24h
+3391,881,51,1 toma c/8h s/indicación
+3392,881,42,1 comp. c/24h
+3393,882,47,1 toma c/8h s/indicación
+3394,882,20,1 comp. c/24h
+3395,882,60,1 toma c/8h s/indicación
+3396,882,51,1 toma c/8h s/indicación
+3397,882,42,1 comp. c/24h
+3398,883,47,1 toma c/8h s/indicación
+3399,883,20,1 comp. c/24h
+3400,883,91,1 toma c/8h s/indicación
+3401,883,51,1 toma c/8h s/indicación
+3402,883,42,1 comp. c/24h
+3403,884,41,1 comp. c/24h
+3404,884,3,1 toma c/8h s/indicación
+3405,884,30,1 toma c/8h s/indicación
+3406,884,21,1 comp. c/24h
+3407,885,21,1 comp. c/24h
+3408,885,41,1 comp. c/24h
+3409,885,73,1 toma c/8h s/indicación
+3410,885,3,1 toma c/8h s/indicación
+3411,885,60,1 toma c/8h s/indicación
+3412,885,30,1 toma c/8h s/indicación
+3413,886,9,1 toma c/8h s/indicación
+3414,886,10,1 toma c/8h s/indicación
+3415,886,84,1 toma c/8h s/indicación
+3416,886,80,1 toma c/8h s/indicación
+3417,886,85,1 toma c/8h s/indicación
+3418,887,84,1 toma c/8h s/indicación
+3419,887,80,1 toma c/8h s/indicación
+3420,887,85,1 toma c/8h s/indicación
+3421,887,56,1 toma c/8h s/indicación
+3422,888,84,1 toma c/8h s/indicación
+3423,888,80,1 toma c/8h s/indicación
+3424,888,85,1 toma c/8h s/indicación
+3425,889,84,1 toma c/8h s/indicación
+3426,889,80,1 toma c/8h s/indicación
+3427,889,85,1 toma c/8h s/indicación
+3428,889,60,1 toma c/8h s/indicación
+3429,890,91,1 toma c/8h s/indicación
+3430,890,71,1 toma c/8h s/indicación
+3431,890,64,1 toma c/8h s/indicación
+3432,891,71,1 toma c/8h s/indicación
+3433,891,64,1 toma c/8h s/indicación
+3434,892,39,1 toma c/8h s/indicación
+3435,892,35,1 toma c/8h s/indicación
+3436,892,2,1 toma c/8h s/indicación
+3437,892,33,1 toma c/8h s/indicación
+3438,893,16,1 toma c/8h s/indicación
+3439,893,39,1 toma c/8h s/indicación
+3440,893,35,1 toma c/8h s/indicación
+3441,893,2,1 toma c/8h s/indicación
+3442,894,91,1 toma c/8h s/indicación
+3443,894,39,1 toma c/8h s/indicación
+3444,894,35,1 toma c/8h s/indicación
+3445,894,2,1 toma c/8h s/indicación
+3446,895,39,1 toma c/8h s/indicación
+3447,895,16,1 toma c/8h s/indicación
+3448,895,60,1 toma c/8h s/indicación
+3449,895,2,1 toma c/8h s/indicación
+3450,895,35,1 toma c/8h s/indicación
+3451,896,84,1 toma c/8h s/indicación
+3452,896,80,1 toma c/8h s/indicación
+3453,896,85,1 toma c/8h s/indicación
+3454,897,84,1 toma c/8h s/indicación
+3455,897,80,1 toma c/8h s/indicación
+3456,897,85,1 toma c/8h s/indicación
+3457,897,33,1 toma c/8h s/indicación
+3458,898,71,1 toma c/8h s/indicación
+3459,898,64,1 toma c/8h s/indicación
+3460,899,71,1 toma c/8h s/indicación
+3461,899,64,1 toma c/8h s/indicación
+3462,900,56,1 toma c/8h s/indicación
+3463,900,71,1 toma c/8h s/indicación
+3464,900,64,1 toma c/8h s/indicación
+3465,901,47,1 toma c/8h s/indicación
+3466,901,20,1 comp. c/24h
+3467,901,91,1 toma c/8h s/indicación
+3468,901,51,1 toma c/8h s/indicación
+3469,901,42,1 comp. c/24h
+3470,902,47,1 toma c/8h s/indicación
+3471,902,20,1 comp. c/24h
+3472,902,91,1 toma c/8h s/indicación
+3473,902,60,1 toma c/8h s/indicación
+3474,902,51,1 toma c/8h s/indicación
+3475,902,42,1 comp. c/24h
+3476,903,42,1 comp. c/24h
+3477,903,20,1 comp. c/24h
+3478,903,51,1 toma c/8h s/indicación
+3479,903,47,1 toma c/8h s/indicación

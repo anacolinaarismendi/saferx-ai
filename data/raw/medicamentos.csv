@@ -1,7 +1,95 @@
 id_medicamento,principio_activo,nombre_comercial
-1,Ibuprofeno,Advil
-2,Aspirina,Aspirina Bayer
-3,Warfarina,Aldocumar
-4,Amoxicilina,Clamoxyl
-5,Omeprazol,Omeoprazol Genérico
-6,Lisinopril,Zestril
+1,Warfarina,Coumadin / Aldocumar
+2,Acenocumarol,Sintrom
+3,Aspirina (Ácido Acetilsalicílico),Aspirina Bayer / Adiro
+4,Clopidogrel,Plavix / Iscover
+5,Apixabán,Eliquis
+6,Rivaroxabán,Xarelto
+7,Dabigatrán,Pradaxa
+8,Enoxaparina,Clexane
+9,Ibuprofeno,Advil / Neobrufen / Espidifen
+10,Naproxeno,Antalgin / Naprosyn
+11,Diclofenaco,Voltaren
+12,Ketorolaco,Toradol / Droal
+13,Celecoxib,Celebrex
+14,Meloxicam,Movalis
+15,Paracetamol,Efferalgan / Gelocatil
+16,Tramadol,Adolonta / Zaldiar
+17,Morfina,Sevredol / Oramorph
+18,Fentanilo,Durogesic / Actiq
+19,Lisinopril,Zestril / Prinivil
+20,Enalapril,Renitec / Vasotec
+21,Ramipril,Acovil / Altace
+22,Losartán,Cozaar
+23,Valsartán,Diovan
+24,Candesartán,Atacand
+25,Amlodipino,Norvasc
+26,Nifedipino,Adalat Oros
+27,Diltiazem,Masdil / Cardizem
+28,Verapamilo,Manidon / Isoptin
+29,Atenolol,Tenormin
+30,Bisoprolol,Emconcor / Cardicor
+31,Metoprolol,Lopresor / Beloc
+32,Carvedilol,Coropres / Dilatrend
+33,Espironolactona,Aldactone
+34,Eplerenona,Inspra
+35,Furosemida,Seguril / Lasix
+36,Torasemida,Dilutb / Sutril
+37,Hidroclorotiazida,Esidrex
+38,Amiodarona,Trangorex / Cordarone
+39,Digoxina,Digoxina Sanofi / Lanoxin
+40,Flecainida,Apocard / Tambocor
+41,Atorvastatina,Cardyl / Lipitor / Zarator
+42,Simvastatina,Zocor / Alcosin
+43,Rosuvastatina,Crestor
+44,Pravastatina,Liplat / Lipemol
+45,Fenofibrato,Secalip / Lipanthyl
+46,Ezetimiba,Ezetrol
+47,Metformina,Dianben / Glucophage
+48,Insulina Glargina,Lantus / Toujeo
+49,Insulina Aspart,NovoRapid
+50,Gliclazida,Diamicron
+51,Empagliflozina,Jardiance
+52,Dapagliflozina,Forxiga
+53,Sitagliptina,Januvia
+54,Liraglutida,Victoza / Saxenda
+55,Amoxicilina,Clamoxyl
+56,Amoxicilina-Clavulánico,Augmentine
+57,Ciprofloxacino,Baycip / Cipro
+58,Levofloxacino,Tavanic
+59,Azitromicina,Zithromax / Zitromax
+60,Claritromicina,Klacid / Kofron
+61,Doxiciclina,Vibramicina
+62,Ceftriaxona,Rocephin
+63,Fluconazol,Diflucan
+64,Sertralina,Besitran / Zoloft
+65,Fluoxetina,Prozac
+66,Escitalopram,Cipralex / Lexapro
+67,Paroxetina,Seroxat
+68,Venlafaxina,Vandral / Effexor
+69,Duloxetina,Cymbalta / Xeristar
+70,Amitriptilina,Tryptizol / Elavil
+71,Lorazepam,Orfidal / Ativan
+72,Diazepam,Valium
+73,Alprazolam,Trankimazin / Xanax
+74,Clonazepam,Rivotril / Klonopin
+75,Zolpidem,Stilnox / Ambien
+76,Quetiapina,Seroquel
+77,Olanzapina,Zyprexa
+78,Risperidona,Risperdal
+79,Litio,Plenur / Lithobid
+80,Omeprazol,Omeprazol Genérico / Losec
+81,Pantoprazol,Pantecta / Anagastra
+82,Esomeprazol,Nexium
+83,Famotidina,Pepcid
+84,Salbutamol,Ventolin
+85,Budesonida,Pulmicort
+86,Montelukast,Singulair
+87,Metotrexato,Metoject / Rheumatrex
+88,Prednisona,Dacortin / Deltasone
+89,Dexametasona,Fortecortin
+90,Alopurinol,Zyloric
+91,Colquicina,Colchimax
+92,Levotiroxina,Eutirox / Synthroid
+93,Teofilina,Theo-Dur / Tediprim
+94,Carbonato de Calcio,Mastical / Calcio
