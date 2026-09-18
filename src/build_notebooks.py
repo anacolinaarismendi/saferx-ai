@@ -30,7 +30,7 @@ nb1.cells = [
     nbformat.v4.new_markdown_cell("""# 🏥 SafeRx AI — Fase 1: Generación y Extracción de Datos Clínicos
 
 **Proyecto:** SafeRx AI — Asistente Clínico Inteligente  
-**Cliente:** Grupo Hospitalario San José (Red de 3 hospitales regionales y 12 clínicas)  
+**Cliente:** FritzeFriends (Red de 3 hospitales regionales y 12 clínicas)  
 **Módulo:** Ingesta, Integridad Referencial y Extracción de Datos Crudos  
 **Autor:** Equipo de Ciencia de Datos & IA Clínica SafeRx  
 
@@ -38,7 +38,7 @@ nb1.cells = [
 
 ## 📋 Contexto y Objetivos de la Fase
 
-El **Grupo Hospitalario San José** atiende aproximadamente 3,000 consultas diarias. En pacientes geriátricos y con comorbilidades (polifarmacia), el cruce de 4 a 7 medicamentos en los 15 minutos que dura una consulta médica genera un alto riesgo de interacciones farmacológicas no detectadas.
+El grupo hospitalario **FritzeFriends** atiende aproximadamente 3,000 consultas diarias. En pacientes geriátricos y con comorbilidades (polifarmacia), el cruce de 4 a 7 medicamentos en los 15 minutos que dura una consulta médica genera un alto riesgo de interacciones farmacológicas no detectadas.
 
 En este notebook:
 1. Conectamos con el motor relacional SQLite (`database/hospital.db`).
@@ -193,7 +193,7 @@ nb2.cells = [
     nbformat.v4.new_markdown_cell("""# 📊 SafeRx AI — Fase 2: Análisis Exploratorio de Datos Clínicos (EDA)
 
 **Proyecto:** SafeRx AI — Asistente Clínico Inteligente  
-**Cliente:** Grupo Hospitalario San José  
+**Cliente:** FritzeFriends  
 **Módulo:** Análisis Epidemiológico, Polifarmacia e Interacciones Farmacológicas  
 **Autor:** Equipo de Ciencia de Datos & IA Clínica SafeRx  
 
@@ -201,7 +201,7 @@ nb2.cells = [
 
 ## 📋 Objetivos del Análisis
 
-El objetivo de esta fase es examinar la evidencia empírica contenida en los historiales clínicos del Grupo Hospitalario San José para responder a las siguientes preguntas clave de negocio y salud:
+El objetivo de esta fase es examinar la evidencia empírica contenida en los historiales clínicos de FritzeFriends para responder a las siguientes preguntas clave de negocio y salud:
 1. **Perfil Demográfico:** ¿Cuál es la estructura etaria de los pacientes y cómo se distribuye la comorbilidad de hipertensión?
 2. **Carga Terapéutica (Polifarmacia):** ¿Qué proporción de consultas involucra múltiples medicamentos y cómo se asocia a la edad?
 3. **Incidencia de Interacciones Graves:** ¿Qué porcentaje de consultas históricas conllevó combinaciones contraindicadas y en qué especialidades ocurren con mayor frecuencia?
@@ -354,7 +354,7 @@ plt.show()
  
 1. **Riesgo Concentrado:** Un **34.8% de las consultas** en la cohorte hospitalaria con polifarmacia y comorbilidades presenta combinaciones de fármacos con interacción adversa documentada (ej. *Acenocumarol/Warfarina + AINEs*, *IECA + Espironolactona* o *Estatinas + Claritromicina*).
 2. **Impacto por Especialidad:** Urgencias y Geriatría presentan las mayores tasas de alertas de compatibilidad, coherente con la necesidad de atención rápida y la polifarmacia en adultos mayores.
-3. **Retorno de Inversión (ROI) para Grupo Hospitalario San José:**
+3. **Retorno de Inversión (ROI) para FritzeFriends:**
    * Evitar los incidentes anuales graves de mala praxis reduce las primas de seguro de responsabilidad en un **15%**.
    * Ahorro de **3 a 5 minutos por consulta** al automatizar la verificación cruzada en tiempo real.
 """)]
@@ -379,7 +379,7 @@ nb3.cells = [
     nbformat.v4.new_markdown_cell("""# 🤖 SafeRx AI — Fase 3: Modelado Predictivo de Riesgo Farmacológico
 
 **Proyecto:** SafeRx AI — Asistente Clínico Inteligente  
-**Cliente:** Grupo Hospitalario San José  
+**Cliente:** FritzeFriends  
 **Módulo:** Entrenamiento, Selección de Modelos, Evaluación Clínica y Serialización  
 **Autor:** Equipo de Ciencia de Datos & IA Clínica SafeRx  
 

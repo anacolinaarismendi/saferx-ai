@@ -11,9 +11,9 @@
 
 ---
 
-## 🏥 Contexto del Caso: Grupo Hospitalario San José
+## 🏥 Contexto del Caso: FritzeFriends
 
-* **Cliente:** Red hospitalaria privada con 3 hospitales regionales, 12 clínicas locales y 250 médicos en plantilla.
+* **Cliente:** FritzeFriends (Red hospitalaria privada con 3 hospitales regionales, 12 clínicas locales y 250 médicos en plantilla).
 * **Volumen:** ~3,000 consultas diarias (~1 millón anuales).
 * **El Problema:** Los pacientes mayores toman de media entre 4 y 7 fármacos distintos. Los médicos pierden entre 3 y 5 minutos por consulta consultando vademécums manuales. El año pasado se registraron 12 incidentes graves por reacciones adversas, 3 litigios y un aumento del 15% en las primas de seguro de mala praxis.
 * **La Solución:** SafeRx AI audita en milisegundos cada prescripción médica, detecta incompatibilidades de riesgo letal y estima la probabilidad de eventos adversos mediante Machine Learning.

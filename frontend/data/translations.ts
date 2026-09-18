@@ -261,7 +261,7 @@ export const translations: Record<Language, Translations> = {
       ctaCardSubtitle:
         "Solicita una demostración personalizada con uno de nuestros especialistas clínicos.",
       contactBtn: "demo@saferx.ai",
-      rights: "© 2026 SafeRx AI, Inc. Todos los derechos reservados.",
+      rights: "© 2026 FritzeFriends. Todos los derechos reservados.",
       privacy: "Política de Privacidad",
       terms: "Términos de Servicio",
       security: "Seguridad & Compliance",
@@ -399,7 +399,7 @@ export const translations: Record<Language, Translations> = {
       ctaCardSubtitle:
         "Schedule a custom live demonstration with our clinical informatics team.",
       contactBtn: "demo@saferx.ai",
-      rights: "© 2026 SafeRx AI, Inc. All rights reserved.",
+      rights: "© 2026 FritzeFriends. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
       security: "Security & Compliance",
@@ -537,8 +537,8 @@ export const translations: Record<Language, Translations> = {
       ctaCardSubtitle:
         "Vereinbaren Sie eine persönliche Online-Demonstration mit unseren Fachberatern.",
       contactBtn: "demo@saferx.ai",
-      rights: "© 2026 SafeRx AI, Inc. Alle Rechte vorbehalten.",
-      privacy: "Datenschutzerklärung",
+      rights: "© 2026 FritzeFriends. Alle Rechte vorbehalten.",
+      privacy: "Datenschutzrichtlinie",
       terms: "Nutzungsbedingungen",
       security: "Sicherheitsstandards",
     },

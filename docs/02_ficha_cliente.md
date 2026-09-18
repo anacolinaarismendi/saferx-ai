@@ -1,7 +1,7 @@
 # Fase 2: Ficha del Cliente
 
 ## 1. Datos Generales de la Empresa
-* **Nombre:** Grupo Hospitalario San José.
+* **Nombre:** FritzeFriends (Grupo Hospitalario FritzeFriends).
 * **Sector:** Salud y Asistencia Médica Privada
 * **Actividad:** Red de clínicas de atención primaria y urgencias.
 * **Tamaño:** Mediano-Grande (3 hospitales regionales y 12 clínicas locales).

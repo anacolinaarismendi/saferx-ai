@@ -83,7 +83,7 @@ SafeRx AI se comercializa bajo un modelo **B2B SaaS (Software as a Service) Sani
   * Auditoría predictiva de pólizas de mala praxis para compañías aseguradoras de salud.
 
 ### 5.2. Retorno de Inversión (ROI) para el Cliente
-Tomando como referencia el caso de nuestro cliente piloto, el **Grupo Hospitalario San José**:
+Tomando como referencia el caso de nuestro cliente piloto, **FritzeFriends**:
 * **Ahorro de Tiempo Médico:** 3,000 consultas/día × 3 minutos ahorrados = **150 horas médicas/día recuperadas**, equivalentes a una capacidad de atención adicional de más de 600 pacientes diarios sin contratar personal extra.
 * **Ahorro en Seguros y Litigios:** Reducción estimada de 12 incidentes graves anuales, logrando un ahorro de hasta **€180,000 anuales** en indemnizaciones y reducción directa de la prima de seguro de mala praxis (-15%).
 
@@ -112,5 +112,5 @@ Tomando como referencia el caso de nuestro cliente piloto, el **Grupo Hospitalar
 | **Fase 1** | Q3 2026 | Arquitectura de base de datos clínica, ingesta de datos reales (OpenFDA FAERS) y vademécum. |  Completado |
 | **Fase 2** | Q3 2026 | Landing page institucional, pipeline de preprocesamiento y notebooks de análisis (EDA). |  Completado |
 | **Fase 3** | Q3 2026 | Modelado de riesgo con Scikit-Learn y prototipo clínico funcional en Streamlit. |  Completado |
-| **Fase 4** | Q4 2026 | Piloto en entorno real en 1 hospital regional del Grupo Hospitalario San José. |  Siguiente Paso |
+| **Fase 4** | Q4 2026 | Piloto en entorno real en 1 hospital regional de FritzeFriends. |  Siguiente Paso |
 | **Fase 5** | Q1 2027 | Conectores interoperables FHIR / HL7 y certificación CE como producto de software sanitario. | 📋 Planificado |

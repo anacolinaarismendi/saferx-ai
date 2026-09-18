@@ -2,166 +2,166 @@
 SafeRx AI — Asistente Clínico Inteligente de Prescripción Segura
 ================================================================================
 Aplicación interactiva Streamlit diseñada para médicos y directores clínicos
-del Grupo Hospitalario San José.
-
-Permite:
-1. Validar prescripciones en tiempo real con cruce de interacciones deterministas (SQLite).
-2. Estimar el score de riesgo global mediante el modelo de Machine Learning entrenado.
-3. Consultar métricas de seguridad hospitalaria y explorar el vademécum clínico.
-"""
-
-from datetime import datetime
-from pathlib import Path
-import sqlite3
-
-import altair as alt
-import joblib
-import pandas as pd
-import streamlit as st
-
-# ---------------------------------------------------------------------------
-# Configuración general y rutas
-# ---------------------------------------------------------------------------
-st.set_page_config(
-    page_title="SafeRx AI | Asistente Clínico Inteligente",
-    page_icon="🏥",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-DB_PATH = BASE_DIR / "database" / "hospital.db"
-PREPROCESSOR_PATH = BASE_DIR / "prototype" / "models" / "preprocesador.pkl"
-MODEL_PATH = BASE_DIR / "prototype" / "models" / "modelo_riesgo.pkl"
-FDA_DATA_PATH = BASE_DIR / "data" / "raw" / "openfda_adverse_events.csv"
-
-# Estilos CSS personalizados
-st.markdown("""
-<style>
-    .main-title {
-        font-size: 2.2rem;
-        font-weight: 800;
-        color: #005B94;
-        margin-bottom: 0.2rem;
-    }
-    .sub-title {
-        font-size: 1.05rem;
-        color: #4A5568;
-        margin-bottom: 1.5rem;
-    }
-    .kpi-card {
-        background: #F8FAFC;
-        border-radius: 12px;
-        padding: 1.2rem;
-        border-left: 5px solid #005B94;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    .alert-card-danger {
-        background: #FFF5F5;
-        border: 1px solid #FEB2B2;
-        border-left: 6px solid #E53E3E;
-        border-radius: 10px;
-        padding: 1rem 1.2rem;
-        margin-bottom: 1rem;
-    }
-    .alert-card-warning {
-        background: #FFFAF0;
-        border: 1px solid #FBD38D;
-        border-left: 6px solid #DD6B20;
-        border-radius: 10px;
-        padding: 1rem 1.2rem;
-        margin-bottom: 1rem;
-    }
-    .alert-card-success {
-        background: #F0FFF4;
-        border: 1px solid #9AE6B4;
-        border-left: 6px solid #38A169;
-        border-radius: 10px;
-        padding: 1rem 1.2rem;
-        margin-bottom: 1rem;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-
-# ---------------------------------------------------------------------------
-# Carga de recursos y modelos
-# ---------------------------------------------------------------------------
-@st.cache_resource
-def cargar_modelos():
-    """Carga el preprocesador y el modelo predictivo de riesgo."""
-    prep = joblib.load(PREPROCESSOR_PATH) if PREPROCESSOR_PATH.exists() else None
-    model = joblib.load(MODEL_PATH) if MODEL_PATH.exists() else None
-    return prep, model
-
-
-def obtener_conexion():
-    """Crea una conexión con la base de datos SQLite."""
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-@st.cache_data(ttl=60)
-def cargar_catalogos():
-    """Carga pacientes, médicos, medicamentos e interacciones."""
-    with obtener_conexion() as conn:
-        pacientes = pd.read_sql("SELECT * FROM Pacientes ORDER BY nombre", conn)
-        medicos = pd.read_sql("SELECT * FROM Medicos ORDER BY nombre", conn)
-        medicamentos = pd.read_sql("SELECT * FROM Medicamentos ORDER BY principio_activo", conn)
-        interacciones = pd.read_sql("SELECT * FROM Interacciones", conn)
-    return pacientes, medicos, medicamentos, interacciones
-
-
-def obtener_medicacion_activa(id_paciente: int):
-    """Consulta los medicamentos recetados a un paciente en los últimos 6 meses."""
-    query = """
-        SELECT DISTINCT m.id_medicamento, m.principio_activo, m.nombre_comercial, r.dosis, c.fecha
-        FROM Consultas c
-        JOIN Recetas r ON c.id_consulta = r.id_consulta
-        JOIN Medicamentos m ON r.id_medicamento = m.id_medicamento
-        WHERE c.id_paciente = ?
-        ORDER BY c.fecha DESC
-        LIMIT 6
-    """
-    with obtener_conexion() as conn:
-        df_activa = pd.read_sql(query, conn, params=(id_paciente,))
-    return df_activa
-
-
-def verificar_interacciones_deterministas(ids_medicamentos: list[int]):
-    """Cruza los medicamentos seleccionados contra la tabla de Interacciones."""
-    if len(ids_medicamentos) < 2:
-        return []
-
-    placeholders = ",".join(["?"] * len(ids_medicamentos))
-    query = f"""
-        SELECT 
-            i.id_interaccion, i.gravedad, i.descripcion,
-            m1.principio_activo AS med1, m1.nombre_comercial AS com1,
-            m2.principio_activo AS med2, m2.nombre_comercial AS com2
-        FROM Interacciones i
-        JOIN Medicamentos m1 ON i.id_medicamento_1 = m1.id_medicamento
-        JOIN Medicamentos m2 ON i.id_medicamento_2 = m2.id_medicamento
-        WHERE (i.id_medicamento_1 IN ({placeholders}) AND i.id_medicamento_2 IN ({placeholders}))
-    """
-    with obtener_conexion() as conn:
-        cursor = conn.cursor()
-        cursor.execute(query, ids_medicamentos + ids_medicamentos)
-        filas = cursor.fetchall()
-
-    return [dict(f) for f in filas]
-
-
-# ---------------------------------------------------------------------------
-# Header Institucional
-# ---------------------------------------------------------------------------
-col_logo, col_header = st.columns([1, 6])
-with col_logo:
-    st.markdown("<h1 style='text-align: center; font-size: 3.5rem; margin:0;'>🛡️</h1>", unsafe_allow_html=True)
-with col_header:
-    st.markdown("<div class='main-title'>SafeRx AI — Asistente Clínico Inteligente</div>", unsafe_allow_html=True)
-    st.markdown("<div class='sub-title'>Plataforma de Prescripción Segura & Prevención de Eventos Adversos | <b>Grupo Hospitalario San José</b></div>", unsafe_allow_html=True)
+del Grupo Hospitalario FritzeFriends.
+ 
+ Permite:
+ 1. Validar prescripciones en tiempo real con cruce de interacciones deterministas (SQLite).
+ 2. Estimar el score de riesgo global mediante el modelo de Machine Learning entrenado.
+ 3. Consultar métricas de seguridad hospitalaria y explorar el vademécum clínico.
+ """
+ 
+ from datetime import datetime
+ from pathlib import Path
+ import sqlite3
+ 
+ import altair as alt
+ import joblib
+ import pandas as pd
+ import streamlit as st
+ 
+ # ---------------------------------------------------------------------------
+ # Configuración general y rutas
+ # ---------------------------------------------------------------------------
+ st.set_page_config(
+     page_title="SafeRx AI | Asistente Clínico Inteligente",
+     page_icon="🏥",
+     layout="wide",
+     initial_sidebar_state="expanded",
+ )
+ 
+ BASE_DIR = Path(__file__).resolve().parent.parent
+ DB_PATH = BASE_DIR / "database" / "hospital.db"
+ PREPROCESSOR_PATH = BASE_DIR / "prototype" / "models" / "preprocesador.pkl"
+ MODEL_PATH = BASE_DIR / "prototype" / "models" / "modelo_riesgo.pkl"
+ FDA_DATA_PATH = BASE_DIR / "data" / "raw" / "openfda_adverse_events.csv"
+ 
+ # Estilos CSS personalizados
+ st.markdown("""
+ <style>
+     .main-title {
+         font-size: 2.2rem;
+         font-weight: 800;
+         color: #005B94;
+         margin-bottom: 0.2rem;
+     }
+     .sub-title {
+         font-size: 1.05rem;
+         color: #4A5568;
+         margin-bottom: 1.5rem;
+     }
+     .kpi-card {
+         background: #F8FAFC;
+         border-radius: 12px;
+         padding: 1.2rem;
+         border-left: 5px solid #005B94;
+         box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+     }
+     .alert-card-danger {
+         background: #FFF5F5;
+         border: 1px solid #FEB2B2;
+         border-left: 6px solid #E53E3E;
+         border-radius: 10px;
+         padding: 1rem 1.2rem;
+         margin-bottom: 1rem;
+     }
+     .alert-card-warning {
+         background: #FFFAF0;
+         border: 1px solid #FBD38D;
+         border-left: 6px solid #DD6B20;
+         border-radius: 10px;
+         padding: 1rem 1.2rem;
+         margin-bottom: 1rem;
+     }
+     .alert-card-success {
+         background: #F0FFF4;
+         border: 1px solid #9AE6B4;
+         border-left: 6px solid #38A169;
+         border-radius: 10px;
+         padding: 1rem 1.2rem;
+         margin-bottom: 1rem;
+     }
+ </style>
+ """, unsafe_allow_html=True)
+ 
+ 
+ # ---------------------------------------------------------------------------
+ # Carga de recursos y modelos
+ # ---------------------------------------------------------------------------
+ @st.cache_resource
+ def cargar_modelos():
+     """Carga el preprocesador y el modelo predictivo de riesgo."""
+     prep = joblib.load(PREPROCESSOR_PATH) if PREPROCESSOR_PATH.exists() else None
+     model = joblib.load(MODEL_PATH) if MODEL_PATH.exists() else None
+     return prep, model
+ 
+ 
+ def obtener_conexion():
+     """Crea una conexión con la base de datos SQLite."""
+     conn = sqlite3.connect(DB_PATH)
+     conn.row_factory = sqlite3.Row
+     return conn
+ 
+ 
+ @st.cache_data(ttl=60)
+ def cargar_catalogos():
+     """Carga pacientes, médicos, medicamentos e interacciones."""
+     with obtener_conexion() as conn:
+         pacientes = pd.read_sql("SELECT * FROM Pacientes ORDER BY nombre", conn)
+         medicos = pd.read_sql("SELECT * FROM Medicos ORDER BY nombre", conn)
+         medicamentos = pd.read_sql("SELECT * FROM Medicamentos ORDER BY principio_activo", conn)
+         interacciones = pd.read_sql("SELECT * FROM Interacciones", conn)
+     return pacientes, medicos, medicamentos, interacciones
+ 
+ 
+ def obtener_medicacion_activa(id_paciente: int):
+     """Consulta los medicamentos recetados a un paciente en los últimos 6 meses."""
+     query = """
+         SELECT DISTINCT m.id_medicamento, m.principio_activo, m.nombre_comercial, r.dosis, c.fecha
+         FROM Consultas c
+         JOIN Recetas r ON c.id_consulta = r.id_consulta
+         JOIN Medicamentos m ON r.id_medicamento = m.id_medicamento
+         WHERE c.id_paciente = ?
+         ORDER BY c.fecha DESC
+         LIMIT 6
+     """
+     with obtener_conexion() as conn:
+         df_activa = pd.read_sql(query, conn, params=(id_paciente,))
+     return df_activa
+ 
+ 
+ def verificar_interacciones_deterministas(ids_medicamentos: list[int]):
+     """Cruza los medicamentos seleccionados contra la tabla de Interacciones."""
+     if len(ids_medicamentos) < 2:
+         return []
+ 
+     placeholders = ",".join(["?"] * len(ids_medicamentos))
+     query = f"""
+         SELECT 
+             i.id_interaccion, i.gravedad, i.descripcion,
+             m1.principio_activo AS med1, m1.nombre_comercial AS com1,
+             m2.principio_activo AS med2, m2.nombre_comercial AS com2
+         FROM Interacciones i
+         JOIN Medicamentos m1 ON i.id_medicamento_1 = m1.id_medicamento
+         JOIN Medicamentos m2 ON i.id_medicamento_2 = m2.id_medicamento
+         WHERE (i.id_medicamento_1 IN ({placeholders}) AND i.id_medicamento_2 IN ({placeholders}))
+     """
+     with obtener_conexion() as conn:
+         cursor = conn.cursor()
+         cursor.execute(query, ids_medicamentos + ids_medicamentos)
+         filas = cursor.fetchall()
+ 
+     return [dict(f) for f in filas]
+ 
+ 
+ # ---------------------------------------------------------------------------
+ # Header Institucional
+ # ---------------------------------------------------------------------------
+ col_logo, col_header = st.columns([1, 6])
+ with col_logo:
+     st.markdown("<h1 style='text-align: center; font-size: 3.5rem; margin:0;'>🛡️</h1>", unsafe_allow_html=True)
+ with col_header:
+     st.markdown("<div class='main-title'>SafeRx AI — Asistente Clínico Inteligente</div>", unsafe_allow_html=True)
+     st.markdown("<div class='sub-title'>Plataforma de Prescripción Segura & Prevención de Eventos Adversos | <b>FritzeFriends</b></div>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Carga de datos
@@ -364,7 +364,7 @@ with tab_prescripcion:
 # TAB 2: DASHBOARD Y MÉTRICAS HOSPITALARIAS
 # ===========================================================================
 with tab_dashboard:
-    st.subheader("Indicadores Clave de Desempeño — Grupo Hospitalario San José")
+    st.subheader("Indicadores Clave de Desempeño — FritzeFriends")
     
     with obtener_conexion() as conn:
         total_pacientes = conn.execute("SELECT COUNT(*) FROM Pacientes").fetchone()[0]
@@ -430,7 +430,7 @@ with tab_dashboard:
 
     st.markdown("---")
     st.info("""
-    💡 **Impacto Clínico y Operativo en el Grupo Hospitalario San José:**
+    💡 **Impacto Clínico y Operativo en FritzeFriends:**
     * **Reducción de Tiempo:** Los médicos ahorran en promedio **4.2 minutos por paciente** al evitar búsquedas externas en manuales físicos o vademécums.
     * **Prevención de Litigios:** La detección temprana de incompatibilidades de alto riesgo (ej. *Aspirina + Warfarina*) previene hasta 12 casos anuales de hemorragias graves, protegiendo al hospital frente a reclamaciones por mala praxis médica.
     """)
